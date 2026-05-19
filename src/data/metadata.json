@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-05-19T01:27:43.810Z",
+  "lastUpdatedAt": "2026-05-19T21:09:31.449Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated May 18, 2026 at 12pm",
+    "fraser": "Last updated May 19, 2026 at 12pm",
     "quebec": "Last updated May 18, 2026 at 12pm",
     "frances": "Last updated May 15, 2026 at 12pm",
     "northvan": "Last updated May 15, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated May 15, 2026 at 12pm|fraser:Last updated May 18, 2026 at 12pm|northvan:Last updated May 15, 2026 at 12pm|quebec:Last updated May 18, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated May 15, 2026 at 12pm|fraser:Last updated May 19, 2026 at 12pm|northvan:Last updated May 15, 2026 at 12pm|quebec:Last updated May 18, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,10 +15,9 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-05-17",
-    "observedAt": "2026-05-16T20:35:24.505Z",
+    "baselineDay": "2026-05-18",
+    "observedAt": "2026-05-19T01:27:43.810Z",
     "flavorNamesByFlavorId": {
-      "butter-pecan": "Butter Pecan",
       "cinnamon-bun": "Cinnamon Bun",
       "london-fog": "London Fog",
       "oatmeal-brown-sugar": "Oatmeal Brown Sugar",
@@ -45,9 +44,6 @@
     },
     "servingTypes": {
       "scoop": {
-        "butter-pecan": [
-          "quebec"
-        ],
         "london-fog": [
           "quebec",
           "northvan"
@@ -270,23 +266,23 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-05-18",
-    "previousDay": "2026-05-17",
+    "currentDay": "2026-05-19",
+    "previousDay": "2026-05-18",
     "servingTypes": {
       "scoop": {
         "added": {},
-        "removed": {
-          "butter-pecan": {
-            "name": "Butter Pecan",
-            "storeIds": [
-              "quebec"
-            ]
-          }
-        }
+        "removed": {}
       },
       "pint": {
         "added": {},
-        "removed": {}
+        "removed": {
+          "cinnamon-bun": {
+            "name": "Cinnamon Bun",
+            "storeIds": [
+              "fraser"
+            ]
+          }
+        }
       },
       "sandwich": {
         "added": {},
