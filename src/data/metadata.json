@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-05-19T21:09:31.449Z",
+  "lastUpdatedAt": "2026-05-20T21:27:46.367Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated May 19, 2026 at 12pm",
+    "fraser": "Last updated May 20, 2026 at 12pm",
     "quebec": "Last updated May 18, 2026 at 12pm",
     "frances": "Last updated May 15, 2026 at 12pm",
     "northvan": "Last updated May 15, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated May 15, 2026 at 12pm|fraser:Last updated May 19, 2026 at 12pm|northvan:Last updated May 15, 2026 at 12pm|quebec:Last updated May 18, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated May 15, 2026 at 12pm|fraser:Last updated May 20, 2026 at 12pm|northvan:Last updated May 15, 2026 at 12pm|quebec:Last updated May 18, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-05-18",
-    "observedAt": "2026-05-19T01:27:43.810Z",
+    "baselineDay": "2026-05-19",
+    "observedAt": "2026-05-19T21:09:31.449Z",
     "flavorNamesByFlavorId": {
       "cinnamon-bun": "Cinnamon Bun",
       "london-fog": "London Fog",
@@ -134,7 +134,6 @@
       },
       "pint": {
         "cinnamon-bun": [
-          "fraser",
           "quebec",
           "frances"
         ],
@@ -266,8 +265,8 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-05-19",
-    "previousDay": "2026-05-18",
+    "currentDay": "2026-05-20",
+    "previousDay": "2026-05-19",
     "servingTypes": {
       "scoop": {
         "added": {},
@@ -275,14 +274,7 @@
       },
       "pint": {
         "added": {},
-        "removed": {
-          "cinnamon-bun": {
-            "name": "Cinnamon Bun",
-            "storeIds": [
-              "fraser"
-            ]
-          }
-        }
+        "removed": {}
       },
       "sandwich": {
         "added": {},
