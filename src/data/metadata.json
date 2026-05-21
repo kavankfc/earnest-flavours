@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-05-20T21:27:46.367Z",
+  "lastUpdatedAt": "2026-05-21T21:20:05.583Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated May 20, 2026 at 12pm",
     "quebec": "Last updated May 18, 2026 at 12pm",
     "frances": "Last updated May 15, 2026 at 12pm",
-    "northvan": "Last updated May 15, 2026 at 12pm"
+    "northvan": "Last updated May 21, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated May 15, 2026 at 12pm|fraser:Last updated May 20, 2026 at 12pm|northvan:Last updated May 15, 2026 at 12pm|quebec:Last updated May 18, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated May 15, 2026 at 12pm|fraser:Last updated May 20, 2026 at 12pm|northvan:Last updated May 21, 2026 at 12pm|quebec:Last updated May 18, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-05-19",
-    "observedAt": "2026-05-19T21:09:31.449Z",
+    "baselineDay": "2026-05-20",
+    "observedAt": "2026-05-20T21:27:46.367Z",
     "flavorNamesByFlavorId": {
       "cinnamon-bun": "Cinnamon Bun",
       "london-fog": "London Fog",
@@ -265,8 +265,8 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-05-20",
-    "previousDay": "2026-05-19",
+    "currentDay": "2026-05-21",
+    "previousDay": "2026-05-20",
     "servingTypes": {
       "scoop": {
         "added": {},
@@ -274,7 +274,14 @@
       },
       "pint": {
         "added": {},
-        "removed": {}
+        "removed": {
+          "vegan-nanaimo-bar": {
+            "name": "Vegan Nanaimo Bar",
+            "storeIds": [
+              "northvan"
+            ]
+          }
+        }
       },
       "sandwich": {
         "added": {},
@@ -283,10 +290,10 @@
     }
   },
   "counts": {
-    "totalItems": 23,
-    "iceCreamFlavors": 19,
+    "totalItems": 22,
+    "iceCreamFlavors": 18,
     "scoopItems": 15,
-    "pintItems": 19,
+    "pintItems": 18,
     "sandwichItems": 4,
     "sandwichOnlyItems": 4
   }

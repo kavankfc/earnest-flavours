@@ -72,17 +72,6 @@
     "description": "A vegan staple we have been running since day one! Surprisingly creamy and rich, the subtle bitterness of dark chocolate and cocoa powder add depth to the creaminess of our coconut milk base."
   },
   {
-    "id": "vegan-nanaimo-bar",
-    "name": "Vegan Nanaimo Bar",
-    "isVegan": true,
-    "scoopStores": [],
-    "pintStores": [
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "This is the classic BC dessert bar in ice cream form! Dark chocolate chips and nanaimo bar crumble in our creamy coconut-cashew “custard” base."
-  },
-  {
     "id": "birthday-cake",
     "name": "Birthday Cake",
     "isVegan": false,
