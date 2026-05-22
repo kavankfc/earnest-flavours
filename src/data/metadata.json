@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-05-21T21:20:05.583Z",
+  "lastUpdatedAt": "2026-05-22T21:01:51.875Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated May 20, 2026 at 12pm",
-    "quebec": "Last updated May 18, 2026 at 12pm",
+    "quebec": "Last updated May 21, 2026 at 12pm",
     "frances": "Last updated May 15, 2026 at 12pm",
     "northvan": "Last updated May 21, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated May 15, 2026 at 12pm|fraser:Last updated May 20, 2026 at 12pm|northvan:Last updated May 21, 2026 at 12pm|quebec:Last updated May 18, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated May 15, 2026 at 12pm|fraser:Last updated May 20, 2026 at 12pm|northvan:Last updated May 21, 2026 at 12pm|quebec:Last updated May 21, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,15 +15,14 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-05-20",
-    "observedAt": "2026-05-20T21:27:46.367Z",
+    "baselineDay": "2026-05-21",
+    "observedAt": "2026-05-21T21:20:05.583Z",
     "flavorNamesByFlavorId": {
       "cinnamon-bun": "Cinnamon Bun",
       "london-fog": "London Fog",
       "oatmeal-brown-sugar": "Oatmeal Brown Sugar",
       "strawberry": "Strawberry",
       "vegan-chocolate": "Vegan Chocolate",
-      "vegan-nanaimo-bar": "Vegan Nanaimo Bar",
       "birthday-cake": "Birthday Cake",
       "chocolate": "Chocolate",
       "coffee-crisp": "Coffee Crisp",
@@ -158,9 +157,6 @@
         "vegan-chocolate": [
           "quebec"
         ],
-        "vegan-nanaimo-bar": [
-          "northvan"
-        ],
         "birthday-cake": [
           "fraser",
           "quebec",
@@ -265,8 +261,8 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-05-21",
-    "previousDay": "2026-05-20",
+    "currentDay": "2026-05-22",
+    "previousDay": "2026-05-21",
     "servingTypes": {
       "scoop": {
         "added": {},
@@ -274,18 +270,18 @@
       },
       "pint": {
         "added": {},
-        "removed": {
-          "vegan-nanaimo-bar": {
-            "name": "Vegan Nanaimo Bar",
-            "storeIds": [
-              "northvan"
-            ]
-          }
-        }
+        "removed": {}
       },
       "sandwich": {
         "added": {},
-        "removed": {}
+        "removed": {
+          "carrot-cake-sammie": {
+            "name": "Carrot Cake Sammie",
+            "storeIds": [
+              "quebec"
+            ]
+          }
+        }
       }
     }
   },
