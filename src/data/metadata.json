@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-05-23T01:21:33.258Z",
+  "lastUpdatedAt": "2026-05-23T20:37:45.697Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated May 22, 2026 at 12pm",
-    "quebec": "Last updated May 21, 2026 at 12pm",
+    "fraser": "Last updated May 23, 2026 at 12pm",
+    "quebec": "Last updated May 23, 2026 at 12pm",
     "frances": "Last updated May 15, 2026 at 12pm",
     "northvan": "Last updated May 21, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated May 15, 2026 at 12pm|fraser:Last updated May 22, 2026 at 12pm|northvan:Last updated May 21, 2026 at 12pm|quebec:Last updated May 21, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated May 15, 2026 at 12pm|fraser:Last updated May 23, 2026 at 12pm|northvan:Last updated May 21, 2026 at 12pm|quebec:Last updated May 23, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-05-21",
-    "observedAt": "2026-05-21T21:20:05.583Z",
+    "baselineDay": "2026-05-22",
+    "observedAt": "2026-05-23T01:21:33.258Z",
     "flavorNamesByFlavorId": {
       "cinnamon-bun": "Cinnamon Bun",
       "london-fog": "London Fog",
@@ -133,6 +133,7 @@
       },
       "pint": {
         "cinnamon-bun": [
+          "fraser",
           "quebec",
           "frances"
         ],
@@ -239,7 +240,6 @@
       "sandwich": {
         "carrot-cake-sammie": [
           "fraser",
-          "quebec",
           "frances",
           "northvan"
         ],
@@ -261,38 +261,35 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-05-22",
-    "previousDay": "2026-05-21",
+    "currentDay": "2026-05-23",
+    "previousDay": "2026-05-22",
     "servingTypes": {
       "scoop": {
-        "added": {},
-        "removed": {}
-      },
-      "pint": {
         "added": {
-          "cinnamon-bun": [
-            "fraser"
+          "butter-pecan": [
+            "quebec"
           ]
         },
         "removed": {}
       },
-      "sandwich": {
+      "pint": {
         "added": {},
-        "removed": {
-          "carrot-cake-sammie": {
-            "name": "Carrot Cake Sammie",
-            "storeIds": [
-              "quebec"
-            ]
-          }
-        }
+        "removed": {}
+      },
+      "sandwich": {
+        "added": {
+          "carrot-cake-sammie": [
+            "quebec"
+          ]
+        },
+        "removed": {}
       }
     }
   },
   "counts": {
-    "totalItems": 22,
-    "iceCreamFlavors": 18,
-    "scoopItems": 15,
+    "totalItems": 23,
+    "iceCreamFlavors": 19,
+    "scoopItems": 16,
     "pintItems": 18,
     "sandwichItems": 4,
     "sandwichOnlyItems": 4
