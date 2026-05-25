@@ -1,22 +1,10 @@
 [
   {
-    "id": "butter-pecan",
-    "name": "Butter Pecan",
-    "isVegan": false,
-    "scoopStores": [
-      "quebec"
-    ],
-    "pintStores": [],
-    "sandwichStores": [],
-    "description": "Whiskey Hazelnut’s cousin! Pecan pieces are roasted with butter and salt, and added to our ice cream base with organic vanilla. Comfort in a scoop!"
-  },
-  {
     "id": "cinnamon-bun",
     "name": "Cinnamon Bun",
     "isVegan": false,
     "scoopStores": [],
     "pintStores": [
-      "fraser",
       "quebec",
       "frances"
     ],
@@ -46,7 +34,6 @@
     "isVegan": false,
     "scoopStores": [],
     "pintStores": [
-      "fraser",
       "quebec",
       "frances",
       "northvan"
@@ -73,15 +60,22 @@
     "description": "Local strawberries from Mandair Farms are picked at the peak of the season and frozen to preserve their vibrant fruitiness to enjoy in winter. We add a touch of white balsamic to enhance and balance the natural sweetness of the strawberries. A must try for fans of strawberry ice cream!"
   },
   {
-    "id": "vegan-chocolate",
-    "name": "Vegan Chocolate",
+    "id": "vegan-cookies-cream",
+    "name": "Vegan Cookies + Cream",
     "isVegan": true,
-    "scoopStores": [],
+    "scoopStores": [
+      "fraser",
+      "frances",
+      "northvan"
+    ],
     "pintStores": [
-      "quebec"
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
     ],
     "sandwichStores": [],
-    "description": "A vegan staple we have been running since day one! Surprisingly creamy and rich, the subtle bitterness of dark chocolate and cocoa powder add depth to the creaminess of our coconut milk base."
+    "description": "A vegan twist on a childhood favourite that is brimming with chunks of cookies in a creamy vanilla base. Fun fact, we make this flavour with the exact same organic chocolate sandwich cookies we use in our dairy cookies and cream!"
   },
   {
     "id": "birthday-cake",
@@ -274,25 +268,6 @@
     "description": "Light chocolate ice cream dotted with pieces of gluten-free chocolate cake and naturally coloured sprinkles. Sweet chocolate frosting ripple completes this cupcake inspired flavour, resulting in a rich, chocolaty treat in celebration of Earnest’s birthday!"
   },
   {
-    "id": "vegan-cookies-cream",
-    "name": "Vegan Cookies + Cream",
-    "isVegan": true,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "A vegan twist on a childhood favourite that is brimming with chunks of cookies in a creamy vanilla base. Fun fact, we make this flavour with the exact same organic chocolate sandwich cookies we use in our dairy cookies and cream!"
-  },
-  {
     "id": "vegan-raspberry",
     "name": "Vegan Raspberry",
     "isVegan": true,
@@ -366,7 +341,6 @@
     "pintStores": [],
     "sandwichStores": [
       "fraser",
-      "quebec",
       "northvan"
     ],
     "description": "Sweet and crispy, this sammie is a delightful mix of apple-y brightness and rich caramel flavours. Our lightly spiced apple crisp ice cream has bits of toffee speckled throughout for a pop of caramely goodness in every bite! All sandwiched between vanilla-apple cake with a layer of apple-caramel to seal it together."
@@ -378,6 +352,7 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
+      "quebec",
       "frances"
     ],
     "description": "The ultimate chocolate decadence sammie! Chocolate ice cream is sprinkled with chocolate chips and chocolate sandwich cookie pieces, topped with a thick layer of fudge and sandwiched with soft chocolate cake. Rich and oh-so-chocolatey!"
