@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-05-25T20:56:17.972Z",
+  "lastUpdatedAt": "2026-05-26T21:24:12.270Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated May 24, 2026 at 12pm",
-    "quebec": "Last updated May 24, 2026 at 12pm",
+    "fraser": "Last updated May 25, 2026 at 12pm",
+    "quebec": "Last updated May 26, 2026 at 12pm",
     "frances": "Last updated May 25, 2026 at 12pm",
     "northvan": "Last updated May 21, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated May 25, 2026 at 12pm|fraser:Last updated May 24, 2026 at 12pm|northvan:Last updated May 21, 2026 at 12pm|quebec:Last updated May 24, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated May 25, 2026 at 12pm|fraser:Last updated May 25, 2026 at 12pm|northvan:Last updated May 21, 2026 at 12pm|quebec:Last updated May 26, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-05-24",
-    "observedAt": "2026-05-25T01:30:14.540Z",
+    "baselineDay": "2026-05-25",
+    "observedAt": "2026-05-25T20:56:17.972Z",
     "flavorNamesByFlavorId": {
       "cinnamon-bun": "Cinnamon Bun",
       "london-fog": "London Fog",
@@ -131,8 +131,7 @@
       },
       "pint": {
         "cinnamon-bun": [
-          "quebec",
-          "frances"
+          "quebec"
         ],
         "london-fog": [
           "fraser",
@@ -141,7 +140,6 @@
           "northvan"
         ],
         "oatmeal-brown-sugar": [
-          "quebec",
           "frances",
           "northvan"
         ],
@@ -233,7 +231,6 @@
       "sandwich": {
         "carrot-cake-sammie": [
           "fraser",
-          "quebec",
           "frances",
           "northvan"
         ],
@@ -255,40 +252,35 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-05-25",
-    "previousDay": "2026-05-24",
+    "currentDay": "2026-05-26",
+    "previousDay": "2026-05-25",
     "servingTypes": {
       "scoop": {
-        "added": {},
-        "removed": {}
+        "added": {
+          "vegan-cookies-cream": [
+            "quebec"
+          ]
+        },
+        "removed": {
+          "vegan-chocolate-cupcake": {
+            "name": "Vegan Chocolate Cupcake",
+            "storeIds": [
+              "fraser"
+            ]
+          }
+        }
       },
       "pint": {
         "added": {},
-        "removed": {
-          "cinnamon-bun": {
-            "name": "Cinnamon Bun",
-            "storeIds": [
-              "frances"
-            ]
-          },
-          "oatmeal-brown-sugar": {
-            "name": "Oatmeal Brown Sugar",
-            "storeIds": [
-              "quebec"
-            ]
-          }
-        }
+        "removed": {}
       },
       "sandwich": {
-        "added": {},
-        "removed": {
-          "carrot-cake-sammie": {
-            "name": "Carrot Cake Sammie",
-            "storeIds": [
-              "quebec"
-            ]
-          }
-        }
+        "added": {
+          "carrot-cake-sammie": [
+            "quebec"
+          ]
+        },
+        "removed": {}
       }
     }
   },

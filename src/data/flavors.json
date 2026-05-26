@@ -58,11 +58,11 @@
     "description": "Local strawberries from Mandair Farms are picked at the peak of the season and frozen to preserve their vibrant fruitiness to enjoy in winter. We add a touch of white balsamic to enhance and balance the natural sweetness of the strawberries. A must try for fans of strawberry ice cream!"
   },
   {
-    "id": "vegan-cookies-cream",
-    "name": "Vegan Cookies + Cream",
+    "id": "vegan-chocolate-cupcake",
+    "name": "Vegan Chocolate Cupcake",
     "isVegan": true,
     "scoopStores": [
-      "fraser",
+      "quebec",
       "frances",
       "northvan"
     ],
@@ -73,7 +73,7 @@
       "northvan"
     ],
     "sandwichStores": [],
-    "description": "A vegan twist on a childhood favourite that is brimming with chunks of cookies in a creamy vanilla base. Fun fact, we make this flavour with the exact same organic chocolate sandwich cookies we use in our dairy cookies and cream!"
+    "description": "Light chocolate ice cream dotted with pieces of gluten-free chocolate cake and naturally coloured sprinkles. Sweet chocolate frosting ripple completes this cupcake inspired flavour, resulting in a rich, chocolaty treat in celebration of Earnest’s birthday!"
   },
   {
     "id": "birthday-cake",
@@ -247,8 +247,8 @@
     "description": "This flavour has been a core since day one. Our pure vanilla extract is sourced from premium slow-grown, sun-cured vanilla beans of the “Tahitian” variety. The flavour from the beans is cold-extracted to preserve its complex bouquet. These vanilla beans are brighter and more floral than the rounder, woodsier Madagascar variety."
   },
   {
-    "id": "vegan-chocolate-cupcake",
-    "name": "Vegan Chocolate Cupcake",
+    "id": "vegan-cookies-cream",
+    "name": "Vegan Cookies + Cream",
     "isVegan": true,
     "scoopStores": [
       "fraser",
@@ -263,7 +263,7 @@
       "northvan"
     ],
     "sandwichStores": [],
-    "description": "Light chocolate ice cream dotted with pieces of gluten-free chocolate cake and naturally coloured sprinkles. Sweet chocolate frosting ripple completes this cupcake inspired flavour, resulting in a rich, chocolaty treat in celebration of Earnest’s birthday!"
+    "description": "A vegan twist on a childhood favourite that is brimming with chunks of cookies in a creamy vanilla base. Fun fact, we make this flavour with the exact same organic chocolate sandwich cookies we use in our dairy cookies and cream!"
   },
   {
     "id": "vegan-raspberry",
@@ -311,6 +311,7 @@
     "pintStores": [],
     "sandwichStores": [
       "fraser",
+      "quebec",
       "frances",
       "northvan"
     ],
