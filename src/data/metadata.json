@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-05-27T21:30:54.726Z",
+  "lastUpdatedAt": "2026-05-28T21:47:47.318Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated May 27, 2026 at 12pm",
+    "fraser": "Last updated May 28, 2026 at 12pm",
     "quebec": "Last updated May 27, 2026 at 12pm",
     "frances": "Last updated May 25, 2026 at 12pm",
-    "northvan": "Last updated May 27, 2026 at 12pm"
+    "northvan": "Last updated May 28, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated May 25, 2026 at 12pm|fraser:Last updated May 27, 2026 at 12pm|northvan:Last updated May 27, 2026 at 12pm|quebec:Last updated May 27, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated May 25, 2026 at 12pm|fraser:Last updated May 28, 2026 at 12pm|northvan:Last updated May 28, 2026 at 12pm|quebec:Last updated May 27, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-05-26",
-    "observedAt": "2026-05-26T21:24:12.270Z",
+    "baselineDay": "2026-05-27",
+    "observedAt": "2026-05-27T21:30:54.726Z",
     "flavorNamesByFlavorId": {
       "cinnamon-bun": "Cinnamon Bun",
       "london-fog": "London Fog",
@@ -253,15 +253,39 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-05-27",
-    "previousDay": "2026-05-26",
+    "currentDay": "2026-05-28",
+    "previousDay": "2026-05-27",
     "servingTypes": {
       "scoop": {
-        "added": {},
-        "removed": {}
+        "added": {
+          "london-fog": [
+            "fraser"
+          ],
+          "vegan-toasted-coconut": [
+            "fraser"
+          ]
+        },
+        "removed": {
+          "birthday-cake": {
+            "name": "Birthday Cake",
+            "storeIds": [
+              "fraser"
+            ]
+          },
+          "pistachio": {
+            "name": "Pistachio",
+            "storeIds": [
+              "quebec"
+            ]
+          }
+        }
       },
       "pint": {
-        "added": {},
+        "added": {
+          "vegan-toasted-coconut": [
+            "fraser"
+          ]
+        },
         "removed": {}
       },
       "sandwich": {
@@ -271,10 +295,10 @@
     }
   },
   "counts": {
-    "totalItems": 21,
-    "iceCreamFlavors": 17,
-    "scoopItems": 15,
-    "pintItems": 17,
+    "totalItems": 22,
+    "iceCreamFlavors": 18,
+    "scoopItems": 16,
+    "pintItems": 18,
     "sandwichItems": 4,
     "sandwichOnlyItems": 4
   }
