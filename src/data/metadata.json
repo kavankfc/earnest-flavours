@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-05-28T21:47:47.318Z",
+  "lastUpdatedAt": "2026-05-29T01:30:13.185Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated May 28, 2026 at 12pm",
-    "quebec": "Last updated May 27, 2026 at 12pm",
-    "frances": "Last updated May 25, 2026 at 12pm",
+    "quebec": "Last updated May 28, 2026 at 12pm",
+    "frances": "Last updated May 28, 2026 at 12pm",
     "northvan": "Last updated May 28, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated May 25, 2026 at 12pm|fraser:Last updated May 28, 2026 at 12pm|northvan:Last updated May 28, 2026 at 12pm|quebec:Last updated May 27, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated May 28, 2026 at 12pm|fraser:Last updated May 28, 2026 at 12pm|northvan:Last updated May 28, 2026 at 12pm|quebec:Last updated May 28, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -272,6 +272,12 @@
               "fraser"
             ]
           },
+          "coffee-crisp": {
+            "name": "Coffee Crisp",
+            "storeIds": [
+              "quebec"
+            ]
+          },
           "pistachio": {
             "name": "Pistachio",
             "storeIds": [
@@ -286,11 +292,29 @@
             "fraser"
           ]
         },
-        "removed": {}
+        "removed": {
+          "vegan-chocolate-cupcake": {
+            "name": "Vegan Chocolate Cupcake",
+            "storeIds": [
+              "frances"
+            ]
+          }
+        }
       },
       "sandwich": {
-        "added": {},
-        "removed": {}
+        "added": {
+          "vegan-fudgey-chocolate-cookie-sammie": [
+            "fraser"
+          ]
+        },
+        "removed": {
+          "carrot-cake-sammie": {
+            "name": "Carrot Cake Sammie",
+            "storeIds": [
+              "fraser"
+            ]
+          }
+        }
       }
     }
   },
