@@ -117,8 +117,6 @@
     "name": "Vegan Chocolate Cupcake",
     "isVegan": true,
     "scoopStores": [
-      "quebec",
-      "frances",
       "northvan"
     ],
     "pintStores": [
@@ -347,7 +345,6 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
-      "fraser",
       "northvan"
     ],
     "description": "Sweet and crispy, this sammie is a delightful mix of apple-y brightness and rich caramel flavours. Our lightly spiced apple crisp ice cream has bits of toffee speckled throughout for a pop of caramely goodness in every bite! All sandwiched between vanilla-apple cake with a layer of apple-caramel to seal it together."
