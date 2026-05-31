@@ -7,7 +7,6 @@
       "northvan"
     ],
     "pintStores": [
-      "quebec",
       "frances",
       "northvan"
     ],
@@ -19,8 +18,7 @@
     "name": "Coffee Crisp",
     "isVegan": false,
     "scoopStores": [
-      "frances",
-      "northvan"
+      "frances"
     ],
     "pintStores": [
       "fraser",
@@ -61,23 +59,6 @@
     "description": "Ice cream for breakfast – we think so! Simple comforting flavour made with lots of oats and brown sugar, which are cold-steeped in our ice cream base so they soften. Halfway between a bowl of cereal and a cookie, but in the form of ice cream. Friendly and comforting!"
   },
   {
-    "id": "salted-chocolate-rye-cookie",
-    "name": "Salted Chocolate Rye Cookie",
-    "isVegan": false,
-    "scoopStores": [
-      "fraser",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "This is an Earnest cult favourite! Featuring bite sized fudgy, chocolate rye cookies in a light, salted chocolate ice cream. We created this delicious flavour to celebrated Canadian rye flour. If you’re a chocolate lover then you must try this sensational flavour."
-  },
-  {
     "id": "strawberry",
     "name": "Strawberry",
     "isVegan": false,
@@ -110,9 +91,7 @@
     "id": "vegan-chocolate-cupcake",
     "name": "Vegan Chocolate Cupcake",
     "isVegan": true,
-    "scoopStores": [
-      "northvan"
-    ],
+    "scoopStores": [],
     "pintStores": [
       "fraser",
       "quebec",
@@ -120,23 +99,6 @@
     ],
     "sandwichStores": [],
     "description": "Light chocolate ice cream dotted with pieces of gluten-free chocolate cake and naturally coloured sprinkles. Sweet chocolate frosting ripple completes this cupcake inspired flavour, resulting in a rich, chocolaty treat in celebration of Earnest’s birthday!"
-  },
-  {
-    "id": "vegan-toasted-coconut",
-    "name": "Vegan Toasted Coconut",
-    "isVegan": true,
-    "scoopStores": [
-      "fraser",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "The vegan version of our beloved toasted coconut ice cream. Desiccated coconut is toasted in house, supplying a depth of nutty flavour. Coconut extract is added to pack in those wonderful tropical tasting notes. Creamy coconut bliss!"
   },
   {
     "id": "chocolate",
@@ -253,6 +215,25 @@
     "description": "A classic for good reason. We’ve been making this one since day one and it remains a favourite still. Deeply caramelized sugar mixed with cream and salt from Vancouver Island Sea Salt Co. Its rich, creamly and buttery and the perfect balance of salty and sweet."
   },
   {
+    "id": "salted-chocolate-rye-cookie",
+    "name": "Salted Chocolate Rye Cookie",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "This is an Earnest cult favourite! Featuring bite sized fudgy, chocolate rye cookies in a light, salted chocolate ice cream. We created this delicious flavour to celebrated Canadian rye flour. If you’re a chocolate lover then you must try this sensational flavour."
+  },
+  {
     "id": "tahitian-vanilla",
     "name": "Tahitian Vanilla",
     "isVegan": false,
@@ -308,6 +289,25 @@
     ],
     "sandwichStores": [],
     "description": "One of our original vegan flavours. Local raspberries from Mandair Farms pureed and blended into our signature vegan coconut base – it’s bright, tart, refreshing and looks as good as it tastes."
+  },
+  {
+    "id": "vegan-toasted-coconut",
+    "name": "Vegan Toasted Coconut",
+    "isVegan": true,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "The vegan version of our beloved toasted coconut ice cream. Desiccated coconut is toasted in house, supplying a depth of nutty flavour. Coconut extract is added to pack in those wonderful tropical tasting notes. Creamy coconut bliss!"
   },
   {
     "id": "whiskey-hazelnut",
