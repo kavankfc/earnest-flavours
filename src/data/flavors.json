@@ -7,7 +7,6 @@
       "northvan"
     ],
     "pintStores": [
-      "frances",
       "northvan"
     ],
     "sandwichStores": [],
@@ -46,6 +45,24 @@
     ],
     "sandwichStores": [],
     "description": "Made with Assam and Darjeeling black tea, bergamot and vanilla, this ice cream flavour is based on the popular drink which was invented in Vancouver!"
+  },
+  {
+    "id": "mint-chip",
+    "name": "Mint Chip",
+    "isVegan": false,
+    "scoopStores": [
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "The classic mint chocolate ice cream made with lots of house made dark chocolate chips! Like peppermint patty but better. No artificial food colouring is added so it’s white, not green. Fresh and minty, with the added crunch from the dark chocolate flakes."
   },
   {
     "id": "oatmeal-brown-sugar",
@@ -156,25 +173,6 @@
     ],
     "sandwichStores": [],
     "description": "Our matcha green tea powder is supplied by Aiya and grown in Nishio, a historic tea cultivation region in Japan, from a family owned and operated farm for the last 125 years. It’s a shade-grown matcha, giving it light colour and caramel notes. Aiya are dedicated to giving back to the world through helping with the reforestation of mangrove and mahogany forests in Southeast Asia. We simply blend the matcha powder straight into our ice cream base!"
-  },
-  {
-    "id": "mint-chip",
-    "name": "Mint Chip",
-    "isVegan": false,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "The classic mint chocolate ice cream made with lots of house made dark chocolate chips! Like peppermint patty but better. No artificial food colouring is added so it’s white, not green. Fresh and minty, with the added crunch from the dark chocolate flakes."
   },
   {
     "id": "pistachio",
@@ -336,7 +334,6 @@
     "pintStores": [],
     "sandwichStores": [
       "fraser",
-      "quebec",
       "frances",
       "northvan"
     ],
