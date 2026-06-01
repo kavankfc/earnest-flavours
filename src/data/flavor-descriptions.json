@@ -55,6 +55,11 @@
     "description": "This ice cream is like a New York style cheesecake – smooth, creamy, and just the right amount of tartness balanced in our sweet cream base."
   },
   {
+    "id": "field-berry-cheesecake",
+    "name": "Field Berry Cheesecake",
+    "description": "Why choose one berry when you can have many! A blend of local field berries (raspberry, strawberry, blackberry, blueberry & haskap) mixed into our ice cream base for a vibrant colour and flavour mixed with house-made cheesecake pieces. Combined they make the perfect mix of fruity and rich cheesy flavour awaits in every bite!"
+  },
+  {
     "id": "irish-cream",
     "name": "Irish Cream",
     "description": "Your favourite Irish cream liqueur in frozen form. It’s creamy, slightly boozy, with a hint of chocolate and coffee."
@@ -128,6 +133,11 @@
     "id": "vegan-black-forest",
     "name": "Vegan Black Forest",
     "description": "Light coconut ice cream is sprinkled with dark chocolate flakes and generous handfuls of rich, gluten-friendly chocolate cake. Bright cherry compote is swirled throughout for a pop of bright fruitiness. Each bite is a symphony of decadent textures and flavours – everything you want from a black forest cake!"
+  },
+  {
+    "id": "vegan-blueberries-cream",
+    "name": "Vegan Blueberries & Cream",
+    "description": "The perfect mix of light vanilla and bright berry flavours, this new flavour is like a bowl of fresh blueberries topped with whipped cream! Our vanilla oat-coconut base is brightened with a touch of lemon oil and swirled with house-made blueberry compote from all Canadian berries."
   },
   {
     "id": "vegan-caramel-apple-crisp-sammie",

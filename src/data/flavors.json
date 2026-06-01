@@ -1,28 +1,11 @@
 [
   {
-    "id": "birthday-cake",
-    "name": "Birthday Cake",
-    "isVegan": false,
-    "scoopStores": [
-      "northvan"
-    ],
-    "pintStores": [
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "What’s better than birthday cake with ice cream? Birthday cake IN ice cream! Bites of house-made cake throughout pink vanilla ice cream, complete with naturally coloured sprinkles. Happy birthday to us!"
-  },
-  {
     "id": "coffee-crisp",
     "name": "Coffee Crisp",
     "isVegan": false,
-    "scoopStores": [
-      "frances"
-    ],
+    "scoopStores": [],
     "pintStores": [
-      "fraser",
       "quebec",
-      "frances",
       "northvan"
     ],
     "sandwichStores": [],
@@ -76,6 +59,21 @@
     "description": "Ice cream for breakfast – we think so! Simple comforting flavour made with lots of oats and brown sugar, which are cold-steeped in our ice cream base so they soften. Halfway between a bowl of cereal and a cookie, but in the form of ice cream. Friendly and comforting!"
   },
   {
+    "id": "pistachio",
+    "name": "Pistachio",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "quebec"
+    ],
+    "pintStores": [
+      "quebec",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "A classic flavour, finally at Earnest! Pistachio is the ultimate smooth, creamy, and nutty flavour. Pistachio butter is coming to us from our friends at Premier Nuts."
+  },
+  {
     "id": "strawberry",
     "name": "Strawberry",
     "isVegan": false,
@@ -110,12 +108,29 @@
     "isVegan": true,
     "scoopStores": [],
     "pintStores": [
-      "fraser",
-      "quebec",
-      "northvan"
+      "fraser"
     ],
     "sandwichStores": [],
     "description": "Light chocolate ice cream dotted with pieces of gluten-free chocolate cake and naturally coloured sprinkles. Sweet chocolate frosting ripple completes this cupcake inspired flavour, resulting in a rich, chocolaty treat in celebration of Earnest’s birthday!"
+  },
+  {
+    "id": "butter-pecan",
+    "name": "Butter Pecan",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Whiskey Hazelnut’s cousin! Pecan pieces are roasted with butter and salt, and added to our ice cream base with organic vanilla. Comfort in a scoop!"
   },
   {
     "id": "chocolate",
@@ -156,6 +171,25 @@
     "description": "Organic Chocolate Vanilla Cream Sandwich Cookies, featuring a darker chocolate flavour profile with a crisp cookie crunch. It’s all about the cookies, like a spoonful of childhood!"
   },
   {
+    "id": "field-berry-cheesecake",
+    "name": "Field Berry Cheesecake",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Why choose one berry when you can have many! A blend of local field berries (raspberry, strawberry, blackberry, blueberry & haskap) mixed into our ice cream base for a vibrant colour and flavour mixed with house-made cheesecake pieces. Combined they make the perfect mix of fruity and rich cheesy flavour awaits in every bite!"
+  },
+  {
     "id": "matcha-green-tea",
     "name": "Matcha Green Tea",
     "isVegan": false,
@@ -173,25 +207,6 @@
     ],
     "sandwichStores": [],
     "description": "Our matcha green tea powder is supplied by Aiya and grown in Nishio, a historic tea cultivation region in Japan, from a family owned and operated farm for the last 125 years. It’s a shade-grown matcha, giving it light colour and caramel notes. Aiya are dedicated to giving back to the world through helping with the reforestation of mangrove and mahogany forests in Southeast Asia. We simply blend the matcha powder straight into our ice cream base!"
-  },
-  {
-    "id": "pistachio",
-    "name": "Pistachio",
-    "isVegan": false,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "A classic flavour, finally at Earnest! Pistachio is the ultimate smooth, creamy, and nutty flavour. Pistachio butter is coming to us from our friends at Premier Nuts."
   },
   {
     "id": "salted-caramel",
@@ -249,6 +264,25 @@
     ],
     "sandwichStores": [],
     "description": "This flavour has been a core since day one. Our pure vanilla extract is sourced from premium slow-grown, sun-cured vanilla beans of the “Tahitian” variety. The flavour from the beans is cold-extracted to preserve its complex bouquet. These vanilla beans are brighter and more floral than the rounder, woodsier Madagascar variety."
+  },
+  {
+    "id": "vegan-blueberries-cream",
+    "name": "Vegan Blueberries & Cream",
+    "isVegan": true,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "The perfect mix of light vanilla and bright berry flavours, this new flavour is like a bowl of fresh blueberries topped with whipped cream! Our vanilla oat-coconut base is brightened with a touch of lemon oil and swirled with house-made blueberry compote from all Canadian berries."
   },
   {
     "id": "vegan-cookies-cream",
@@ -333,8 +367,6 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
-      "fraser",
-      "frances",
       "northvan"
     ],
     "description": "Our carrot cake ice cream in sammie form: lightly spiced ice cream is sprinkled with loads of soft carrot cake chunks and rich cream cheese fudge. A layer of caramel seals our spiced cake around this decadent treat!"

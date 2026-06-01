@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-06-01T01:37:11.544Z",
+  "lastUpdatedAt": "2026-06-01T22:27:05.778Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated May 31, 2026 at 12pm",
-    "quebec": "Last updated May 31, 2026 at 12pm",
-    "frances": "Last updated May 31, 2026 at 12pm",
-    "northvan": "Last updated May 30, 2026 at 12pm"
+    "fraser": "Last updated June 1, 2026 at 12pm",
+    "quebec": "Last updated June 1, 2026 at 12pm",
+    "frances": "Last updated June 1, 2026 at 12pm",
+    "northvan": "Last updated June 1, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated May 31, 2026 at 12pm|fraser:Last updated May 31, 2026 at 12pm|northvan:Last updated May 30, 2026 at 12pm|quebec:Last updated May 31, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated June 1, 2026 at 12pm|fraser:Last updated June 1, 2026 at 12pm|northvan:Last updated June 1, 2026 at 12pm|quebec:Last updated June 1, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,27 +15,27 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-05-30",
-    "observedAt": "2026-05-30T20:41:54.419Z",
+    "baselineDay": "2026-05-31",
+    "observedAt": "2026-06-01T01:37:11.544Z",
     "flavorNamesByFlavorId": {
       "birthday-cake": "Birthday Cake",
       "coffee-crisp": "Coffee Crisp",
       "london-fog": "London Fog",
+      "mint-chip": "Mint Chip",
       "oatmeal-brown-sugar": "Oatmeal Brown Sugar",
-      "salted-chocolate-rye-cookie": "Salted Chocolate Rye Cookie",
       "strawberry": "Strawberry",
       "vegan-chocolate": "Vegan Chocolate",
       "vegan-chocolate-cupcake": "Vegan Chocolate Cupcake",
-      "vegan-toasted-coconut": "Vegan Toasted Coconut",
       "chocolate": "Chocolate",
       "cookies-cream": "Cookies + Cream",
       "matcha-green-tea": "Matcha Green Tea",
-      "mint-chip": "Mint Chip",
       "pistachio": "Pistachio",
       "salted-caramel": "Salted Caramel",
+      "salted-chocolate-rye-cookie": "Salted Chocolate Rye Cookie",
       "tahitian-vanilla": "Tahitian Vanilla",
       "vegan-cookies-cream": "Vegan Cookies + Cream",
       "vegan-raspberry": "Vegan Raspberry",
+      "vegan-toasted-coconut": "Vegan Toasted Coconut",
       "whiskey-hazelnut": "Whiskey Hazelnut",
       "carrot-cake-sammie": "Carrot Cake Sammie",
       "classic-sammie": "Classic Sammie",
@@ -47,16 +47,15 @@
           "northvan"
         ],
         "coffee-crisp": [
-          "frances",
-          "northvan"
+          "frances"
         ],
         "london-fog": [
           "fraser",
           "quebec",
           "northvan"
         ],
-        "salted-chocolate-rye-cookie": [
-          "fraser",
+        "mint-chip": [
+          "quebec",
           "frances",
           "northvan"
         ],
@@ -67,14 +66,6 @@
         ],
         "vegan-chocolate": [
           "frances"
-        ],
-        "vegan-chocolate-cupcake": [
-          "northvan"
-        ],
-        "vegan-toasted-coconut": [
-          "fraser",
-          "frances",
-          "northvan"
         ],
         "chocolate": [
           "fraser",
@@ -94,12 +85,6 @@
           "frances",
           "northvan"
         ],
-        "mint-chip": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
         "pistachio": [
           "fraser",
           "quebec",
@@ -107,6 +92,12 @@
           "northvan"
         ],
         "salted-caramel": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
+        "salted-chocolate-rye-cookie": [
           "fraser",
           "quebec",
           "frances",
@@ -125,6 +116,12 @@
           "northvan"
         ],
         "vegan-raspberry": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
+        "vegan-toasted-coconut": [
           "fraser",
           "quebec",
           "frances",
@@ -139,8 +136,6 @@
       },
       "pint": {
         "birthday-cake": [
-          "quebec",
-          "frances",
           "northvan"
         ],
         "coffee-crisp": [
@@ -155,12 +150,13 @@
           "frances",
           "northvan"
         ],
-        "oatmeal-brown-sugar": [
+        "mint-chip": [
+          "fraser",
+          "quebec",
+          "frances",
           "northvan"
         ],
-        "salted-chocolate-rye-cookie": [
-          "fraser",
-          "frances",
+        "oatmeal-brown-sugar": [
           "northvan"
         ],
         "strawberry": [
@@ -172,11 +168,6 @@
         "vegan-chocolate-cupcake": [
           "fraser",
           "quebec",
-          "northvan"
-        ],
-        "vegan-toasted-coconut": [
-          "fraser",
-          "frances",
           "northvan"
         ],
         "chocolate": [
@@ -197,12 +188,6 @@
           "frances",
           "northvan"
         ],
-        "mint-chip": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
         "pistachio": [
           "fraser",
           "quebec",
@@ -210,6 +195,12 @@
           "northvan"
         ],
         "salted-caramel": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
+        "salted-chocolate-rye-cookie": [
           "fraser",
           "quebec",
           "frances",
@@ -228,6 +219,12 @@
           "northvan"
         ],
         "vegan-raspberry": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
+        "vegan-toasted-coconut": [
           "fraser",
           "quebec",
           "frances",
@@ -243,7 +240,6 @@
       "sandwich": {
         "carrot-cake-sammie": [
           "fraser",
-          "quebec",
           "frances",
           "northvan"
         ],
@@ -263,54 +259,99 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-05-31",
-    "previousDay": "2026-05-30",
+    "currentDay": "2026-06-01",
+    "previousDay": "2026-05-31",
     "servingTypes": {
       "scoop": {
         "added": {
-          "salted-chocolate-rye-cookie": [
-            "quebec"
+          "butter-pecan": [
+            "fraser",
+            "quebec",
+            "frances",
+            "northvan"
           ],
-          "vegan-toasted-coconut": [
-            "quebec"
+          "field-berry-cheesecake": [
+            "fraser",
+            "quebec",
+            "frances",
+            "northvan"
+          ],
+          "vegan-blueberries-cream": [
+            "fraser",
+            "quebec",
+            "frances",
+            "northvan"
           ]
         },
         "removed": {
+          "pistachio": {
+            "name": "Pistachio",
+            "storeIds": [
+              "frances",
+              "northvan"
+            ]
+          },
+          "birthday-cake": {
+            "name": "Birthday Cake",
+            "storeIds": [
+              "northvan"
+            ]
+          },
           "coffee-crisp": {
             "name": "Coffee Crisp",
             "storeIds": [
-              "northvan"
-            ]
-          },
-          "mint-chip": {
-            "name": "Mint Chip",
-            "storeIds": [
-              "fraser"
-            ]
-          },
-          "vegan-chocolate-cupcake": {
-            "name": "Vegan Chocolate Cupcake",
-            "storeIds": [
-              "northvan"
+              "frances"
             ]
           }
         }
       },
       "pint": {
         "added": {
-          "salted-chocolate-rye-cookie": [
-            "quebec"
+          "butter-pecan": [
+            "fraser",
+            "quebec",
+            "frances",
+            "northvan"
           ],
-          "vegan-toasted-coconut": [
-            "quebec"
+          "field-berry-cheesecake": [
+            "fraser",
+            "quebec",
+            "frances",
+            "northvan"
+          ],
+          "vegan-blueberries-cream": [
+            "fraser",
+            "quebec",
+            "frances",
+            "northvan"
           ]
         },
         "removed": {
+          "coffee-crisp": {
+            "name": "Coffee Crisp",
+            "storeIds": [
+              "fraser",
+              "frances"
+            ]
+          },
+          "pistachio": {
+            "name": "Pistachio",
+            "storeIds": [
+              "fraser",
+              "frances"
+            ]
+          },
+          "vegan-chocolate-cupcake": {
+            "name": "Vegan Chocolate Cupcake",
+            "storeIds": [
+              "quebec",
+              "northvan"
+            ]
+          },
           "birthday-cake": {
             "name": "Birthday Cake",
             "storeIds": [
-              "quebec",
-              "frances"
+              "northvan"
             ]
           }
         }
@@ -321,7 +362,8 @@
           "carrot-cake-sammie": {
             "name": "Carrot Cake Sammie",
             "storeIds": [
-              "quebec"
+              "fraser",
+              "frances"
             ]
           }
         }
@@ -329,10 +371,10 @@
     }
   },
   "counts": {
-    "totalItems": 22,
-    "iceCreamFlavors": 19,
-    "scoopItems": 17,
-    "pintItems": 18,
+    "totalItems": 24,
+    "iceCreamFlavors": 21,
+    "scoopItems": 18,
+    "pintItems": 20,
     "sandwichItems": 3,
     "sandwichOnlyItems": 3
   }
