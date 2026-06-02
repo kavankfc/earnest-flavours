@@ -6,6 +6,7 @@
     "scoopStores": [],
     "pintStores": [
       "quebec",
+      "frances",
       "northvan"
     ],
     "sandwichStores": [],
@@ -63,11 +64,11 @@
     "name": "Pistachio",
     "isVegan": false,
     "scoopStores": [
-      "fraser",
       "quebec"
     ],
     "pintStores": [
       "quebec",
+      "frances",
       "northvan"
     ],
     "sandwichStores": [],
@@ -101,17 +102,6 @@
     "pintStores": [],
     "sandwichStores": [],
     "description": "A vegan staple we have been running since day one! Surprisingly creamy and rich, the subtle bitterness of dark chocolate and cocoa powder add depth to the creaminess of our coconut milk base."
-  },
-  {
-    "id": "vegan-chocolate-cupcake",
-    "name": "Vegan Chocolate Cupcake",
-    "isVegan": true,
-    "scoopStores": [],
-    "pintStores": [
-      "fraser"
-    ],
-    "sandwichStores": [],
-    "description": "Light chocolate ice cream dotted with pieces of gluten-free chocolate cake and naturally coloured sprinkles. Sweet chocolate frosting ripple completes this cupcake inspired flavour, resulting in a rich, chocolaty treat in celebration of Earnest’s birthday!"
   },
   {
     "id": "butter-pecan",
