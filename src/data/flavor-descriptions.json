@@ -1,5 +1,10 @@
 [
   {
+    "id": "almond-croissant-sammie",
+    "name": "Almond Croissant Sammie",
+    "description": "For a limited time only, this crowd-favourite flavour is back as a sammie! Fluffy almond cake is topped with our delectable almond croissant ice cream – double baked buttery croissant pieces with toasted almonds folded into a light almond base. A layer of warm caramel seals this sammie together with a croissant crumble topping for a delightful crunch!"
+  },
+  {
     "id": "birthday-cake",
     "name": "Birthday Cake",
     "description": "What’s better than birthday cake with ice cream? Birthday cake IN ice cream! Bites of house-made cake throughout pink vanilla ice cream, complete with naturally coloured sprinkles. Happy birthday to us!"
@@ -203,6 +208,11 @@
     "id": "vegan-toasted-coconut",
     "name": "Vegan Toasted Coconut",
     "description": "The vegan version of our beloved toasted coconut ice cream. Desiccated coconut is toasted in house, supplying a depth of nutty flavour. Coconut extract is added to pack in those wonderful tropical tasting notes. Creamy coconut bliss!"
+  },
+  {
+    "id": "vegan-turtles-sammie",
+    "name": "Vegan Turtles Sammie",
+    "description": "Our light chocolate vegan base has walnut praline blended into it to create a nutty background flavour. Sweet toffee bits, dark chocolate chips, and roasted, salted nuts are generously sprinkled throughout for pops of crunch and caramelly goodness. All sealed together with a layer of sweet fudge on soft chocolate cake, this sammie is a delectable combination of sweet, salty, nutty, and crunchy – just like a classic turtles candy!"
   },
   {
     "id": "whiskey-hazelnut",

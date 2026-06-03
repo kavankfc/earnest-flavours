@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-06-03T02:04:15.211Z",
+  "lastUpdatedAt": "2026-06-03T22:19:25.766Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated June 2, 2026 at 12pm",
-    "quebec": "Last updated June 1, 2026 at 12pm",
+    "fraser": "Last updated June 3, 2026 at 12pm",
+    "quebec": "Last updated June 3, 2026 at 12pm",
     "frances": "Last updated June 2, 2026 at 12pm",
     "northvan": "Last updated June 1, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated June 2, 2026 at 12pm|fraser:Last updated June 2, 2026 at 12pm|northvan:Last updated June 1, 2026 at 12pm|quebec:Last updated June 1, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated June 2, 2026 at 12pm|fraser:Last updated June 3, 2026 at 12pm|northvan:Last updated June 1, 2026 at 12pm|quebec:Last updated June 3, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,21 +15,20 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-06-01",
-    "observedAt": "2026-06-01T22:27:05.778Z",
+    "baselineDay": "2026-06-02",
+    "observedAt": "2026-06-03T02:04:15.211Z",
     "flavorNamesByFlavorId": {
       "coffee-crisp": "Coffee Crisp",
-      "london-fog": "London Fog",
       "mint-chip": "Mint Chip",
       "oatmeal-brown-sugar": "Oatmeal Brown Sugar",
       "pistachio": "Pistachio",
       "strawberry": "Strawberry",
       "vegan-chocolate": "Vegan Chocolate",
-      "vegan-chocolate-cupcake": "Vegan Chocolate Cupcake",
       "butter-pecan": "Butter Pecan",
       "chocolate": "Chocolate",
       "cookies-cream": "Cookies + Cream",
       "field-berry-cheesecake": "Field Berry Cheesecake",
+      "london-fog": "London Fog",
       "matcha-green-tea": "Matcha Green Tea",
       "salted-caramel": "Salted Caramel",
       "salted-chocolate-rye-cookie": "Salted Chocolate Rye Cookie",
@@ -45,18 +44,12 @@
     },
     "servingTypes": {
       "scoop": {
-        "london-fog": [
-          "fraser",
-          "quebec",
-          "northvan"
-        ],
         "mint-chip": [
           "quebec",
           "frances",
           "northvan"
         ],
         "pistachio": [
-          "fraser",
           "quebec"
         ],
         "strawberry": [
@@ -86,6 +79,12 @@
           "northvan"
         ],
         "field-berry-cheesecake": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
+        "london-fog": [
           "fraser",
           "quebec",
           "frances",
@@ -149,11 +148,6 @@
       "pint": {
         "coffee-crisp": [
           "quebec",
-          "northvan"
-        ],
-        "london-fog": [
-          "fraser",
-          "quebec",
           "frances",
           "northvan"
         ],
@@ -176,9 +170,6 @@
           "frances",
           "northvan"
         ],
-        "vegan-chocolate-cupcake": [
-          "fraser"
-        ],
         "butter-pecan": [
           "fraser",
           "quebec",
@@ -198,6 +189,12 @@
           "northvan"
         ],
         "field-berry-cheesecake": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
+        "london-fog": [
           "fraser",
           "quebec",
           "frances",
@@ -278,51 +275,56 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-06-02",
-    "previousDay": "2026-06-01",
+    "currentDay": "2026-06-03",
+    "previousDay": "2026-06-02",
     "servingTypes": {
       "scoop": {
-        "added": {
-          "london-fog": [
-            "frances"
-          ]
-        },
+        "added": {},
+        "removed": {}
+      },
+      "pint": {
+        "added": {},
         "removed": {
           "pistachio": {
             "name": "Pistachio",
             "storeIds": [
-              "fraser"
+              "quebec"
             ]
-          }
-        }
-      },
-      "pint": {
-        "added": {
-          "coffee-crisp": [
-            "frances"
-          ]
-        },
-        "removed": {
-          "vegan-chocolate-cupcake": {
-            "name": "Vegan Chocolate Cupcake",
+          },
+          "vegan-raspberry": {
+            "name": "Vegan Raspberry",
             "storeIds": [
-              "fraser"
+              "quebec"
             ]
           }
         }
       },
       "sandwich": {
-        "added": {},
-        "removed": {}
+        "added": {
+          "almond-croissant-sammie": [
+            "fraser"
+          ],
+          "vegan-turtles-sammie": [
+            "quebec"
+          ]
+        },
+        "removed": {
+          "vegan-fudgey-chocolate-cookie-sammie": {
+            "name": "Vegan Fudgey Chocolate Cookie Sammie",
+            "storeIds": [
+              "quebec"
+            ]
+          }
+        }
       }
     }
   },
   "counts": {
-    "totalItems": 23,
+    "totalItems": 25,
     "iceCreamFlavors": 20,
     "scoopItems": 18,
     "pintItems": 19,
-    "sandwichItems": 3,
-    "sandwichOnlyItems": 3
+    "sandwichItems": 5,
+    "sandwichOnlyItems": 5
   }
 }

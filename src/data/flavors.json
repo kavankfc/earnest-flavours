@@ -49,7 +49,6 @@
       "quebec"
     ],
     "pintStores": [
-      "quebec",
       "northvan"
     ],
     "sandwichStores": [],
@@ -305,7 +304,6 @@
     ],
     "pintStores": [
       "fraser",
-      "quebec",
       "frances",
       "northvan"
     ],
@@ -351,6 +349,17 @@
     "description": "An Earnest Ice Cream original, made from day one and remains a favourite and top-seller. Roasted, salted BC hazelnuts in Whiskey ice cream base. A smooth, boozy flavour with a buttery crunch."
   },
   {
+    "id": "almond-croissant-sammie",
+    "name": "Almond Croissant Sammie",
+    "isVegan": false,
+    "scoopStores": [],
+    "pintStores": [],
+    "sandwichStores": [
+      "fraser"
+    ],
+    "description": "For a limited time only, this crowd-favourite flavour is back as a sammie! Fluffy almond cake is topped with our delectable almond croissant ice cream – double baked buttery croissant pieces with toasted almonds folded into a light almond base. A layer of warm caramel seals this sammie together with a croissant crumble topping for a delightful crunch!"
+  },
+  {
     "id": "carrot-cake-sammie",
     "name": "Carrot Cake Sammie",
     "isVegan": false,
@@ -383,10 +392,20 @@
     "pintStores": [],
     "sandwichStores": [
       "fraser",
-      "quebec",
       "frances",
       "northvan"
     ],
     "description": "The ultimate chocolate decadence sammie! Chocolate ice cream is sprinkled with chocolate chips and chocolate sandwich cookie pieces, topped with a thick layer of fudge and sandwiched with soft chocolate cake. Rich and oh-so-chocolatey!"
+  },
+  {
+    "id": "vegan-turtles-sammie",
+    "name": "Vegan Turtles Sammie",
+    "isVegan": true,
+    "scoopStores": [],
+    "pintStores": [],
+    "sandwichStores": [
+      "quebec"
+    ],
+    "description": "Our light chocolate vegan base has walnut praline blended into it to create a nutty background flavour. Sweet toffee bits, dark chocolate chips, and roasted, salted nuts are generously sprinkled throughout for pops of crunch and caramelly goodness. All sealed together with a layer of sweet fudge on soft chocolate cake, this sammie is a delectable combination of sweet, salty, nutty, and crunchy – just like a classic turtles candy!"
   }
 ]
