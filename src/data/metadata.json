@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-06-03T22:19:25.766Z",
+  "lastUpdatedAt": "2026-06-04T02:02:23.730Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated June 3, 2026 at 12pm",
     "quebec": "Last updated June 3, 2026 at 12pm",
-    "frances": "Last updated June 2, 2026 at 12pm",
+    "frances": "Last updated June 3, 2026 at 12pm",
     "northvan": "Last updated June 1, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated June 2, 2026 at 12pm|fraser:Last updated June 3, 2026 at 12pm|northvan:Last updated June 1, 2026 at 12pm|quebec:Last updated June 3, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated June 3, 2026 at 12pm|fraser:Last updated June 3, 2026 at 12pm|northvan:Last updated June 1, 2026 at 12pm|quebec:Last updated June 3, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -302,7 +302,8 @@
       "sandwich": {
         "added": {
           "almond-croissant-sammie": [
-            "fraser"
+            "fraser",
+            "frances"
           ],
           "vegan-turtles-sammie": [
             "quebec"
