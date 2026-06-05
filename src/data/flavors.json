@@ -5,9 +5,7 @@
     "isVegan": false,
     "scoopStores": [],
     "pintStores": [
-      "quebec",
-      "frances",
-      "northvan"
+      "frances"
     ],
     "sandwichStores": [],
     "description": "An Earnest take on the classic Canadian Coffee Crisp chocolate bar! A generous amount of chocolate-coated feuilletine (a french confection of thin crisp crepe) is sprinkled into our mocha ice cream base. Creamy, crunchy, chocolatey and mocha – all in one perfect scoop!"
@@ -45,9 +43,7 @@
     "id": "pistachio",
     "name": "Pistachio",
     "isVegan": false,
-    "scoopStores": [
-      "quebec"
-    ],
+    "scoopStores": [],
     "pintStores": [
       "northvan"
     ],
