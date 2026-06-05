@@ -1,16 +1,5 @@
 [
   {
-    "id": "coffee-crisp",
-    "name": "Coffee Crisp",
-    "isVegan": false,
-    "scoopStores": [],
-    "pintStores": [
-      "frances"
-    ],
-    "sandwichStores": [],
-    "description": "An Earnest take on the classic Canadian Coffee Crisp chocolate bar! A generous amount of chocolate-coated feuilletine (a french confection of thin crisp crepe) is sprinkled into our mocha ice cream base. Creamy, crunchy, chocolatey and mocha – all in one perfect scoop!"
-  },
-  {
     "id": "mint-chip",
     "name": "Mint Chip",
     "isVegan": false,
@@ -352,6 +341,7 @@
     "pintStores": [],
     "sandwichStores": [
       "fraser",
+      "quebec",
       "frances"
     ],
     "description": "For a limited time only, this crowd-favourite flavour is back as a sammie! Fluffy almond cake is topped with our delectable almond croissant ice cream – double baked buttery croissant pieces with toasted almonds folded into a light almond base. A layer of warm caramel seals this sammie together with a croissant crumble topping for a delightful crunch!"
