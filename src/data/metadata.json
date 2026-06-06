@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-06-05T21:13:34.636Z",
+  "lastUpdatedAt": "2026-06-06T01:27:11.075Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated June 3, 2026 at 12pm",
     "quebec": "Last updated June 4, 2026 at 12pm",
     "frances": "Last updated June 4, 2026 at 12pm",
-    "northvan": "Last updated June 4, 2026 at 12pm"
+    "northvan": "Last updated June 5, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated June 4, 2026 at 12pm|fraser:Last updated June 3, 2026 at 12pm|northvan:Last updated June 4, 2026 at 12pm|quebec:Last updated June 4, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated June 4, 2026 at 12pm|fraser:Last updated June 3, 2026 at 12pm|northvan:Last updated June 5, 2026 at 12pm|quebec:Last updated June 4, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -291,6 +291,12 @@
             "storeIds": [
               "frances"
             ]
+          },
+          "pistachio": {
+            "name": "Pistachio",
+            "storeIds": [
+              "northvan"
+            ]
           }
         }
       },
@@ -305,10 +311,10 @@
     }
   },
   "counts": {
-    "totalItems": 24,
-    "iceCreamFlavors": 19,
+    "totalItems": 23,
+    "iceCreamFlavors": 18,
     "scoopItems": 17,
-    "pintItems": 18,
+    "pintItems": 17,
     "sandwichItems": 5,
     "sandwichOnlyItems": 5
   }

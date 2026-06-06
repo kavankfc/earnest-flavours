@@ -29,17 +29,6 @@
     "description": "Ice cream for breakfast – we think so! Simple comforting flavour made with lots of oats and brown sugar, which are cold-steeped in our ice cream base so they soften. Halfway between a bowl of cereal and a cookie, but in the form of ice cream. Friendly and comforting!"
   },
   {
-    "id": "pistachio",
-    "name": "Pistachio",
-    "isVegan": false,
-    "scoopStores": [],
-    "pintStores": [
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "A classic flavour, finally at Earnest! Pistachio is the ultimate smooth, creamy, and nutty flavour. Pistachio butter is coming to us from our friends at Premier Nuts."
-  },
-  {
     "id": "strawberry",
     "name": "Strawberry",
     "isVegan": false,
