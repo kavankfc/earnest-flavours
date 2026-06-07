@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-06-07T01:35:36.186Z",
+  "lastUpdatedAt": "2026-06-07T20:56:46.599Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated June 3, 2026 at 12pm",
     "quebec": "Last updated June 4, 2026 at 12pm",
-    "frances": "Last updated June 6, 2026 at 12pm",
+    "frances": "Last updated June 7, 2026 at 12pm",
     "northvan": "Last updated June 5, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated June 6, 2026 at 12pm|fraser:Last updated June 3, 2026 at 12pm|northvan:Last updated June 5, 2026 at 12pm|quebec:Last updated June 4, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated June 7, 2026 at 12pm|fraser:Last updated June 3, 2026 at 12pm|northvan:Last updated June 5, 2026 at 12pm|quebec:Last updated June 4, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-06-05",
-    "observedAt": "2026-06-06T01:27:11.075Z",
+    "baselineDay": "2026-06-06",
+    "observedAt": "2026-06-07T01:35:36.186Z",
     "flavorNamesByFlavorId": {
       "mint-chip": "Mint Chip",
       "oatmeal-brown-sugar": "Oatmeal Brown Sugar",
@@ -259,48 +259,44 @@
         ],
         "vegan-fudgey-chocolate-cookie-sammie": [
           "fraser",
-          "frances",
           "northvan"
         ],
         "vegan-turtles-sammie": [
-          "quebec"
+          "quebec",
+          "frances"
         ]
       }
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-06-06",
-    "previousDay": "2026-06-05",
+    "currentDay": "2026-06-07",
+    "previousDay": "2026-06-06",
     "servingTypes": {
       "scoop": {
         "added": {},
-        "removed": {}
+        "removed": {
+          "vegan-chocolate": {
+            "name": "Vegan Chocolate",
+            "storeIds": [
+              "frances"
+            ]
+          }
+        }
       },
       "pint": {
         "added": {},
         "removed": {}
       },
       "sandwich": {
-        "added": {
-          "vegan-turtles-sammie": [
-            "frances"
-          ]
-        },
-        "removed": {
-          "vegan-fudgey-chocolate-cookie-sammie": {
-            "name": "Vegan Fudgey Chocolate Cookie Sammie",
-            "storeIds": [
-              "frances"
-            ]
-          }
-        }
+        "added": {},
+        "removed": {}
       }
     }
   },
   "counts": {
-    "totalItems": 23,
-    "iceCreamFlavors": 18,
-    "scoopItems": 17,
+    "totalItems": 22,
+    "iceCreamFlavors": 17,
+    "scoopItems": 16,
     "pintItems": 17,
     "sandwichItems": 5,
     "sandwichOnlyItems": 5

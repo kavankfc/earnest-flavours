@@ -47,17 +47,6 @@
     "description": "Local strawberries from Mandair Farms are picked at the peak of the season and frozen to preserve their vibrant fruitiness to enjoy in winter. We add a touch of white balsamic to enhance and balance the natural sweetness of the strawberries. A must try for fans of strawberry ice cream!"
   },
   {
-    "id": "vegan-chocolate",
-    "name": "Vegan Chocolate",
-    "isVegan": true,
-    "scoopStores": [
-      "frances"
-    ],
-    "pintStores": [],
-    "sandwichStores": [],
-    "description": "A vegan staple we have been running since day one! Surprisingly creamy and rich, the subtle bitterness of dark chocolate and cocoa powder add depth to the creaminess of our coconut milk base."
-  },
-  {
     "id": "butter-pecan",
     "name": "Butter Pecan",
     "isVegan": false,
@@ -207,7 +196,7 @@
       "northvan"
     ],
     "sandwichStores": [],
-    "description": "This is an Earnest cult favourite! Featuring bite sized fudgy, chocolate rye cookies in a light, salted chocolate ice cream. We created this delicious flavour to celebrated Canadian rye flour. If you’re a chocolate lover then you must try this sensational flavour."
+    "description": "This is an Earnest cult favourite! Featuring bite sized fudgy, chocolate rye cookies in a light, salted chocolate ice cream. This flavour is inspired by the rye cookie from our neighbours on Fraser St (Batard Bakery). If you’re a chocolate lover then you must try this sensational flavour."
   },
   {
     "id": "tahitian-vanilla",
