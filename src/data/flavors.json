@@ -368,7 +368,6 @@
     "pintStores": [],
     "sandwichStores": [
       "fraser",
-      "frances",
       "northvan"
     ],
     "description": "The ultimate chocolate decadence sammie! Chocolate ice cream is sprinkled with chocolate chips and chocolate sandwich cookie pieces, topped with a thick layer of fudge and sandwiched with soft chocolate cake. Rich and oh-so-chocolatey!"
@@ -380,7 +379,8 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
-      "quebec"
+      "quebec",
+      "frances"
     ],
     "description": "Our light chocolate vegan base has walnut praline blended into it to create a nutty background flavour. Sweet toffee bits, dark chocolate chips, and roasted, salted nuts are generously sprinkled throughout for pops of crunch and caramelly goodness. All sealed together with a layer of sweet fudge on soft chocolate cake, this sammie is a delectable combination of sweet, salty, nutty, and crunchy – just like a classic turtles candy!"
   }

@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-06-06T01:27:11.075Z",
+  "lastUpdatedAt": "2026-06-07T01:35:36.186Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated June 3, 2026 at 12pm",
     "quebec": "Last updated June 4, 2026 at 12pm",
-    "frances": "Last updated June 4, 2026 at 12pm",
+    "frances": "Last updated June 6, 2026 at 12pm",
     "northvan": "Last updated June 5, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated June 4, 2026 at 12pm|fraser:Last updated June 3, 2026 at 12pm|northvan:Last updated June 5, 2026 at 12pm|quebec:Last updated June 4, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated June 6, 2026 at 12pm|fraser:Last updated June 3, 2026 at 12pm|northvan:Last updated June 5, 2026 at 12pm|quebec:Last updated June 4, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,13 +15,11 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-06-04",
-    "observedAt": "2026-06-05T01:34:46.211Z",
+    "baselineDay": "2026-06-05",
+    "observedAt": "2026-06-06T01:27:11.075Z",
     "flavorNamesByFlavorId": {
-      "coffee-crisp": "Coffee Crisp",
       "mint-chip": "Mint Chip",
       "oatmeal-brown-sugar": "Oatmeal Brown Sugar",
-      "pistachio": "Pistachio",
       "strawberry": "Strawberry",
       "vegan-chocolate": "Vegan Chocolate",
       "butter-pecan": "Butter Pecan",
@@ -145,9 +143,6 @@
         ]
       },
       "pint": {
-        "coffee-crisp": [
-          "frances"
-        ],
         "mint-chip": [
           "fraser",
           "quebec",
@@ -155,9 +150,6 @@
           "northvan"
         ],
         "oatmeal-brown-sugar": [
-          "northvan"
-        ],
-        "pistachio": [
           "northvan"
         ],
         "strawberry": [
@@ -253,6 +245,7 @@
       "sandwich": {
         "almond-croissant-sammie": [
           "fraser",
+          "quebec",
           "frances"
         ],
         "carrot-cake-sammie": [
@@ -276,8 +269,8 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-06-05",
-    "previousDay": "2026-06-04",
+    "currentDay": "2026-06-06",
+    "previousDay": "2026-06-05",
     "servingTypes": {
       "scoop": {
         "added": {},
@@ -285,28 +278,22 @@
       },
       "pint": {
         "added": {},
-        "removed": {
-          "coffee-crisp": {
-            "name": "Coffee Crisp",
-            "storeIds": [
-              "frances"
-            ]
-          },
-          "pistachio": {
-            "name": "Pistachio",
-            "storeIds": [
-              "northvan"
-            ]
-          }
-        }
+        "removed": {}
       },
       "sandwich": {
         "added": {
-          "almond-croissant-sammie": [
-            "quebec"
+          "vegan-turtles-sammie": [
+            "frances"
           ]
         },
-        "removed": {}
+        "removed": {
+          "vegan-fudgey-chocolate-cookie-sammie": {
+            "name": "Vegan Fudgey Chocolate Cookie Sammie",
+            "storeIds": [
+              "frances"
+            ]
+          }
+        }
       }
     }
   },
