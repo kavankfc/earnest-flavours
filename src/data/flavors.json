@@ -320,20 +320,10 @@
     "sandwichStores": [
       "fraser",
       "quebec",
-      "frances"
-    ],
-    "description": "For a limited time only, this crowd-favourite flavour is back as a sammie! Fluffy almond cake is topped with our delectable almond croissant ice cream – double baked buttery croissant pieces with toasted almonds folded into a light almond base. A layer of warm caramel seals this sammie together with a croissant crumble topping for a delightful crunch!"
-  },
-  {
-    "id": "carrot-cake-sammie",
-    "name": "Carrot Cake Sammie",
-    "isVegan": false,
-    "scoopStores": [],
-    "pintStores": [],
-    "sandwichStores": [
+      "frances",
       "northvan"
     ],
-    "description": "Our carrot cake ice cream in sammie form: lightly spiced ice cream is sprinkled with loads of soft carrot cake chunks and rich cream cheese fudge. A layer of caramel seals our spiced cake around this decadent treat!"
+    "description": "For a limited time only, this crowd-favourite flavour is back as a sammie! Fluffy almond cake is topped with our delectable almond croissant ice cream – double baked buttery croissant pieces with toasted almonds folded into a light almond base. A layer of warm caramel seals this sammie together with a croissant crumble topping for a delightful crunch!"
   },
   {
     "id": "classic-sammie",
