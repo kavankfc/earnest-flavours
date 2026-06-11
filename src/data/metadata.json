@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-06-08T01:38:22.628Z",
+  "lastUpdatedAt": "2026-06-11T21:52:53.912Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated June 3, 2026 at 12pm",
+    "fraser": "Last updated June 11, 2026 at 12pm",
     "quebec": "Last updated June 4, 2026 at 12pm",
     "frances": "Last updated June 7, 2026 at 12pm",
     "northvan": "Last updated June 7, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated June 7, 2026 at 12pm|fraser:Last updated June 3, 2026 at 12pm|northvan:Last updated June 7, 2026 at 12pm|quebec:Last updated June 4, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated June 7, 2026 at 12pm|fraser:Last updated June 11, 2026 at 12pm|northvan:Last updated June 7, 2026 at 12pm|quebec:Last updated June 4, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,13 +15,12 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-06-06",
-    "observedAt": "2026-06-07T01:35:36.186Z",
+    "baselineDay": "2026-06-10",
+    "observedAt": "2026-06-08T01:38:22.628Z",
     "flavorNamesByFlavorId": {
       "mint-chip": "Mint Chip",
       "oatmeal-brown-sugar": "Oatmeal Brown Sugar",
       "strawberry": "Strawberry",
-      "vegan-chocolate": "Vegan Chocolate",
       "butter-pecan": "Butter Pecan",
       "chocolate": "Chocolate",
       "cookies-cream": "Cookies + Cream",
@@ -37,7 +36,6 @@
       "vegan-toasted-coconut": "Vegan Toasted Coconut",
       "whiskey-hazelnut": "Whiskey Hazelnut",
       "almond-croissant-sammie": "Almond Croissant Sammie",
-      "carrot-cake-sammie": "Carrot Cake Sammie",
       "classic-sammie": "Classic Sammie",
       "vegan-fudgey-chocolate-cookie-sammie": "Vegan Fudgey Chocolate Cookie Sammie",
       "vegan-turtles-sammie": "Vegan Turtles Sammie"
@@ -52,9 +50,6 @@
         "strawberry": [
           "fraser",
           "quebec",
-          "frances"
-        ],
-        "vegan-chocolate": [
           "frances"
         ],
         "butter-pecan": [
@@ -246,9 +241,7 @@
         "almond-croissant-sammie": [
           "fraser",
           "quebec",
-          "frances"
-        ],
-        "carrot-cake-sammie": [
+          "frances",
           "northvan"
         ],
         "classic-sammie": [
@@ -269,38 +262,20 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-06-07",
-    "previousDay": "2026-06-06",
+    "currentDay": "2026-06-11",
+    "previousDay": "2026-06-10",
     "servingTypes": {
       "scoop": {
         "added": {},
-        "removed": {
-          "vegan-chocolate": {
-            "name": "Vegan Chocolate",
-            "storeIds": [
-              "frances"
-            ]
-          }
-        }
+        "removed": {}
       },
       "pint": {
         "added": {},
         "removed": {}
       },
       "sandwich": {
-        "added": {
-          "almond-croissant-sammie": [
-            "northvan"
-          ]
-        },
-        "removed": {
-          "carrot-cake-sammie": {
-            "name": "Carrot Cake Sammie",
-            "storeIds": [
-              "northvan"
-            ]
-          }
-        }
+        "added": {},
+        "removed": {}
       }
     }
   },
