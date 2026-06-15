@@ -1,5 +1,10 @@
 [
   {
+    "id": "almond-croissant",
+    "name": "Almond Croissant",
+    "description": "Double baked buttery croissant pieces with toasted almonds are folded into a light almond ice cream base. The result is a flakey, nutty, buttery, sweet toasted treat!"
+  },
+  {
     "id": "almond-croissant-sammie",
     "name": "Almond Croissant Sammie",
     "description": "For a limited time only, this crowd-favourite flavour is back as a sammie! Fluffy almond cake is topped with our delectable almond croissant ice cream – double baked buttery croissant pieces with toasted almonds folded into a light almond base. A layer of warm caramel seals this sammie together with a croissant crumble topping for a delightful crunch!"
@@ -48,6 +53,11 @@
     "id": "coffee-crisp",
     "name": "Coffee Crisp",
     "description": "An Earnest take on the classic Canadian Coffee Crisp chocolate bar! A generous amount of chocolate-coated feuilletine (a french confection of thin crisp crepe) is sprinkled into our mocha ice cream base. Creamy, crunchy, chocolatey and mocha – all in one perfect scoop!"
+  },
+  {
+    "id": "coffee-toffee-sammie",
+    "name": "Coffee Toffee Sammie",
+    "description": "Rich coffee ice cream is speckled with crisp espresso chocolate flakes and melty bites of toffee. Layered with fudge on soft chocolate cake, this sammie is a delectable treat with a fun mix of textures."
   },
   {
     "id": "cookies-cream",

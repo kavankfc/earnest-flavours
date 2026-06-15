@@ -312,13 +312,23 @@
     "description": "An Earnest Ice Cream original, made from day one and remains a favourite and top-seller. Roasted, salted BC hazelnuts in Whiskey ice cream base. A smooth, boozy flavour with a buttery crunch."
   },
   {
+    "id": "almond-croissant",
+    "name": "Almond Croissant",
+    "isVegan": false,
+    "scoopStores": [],
+    "pintStores": [],
+    "sandwichStores": [
+      "fraser"
+    ],
+    "description": "Double baked buttery croissant pieces with toasted almonds are folded into a light almond ice cream base. The result is a flakey, nutty, buttery, sweet toasted treat!"
+  },
+  {
     "id": "almond-croissant-sammie",
     "name": "Almond Croissant Sammie",
     "isVegan": false,
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
-      "quebec",
       "frances",
       "northvan"
     ],
@@ -337,6 +347,17 @@
       "northvan"
     ],
     "description": "Our take on a classic ice cream sandwich. Tahitian vanilla ice cream is sandwiched between chocolate cake and finished with a thin layer of fudge sauce. This flavour never goes out of style!"
+  },
+  {
+    "id": "coffee-toffee-sammie",
+    "name": "Coffee Toffee Sammie",
+    "isVegan": false,
+    "scoopStores": [],
+    "pintStores": [],
+    "sandwichStores": [
+      "quebec"
+    ],
+    "description": "Rich coffee ice cream is speckled with crisp espresso chocolate flakes and melty bites of toffee. Layered with fudge on soft chocolate cake, this sammie is a delectable treat with a fun mix of textures."
   },
   {
     "id": "vegan-fudgey-chocolate-cookie-sammie",
