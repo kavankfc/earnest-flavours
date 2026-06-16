@@ -29,24 +29,6 @@
     "description": "Ice cream for breakfast – we think so! Simple comforting flavour made with lots of oats and brown sugar, which are cold-steeped in our ice cream base so they soften. Halfway between a bowl of cereal and a cookie, but in the form of ice cream. Friendly and comforting!"
   },
   {
-    "id": "strawberry",
-    "name": "Strawberry",
-    "isVegan": false,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "frances"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "Local strawberries from Mandair Farms are picked at the peak of the season and frozen to preserve their vibrant fruitiness to enjoy in winter. We add a touch of white balsamic to enhance and balance the natural sweetness of the strawberries. A must try for fans of strawberry ice cream!"
-  },
-  {
     "id": "butter-pecan",
     "name": "Butter Pecan",
     "isVegan": false,
@@ -197,6 +179,25 @@
     ],
     "sandwichStores": [],
     "description": "This is an Earnest cult favourite! Featuring bite sized fudgy, chocolate rye cookies in a light, salted chocolate ice cream. This flavour is inspired by the rye cookie from our neighbours on Fraser St (Batard Bakery). If you’re a chocolate lover then you must try this sensational flavour."
+  },
+  {
+    "id": "strawberry",
+    "name": "Strawberry",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Local strawberries from Mandair Farms are picked at the peak of the season and frozen to preserve their vibrant fruitiness to enjoy in winter. We add a touch of white balsamic to enhance and balance the natural sweetness of the strawberries. A must try for fans of strawberry ice cream!"
   },
   {
     "id": "tahitian-vanilla",
@@ -355,7 +356,9 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
-      "quebec"
+      "fraser",
+      "quebec",
+      "northvan"
     ],
     "description": "Rich coffee ice cream is speckled with crisp espresso chocolate flakes and melty bites of toffee. Layered with fudge on soft chocolate cake, this sammie is a delectable treat with a fun mix of textures."
   },
