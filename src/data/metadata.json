@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-06-16T22:03:47.281Z",
+  "lastUpdatedAt": "2026-06-17T21:49:08.414Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated June 16, 2026 at 12pm",
-    "quebec": "Last updated June 15, 2026 at 12pm",
+    "quebec": "Last updated June 16, 2026 at 12pm",
     "frances": "Last updated June 7, 2026 at 12pm",
     "northvan": "Last updated June 16, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated June 7, 2026 at 12pm|fraser:Last updated June 16, 2026 at 12pm|northvan:Last updated June 16, 2026 at 12pm|quebec:Last updated June 15, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated June 7, 2026 at 12pm|fraser:Last updated June 16, 2026 at 12pm|northvan:Last updated June 16, 2026 at 12pm|quebec:Last updated June 16, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,12 +15,11 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-06-15",
-    "observedAt": "2026-06-15T22:07:19.464Z",
+    "baselineDay": "2026-06-16",
+    "observedAt": "2026-06-16T22:03:47.281Z",
     "flavorNamesByFlavorId": {
       "mint-chip": "Mint Chip",
       "oatmeal-brown-sugar": "Oatmeal Brown Sugar",
-      "strawberry": "Strawberry",
       "butter-pecan": "Butter Pecan",
       "chocolate": "Chocolate",
       "cookies-cream": "Cookies + Cream",
@@ -29,6 +28,7 @@
       "matcha-green-tea": "Matcha Green Tea",
       "salted-caramel": "Salted Caramel",
       "salted-chocolate-rye-cookie": "Salted Chocolate Rye Cookie",
+      "strawberry": "Strawberry",
       "tahitian-vanilla": "Tahitian Vanilla",
       "vegan-blueberries-cream": "Vegan Blueberries & Cream",
       "vegan-cookies-cream": "Vegan Cookies + Cream",
@@ -48,11 +48,6 @@
           "quebec",
           "frances",
           "northvan"
-        ],
-        "strawberry": [
-          "fraser",
-          "quebec",
-          "frances"
         ],
         "butter-pecan": [
           "fraser",
@@ -97,6 +92,12 @@
           "northvan"
         ],
         "salted-chocolate-rye-cookie": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
+        "strawberry": [
           "fraser",
           "quebec",
           "frances",
@@ -149,12 +150,6 @@
         "oatmeal-brown-sugar": [
           "northvan"
         ],
-        "strawberry": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
         "butter-pecan": [
           "fraser",
           "quebec",
@@ -198,6 +193,12 @@
           "northvan"
         ],
         "salted-chocolate-rye-cookie": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
+        "strawberry": [
           "fraser",
           "quebec",
           "frances",
@@ -254,7 +255,9 @@
           "northvan"
         ],
         "coffee-toffee-sammie": [
-          "quebec"
+          "fraser",
+          "quebec",
+          "northvan"
         ],
         "vegan-fudgey-chocolate-cookie-sammie": [
           "fraser",
@@ -268,28 +271,26 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-06-16",
-    "previousDay": "2026-06-15",
+    "currentDay": "2026-06-17",
+    "previousDay": "2026-06-16",
     "servingTypes": {
       "scoop": {
-        "added": {
-          "strawberry": [
-            "northvan"
-          ]
-        },
+        "added": {},
         "removed": {}
       },
       "pint": {
         "added": {},
-        "removed": {}
+        "removed": {
+          "salted-chocolate-rye-cookie": {
+            "name": "Salted Chocolate Rye Cookie",
+            "storeIds": [
+              "quebec"
+            ]
+          }
+        }
       },
       "sandwich": {
-        "added": {
-          "coffee-toffee-sammie": [
-            "fraser",
-            "northvan"
-          ]
-        },
+        "added": {},
         "removed": {}
       }
     }
