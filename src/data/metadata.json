@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-06-18T01:59:39.069Z",
+  "lastUpdatedAt": "2026-06-18T21:53:50.947Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated June 16, 2026 at 12pm",
-    "quebec": "Last updated June 16, 2026 at 12pm",
+    "fraser": "Last updated June 18, 2026 at 12pm",
+    "quebec": "Last updated June 18, 2026 at 12pm",
     "frances": "Last updated June 17, 2026 at 12pm",
     "northvan": "Last updated June 17, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated June 17, 2026 at 12pm|fraser:Last updated June 16, 2026 at 12pm|northvan:Last updated June 17, 2026 at 12pm|quebec:Last updated June 16, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated June 17, 2026 at 12pm|fraser:Last updated June 18, 2026 at 12pm|northvan:Last updated June 17, 2026 at 12pm|quebec:Last updated June 18, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-06-16",
-    "observedAt": "2026-06-16T22:03:47.281Z",
+    "baselineDay": "2026-06-17",
+    "observedAt": "2026-06-18T01:59:39.069Z",
     "flavorNamesByFlavorId": {
       "mint-chip": "Mint Chip",
       "oatmeal-brown-sugar": "Oatmeal Brown Sugar",
@@ -36,7 +36,6 @@
       "vegan-toasted-coconut": "Vegan Toasted Coconut",
       "whiskey-hazelnut": "Whiskey Hazelnut",
       "almond-croissant": "Almond Croissant",
-      "almond-croissant-sammie": "Almond Croissant Sammie",
       "classic-sammie": "Classic Sammie",
       "coffee-toffee-sammie": "Coffee Toffee Sammie",
       "vegan-fudgey-chocolate-cookie-sammie": "Vegan Fudgey Chocolate Cookie Sammie",
@@ -194,7 +193,6 @@
         ],
         "salted-chocolate-rye-cookie": [
           "fraser",
-          "quebec",
           "frances",
           "northvan"
         ],
@@ -244,10 +242,6 @@
         "almond-croissant": [
           "fraser"
         ],
-        "almond-croissant-sammie": [
-          "frances",
-          "northvan"
-        ],
         "classic-sammie": [
           "fraser",
           "quebec",
@@ -257,6 +251,7 @@
         "coffee-toffee-sammie": [
           "fraser",
           "quebec",
+          "frances",
           "northvan"
         ],
         "vegan-fudgey-chocolate-cookie-sammie": [
@@ -271,8 +266,8 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-06-17",
-    "previousDay": "2026-06-16",
+    "currentDay": "2026-06-18",
+    "previousDay": "2026-06-17",
     "servingTypes": {
       "scoop": {
         "added": {},
@@ -280,27 +275,19 @@
       },
       "pint": {
         "added": {},
-        "removed": {
-          "salted-chocolate-rye-cookie": {
-            "name": "Salted Chocolate Rye Cookie",
-            "storeIds": [
-              "quebec"
-            ]
-          }
-        }
+        "removed": {}
       },
       "sandwich": {
         "added": {
-          "coffee-toffee-sammie": [
-            "frances"
+          "vegan-turtles-sammie": [
+            "fraser"
           ]
         },
         "removed": {
-          "almond-croissant-sammie": {
-            "name": "Almond Croissant Sammie",
+          "almond-croissant": {
+            "name": "Almond Croissant",
             "storeIds": [
-              "frances",
-              "northvan"
+              "fraser"
             ]
           }
         }
@@ -308,11 +295,11 @@
     }
   },
   "counts": {
-    "totalItems": 22,
+    "totalItems": 21,
     "iceCreamFlavors": 17,
     "scoopItems": 16,
     "pintItems": 17,
-    "sandwichItems": 5,
-    "sandwichOnlyItems": 5
+    "sandwichItems": 4,
+    "sandwichOnlyItems": 4
   }
 }

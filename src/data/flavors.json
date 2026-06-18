@@ -234,7 +234,7 @@
       "northvan"
     ],
     "sandwichStores": [],
-    "description": "The perfect mix of light vanilla and bright berry flavours, this new flavour is like a bowl of fresh blueberries topped with whipped cream! Our vanilla oat-coconut base is brightened with a touch of lemon oil and swirled with house-made blueberry compote from all Canadian berries."
+    "description": "The perfect mix of light vanilla and bright berry flavours, this new flavour is like a bowl of fresh blueberries topped with whipped cream! Our vanilla oat-coconut base is brightened with a splash of lemon juice and swirled with house-made blueberry compote from all Canadian berries."
   },
   {
     "id": "vegan-cookies-cream",
@@ -312,17 +312,6 @@
     "description": "An Earnest Ice Cream original, made from day one and remains a favourite and top-seller. Roasted, salted BC hazelnuts in Whiskey ice cream base. A smooth, boozy flavour with a buttery crunch."
   },
   {
-    "id": "almond-croissant",
-    "name": "Almond Croissant",
-    "isVegan": false,
-    "scoopStores": [],
-    "pintStores": [],
-    "sandwichStores": [
-      "fraser"
-    ],
-    "description": "Double baked buttery croissant pieces with toasted almonds are folded into a light almond ice cream base. The result is a flakey, nutty, buttery, sweet toasted treat!"
-  },
-  {
     "id": "classic-sammie",
     "name": "Classic Sammie",
     "isVegan": false,
@@ -369,6 +358,7 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
+      "fraser",
       "quebec",
       "frances"
     ],
