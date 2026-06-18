@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-06-17T21:49:08.414Z",
+  "lastUpdatedAt": "2026-06-18T01:59:39.069Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated June 16, 2026 at 12pm",
     "quebec": "Last updated June 16, 2026 at 12pm",
-    "frances": "Last updated June 7, 2026 at 12pm",
-    "northvan": "Last updated June 16, 2026 at 12pm"
+    "frances": "Last updated June 17, 2026 at 12pm",
+    "northvan": "Last updated June 17, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated June 7, 2026 at 12pm|fraser:Last updated June 16, 2026 at 12pm|northvan:Last updated June 16, 2026 at 12pm|quebec:Last updated June 16, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated June 17, 2026 at 12pm|fraser:Last updated June 16, 2026 at 12pm|northvan:Last updated June 17, 2026 at 12pm|quebec:Last updated June 16, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -290,17 +290,29 @@
         }
       },
       "sandwich": {
-        "added": {},
-        "removed": {}
+        "added": {
+          "coffee-toffee-sammie": [
+            "frances"
+          ]
+        },
+        "removed": {
+          "almond-croissant-sammie": {
+            "name": "Almond Croissant Sammie",
+            "storeIds": [
+              "frances",
+              "northvan"
+            ]
+          }
+        }
       }
     }
   },
   "counts": {
-    "totalItems": 23,
+    "totalItems": 22,
     "iceCreamFlavors": 17,
     "scoopItems": 16,
     "pintItems": 17,
-    "sandwichItems": 6,
-    "sandwichOnlyItems": 6
+    "sandwichItems": 5,
+    "sandwichOnlyItems": 5
   }
 }

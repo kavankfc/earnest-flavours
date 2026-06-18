@@ -323,18 +323,6 @@
     "description": "Double baked buttery croissant pieces with toasted almonds are folded into a light almond ice cream base. The result is a flakey, nutty, buttery, sweet toasted treat!"
   },
   {
-    "id": "almond-croissant-sammie",
-    "name": "Almond Croissant Sammie",
-    "isVegan": false,
-    "scoopStores": [],
-    "pintStores": [],
-    "sandwichStores": [
-      "frances",
-      "northvan"
-    ],
-    "description": "For a limited time only, this crowd-favourite flavour is back as a sammie! Fluffy almond cake is topped with our delectable almond croissant ice cream – double baked buttery croissant pieces with toasted almonds folded into a light almond base. A layer of warm caramel seals this sammie together with a croissant crumble topping for a delightful crunch!"
-  },
-  {
     "id": "classic-sammie",
     "name": "Classic Sammie",
     "isVegan": false,
@@ -357,6 +345,7 @@
     "sandwichStores": [
       "fraser",
       "quebec",
+      "frances",
       "northvan"
     ],
     "description": "Rich coffee ice cream is speckled with crisp espresso chocolate flakes and melty bites of toffee. Layered with fudge on soft chocolate cake, this sammie is a delectable treat with a fun mix of textures."
