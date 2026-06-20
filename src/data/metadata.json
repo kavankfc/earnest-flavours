@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-06-20T01:34:43.571Z",
+  "lastUpdatedAt": "2026-06-20T20:59:37.383Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated June 18, 2026 at 12pm",
+    "fraser": "Last updated June 19, 2026 at 12pm",
     "quebec": "Last updated June 18, 2026 at 12pm",
-    "frances": "Last updated June 17, 2026 at 12pm",
+    "frances": "Last updated June 20, 2026 at 12pm",
     "northvan": "Last updated June 19, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated June 17, 2026 at 12pm|fraser:Last updated June 18, 2026 at 12pm|northvan:Last updated June 19, 2026 at 12pm|quebec:Last updated June 18, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated June 20, 2026 at 12pm|fraser:Last updated June 19, 2026 at 12pm|northvan:Last updated June 19, 2026 at 12pm|quebec:Last updated June 18, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-06-18",
-    "observedAt": "2026-06-18T21:53:50.947Z",
+    "baselineDay": "2026-06-19",
+    "observedAt": "2026-06-20T01:34:43.571Z",
     "flavorNamesByFlavorId": {
       "mint-chip": "Mint Chip",
       "oatmeal-brown-sugar": "Oatmeal Brown Sugar",
@@ -263,12 +263,19 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-06-19",
-    "previousDay": "2026-06-18",
+    "currentDay": "2026-06-20",
+    "previousDay": "2026-06-19",
     "servingTypes": {
       "scoop": {
         "added": {},
-        "removed": {}
+        "removed": {
+          "field-berry-cheesecake": {
+            "name": "Field Berry Cheesecake",
+            "storeIds": [
+              "frances"
+            ]
+          }
+        }
       },
       "pint": {
         "added": {},
@@ -276,7 +283,14 @@
       },
       "sandwich": {
         "added": {},
-        "removed": {}
+        "removed": {
+          "vegan-fudgey-chocolate-cookie-sammie": {
+            "name": "Vegan Fudgey Chocolate Cookie Sammie",
+            "storeIds": [
+              "fraser"
+            ]
+          }
+        }
       }
     }
   },
