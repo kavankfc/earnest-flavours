@@ -175,6 +175,11 @@
     "description": "Creamy chocolate-orange ice cream is swirled with ribbons of orange jelly. Sandwiched with a layer of orange-fudge and chocolate cake, this sammie tastes just like a Terry’s Chocolate Orange!"
   },
   {
+    "id": "vegan-cookie-butter-sammie",
+    "name": "Vegan Cookie Butter Sammie",
+    "description": "House-made speculoos cookies are combined in a variety of ways into this delectable ice cream! Rich cookie butter is swirled throughout a lightly spiced base and topped with a speculoos cookie crumble for a lovely bite of added texture."
+  },
+  {
     "id": "vegan-cookies-cream",
     "name": "Vegan Cookies + Cream",
     "description": "A vegan twist on a childhood favourite that is brimming with chunks of cookies in a creamy vanilla base. Fun fact, we make this flavour with the exact same organic chocolate sandwich cookies we use in our dairy cookies and cream!"

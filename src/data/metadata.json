@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-06-20T20:59:37.383Z",
+  "lastUpdatedAt": "2026-06-21T21:00:40.517Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated June 19, 2026 at 12pm",
-    "quebec": "Last updated June 18, 2026 at 12pm",
+    "quebec": "Last updated June 21, 2026 at 12pm",
     "frances": "Last updated June 20, 2026 at 12pm",
     "northvan": "Last updated June 19, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated June 20, 2026 at 12pm|fraser:Last updated June 19, 2026 at 12pm|northvan:Last updated June 19, 2026 at 12pm|quebec:Last updated June 18, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated June 20, 2026 at 12pm|fraser:Last updated June 19, 2026 at 12pm|northvan:Last updated June 19, 2026 at 12pm|quebec:Last updated June 21, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,15 +15,15 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-06-19",
-    "observedAt": "2026-06-20T01:34:43.571Z",
+    "baselineDay": "2026-06-20",
+    "observedAt": "2026-06-20T20:59:37.383Z",
     "flavorNamesByFlavorId": {
+      "field-berry-cheesecake": "Field Berry Cheesecake",
       "mint-chip": "Mint Chip",
       "oatmeal-brown-sugar": "Oatmeal Brown Sugar",
       "butter-pecan": "Butter Pecan",
       "chocolate": "Chocolate",
       "cookies-cream": "Cookies + Cream",
-      "field-berry-cheesecake": "Field Berry Cheesecake",
       "london-fog": "London Fog",
       "matcha-green-tea": "Matcha Green Tea",
       "salted-caramel": "Salted Caramel",
@@ -42,6 +42,11 @@
     },
     "servingTypes": {
       "scoop": {
+        "field-berry-cheesecake": [
+          "fraser",
+          "quebec",
+          "northvan"
+        ],
         "mint-chip": [
           "quebec",
           "frances",
@@ -60,12 +65,6 @@
           "northvan"
         ],
         "cookies-cream": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
-        "field-berry-cheesecake": [
           "fraser",
           "quebec",
           "frances",
@@ -139,6 +138,12 @@
         ]
       },
       "pint": {
+        "field-berry-cheesecake": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
         "mint-chip": [
           "fraser",
           "quebec",
@@ -161,12 +166,6 @@
           "northvan"
         ],
         "cookies-cream": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
-        "field-berry-cheesecake": [
           "fraser",
           "quebec",
           "frances",
@@ -251,7 +250,6 @@
           "northvan"
         ],
         "vegan-fudgey-chocolate-cookie-sammie": [
-          "fraser",
           "northvan"
         ],
         "vegan-turtles-sammie": [
@@ -263,31 +261,32 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-06-20",
-    "previousDay": "2026-06-19",
+    "currentDay": "2026-06-21",
+    "previousDay": "2026-06-20",
     "servingTypes": {
       "scoop": {
         "added": {},
-        "removed": {
-          "field-berry-cheesecake": {
-            "name": "Field Berry Cheesecake",
-            "storeIds": [
-              "frances"
-            ]
-          }
-        }
+        "removed": {}
       },
       "pint": {
-        "added": {},
+        "added": {
+          "vegan-raspberry": [
+            "quebec"
+          ]
+        },
         "removed": {}
       },
       "sandwich": {
-        "added": {},
+        "added": {
+          "vegan-cookie-butter-sammie": [
+            "frances"
+          ]
+        },
         "removed": {
-          "vegan-fudgey-chocolate-cookie-sammie": {
-            "name": "Vegan Fudgey Chocolate Cookie Sammie",
+          "vegan-turtles-sammie": {
+            "name": "Vegan Turtles Sammie",
             "storeIds": [
-              "fraser"
+              "frances"
             ]
           }
         }
@@ -295,11 +294,11 @@
     }
   },
   "counts": {
-    "totalItems": 21,
+    "totalItems": 22,
     "iceCreamFlavors": 17,
     "scoopItems": 16,
     "pintItems": 17,
-    "sandwichItems": 4,
-    "sandwichOnlyItems": 4
+    "sandwichItems": 5,
+    "sandwichOnlyItems": 5
   }
 }

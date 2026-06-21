@@ -266,6 +266,7 @@
     ],
     "pintStores": [
       "fraser",
+      "quebec",
       "frances",
       "northvan"
     ],
@@ -339,6 +340,17 @@
     "description": "Rich coffee ice cream is speckled with crisp espresso chocolate flakes and melty bites of toffee. Layered with fudge on soft chocolate cake, this sammie is a delectable treat with a fun mix of textures."
   },
   {
+    "id": "vegan-cookie-butter-sammie",
+    "name": "Vegan Cookie Butter Sammie",
+    "isVegan": true,
+    "scoopStores": [],
+    "pintStores": [],
+    "sandwichStores": [
+      "frances"
+    ],
+    "description": "House-made speculoos cookies are combined in a variety of ways into this delectable ice cream! Rich cookie butter is swirled throughout a lightly spiced base and topped with a speculoos cookie crumble for a lovely bite of added texture."
+  },
+  {
     "id": "vegan-fudgey-chocolate-cookie-sammie",
     "name": "Vegan Fudgey Chocolate Cookie Sammie",
     "isVegan": true,
@@ -357,8 +369,7 @@
     "pintStores": [],
     "sandwichStores": [
       "fraser",
-      "quebec",
-      "frances"
+      "quebec"
     ],
     "description": "Our light chocolate vegan base has walnut praline blended into it to create a nutty background flavour. Sweet toffee bits, dark chocolate chips, and roasted, salted nuts are generously sprinkled throughout for pops of crunch and caramelly goodness. All sealed together with a layer of sweet fudge on soft chocolate cake, this sammie is a delectable combination of sweet, salty, nutty, and crunchy – just like a classic turtles candy!"
   }
