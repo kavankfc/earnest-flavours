@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-06-22T01:44:26.342Z",
+  "lastUpdatedAt": "2026-06-22T21:53:30.985Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated June 19, 2026 at 12pm",
+    "fraser": "Last updated June 22, 2026 at 12pm",
     "quebec": "Last updated June 21, 2026 at 12pm",
-    "frances": "Last updated June 21, 2026 at 12pm",
+    "frances": "Last updated June 22, 2026 at 12pm",
     "northvan": "Last updated June 19, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated June 21, 2026 at 12pm|fraser:Last updated June 19, 2026 at 12pm|northvan:Last updated June 19, 2026 at 12pm|quebec:Last updated June 21, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated June 22, 2026 at 12pm|fraser:Last updated June 22, 2026 at 12pm|northvan:Last updated June 19, 2026 at 12pm|quebec:Last updated June 21, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,15 +15,15 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-06-20",
-    "observedAt": "2026-06-20T20:59:37.383Z",
+    "baselineDay": "2026-06-21",
+    "observedAt": "2026-06-22T01:44:26.342Z",
     "flavorNamesByFlavorId": {
-      "field-berry-cheesecake": "Field Berry Cheesecake",
       "mint-chip": "Mint Chip",
       "oatmeal-brown-sugar": "Oatmeal Brown Sugar",
       "butter-pecan": "Butter Pecan",
       "chocolate": "Chocolate",
       "cookies-cream": "Cookies + Cream",
+      "field-berry-cheesecake": "Field Berry Cheesecake",
       "london-fog": "London Fog",
       "matcha-green-tea": "Matcha Green Tea",
       "salted-caramel": "Salted Caramel",
@@ -37,16 +37,12 @@
       "whiskey-hazelnut": "Whiskey Hazelnut",
       "classic-sammie": "Classic Sammie",
       "coffee-toffee-sammie": "Coffee Toffee Sammie",
+      "vegan-cookie-butter-sammie": "Vegan Cookie Butter Sammie",
       "vegan-fudgey-chocolate-cookie-sammie": "Vegan Fudgey Chocolate Cookie Sammie",
       "vegan-turtles-sammie": "Vegan Turtles Sammie"
     },
     "servingTypes": {
       "scoop": {
-        "field-berry-cheesecake": [
-          "fraser",
-          "quebec",
-          "northvan"
-        ],
         "mint-chip": [
           "quebec",
           "frances",
@@ -65,6 +61,12 @@
           "northvan"
         ],
         "cookies-cream": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
+        "field-berry-cheesecake": [
           "fraser",
           "quebec",
           "frances",
@@ -138,12 +140,6 @@
         ]
       },
       "pint": {
-        "field-berry-cheesecake": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
         "mint-chip": [
           "fraser",
           "quebec",
@@ -166,6 +162,12 @@
           "northvan"
         ],
         "cookies-cream": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
+        "field-berry-cheesecake": [
           "fraser",
           "quebec",
           "frances",
@@ -220,6 +222,7 @@
         ],
         "vegan-raspberry": [
           "fraser",
+          "quebec",
           "frances",
           "northvan"
         ],
@@ -249,24 +252,27 @@
           "frances",
           "northvan"
         ],
+        "vegan-cookie-butter-sammie": [
+          "frances"
+        ],
         "vegan-fudgey-chocolate-cookie-sammie": [
           "northvan"
         ],
         "vegan-turtles-sammie": [
           "fraser",
-          "quebec",
-          "frances"
+          "quebec"
         ]
       }
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-06-21",
-    "previousDay": "2026-06-20",
+    "currentDay": "2026-06-22",
+    "previousDay": "2026-06-21",
     "servingTypes": {
       "scoop": {
         "added": {
-          "field-berry-cheesecake": [
+          "fresh-lemon": [
+            "fraser",
             "frances"
           ]
         },
@@ -274,34 +280,24 @@
       },
       "pint": {
         "added": {
-          "vegan-raspberry": [
-            "quebec"
+          "fresh-lemon": [
+            "fraser",
+            "frances"
           ]
         },
         "removed": {}
       },
       "sandwich": {
-        "added": {
-          "vegan-cookie-butter-sammie": [
-            "frances"
-          ]
-        },
-        "removed": {
-          "vegan-turtles-sammie": {
-            "name": "Vegan Turtles Sammie",
-            "storeIds": [
-              "frances"
-            ]
-          }
-        }
+        "added": {},
+        "removed": {}
       }
     }
   },
   "counts": {
-    "totalItems": 22,
-    "iceCreamFlavors": 17,
-    "scoopItems": 16,
-    "pintItems": 17,
+    "totalItems": 23,
+    "iceCreamFlavors": 18,
+    "scoopItems": 17,
+    "pintItems": 18,
     "sandwichItems": 5,
     "sandwichOnlyItems": 5
   }

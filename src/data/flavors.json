@@ -1,5 +1,20 @@
 [
   {
+    "id": "fresh-lemon",
+    "name": "Fresh Lemon",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "frances"
+    ],
+    "pintStores": [
+      "fraser",
+      "frances"
+    ],
+    "sandwichStores": [],
+    "description": "“One of the favourites in the warmer months, it’s a refreshing and light flavour. We reduce down lemon juice and lemon zest from our friends at Chasers Juice and then add some lemon oil to really boost the flavour. This is simply mixed in with our ice cream base for an almost yoghurt- like flavour!”"
+  },
+  {
     "id": "mint-chip",
     "name": "Mint Chip",
     "isVegan": false,
