@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-06-21T21:00:40.517Z",
+  "lastUpdatedAt": "2026-06-22T01:44:26.342Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated June 19, 2026 at 12pm",
     "quebec": "Last updated June 21, 2026 at 12pm",
-    "frances": "Last updated June 20, 2026 at 12pm",
+    "frances": "Last updated June 21, 2026 at 12pm",
     "northvan": "Last updated June 19, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated June 20, 2026 at 12pm|fraser:Last updated June 19, 2026 at 12pm|northvan:Last updated June 19, 2026 at 12pm|quebec:Last updated June 21, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated June 21, 2026 at 12pm|fraser:Last updated June 19, 2026 at 12pm|northvan:Last updated June 19, 2026 at 12pm|quebec:Last updated June 21, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -265,7 +265,11 @@
     "previousDay": "2026-06-20",
     "servingTypes": {
       "scoop": {
-        "added": {},
+        "added": {
+          "field-berry-cheesecake": [
+            "frances"
+          ]
+        },
         "removed": {}
       },
       "pint": {
