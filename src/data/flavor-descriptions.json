@@ -120,6 +120,11 @@
     "description": "Ice cream for breakfast – we think so! Simple comforting flavour made with lots of oats and brown sugar, which are cold-steeped in our ice cream base so they soften. Halfway between a bowl of cereal and a cookie, but in the form of ice cream. Friendly and comforting!"
   },
   {
+    "id": "peanut-butter-chocolate-chip",
+    "name": "Peanut Butter Chocolate Chip",
+    "description": "Natural peanut butter and house-made milk chocolate flakes give this decadent flavour the perfect blend of salty richness and smooth sweet chocolate chips, it hits all the spots!"
+  },
+  {
     "id": "pistachio",
     "name": "Pistachio",
     "description": "A classic flavour, finally at Earnest! Pistachio is the ultimate smooth, creamy, and nutty flavour. Pistachio butter is coming to us from our friends at Premier Nuts."

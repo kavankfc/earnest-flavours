@@ -1,20 +1,5 @@
 [
   {
-    "id": "fresh-lemon",
-    "name": "Fresh Lemon",
-    "isVegan": false,
-    "scoopStores": [
-      "fraser",
-      "frances"
-    ],
-    "pintStores": [
-      "fraser",
-      "frances"
-    ],
-    "sandwichStores": [],
-    "description": "“One of the favourites in the warmer months, it’s a refreshing and light flavour. We reduce down lemon juice and lemon zest from our friends at Chasers Juice and then add some lemon oil to really boost the flavour. This is simply mixed in with our ice cream base for an almost yoghurt- like flavour!”"
-  },
-  {
     "id": "mint-chip",
     "name": "Mint Chip",
     "isVegan": false,
@@ -118,6 +103,24 @@
     ],
     "sandwichStores": [],
     "description": "Why choose one berry when you can have many! A blend of local field berries (raspberry, strawberry, blackberry, blueberry & haskap) mixed into our ice cream base for a vibrant colour and flavour mixed with house-made cheesecake pieces. Combined they make the perfect mix of fruity and rich cheesy flavour awaits in every bite!"
+  },
+  {
+    "id": "fresh-lemon",
+    "name": "Fresh Lemon",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances"
+    ],
+    "sandwichStores": [],
+    "description": "“One of the favourites in the warmer months, it’s a refreshing and light flavour. We reduce down lemon juice and lemon zest from our friends at Chasers Juice and then add some lemon oil to really boost the flavour. This is simply mixed in with our ice cream base for an almost yoghurt- like flavour!”"
   },
   {
     "id": "london-fog",
@@ -348,12 +351,22 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
-      "fraser",
       "quebec",
       "frances",
       "northvan"
     ],
     "description": "Rich coffee ice cream is speckled with crisp espresso chocolate flakes and melty bites of toffee. Layered with fudge on soft chocolate cake, this sammie is a delectable treat with a fun mix of textures."
+  },
+  {
+    "id": "peanut-butter-chocolate-chip",
+    "name": "Peanut Butter Chocolate Chip",
+    "isVegan": false,
+    "scoopStores": [],
+    "pintStores": [],
+    "sandwichStores": [
+      "fraser"
+    ],
+    "description": "Natural peanut butter and house-made milk chocolate flakes give this decadent flavour the perfect blend of salty richness and smooth sweet chocolate chips, it hits all the spots!"
   },
   {
     "id": "vegan-cookie-butter-sammie",

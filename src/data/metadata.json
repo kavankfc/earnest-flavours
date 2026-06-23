@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-06-22T21:53:30.985Z",
+  "lastUpdatedAt": "2026-06-23T21:21:45.730Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated June 22, 2026 at 12pm",
-    "quebec": "Last updated June 21, 2026 at 12pm",
+    "quebec": "Last updated June 23, 2026 at 12pm",
     "frances": "Last updated June 22, 2026 at 12pm",
-    "northvan": "Last updated June 19, 2026 at 12pm"
+    "northvan": "Last updated June 23, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated June 22, 2026 at 12pm|fraser:Last updated June 22, 2026 at 12pm|northvan:Last updated June 19, 2026 at 12pm|quebec:Last updated June 21, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated June 22, 2026 at 12pm|fraser:Last updated June 22, 2026 at 12pm|northvan:Last updated June 23, 2026 at 12pm|quebec:Last updated June 23, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,9 +15,10 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-06-21",
-    "observedAt": "2026-06-22T01:44:26.342Z",
+    "baselineDay": "2026-06-22",
+    "observedAt": "2026-06-22T21:53:30.985Z",
     "flavorNamesByFlavorId": {
+      "fresh-lemon": "Fresh Lemon",
       "mint-chip": "Mint Chip",
       "oatmeal-brown-sugar": "Oatmeal Brown Sugar",
       "butter-pecan": "Butter Pecan",
@@ -43,6 +44,10 @@
     },
     "servingTypes": {
       "scoop": {
+        "fresh-lemon": [
+          "fraser",
+          "frances"
+        ],
         "mint-chip": [
           "quebec",
           "frances",
@@ -140,6 +145,10 @@
         ]
       },
       "pint": {
+        "fresh-lemon": [
+          "fraser",
+          "frances"
+        ],
         "mint-chip": [
           "fraser",
           "quebec",
@@ -266,14 +275,14 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-06-22",
-    "previousDay": "2026-06-21",
+    "currentDay": "2026-06-23",
+    "previousDay": "2026-06-22",
     "servingTypes": {
       "scoop": {
         "added": {
           "fresh-lemon": [
-            "fraser",
-            "frances"
+            "quebec",
+            "northvan"
           ]
         },
         "removed": {}
@@ -281,24 +290,34 @@
       "pint": {
         "added": {
           "fresh-lemon": [
-            "fraser",
-            "frances"
+            "quebec"
           ]
         },
         "removed": {}
       },
       "sandwich": {
-        "added": {},
-        "removed": {}
+        "added": {
+          "peanut-butter-chocolate-chip": [
+            "fraser"
+          ]
+        },
+        "removed": {
+          "coffee-toffee-sammie": {
+            "name": "Coffee Toffee Sammie",
+            "storeIds": [
+              "fraser"
+            ]
+          }
+        }
       }
     }
   },
   "counts": {
-    "totalItems": 23,
+    "totalItems": 24,
     "iceCreamFlavors": 18,
     "scoopItems": 17,
     "pintItems": 18,
-    "sandwichItems": 5,
-    "sandwichOnlyItems": 5
+    "sandwichItems": 6,
+    "sandwichOnlyItems": 6
   }
 }
