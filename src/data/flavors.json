@@ -29,6 +29,24 @@
     "description": "Ice cream for breakfast – we think so! Simple comforting flavour made with lots of oats and brown sugar, which are cold-steeped in our ice cream base so they soften. Halfway between a bowl of cereal and a cookie, but in the form of ice cream. Friendly and comforting!"
   },
   {
+    "id": "vegan-toasted-coconut",
+    "name": "Vegan Toasted Coconut",
+    "isVegan": true,
+    "scoopStores": [
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "The vegan version of our beloved toasted coconut ice cream. Desiccated coconut is toasted in house, supplying a depth of nutty flavour. Coconut extract is added to pack in those wonderful tropical tasting notes. Creamy coconut bliss!"
+  },
+  {
     "id": "butter-pecan",
     "name": "Butter Pecan",
     "isVegan": false,
@@ -293,25 +311,6 @@
     "description": "One of our original vegan flavours. Local raspberries from Mandair Farms pureed and blended into our signature vegan coconut base – it’s bright, tart, refreshing and looks as good as it tastes."
   },
   {
-    "id": "vegan-toasted-coconut",
-    "name": "Vegan Toasted Coconut",
-    "isVegan": true,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "The vegan version of our beloved toasted coconut ice cream. Desiccated coconut is toasted in house, supplying a depth of nutty flavour. Coconut extract is added to pack in those wonderful tropical tasting notes. Creamy coconut bliss!"
-  },
-  {
     "id": "whiskey-hazelnut",
     "name": "Whiskey Hazelnut",
     "isVegan": false,
@@ -375,20 +374,10 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
-      "frances"
-    ],
-    "description": "House-made speculoos cookies are combined in a variety of ways into this delectable ice cream! Rich cookie butter is swirled throughout a lightly spiced base and topped with a speculoos cookie crumble for a lovely bite of added texture."
-  },
-  {
-    "id": "vegan-fudgey-chocolate-cookie-sammie",
-    "name": "Vegan Fudgey Chocolate Cookie Sammie",
-    "isVegan": true,
-    "scoopStores": [],
-    "pintStores": [],
-    "sandwichStores": [
+      "frances",
       "northvan"
     ],
-    "description": "The ultimate chocolate decadence sammie! Chocolate ice cream is sprinkled with chocolate chips and chocolate sandwich cookie pieces, topped with a thick layer of fudge and sandwiched with soft chocolate cake. Rich and oh-so-chocolatey!"
+    "description": "House-made speculoos cookies are combined in a variety of ways into this delectable ice cream! Rich cookie butter is swirled throughout a lightly spiced base and topped with a speculoos cookie crumble for a lovely bite of added texture."
   },
   {
     "id": "vegan-turtles-sammie",
@@ -398,7 +387,8 @@
     "pintStores": [],
     "sandwichStores": [
       "fraser",
-      "quebec"
+      "quebec",
+      "northvan"
     ],
     "description": "Our light chocolate vegan base has walnut praline blended into it to create a nutty background flavour. Sweet toffee bits, dark chocolate chips, and roasted, salted nuts are generously sprinkled throughout for pops of crunch and caramelly goodness. All sealed together with a layer of sweet fudge on soft chocolate cake, this sammie is a delectable combination of sweet, salty, nutty, and crunchy – just like a classic turtles candy!"
   }
