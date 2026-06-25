@@ -1,5 +1,23 @@
 [
   {
+    "id": "field-berry-cheesecake",
+    "name": "Field Berry Cheesecake",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Why choose one berry when you can have many! A blend of local field berries (raspberry, strawberry, blackberry, blueberry & haskap) mixed into our ice cream base for a vibrant colour and flavour mixed with house-made cheesecake pieces. Combined they make the perfect mix of fruity and rich cheesy flavour awaits in every bite!"
+  },
+  {
     "id": "mint-chip",
     "name": "Mint Chip",
     "isVegan": false,
@@ -104,25 +122,6 @@
     "description": "Organic Chocolate Vanilla Cream Sandwich Cookies, featuring a darker chocolate flavour profile with a crisp cookie crunch. It’s all about the cookies, like a spoonful of childhood!"
   },
   {
-    "id": "field-berry-cheesecake",
-    "name": "Field Berry Cheesecake",
-    "isVegan": false,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "Why choose one berry when you can have many! A blend of local field berries (raspberry, strawberry, blackberry, blueberry & haskap) mixed into our ice cream base for a vibrant colour and flavour mixed with house-made cheesecake pieces. Combined they make the perfect mix of fruity and rich cheesy flavour awaits in every bite!"
-  },
-  {
     "id": "fresh-lemon",
     "name": "Fresh Lemon",
     "isVegan": false,
@@ -209,6 +208,7 @@
     ],
     "pintStores": [
       "fraser",
+      "quebec",
       "frances",
       "northvan"
     ],

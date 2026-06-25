@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-06-24T21:15:00.270Z",
+  "lastUpdatedAt": "2026-06-25T01:30:43.954Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated June 23, 2026 at 12pm",
-    "quebec": "Last updated June 23, 2026 at 12pm",
-    "frances": "Last updated June 22, 2026 at 12pm",
+    "quebec": "Last updated June 24, 2026 at 12pm",
+    "frances": "Last updated June 24, 2026 at 12pm",
     "northvan": "Last updated June 24, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated June 22, 2026 at 12pm|fraser:Last updated June 23, 2026 at 12pm|northvan:Last updated June 24, 2026 at 12pm|quebec:Last updated June 23, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated June 24, 2026 at 12pm|fraser:Last updated June 23, 2026 at 12pm|northvan:Last updated June 24, 2026 at 12pm|quebec:Last updated June 24, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -287,6 +287,12 @@
       "scoop": {
         "added": {},
         "removed": {
+          "field-berry-cheesecake": {
+            "name": "Field Berry Cheesecake",
+            "storeIds": [
+              "frances"
+            ]
+          },
           "vegan-toasted-coconut": {
             "name": "Vegan Toasted Coconut",
             "storeIds": [
@@ -296,7 +302,11 @@
         }
       },
       "pint": {
-        "added": {},
+        "added": {
+          "salted-chocolate-rye-cookie": [
+            "quebec"
+          ]
+        },
         "removed": {}
       },
       "sandwich": {
