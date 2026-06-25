@@ -350,7 +350,6 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
-      "quebec",
       "frances",
       "northvan"
     ],
@@ -368,12 +367,24 @@
     "description": "Natural peanut butter and house-made milk chocolate flakes give this decadent flavour the perfect blend of salty richness and smooth sweet chocolate chips, it hits all the spots!"
   },
   {
+    "id": "peanut-butter-chocolate-chip-sammie",
+    "name": "Peanut Butter Chocolate Chip Sammie",
+    "isVegan": false,
+    "scoopStores": [],
+    "pintStores": [],
+    "sandwichStores": [
+      "quebec"
+    ],
+    "description": "Natural peanut butter and house-made milk chocolate flakes, sandwiched together with a layer of sweet fudge on a chocolate cake – this sammie is the perfect blend of salty richness and smooth sweet chocolate, it hits all the spots!"
+  },
+  {
     "id": "vegan-cookie-butter-sammie",
     "name": "Vegan Cookie Butter Sammie",
     "isVegan": true,
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
+      "quebec",
       "frances",
       "northvan"
     ],
