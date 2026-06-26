@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-06-26T01:34:16.281Z",
+  "lastUpdatedAt": "2026-06-26T21:10:49.289Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated June 25, 2026 at 12pm",
+    "fraser": "Last updated June 26, 2026 at 12pm",
     "quebec": "Last updated June 25, 2026 at 12pm",
     "frances": "Last updated June 25, 2026 at 12pm",
     "northvan": "Last updated June 24, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated June 25, 2026 at 12pm|fraser:Last updated June 25, 2026 at 12pm|northvan:Last updated June 24, 2026 at 12pm|quebec:Last updated June 25, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated June 25, 2026 at 12pm|fraser:Last updated June 26, 2026 at 12pm|northvan:Last updated June 24, 2026 at 12pm|quebec:Last updated June 25, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-06-24",
-    "observedAt": "2026-06-25T01:30:43.954Z",
+    "baselineDay": "2026-06-25",
+    "observedAt": "2026-06-26T01:34:16.281Z",
     "flavorNamesByFlavorId": {
       "field-berry-cheesecake": "Field Berry Cheesecake",
       "mint-chip": "Mint Chip",
@@ -39,6 +39,7 @@
       "classic-sammie": "Classic Sammie",
       "coffee-toffee-sammie": "Coffee Toffee Sammie",
       "peanut-butter-chocolate-chip": "Peanut Butter Chocolate Chip",
+      "peanut-butter-chocolate-chip-sammie": "Peanut Butter Chocolate Chip Sammie",
       "vegan-cookie-butter-sammie": "Vegan Cookie Butter Sammie",
       "vegan-turtles-sammie": "Vegan Turtles Sammie"
     },
@@ -238,7 +239,6 @@
           "northvan"
         ],
         "vegan-raspberry": [
-          "fraser",
           "quebec",
           "frances",
           "northvan"
@@ -258,14 +258,17 @@
           "northvan"
         ],
         "coffee-toffee-sammie": [
-          "quebec",
-          "frances",
           "northvan"
         ],
         "peanut-butter-chocolate-chip": [
           "fraser"
         ],
+        "peanut-butter-chocolate-chip-sammie": [
+          "quebec",
+          "frances"
+        ],
         "vegan-cookie-butter-sammie": [
+          "quebec",
           "frances",
           "northvan"
         ],
@@ -278,18 +281,29 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-06-25",
-    "previousDay": "2026-06-24",
+    "currentDay": "2026-06-26",
+    "previousDay": "2026-06-25",
     "servingTypes": {
       "scoop": {
         "added": {},
-        "removed": {}
+        "removed": {
+          "field-berry-cheesecake": {
+            "name": "Field Berry Cheesecake",
+            "storeIds": [
+              "fraser"
+            ]
+          }
+        }
       },
       "pint": {
-        "added": {},
+        "added": {
+          "vegan-raspberry": [
+            "fraser"
+          ]
+        },
         "removed": {
-          "vegan-raspberry": {
-            "name": "Vegan Raspberry",
+          "butter-pecan": {
+            "name": "Butter Pecan",
             "storeIds": [
               "fraser"
             ]
@@ -297,24 +311,8 @@
         }
       },
       "sandwich": {
-        "added": {
-          "peanut-butter-chocolate-chip-sammie": [
-            "quebec",
-            "frances"
-          ],
-          "vegan-cookie-butter-sammie": [
-            "quebec"
-          ]
-        },
-        "removed": {
-          "coffee-toffee-sammie": {
-            "name": "Coffee Toffee Sammie",
-            "storeIds": [
-              "quebec",
-              "frances"
-            ]
-          }
-        }
+        "added": {},
+        "removed": {}
       }
     }
   },

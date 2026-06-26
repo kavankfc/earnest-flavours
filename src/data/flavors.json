@@ -4,7 +4,6 @@
     "name": "Field Berry Cheesecake",
     "isVegan": false,
     "scoopStores": [
-      "fraser",
       "quebec",
       "northvan"
     ],
@@ -75,7 +74,6 @@
       "northvan"
     ],
     "pintStores": [
-      "fraser",
       "quebec",
       "frances",
       "northvan"
@@ -302,6 +300,7 @@
       "northvan"
     ],
     "pintStores": [
+      "fraser",
       "quebec",
       "frances",
       "northvan"
