@@ -302,7 +302,6 @@
       "northvan"
     ],
     "pintStores": [
-      "fraser",
       "quebec",
       "frances",
       "northvan"
@@ -350,7 +349,6 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
-      "frances",
       "northvan"
     ],
     "description": "Rich coffee ice cream is speckled with crisp espresso chocolate flakes and melty bites of toffee. Layered with fudge on soft chocolate cake, this sammie is a delectable treat with a fun mix of textures."
@@ -373,7 +371,8 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
-      "quebec"
+      "quebec",
+      "frances"
     ],
     "description": "Natural peanut butter and house-made milk chocolate flakes, sandwiched together with a layer of sweet fudge on a chocolate cake – this sammie is the perfect blend of salty richness and smooth sweet chocolate, it hits all the spots!"
   },
