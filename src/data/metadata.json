@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-06-27T01:27:03.277Z",
+  "lastUpdatedAt": "2026-06-27T20:46:11.511Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated June 26, 2026 at 12pm",
-    "quebec": "Last updated June 25, 2026 at 12pm",
+    "quebec": "Last updated June 27, 2026 at 12pm",
     "frances": "Last updated June 25, 2026 at 12pm",
     "northvan": "Last updated June 26, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated June 25, 2026 at 12pm|fraser:Last updated June 26, 2026 at 12pm|northvan:Last updated June 26, 2026 at 12pm|quebec:Last updated June 25, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated June 25, 2026 at 12pm|fraser:Last updated June 26, 2026 at 12pm|northvan:Last updated June 26, 2026 at 12pm|quebec:Last updated June 27, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-06-25",
-    "observedAt": "2026-06-26T01:34:16.281Z",
+    "baselineDay": "2026-06-26",
+    "observedAt": "2026-06-27T01:27:03.277Z",
     "flavorNamesByFlavorId": {
       "field-berry-cheesecake": "Field Berry Cheesecake",
       "mint-chip": "Mint Chip",
@@ -37,7 +37,6 @@
       "vegan-raspberry": "Vegan Raspberry",
       "whiskey-hazelnut": "Whiskey Hazelnut",
       "classic-sammie": "Classic Sammie",
-      "coffee-toffee-sammie": "Coffee Toffee Sammie",
       "peanut-butter-chocolate-chip": "Peanut Butter Chocolate Chip",
       "peanut-butter-chocolate-chip-sammie": "Peanut Butter Chocolate Chip Sammie",
       "vegan-cookie-butter-sammie": "Vegan Cookie Butter Sammie",
@@ -46,9 +45,7 @@
     "servingTypes": {
       "scoop": {
         "field-berry-cheesecake": [
-          "fraser",
-          "quebec",
-          "northvan"
+          "quebec"
         ],
         "mint-chip": [
           "quebec",
@@ -168,7 +165,6 @@
           "northvan"
         ],
         "butter-pecan": [
-          "fraser",
           "quebec",
           "frances",
           "northvan"
@@ -239,6 +235,7 @@
           "northvan"
         ],
         "vegan-raspberry": [
+          "fraser",
           "quebec",
           "frances",
           "northvan"
@@ -257,15 +254,13 @@
           "frances",
           "northvan"
         ],
-        "coffee-toffee-sammie": [
-          "northvan"
-        ],
         "peanut-butter-chocolate-chip": [
           "fraser"
         ],
         "peanut-butter-chocolate-chip-sammie": [
           "quebec",
-          "frances"
+          "frances",
+          "northvan"
         ],
         "vegan-cookie-butter-sammie": [
           "quebec",
@@ -281,8 +276,8 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-06-26",
-    "previousDay": "2026-06-25",
+    "currentDay": "2026-06-27",
+    "previousDay": "2026-06-26",
     "servingTypes": {
       "scoop": {
         "added": {},
@@ -290,48 +285,25 @@
           "field-berry-cheesecake": {
             "name": "Field Berry Cheesecake",
             "storeIds": [
-              "fraser",
-              "northvan"
+              "quebec"
             ]
           }
         }
       },
       "pint": {
-        "added": {
-          "vegan-raspberry": [
-            "fraser"
-          ]
-        },
-        "removed": {
-          "butter-pecan": {
-            "name": "Butter Pecan",
-            "storeIds": [
-              "fraser"
-            ]
-          }
-        }
+        "added": {},
+        "removed": {}
       },
       "sandwich": {
-        "added": {
-          "peanut-butter-chocolate-chip-sammie": [
-            "northvan"
-          ]
-        },
-        "removed": {
-          "coffee-toffee-sammie": {
-            "name": "Coffee Toffee Sammie",
-            "storeIds": [
-              "northvan"
-            ]
-          }
-        }
+        "added": {},
+        "removed": {}
       }
     }
   },
   "counts": {
     "totalItems": 23,
     "iceCreamFlavors": 18,
-    "scoopItems": 17,
+    "scoopItems": 16,
     "pintItems": 18,
     "sandwichItems": 5,
     "sandwichOnlyItems": 5

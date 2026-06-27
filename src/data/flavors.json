@@ -3,9 +3,7 @@
     "id": "field-berry-cheesecake",
     "name": "Field Berry Cheesecake",
     "isVegan": false,
-    "scoopStores": [
-      "quebec"
-    ],
+    "scoopStores": [],
     "pintStores": [
       "fraser",
       "quebec",
