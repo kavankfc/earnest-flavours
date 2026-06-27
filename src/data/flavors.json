@@ -4,8 +4,7 @@
     "name": "Field Berry Cheesecake",
     "isVegan": false,
     "scoopStores": [
-      "quebec",
-      "northvan"
+      "quebec"
     ],
     "pintStores": [
       "fraser",
@@ -342,17 +341,6 @@
     "description": "Our take on a classic ice cream sandwich. Tahitian vanilla ice cream is sandwiched between chocolate cake and finished with a thin layer of fudge sauce. This flavour never goes out of style!"
   },
   {
-    "id": "coffee-toffee-sammie",
-    "name": "Coffee Toffee Sammie",
-    "isVegan": false,
-    "scoopStores": [],
-    "pintStores": [],
-    "sandwichStores": [
-      "northvan"
-    ],
-    "description": "Rich coffee ice cream is speckled with crisp espresso chocolate flakes and melty bites of toffee. Layered with fudge on soft chocolate cake, this sammie is a delectable treat with a fun mix of textures."
-  },
-  {
     "id": "peanut-butter-chocolate-chip",
     "name": "Peanut Butter Chocolate Chip",
     "isVegan": false,
@@ -371,7 +359,8 @@
     "pintStores": [],
     "sandwichStores": [
       "quebec",
-      "frances"
+      "frances",
+      "northvan"
     ],
     "description": "Natural peanut butter and house-made milk chocolate flakes, sandwiched together with a layer of sweet fudge on a chocolate cake – this sammie is the perfect blend of salty richness and smooth sweet chocolate, it hits all the spots!"
   },
