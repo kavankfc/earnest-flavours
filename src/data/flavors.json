@@ -21,10 +21,12 @@
     "name": "Cannoli",
     "isVegan": false,
     "scoopStores": [
-      "quebec"
+      "quebec",
+      "frances"
     ],
     "pintStores": [
-      "quebec"
+      "quebec",
+      "frances"
     ],
     "sandwichStores": [],
     "description": "The classic Italian pastry made into a delectable ice cream! Ricotta and cream cheese are combined in the base to achieve the right cheesy flavour, with orange zest adding a pop of brightness to balance. Mini chocolate chips and pieces of crunchy (gluten free!) cannoli shell are sprinkled throughout for lovely bites of texture."
@@ -35,9 +37,7 @@
     "isVegan": false,
     "scoopStores": [],
     "pintStores": [
-      "fraser",
       "quebec",
-      "frances",
       "northvan"
     ],
     "sandwichStores": [],
@@ -78,7 +78,6 @@
     "isVegan": false,
     "scoopStores": [
       "fraser",
-      "frances",
       "northvan"
     ],
     "pintStores": [
@@ -89,6 +88,21 @@
     ],
     "sandwichStores": [],
     "description": "This is an Earnest cult favourite! Featuring bite sized fudgy, chocolate rye cookies in a light, salted chocolate ice cream. This flavour is inspired by the rye cookie from our neighbours on Fraser St (Batard Bakery). If you’re a chocolate lover then you must try this sensational flavour."
+  },
+  {
+    "id": "vegan-mango",
+    "name": "Vegan Mango",
+    "isVegan": true,
+    "scoopStores": [
+      "fraser",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "We blend mango puree into our classic vegan base, resulting in a beautifully vibrant and fruity treat! Mango puree is sourced from Ponthier."
   },
   {
     "id": "vegan-toasted-coconut",
@@ -349,6 +363,17 @@
     "description": "Our take on a classic ice cream sandwich. Tahitian vanilla ice cream is sandwiched between chocolate cake and finished with a thin layer of fudge sauce. This flavour never goes out of style!"
   },
   {
+    "id": "coffee-toffee-sammie",
+    "name": "Coffee Toffee Sammie",
+    "isVegan": false,
+    "scoopStores": [],
+    "pintStores": [],
+    "sandwichStores": [
+      "frances"
+    ],
+    "description": "Rich coffee ice cream is speckled with crisp espresso chocolate flakes and melty bites of toffee. Layered with fudge on soft chocolate cake, this sammie is a delectable treat with a fun mix of textures."
+  },
+  {
     "id": "peanut-butter-chocolate-chip",
     "name": "Peanut Butter Chocolate Chip",
     "isVegan": false,
@@ -367,7 +392,6 @@
     "pintStores": [],
     "sandwichStores": [
       "quebec",
-      "frances",
       "northvan"
     ],
     "description": "Natural peanut butter and house-made milk chocolate flakes, sandwiched together with a layer of sweet fudge on a chocolate cake – this sammie is the perfect blend of salty richness and smooth sweet chocolate, it hits all the spots!"
