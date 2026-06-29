@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-06-28T20:48:12.000Z",
+  "lastUpdatedAt": "2026-06-29T01:35:12.394Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated June 28, 2026 at 12pm",
-    "quebec": "Last updated June 27, 2026 at 12pm",
+    "quebec": "Last updated June 28, 2026 at 12pm",
     "frances": "Last updated June 25, 2026 at 12pm",
     "northvan": "Last updated June 27, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated June 25, 2026 at 12pm|fraser:Last updated June 28, 2026 at 12pm|northvan:Last updated June 27, 2026 at 12pm|quebec:Last updated June 27, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated June 25, 2026 at 12pm|fraser:Last updated June 28, 2026 at 12pm|northvan:Last updated June 27, 2026 at 12pm|quebec:Last updated June 28, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -276,18 +276,32 @@
     "previousDay": "2026-06-27",
     "servingTypes": {
       "scoop": {
-        "added": {},
+        "added": {
+          "cannoli": [
+            "quebec"
+          ]
+        },
         "removed": {
           "butter-pecan": {
             "name": "Butter Pecan",
             "storeIds": [
               "fraser"
             ]
+          },
+          "salted-chocolate-rye-cookie": {
+            "name": "Salted Chocolate Rye Cookie",
+            "storeIds": [
+              "quebec"
+            ]
           }
         }
       },
       "pint": {
-        "added": {},
+        "added": {
+          "cannoli": [
+            "quebec"
+          ]
+        },
         "removed": {}
       },
       "sandwich": {
@@ -297,10 +311,10 @@
     }
   },
   "counts": {
-    "totalItems": 23,
-    "iceCreamFlavors": 18,
-    "scoopItems": 16,
-    "pintItems": 18,
+    "totalItems": 24,
+    "iceCreamFlavors": 19,
+    "scoopItems": 17,
+    "pintItems": 19,
     "sandwichItems": 5,
     "sandwichOnlyItems": 5
   }
