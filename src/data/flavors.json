@@ -1,22 +1,5 @@
 [
   {
-    "id": "butter-pecan",
-    "name": "Butter Pecan",
-    "isVegan": false,
-    "scoopStores": [
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "Whiskey Hazelnut’s cousin! Pecan pieces are roasted with butter and salt, and added to our ice cream base with organic vanilla. Comfort in a scoop!"
-  },
-  {
     "id": "cannoli",
     "name": "Cannoli",
     "isVegan": false,
@@ -42,6 +25,21 @@
     ],
     "sandwichStores": [],
     "description": "Why choose one berry when you can have many! A blend of local field berries (raspberry, strawberry, blackberry, blueberry & haskap) mixed into our ice cream base for a vibrant colour and flavour mixed with house-made cheesecake pieces. Combined they make the perfect mix of fruity and rich cheesy flavour awaits in every bite!"
+  },
+  {
+    "id": "fresh-lemon",
+    "name": "Fresh Lemon",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "frances"
+    ],
+    "pintStores": [
+      "quebec",
+      "frances"
+    ],
+    "sandwichStores": [],
+    "description": "“One of the favourites in the warmer months, it’s a refreshing and light flavour. We reduce down lemon juice and lemon zest from our friends at Chasers Juice and then add some lemon oil to really boost the flavour. This is simply mixed in with our ice cream base for an almost yoghurt- like flavour!”"
   },
   {
     "id": "mint-chip",
@@ -77,14 +75,11 @@
     "name": "Salted Chocolate Rye Cookie",
     "isVegan": false,
     "scoopStores": [
-      "fraser",
-      "northvan"
+      "fraser"
     ],
     "pintStores": [
-      "fraser",
       "quebec",
-      "frances",
-      "northvan"
+      "frances"
     ],
     "sandwichStores": [],
     "description": "This is an Earnest cult favourite! Featuring bite sized fudgy, chocolate rye cookies in a light, salted chocolate ice cream. This flavour is inspired by the rye cookie from our neighbours on Fraser St (Batard Bakery). If you’re a chocolate lover then you must try this sensational flavour."
@@ -120,6 +115,24 @@
     ],
     "sandwichStores": [],
     "description": "The vegan version of our beloved toasted coconut ice cream. Desiccated coconut is toasted in house, supplying a depth of nutty flavour. Coconut extract is added to pack in those wonderful tropical tasting notes. Creamy coconut bliss!"
+  },
+  {
+    "id": "butter-pecan",
+    "name": "Butter Pecan",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Whiskey Hazelnut’s cousin! Pecan pieces are roasted with butter and salt, and added to our ice cream base with organic vanilla. Comfort in a scoop!"
   },
   {
     "id": "chocolate",
@@ -158,24 +171,6 @@
     ],
     "sandwichStores": [],
     "description": "Organic Chocolate Vanilla Cream Sandwich Cookies, featuring a darker chocolate flavour profile with a crisp cookie crunch. It’s all about the cookies, like a spoonful of childhood!"
-  },
-  {
-    "id": "fresh-lemon",
-    "name": "Fresh Lemon",
-    "isVegan": false,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "frances"
-    ],
-    "sandwichStores": [],
-    "description": "“One of the favourites in the warmer months, it’s a refreshing and light flavour. We reduce down lemon juice and lemon zest from our friends at Chasers Juice and then add some lemon oil to really boost the flavour. This is simply mixed in with our ice cream base for an almost yoghurt- like flavour!”"
   },
   {
     "id": "london-fog",
@@ -369,6 +364,7 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
+      "fraser",
       "frances"
     ],
     "description": "Rich coffee ice cream is speckled with crisp espresso chocolate flakes and melty bites of toffee. Layered with fudge on soft chocolate cake, this sammie is a delectable treat with a fun mix of textures."
@@ -403,6 +399,7 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
+      "fraser",
       "quebec",
       "frances",
       "northvan"
@@ -416,7 +413,6 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
-      "fraser",
       "quebec",
       "northvan"
     ],
