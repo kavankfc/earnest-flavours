@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-07-01T01:36:58.481Z",
+  "lastUpdatedAt": "2026-07-01T21:14:18.745Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated June 30, 2026 at 12pm",
-    "quebec": "Last updated June 30, 2026 at 12pm",
-    "frances": "Last updated June 30, 2026 at 12pm",
-    "northvan": "Last updated June 30, 2026 at 12pm"
+    "fraser": "Last updated July 1, 2026 at 12pm",
+    "quebec": "Last updated July 1, 2026 at 12pm",
+    "frances": "Last updated July 1, 2026 at 12pm",
+    "northvan": "Last updated July 1, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated June 30, 2026 at 12pm|fraser:Last updated June 30, 2026 at 12pm|northvan:Last updated June 30, 2026 at 12pm|quebec:Last updated June 30, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated July 1, 2026 at 12pm|fraser:Last updated July 1, 2026 at 12pm|northvan:Last updated July 1, 2026 at 12pm|quebec:Last updated July 1, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,24 +15,24 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-06-29",
-    "observedAt": "2026-06-29T21:14:57.770Z",
+    "baselineDay": "2026-06-30",
+    "observedAt": "2026-07-01T01:36:58.481Z",
     "flavorNamesByFlavorId": {
-      "butter-pecan": "Butter Pecan",
       "cannoli": "Cannoli",
       "field-berry-cheesecake": "Field Berry Cheesecake",
+      "fresh-lemon": "Fresh Lemon",
       "mint-chip": "Mint Chip",
       "oatmeal-brown-sugar": "Oatmeal Brown Sugar",
       "salted-chocolate-rye-cookie": "Salted Chocolate Rye Cookie",
+      "strawberry": "Strawberry",
       "vegan-mango": "Vegan Mango",
       "vegan-toasted-coconut": "Vegan Toasted Coconut",
+      "butter-pecan": "Butter Pecan",
       "chocolate": "Chocolate",
       "cookies-cream": "Cookies + Cream",
-      "fresh-lemon": "Fresh Lemon",
       "london-fog": "London Fog",
       "matcha-green-tea": "Matcha Green Tea",
       "salted-caramel": "Salted Caramel",
-      "strawberry": "Strawberry",
       "tahitian-vanilla": "Tahitian Vanilla",
       "vegan-blueberries-cream": "Vegan Blueberries & Cream",
       "vegan-cookies-cream": "Vegan Cookies + Cream",
@@ -47,12 +47,12 @@
     },
     "servingTypes": {
       "scoop": {
-        "butter-pecan": [
-          "frances",
-          "northvan"
-        ],
         "cannoli": [
           "quebec",
+          "frances"
+        ],
+        "fresh-lemon": [
+          "fraser",
           "frances"
         ],
         "mint-chip": [
@@ -61,7 +61,11 @@
           "northvan"
         ],
         "salted-chocolate-rye-cookie": [
+          "fraser"
+        ],
+        "strawberry": [
           "fraser",
+          "quebec",
           "northvan"
         ],
         "vegan-mango": [
@@ -72,6 +76,12 @@
           "quebec",
           "frances"
         ],
+        "butter-pecan": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
         "chocolate": [
           "fraser",
           "quebec",
@@ -79,12 +89,6 @@
           "northvan"
         ],
         "cookies-cream": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
-        "fresh-lemon": [
           "fraser",
           "quebec",
           "frances",
@@ -103,12 +107,6 @@
           "northvan"
         ],
         "salted-caramel": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
-        "strawberry": [
           "fraser",
           "quebec",
           "frances",
@@ -146,12 +144,6 @@
         ]
       },
       "pint": {
-        "butter-pecan": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
         "cannoli": [
           "quebec",
           "frances"
@@ -159,6 +151,10 @@
         "field-berry-cheesecake": [
           "quebec",
           "northvan"
+        ],
+        "fresh-lemon": [
+          "quebec",
+          "frances"
         ],
         "mint-chip": [
           "fraser",
@@ -170,6 +166,9 @@
           "northvan"
         ],
         "salted-chocolate-rye-cookie": [
+          "quebec"
+        ],
+        "strawberry": [
           "fraser",
           "quebec",
           "frances",
@@ -181,6 +180,11 @@
         ],
         "vegan-toasted-coconut": [
           "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
+        "butter-pecan": [
           "quebec",
           "frances",
           "northvan"
@@ -197,11 +201,6 @@
           "frances",
           "northvan"
         ],
-        "fresh-lemon": [
-          "fraser",
-          "quebec",
-          "frances"
-        ],
         "london-fog": [
           "fraser",
           "quebec",
@@ -215,12 +214,6 @@
           "northvan"
         ],
         "salted-caramel": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
-        "strawberry": [
           "fraser",
           "quebec",
           "frances",
@@ -265,6 +258,7 @@
           "northvan"
         ],
         "coffee-toffee-sammie": [
+          "fraser",
           "frances"
         ],
         "peanut-butter-chocolate-chip": [
@@ -275,12 +269,12 @@
           "northvan"
         ],
         "vegan-cookie-butter-sammie": [
+          "fraser",
           "quebec",
           "frances",
           "northvan"
         ],
         "vegan-turtles-sammie": [
-          "fraser",
           "quebec",
           "northvan"
         ]
@@ -288,32 +282,53 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-06-30",
-    "previousDay": "2026-06-29",
+    "currentDay": "2026-07-01",
+    "previousDay": "2026-06-30",
     "servingTypes": {
       "scoop": {
         "added": {
-          "butter-pecan": [
+          "cannoli": [
             "fraser",
-            "quebec"
+            "northvan"
+          ],
+          "lemon-tart": [
+            "fraser",
+            "quebec",
+            "frances",
+            "northvan"
+          ],
+          "raspberry": [
+            "fraser",
+            "quebec",
+            "frances",
+            "northvan"
+          ],
+          "vegan-key-lime-pie": [
+            "fraser",
+            "quebec",
+            "frances",
+            "northvan"
+          ],
+          "vegan-mango": [
+            "quebec",
+            "frances"
           ]
         },
         "removed": {
           "fresh-lemon": {
             "name": "Fresh Lemon",
             "storeIds": [
-              "quebec",
-              "northvan"
+              "fraser"
             ]
           },
-          "salted-chocolate-rye-cookie": {
-            "name": "Salted Chocolate Rye Cookie",
+          "matcha-green-tea": {
+            "name": "Matcha Green Tea",
             "storeIds": [
-              "northvan"
+              "frances"
             ]
           },
-          "strawberry": {
-            "name": "Strawberry",
+          "vegan-toasted-coconut": {
+            "name": "Vegan Toasted Coconut",
             "storeIds": [
               "frances"
             ]
@@ -321,55 +336,66 @@
         }
       },
       "pint": {
-        "added": {},
+        "added": {
+          "butter-pecan": [
+            "fraser"
+          ],
+          "cannoli": [
+            "fraser"
+          ],
+          "lemon-tart": [
+            "fraser",
+            "quebec",
+            "frances"
+          ],
+          "raspberry": [
+            "fraser",
+            "quebec",
+            "frances"
+          ],
+          "vegan-key-lime-pie": [
+            "fraser",
+            "quebec",
+            "frances"
+          ],
+          "vegan-mango": [
+            "quebec",
+            "frances"
+          ]
+        },
         "removed": {
-          "fresh-lemon": {
-            "name": "Fresh Lemon",
+          "strawberry": {
+            "name": "Strawberry",
             "storeIds": [
-              "fraser"
-            ]
-          },
-          "salted-chocolate-rye-cookie": {
-            "name": "Salted Chocolate Rye Cookie",
-            "storeIds": [
-              "fraser",
-              "frances",
-              "northvan"
+              "frances"
             ]
           },
           "butter-pecan": {
             "name": "Butter Pecan",
             "storeIds": [
-              "fraser"
+              "quebec",
+              "frances"
+            ]
+          },
+          "salted-chocolate-rye-cookie": {
+            "name": "Salted Chocolate Rye Cookie",
+            "storeIds": [
+              "quebec"
             ]
           }
         }
       },
       "sandwich": {
-        "added": {
-          "coffee-toffee-sammie": [
-            "fraser"
-          ],
-          "vegan-cookie-butter-sammie": [
-            "fraser"
-          ]
-        },
-        "removed": {
-          "vegan-turtles-sammie": {
-            "name": "Vegan Turtles Sammie",
-            "storeIds": [
-              "fraser"
-            ]
-          }
-        }
+        "added": {},
+        "removed": {}
       }
     }
   },
   "counts": {
-    "totalItems": 26,
-    "iceCreamFlavors": 20,
-    "scoopItems": 18,
-    "pintItems": 20,
+    "totalItems": 29,
+    "iceCreamFlavors": 23,
+    "scoopItems": 21,
+    "pintItems": 22,
     "sandwichItems": 6,
     "sandwichOnlyItems": 6
   }

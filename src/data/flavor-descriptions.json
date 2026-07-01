@@ -95,6 +95,11 @@
     "description": "A lighter, creamier frozen version of the muffin. Bright lemon ice cream speckled with dutch blue poppy seeds resulting in a beautiful, zesty treat."
   },
   {
+    "id": "lemon-tart",
+    "name": "Lemon Tart",
+    "description": "This flavour originated as a sundae, but it was so scrumptious that we had to make it into an ice cream! Buttery, flaky pie crust pieces and a tangy lemon curd swirl in vanilla ice cream make for a balance of sweet, tart, creamy, and crispy in each bite."
+  },
+  {
     "id": "london-fog",
     "name": "London Fog",
     "description": "Made with Assam and Darjeeling black tea, bergamot and vanilla, this ice cream flavour is based on the popular drink which was invented in Vancouver!"
@@ -138,6 +143,11 @@
     "id": "pistachio",
     "name": "Pistachio",
     "description": "A classic flavour, finally at Earnest! Pistachio is the ultimate smooth, creamy, and nutty flavour. Pistachio butter is coming to us from our friends at Premier Nuts."
+  },
+  {
+    "id": "raspberry",
+    "name": "Raspberry",
+    "description": "Locally sourced raspberries harvested in the peak of summer from our friends at family-run Mandair Farms bring this flavour to life. Its bright, tart and fresh – perfect for summer days."
   },
   {
     "id": "salted-caramel",
@@ -208,6 +218,11 @@
     "id": "vegan-fudgey-chocolate-cookie-sammie",
     "name": "Vegan Fudgey Chocolate Cookie Sammie",
     "description": "The ultimate chocolate decadence sammie! Chocolate ice cream is sprinkled with chocolate chips and chocolate sandwich cookie pieces, topped with a thick layer of fudge and sandwiched with soft chocolate cake. Rich and oh-so-chocolatey!"
+  },
+  {
+    "id": "vegan-key-lime-pie",
+    "name": "Vegan Key Lime Pie",
+    "description": "Our take on key lime pie in vegan ice cream form! A tart lime-coconut ice cream base with a house-made graham crumble. The sweet crumble offsets the tartness of the base, creating a nicely balanced bite with a scrumptious texture!"
   },
   {
     "id": "vegan-mango",
