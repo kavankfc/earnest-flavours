@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-06-30T21:20:45.227Z",
+  "lastUpdatedAt": "2026-07-01T01:36:58.481Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated June 30, 2026 at 12pm",
     "quebec": "Last updated June 30, 2026 at 12pm",
-    "frances": "Last updated June 29, 2026 at 12pm",
+    "frances": "Last updated June 30, 2026 at 12pm",
     "northvan": "Last updated June 30, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated June 29, 2026 at 12pm|fraser:Last updated June 30, 2026 at 12pm|northvan:Last updated June 30, 2026 at 12pm|quebec:Last updated June 30, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated June 30, 2026 at 12pm|fraser:Last updated June 30, 2026 at 12pm|northvan:Last updated June 30, 2026 at 12pm|quebec:Last updated June 30, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -311,6 +311,12 @@
             "storeIds": [
               "northvan"
             ]
+          },
+          "strawberry": {
+            "name": "Strawberry",
+            "storeIds": [
+              "frances"
+            ]
           }
         }
       },
@@ -327,6 +333,7 @@
             "name": "Salted Chocolate Rye Cookie",
             "storeIds": [
               "fraser",
+              "frances",
               "northvan"
             ]
           },
