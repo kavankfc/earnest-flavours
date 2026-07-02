@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-07-01T21:14:18.745Z",
+  "lastUpdatedAt": "2026-07-02T20:51:33.749Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated July 1, 2026 at 12pm",
-    "quebec": "Last updated July 1, 2026 at 12pm",
+    "fraser": "Last updated July 2, 2026 at 12pm",
+    "quebec": "Last updated July 2, 2026 at 12pm",
     "frances": "Last updated July 1, 2026 at 12pm",
     "northvan": "Last updated July 1, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated July 1, 2026 at 12pm|fraser:Last updated July 1, 2026 at 12pm|northvan:Last updated July 1, 2026 at 12pm|quebec:Last updated July 1, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated July 1, 2026 at 12pm|fraser:Last updated July 2, 2026 at 12pm|northvan:Last updated July 1, 2026 at 12pm|quebec:Last updated July 2, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,27 +15,30 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-06-30",
-    "observedAt": "2026-07-01T01:36:58.481Z",
+    "baselineDay": "2026-07-01",
+    "observedAt": "2026-07-01T21:14:18.745Z",
     "flavorNamesByFlavorId": {
-      "cannoli": "Cannoli",
       "field-berry-cheesecake": "Field Berry Cheesecake",
       "fresh-lemon": "Fresh Lemon",
+      "matcha-green-tea": "Matcha Green Tea",
       "mint-chip": "Mint Chip",
       "oatmeal-brown-sugar": "Oatmeal Brown Sugar",
       "salted-chocolate-rye-cookie": "Salted Chocolate Rye Cookie",
       "strawberry": "Strawberry",
-      "vegan-mango": "Vegan Mango",
       "vegan-toasted-coconut": "Vegan Toasted Coconut",
       "butter-pecan": "Butter Pecan",
+      "cannoli": "Cannoli",
       "chocolate": "Chocolate",
       "cookies-cream": "Cookies + Cream",
+      "lemon-tart": "Lemon Tart",
       "london-fog": "London Fog",
-      "matcha-green-tea": "Matcha Green Tea",
+      "raspberry": "Raspberry",
       "salted-caramel": "Salted Caramel",
       "tahitian-vanilla": "Tahitian Vanilla",
       "vegan-blueberries-cream": "Vegan Blueberries & Cream",
       "vegan-cookies-cream": "Vegan Cookies + Cream",
+      "vegan-key-lime-pie": "Vegan Key Lime Pie",
+      "vegan-mango": "Vegan Mango",
       "vegan-raspberry": "Vegan Raspberry",
       "whiskey-hazelnut": "Whiskey Hazelnut",
       "classic-sammie": "Classic Sammie",
@@ -47,13 +50,13 @@
     },
     "servingTypes": {
       "scoop": {
-        "cannoli": [
-          "quebec",
+        "fresh-lemon": [
           "frances"
         ],
-        "fresh-lemon": [
+        "matcha-green-tea": [
           "fraser",
-          "frances"
+          "quebec",
+          "northvan"
         ],
         "mint-chip": [
           "quebec",
@@ -68,15 +71,16 @@
           "quebec",
           "northvan"
         ],
-        "vegan-mango": [
-          "fraser",
-          "northvan"
-        ],
         "vegan-toasted-coconut": [
-          "quebec",
-          "frances"
+          "quebec"
         ],
         "butter-pecan": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
+        "cannoli": [
           "fraser",
           "quebec",
           "frances",
@@ -94,13 +98,19 @@
           "frances",
           "northvan"
         ],
+        "lemon-tart": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
         "london-fog": [
           "fraser",
           "quebec",
           "frances",
           "northvan"
         ],
-        "matcha-green-tea": [
+        "raspberry": [
           "fraser",
           "quebec",
           "frances",
@@ -125,6 +135,18 @@
           "northvan"
         ],
         "vegan-cookies-cream": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
+        "vegan-key-lime-pie": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
+        "vegan-mango": [
           "fraser",
           "quebec",
           "frances",
@@ -144,10 +166,6 @@
         ]
       },
       "pint": {
-        "cannoli": [
-          "quebec",
-          "frances"
-        ],
         "field-berry-cheesecake": [
           "quebec",
           "northvan"
@@ -155,6 +173,12 @@
         "fresh-lemon": [
           "quebec",
           "frances"
+        ],
+        "matcha-green-tea": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
         ],
         "mint-chip": [
           "fraser",
@@ -165,17 +189,9 @@
         "oatmeal-brown-sugar": [
           "northvan"
         ],
-        "salted-chocolate-rye-cookie": [
-          "quebec"
-        ],
         "strawberry": [
           "fraser",
           "quebec",
-          "frances",
-          "northvan"
-        ],
-        "vegan-mango": [
-          "fraser",
           "northvan"
         ],
         "vegan-toasted-coconut": [
@@ -185,9 +201,13 @@
           "northvan"
         ],
         "butter-pecan": [
-          "quebec",
-          "frances",
+          "fraser",
           "northvan"
+        ],
+        "cannoli": [
+          "fraser",
+          "quebec",
+          "frances"
         ],
         "chocolate": [
           "fraser",
@@ -201,17 +221,21 @@
           "frances",
           "northvan"
         ],
+        "lemon-tart": [
+          "fraser",
+          "quebec",
+          "frances"
+        ],
         "london-fog": [
           "fraser",
           "quebec",
           "frances",
           "northvan"
         ],
-        "matcha-green-tea": [
+        "raspberry": [
           "fraser",
           "quebec",
-          "frances",
-          "northvan"
+          "frances"
         ],
         "salted-caramel": [
           "fraser",
@@ -232,6 +256,17 @@
           "northvan"
         ],
         "vegan-cookies-cream": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
+        "vegan-key-lime-pie": [
+          "fraser",
+          "quebec",
+          "frances"
+        ],
+        "vegan-mango": [
           "fraser",
           "quebec",
           "frances",
@@ -282,94 +317,12 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-07-01",
-    "previousDay": "2026-06-30",
+    "currentDay": "2026-07-02",
+    "previousDay": "2026-07-01",
     "servingTypes": {
       "scoop": {
-        "added": {
-          "cannoli": [
-            "fraser",
-            "northvan"
-          ],
-          "lemon-tart": [
-            "fraser",
-            "quebec",
-            "frances",
-            "northvan"
-          ],
-          "raspberry": [
-            "fraser",
-            "quebec",
-            "frances",
-            "northvan"
-          ],
-          "vegan-key-lime-pie": [
-            "fraser",
-            "quebec",
-            "frances",
-            "northvan"
-          ],
-          "vegan-mango": [
-            "quebec",
-            "frances"
-          ]
-        },
+        "added": {},
         "removed": {
-          "fresh-lemon": {
-            "name": "Fresh Lemon",
-            "storeIds": [
-              "fraser"
-            ]
-          },
-          "matcha-green-tea": {
-            "name": "Matcha Green Tea",
-            "storeIds": [
-              "frances"
-            ]
-          },
-          "vegan-toasted-coconut": {
-            "name": "Vegan Toasted Coconut",
-            "storeIds": [
-              "frances"
-            ]
-          }
-        }
-      },
-      "pint": {
-        "added": {
-          "butter-pecan": [
-            "fraser"
-          ],
-          "cannoli": [
-            "fraser"
-          ],
-          "lemon-tart": [
-            "fraser",
-            "quebec",
-            "frances"
-          ],
-          "raspberry": [
-            "fraser",
-            "quebec",
-            "frances"
-          ],
-          "vegan-key-lime-pie": [
-            "fraser",
-            "quebec",
-            "frances"
-          ],
-          "vegan-mango": [
-            "quebec",
-            "frances"
-          ]
-        },
-        "removed": {
-          "strawberry": {
-            "name": "Strawberry",
-            "storeIds": [
-              "frances"
-            ]
-          },
           "butter-pecan": {
             "name": "Butter Pecan",
             "storeIds": [
@@ -377,24 +330,65 @@
               "frances"
             ]
           },
+          "vegan-mango": {
+            "name": "Vegan Mango",
+            "storeIds": [
+              "fraser"
+            ]
+          },
           "salted-chocolate-rye-cookie": {
             "name": "Salted Chocolate Rye Cookie",
             "storeIds": [
+              "fraser"
+            ]
+          }
+        }
+      },
+      "pint": {
+        "added": {},
+        "removed": {
+          "field-berry-cheesecake": {
+            "name": "Field Berry Cheesecake",
+            "storeIds": [
               "quebec"
+            ]
+          },
+          "salted-caramel": {
+            "name": "Salted Caramel",
+            "storeIds": [
+              "fraser"
             ]
           }
         }
       },
       "sandwich": {
-        "added": {},
-        "removed": {}
+        "added": {
+          "almond-croissant-sammie": [
+            "frances"
+          ]
+        },
+        "removed": {
+          "vegan-turtles-sammie": {
+            "name": "Vegan Turtles Sammie",
+            "storeIds": [
+              "quebec"
+            ]
+          },
+          "coffee-toffee-sammie": {
+            "name": "Coffee Toffee Sammie",
+            "storeIds": [
+              "fraser",
+              "frances"
+            ]
+          }
+        }
       }
     }
   },
   "counts": {
-    "totalItems": 29,
-    "iceCreamFlavors": 23,
-    "scoopItems": 21,
+    "totalItems": 28,
+    "iceCreamFlavors": 22,
+    "scoopItems": 20,
     "pintItems": 22,
     "sandwichItems": 6,
     "sandwichOnlyItems": 6

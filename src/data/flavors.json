@@ -1,11 +1,25 @@
 [
   {
+    "id": "butter-pecan",
+    "name": "Butter Pecan",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Whiskey Hazelnut’s cousin! Pecan pieces are roasted with butter and salt, and added to our ice cream base with organic vanilla. Comfort in a scoop!"
+  },
+  {
     "id": "field-berry-cheesecake",
     "name": "Field Berry Cheesecake",
     "isVegan": false,
     "scoopStores": [],
     "pintStores": [
-      "quebec",
       "northvan"
     ],
     "sandwichStores": [],
@@ -73,17 +87,6 @@
     "description": "Ice cream for breakfast – we think so! Simple comforting flavour made with lots of oats and brown sugar, which are cold-steeped in our ice cream base so they soften. Halfway between a bowl of cereal and a cookie, but in the form of ice cream. Friendly and comforting!"
   },
   {
-    "id": "salted-chocolate-rye-cookie",
-    "name": "Salted Chocolate Rye Cookie",
-    "isVegan": false,
-    "scoopStores": [
-      "fraser"
-    ],
-    "pintStores": [],
-    "sandwichStores": [],
-    "description": "This is an Earnest cult favourite! Featuring bite sized fudgy, chocolate rye cookies in a light, salted chocolate ice cream. This flavour is inspired by the rye cookie from our neighbours on Fraser St (Batard Bakery). If you’re a chocolate lover then you must try this sensational flavour."
-  },
-  {
     "id": "strawberry",
     "name": "Strawberry",
     "isVegan": false,
@@ -101,6 +104,24 @@
     "description": "Local strawberries from Mandair Farms are picked at the peak of the season and frozen to preserve their vibrant fruitiness to enjoy in winter. We add a touch of white balsamic to enhance and balance the natural sweetness of the strawberries. A must try for fans of strawberry ice cream!"
   },
   {
+    "id": "vegan-mango",
+    "name": "Vegan Mango",
+    "isVegan": true,
+    "scoopStores": [
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "We blend mango puree into our classic vegan base, resulting in a beautifully vibrant and fruity treat! Mango puree is sourced from Ponthier."
+  },
+  {
     "id": "vegan-toasted-coconut",
     "name": "Vegan Toasted Coconut",
     "isVegan": true,
@@ -115,23 +136,6 @@
     ],
     "sandwichStores": [],
     "description": "The vegan version of our beloved toasted coconut ice cream. Desiccated coconut is toasted in house, supplying a depth of nutty flavour. Coconut extract is added to pack in those wonderful tropical tasting notes. Creamy coconut bliss!"
-  },
-  {
-    "id": "butter-pecan",
-    "name": "Butter Pecan",
-    "isVegan": false,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "Whiskey Hazelnut’s cousin! Pecan pieces are roasted with butter and salt, and added to our ice cream base with organic vanilla. Comfort in a scoop!"
   },
   {
     "id": "cannoli",
@@ -255,7 +259,6 @@
       "northvan"
     ],
     "pintStores": [
-      "fraser",
       "quebec",
       "frances",
       "northvan"
@@ -339,25 +342,6 @@
     "description": "Our take on key lime pie in vegan ice cream form! A tart lime-coconut ice cream base with a house-made graham crumble. The sweet crumble offsets the tartness of the base, creating a nicely balanced bite with a scrumptious texture!"
   },
   {
-    "id": "vegan-mango",
-    "name": "Vegan Mango",
-    "isVegan": true,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "We blend mango puree into our classic vegan base, resulting in a beautifully vibrant and fruity treat! Mango puree is sourced from Ponthier."
-  },
-  {
     "id": "vegan-raspberry",
     "name": "Vegan Raspberry",
     "isVegan": true,
@@ -396,6 +380,17 @@
     "description": "An Earnest Ice Cream original, made from day one and remains a favourite and top-seller. Roasted, salted BC hazelnuts in Whiskey ice cream base. A smooth, boozy flavour with a buttery crunch."
   },
   {
+    "id": "almond-croissant-sammie",
+    "name": "Almond Croissant Sammie",
+    "isVegan": false,
+    "scoopStores": [],
+    "pintStores": [],
+    "sandwichStores": [
+      "frances"
+    ],
+    "description": "For a limited time only, this crowd-favourite flavour is back as a sammie! Fluffy almond cake is topped with our delectable almond croissant ice cream – double baked buttery croissant pieces with toasted almonds folded into a light almond base. A layer of warm caramel seals this sammie together with a croissant crumble topping for a delightful crunch!"
+  },
+  {
     "id": "classic-sammie",
     "name": "Classic Sammie",
     "isVegan": false,
@@ -408,18 +403,6 @@
       "northvan"
     ],
     "description": "Our take on a classic ice cream sandwich. Tahitian vanilla ice cream is sandwiched between chocolate cake and finished with a thin layer of fudge sauce. This flavour never goes out of style!"
-  },
-  {
-    "id": "coffee-toffee-sammie",
-    "name": "Coffee Toffee Sammie",
-    "isVegan": false,
-    "scoopStores": [],
-    "pintStores": [],
-    "sandwichStores": [
-      "fraser",
-      "frances"
-    ],
-    "description": "Rich coffee ice cream is speckled with crisp espresso chocolate flakes and melty bites of toffee. Layered with fudge on soft chocolate cake, this sammie is a delectable treat with a fun mix of textures."
   },
   {
     "id": "peanut-butter-chocolate-chip",
@@ -465,7 +448,6 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
-      "quebec",
       "northvan"
     ],
     "description": "Our light chocolate vegan base has walnut praline blended into it to create a nutty background flavour. Sweet toffee bits, dark chocolate chips, and roasted, salted nuts are generously sprinkled throughout for pops of crunch and caramelly goodness. All sealed together with a layer of sweet fudge on soft chocolate cake, this sammie is a delectable combination of sweet, salty, nutty, and crunchy – just like a classic turtles candy!"
