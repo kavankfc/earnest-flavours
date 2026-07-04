@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-07-03T20:49:36.164Z",
+  "lastUpdatedAt": "2026-07-04T01:04:59.608Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated July 3, 2026 at 12pm",
     "quebec": "Last updated July 3, 2026 at 12pm",
     "frances": "Last updated July 2, 2026 at 12pm",
-    "northvan": "Last updated July 1, 2026 at 12pm"
+    "northvan": "Last updated July 3, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated July 2, 2026 at 12pm|fraser:Last updated July 3, 2026 at 12pm|northvan:Last updated July 1, 2026 at 12pm|quebec:Last updated July 3, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated July 2, 2026 at 12pm|fraser:Last updated July 3, 2026 at 12pm|northvan:Last updated July 3, 2026 at 12pm|quebec:Last updated July 3, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -313,9 +313,18 @@
         "added": {
           "butter-pecan": [
             "frances"
+          ],
+          "mint-chip": [
+            "fraser"
           ]
         },
         "removed": {
+          "london-fog": {
+            "name": "London Fog",
+            "storeIds": [
+              "fraser"
+            ]
+          },
           "fresh-lemon": {
             "name": "Fresh Lemon",
             "storeIds": [
@@ -325,12 +334,40 @@
         }
       },
       "pint": {
-        "added": {},
+        "added": {
+          "fresh-lemon": [
+            "northvan"
+          ],
+          "cannoli": [
+            "northvan"
+          ],
+          "lemon-tart": [
+            "northvan"
+          ],
+          "raspberry": [
+            "northvan"
+          ],
+          "vegan-key-lime-pie": [
+            "northvan"
+          ]
+        },
         "removed": {
           "fresh-lemon": {
             "name": "Fresh Lemon",
             "storeIds": [
               "frances"
+            ]
+          },
+          "field-berry-cheesecake": {
+            "name": "Field Berry Cheesecake",
+            "storeIds": [
+              "northvan"
+            ]
+          },
+          "oatmeal-brown-sugar": {
+            "name": "Oatmeal Brown Sugar",
+            "storeIds": [
+              "northvan"
             ]
           }
         }
@@ -339,19 +376,27 @@
         "added": {
           "sour-cherry-goat-cheese-sammie": [
             "fraser",
-            "quebec"
+            "quebec",
+            "northvan"
           ]
         },
-        "removed": {}
+        "removed": {
+          "peanut-butter-chocolate-chip": {
+            "name": "Peanut Butter Chocolate Chip",
+            "storeIds": [
+              "fraser"
+            ]
+          }
+        }
       }
     }
   },
   "counts": {
-    "totalItems": 29,
-    "iceCreamFlavors": 22,
+    "totalItems": 26,
+    "iceCreamFlavors": 20,
     "scoopItems": 19,
-    "pintItems": 22,
-    "sandwichItems": 7,
-    "sandwichOnlyItems": 7
+    "pintItems": 20,
+    "sandwichItems": 6,
+    "sandwichOnlyItems": 6
   }
 }

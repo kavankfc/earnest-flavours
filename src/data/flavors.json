@@ -16,26 +16,34 @@
     "description": "Whiskey Hazelnut’s cousin! Pecan pieces are roasted with butter and salt, and added to our ice cream base with organic vanilla. Comfort in a scoop!"
   },
   {
-    "id": "field-berry-cheesecake",
-    "name": "Field Berry Cheesecake",
-    "isVegan": false,
-    "scoopStores": [],
-    "pintStores": [
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "Why choose one berry when you can have many! A blend of local field berries (raspberry, strawberry, blackberry, blueberry & haskap) mixed into our ice cream base for a vibrant colour and flavour mixed with house-made cheesecake pieces. Combined they make the perfect mix of fruity and rich cheesy flavour awaits in every bite!"
-  },
-  {
     "id": "fresh-lemon",
     "name": "Fresh Lemon",
     "isVegan": false,
     "scoopStores": [],
     "pintStores": [
-      "quebec"
+      "quebec",
+      "northvan"
     ],
     "sandwichStores": [],
     "description": "“One of the favourites in the warmer months, it’s a refreshing and light flavour. We reduce down lemon juice and lemon zest from our friends at Chasers Juice and then add some lemon oil to really boost the flavour. This is simply mixed in with our ice cream base for an almost yoghurt- like flavour!”"
+  },
+  {
+    "id": "london-fog",
+    "name": "London Fog",
+    "isVegan": false,
+    "scoopStores": [
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Made with Assam and Darjeeling black tea, bergamot and vanilla, this ice cream flavour is based on the popular drink which was invented in Vancouver!"
   },
   {
     "id": "matcha-green-tea",
@@ -54,35 +62,6 @@
     ],
     "sandwichStores": [],
     "description": "Our matcha green tea powder is supplied by Aiya and grown in Nishio, a historic tea cultivation region in Japan, from a family owned and operated farm for the last 125 years. It’s a shade-grown matcha, giving it light colour and caramel notes. Aiya are dedicated to giving back to the world through helping with the reforestation of mangrove and mahogany forests in Southeast Asia. We simply blend the matcha powder straight into our ice cream base!"
-  },
-  {
-    "id": "mint-chip",
-    "name": "Mint Chip",
-    "isVegan": false,
-    "scoopStores": [
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "The classic mint chocolate ice cream made with lots of house made dark chocolate chips! Like peppermint patty but better. No artificial food colouring is added so it’s white, not green. Fresh and minty, with the added crunch from the dark chocolate flakes."
-  },
-  {
-    "id": "oatmeal-brown-sugar",
-    "name": "Oatmeal Brown Sugar",
-    "isVegan": false,
-    "scoopStores": [],
-    "pintStores": [
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "Ice cream for breakfast – we think so! Simple comforting flavour made with lots of oats and brown sugar, which are cold-steeped in our ice cream base so they soften. Halfway between a bowl of cereal and a cookie, but in the form of ice cream. Friendly and comforting!"
   },
   {
     "id": "strawberry",
@@ -148,7 +127,8 @@
     "pintStores": [
       "fraser",
       "quebec",
-      "frances"
+      "frances",
+      "northvan"
     ],
     "sandwichStores": [],
     "description": "The classic Italian pastry made into a delectable ice cream! Ricotta and cream cheese are combined in the base to achieve the right cheesy flavour, with orange zest adding a pop of brightness to balance. Mini chocolate chips and pieces of crunchy (gluten free!) cannoli shell are sprinkled throughout for lovely bites of texture."
@@ -204,14 +184,15 @@
     "pintStores": [
       "fraser",
       "quebec",
-      "frances"
+      "frances",
+      "northvan"
     ],
     "sandwichStores": [],
     "description": "This flavour originated as a sundae, but it was so scrumptious that we had to make it into an ice cream! Buttery, flaky pie crust pieces and a tangy lemon curd swirl in vanilla ice cream make for a balance of sweet, tart, creamy, and crispy in each bite."
   },
   {
-    "id": "london-fog",
-    "name": "London Fog",
+    "id": "mint-chip",
+    "name": "Mint Chip",
     "isVegan": false,
     "scoopStores": [
       "fraser",
@@ -226,7 +207,7 @@
       "northvan"
     ],
     "sandwichStores": [],
-    "description": "Made with Assam and Darjeeling black tea, bergamot and vanilla, this ice cream flavour is based on the popular drink which was invented in Vancouver!"
+    "description": "The classic mint chocolate ice cream made with lots of house made dark chocolate chips! Like peppermint patty but better. No artificial food colouring is added so it’s white, not green. Fresh and minty, with the added crunch from the dark chocolate flakes."
   },
   {
     "id": "raspberry",
@@ -241,7 +222,8 @@
     "pintStores": [
       "fraser",
       "quebec",
-      "frances"
+      "frances",
+      "northvan"
     ],
     "sandwichStores": [],
     "description": "Locally sourced raspberries harvested in the peak of summer from our friends at family-run Mandair Farms bring this flavour to life. Its bright, tart and fresh – perfect for summer days."
@@ -334,7 +316,8 @@
     "pintStores": [
       "fraser",
       "quebec",
-      "frances"
+      "frances",
+      "northvan"
     ],
     "sandwichStores": [],
     "description": "Our take on key lime pie in vegan ice cream form! A tart lime-coconut ice cream base with a house-made graham crumble. The sweet crumble offsets the tartness of the base, creating a nicely balanced bite with a scrumptious texture!"
@@ -403,17 +386,6 @@
     "description": "Our take on a classic ice cream sandwich. Tahitian vanilla ice cream is sandwiched between chocolate cake and finished with a thin layer of fudge sauce. This flavour never goes out of style!"
   },
   {
-    "id": "peanut-butter-chocolate-chip",
-    "name": "Peanut Butter Chocolate Chip",
-    "isVegan": false,
-    "scoopStores": [],
-    "pintStores": [],
-    "sandwichStores": [
-      "fraser"
-    ],
-    "description": "Natural peanut butter and house-made milk chocolate flakes give this decadent flavour the perfect blend of salty richness and smooth sweet chocolate chips, it hits all the spots!"
-  },
-  {
     "id": "peanut-butter-chocolate-chip-sammie",
     "name": "Peanut Butter Chocolate Chip Sammie",
     "isVegan": false,
@@ -433,7 +405,8 @@
     "pintStores": [],
     "sandwichStores": [
       "fraser",
-      "quebec"
+      "quebec",
+      "northvan"
     ],
     "description": "Since we missed it as a seasonal, this cult classic is back as a sammie, but with a twist! Goat cheese ice cream is swirled with sour cherry compote to create a wonderfully cheesy and fruity flavour profile. Topped with a tart cherry jam that has a hint of almond extract added to boost that cherry flavour, plus a layer of goat cheese-vanilla cake crumble to complete this cheesy sammie. It’s the perfect bright treat for these hot summer days!"
   },
