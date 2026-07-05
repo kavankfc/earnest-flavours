@@ -4,8 +4,7 @@
     "name": "Butter Pecan",
     "isVegan": false,
     "scoopStores": [
-      "fraser",
-      "frances"
+      "fraser"
     ],
     "pintStores": [
       "northvan"
@@ -44,24 +43,6 @@
     "description": "Made with Assam and Darjeeling black tea, bergamot and vanilla, this ice cream flavour is based on the popular drink which was invented in Vancouver!"
   },
   {
-    "id": "matcha-green-tea",
-    "name": "Matcha Green Tea",
-    "isVegan": false,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "Our matcha green tea powder is supplied by Aiya and grown in Nishio, a historic tea cultivation region in Japan, from a family owned and operated farm for the last 125 years. It’s a shade-grown matcha, giving it light colour and caramel notes. Aiya are dedicated to giving back to the world through helping with the reforestation of mangrove and mahogany forests in Southeast Asia. We simply blend the matcha powder straight into our ice cream base!"
-  },
-  {
     "id": "strawberry",
     "name": "Strawberry",
     "isVegan": false,
@@ -79,12 +60,28 @@
     "description": "Local strawberries from Mandair Farms are picked at the peak of the season and frozen to preserve their vibrant fruitiness to enjoy in winter. We add a touch of white balsamic to enhance and balance the natural sweetness of the strawberries. A must try for fans of strawberry ice cream!"
   },
   {
+    "id": "vegan-mango",
+    "name": "Vegan Mango",
+    "isVegan": true,
+    "scoopStores": [
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "We blend mango puree into our classic vegan base, resulting in a beautifully vibrant and fruity treat! Mango puree is sourced from Ponthier."
+  },
+  {
     "id": "vegan-toasted-coconut",
     "name": "Vegan Toasted Coconut",
     "isVegan": true,
-    "scoopStores": [
-      "quebec"
-    ],
+    "scoopStores": [],
     "pintStores": [
       "fraser",
       "quebec",
@@ -169,6 +166,25 @@
     ],
     "sandwichStores": [],
     "description": "This flavour originated as a sundae, but it was so scrumptious that we had to make it into an ice cream! Buttery, flaky pie crust pieces and a tangy lemon curd swirl in vanilla ice cream make for a balance of sweet, tart, creamy, and crispy in each bite."
+  },
+  {
+    "id": "matcha-green-tea",
+    "name": "Matcha Green Tea",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Our matcha green tea powder is supplied by Aiya and grown in Nishio, a historic tea cultivation region in Japan, from a family owned and operated farm for the last 125 years. It’s a shade-grown matcha, giving it light colour and caramel notes. Aiya are dedicated to giving back to the world through helping with the reforestation of mangrove and mahogany forests in Southeast Asia. We simply blend the matcha powder straight into our ice cream base!"
   },
   {
     "id": "mint-chip",
@@ -303,25 +319,6 @@
     "description": "Our take on key lime pie in vegan ice cream form! A tart lime-coconut ice cream base with a house-made graham crumble. The sweet crumble offsets the tartness of the base, creating a nicely balanced bite with a scrumptious texture!"
   },
   {
-    "id": "vegan-mango",
-    "name": "Vegan Mango",
-    "isVegan": true,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "We blend mango puree into our classic vegan base, resulting in a beautifully vibrant and fruity treat! Mango puree is sourced from Ponthier."
-  },
-  {
     "id": "vegan-raspberry",
     "name": "Vegan Raspberry",
     "isVegan": true,
@@ -395,6 +392,17 @@
       "northvan"
     ],
     "description": "Natural peanut butter and house-made milk chocolate flakes, sandwiched together with a layer of sweet fudge on a chocolate cake – this sammie is the perfect blend of salty richness and smooth sweet chocolate, it hits all the spots!"
+  },
+  {
+    "id": "sour-cherry-goat-cheese",
+    "name": "Sour Cherry Goat Cheese",
+    "isVegan": false,
+    "scoopStores": [],
+    "pintStores": [],
+    "sandwichStores": [
+      "frances"
+    ],
+    "description": "This complex flavour is tart and rich – with an elevated fro-yo tanginess. Highlighting Okanagan cherries (sourced through Pacific Coast Fruit) and goat cheese from Hewitt’s, a Canadian farmer-owned company."
   },
   {
     "id": "sour-cherry-goat-cheese-sammie",
