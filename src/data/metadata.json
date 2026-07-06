@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-07-05T20:43:27.620Z",
+  "lastUpdatedAt": "2026-07-06T21:17:09.826Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated July 5, 2026 at 12pm",
+    "fraser": "Last updated July 6, 2026 at 12pm",
     "quebec": "Last updated July 5, 2026 at 12pm",
     "frances": "Last updated July 5, 2026 at 12pm",
     "northvan": "Last updated July 5, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated July 5, 2026 at 12pm|fraser:Last updated July 5, 2026 at 12pm|northvan:Last updated July 5, 2026 at 12pm|quebec:Last updated July 5, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated July 5, 2026 at 12pm|fraser:Last updated July 6, 2026 at 12pm|northvan:Last updated July 5, 2026 at 12pm|quebec:Last updated July 5, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,19 +15,20 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-07-04",
-    "observedAt": "2026-07-04T20:40:32.636Z",
+    "baselineDay": "2026-07-05",
+    "observedAt": "2026-07-05T20:43:27.620Z",
     "flavorNamesByFlavorId": {
       "butter-pecan": "Butter Pecan",
       "fresh-lemon": "Fresh Lemon",
       "london-fog": "London Fog",
-      "matcha-green-tea": "Matcha Green Tea",
       "strawberry": "Strawberry",
+      "vegan-mango": "Vegan Mango",
       "vegan-toasted-coconut": "Vegan Toasted Coconut",
       "cannoli": "Cannoli",
       "chocolate": "Chocolate",
       "cookies-cream": "Cookies + Cream",
       "lemon-tart": "Lemon Tart",
+      "matcha-green-tea": "Matcha Green Tea",
       "mint-chip": "Mint Chip",
       "raspberry": "Raspberry",
       "salted-caramel": "Salted Caramel",
@@ -35,12 +36,12 @@
       "vegan-blueberries-cream": "Vegan Blueberries & Cream",
       "vegan-cookies-cream": "Vegan Cookies + Cream",
       "vegan-key-lime-pie": "Vegan Key Lime Pie",
-      "vegan-mango": "Vegan Mango",
       "vegan-raspberry": "Vegan Raspberry",
       "whiskey-hazelnut": "Whiskey Hazelnut",
       "almond-croissant-sammie": "Almond Croissant Sammie",
       "classic-sammie": "Classic Sammie",
       "peanut-butter-chocolate-chip-sammie": "Peanut Butter Chocolate Chip Sammie",
+      "sour-cherry-goat-cheese": "Sour Cherry Goat Cheese",
       "sour-cherry-goat-cheese-sammie": "Sour Cherry Goat Cheese Sammie",
       "vegan-cookie-butter-sammie": "Vegan Cookie Butter Sammie",
       "vegan-turtles-sammie": "Vegan Turtles Sammie"
@@ -48,17 +49,11 @@
     "servingTypes": {
       "scoop": {
         "butter-pecan": [
-          "fraser",
-          "frances"
+          "fraser"
         ],
         "london-fog": [
           "quebec",
           "frances",
-          "northvan"
-        ],
-        "matcha-green-tea": [
-          "fraser",
-          "quebec",
           "northvan"
         ],
         "strawberry": [
@@ -66,8 +61,10 @@
           "quebec",
           "northvan"
         ],
-        "vegan-toasted-coconut": [
-          "quebec"
+        "vegan-mango": [
+          "quebec",
+          "frances",
+          "northvan"
         ],
         "cannoli": [
           "fraser",
@@ -88,6 +85,12 @@
           "northvan"
         ],
         "lemon-tart": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
+        "matcha-green-tea": [
           "fraser",
           "quebec",
           "frances",
@@ -130,12 +133,6 @@
           "northvan"
         ],
         "vegan-key-lime-pie": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
-        "vegan-mango": [
           "fraser",
           "quebec",
           "frances",
@@ -168,15 +165,15 @@
           "frances",
           "northvan"
         ],
-        "matcha-green-tea": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
         "strawberry": [
           "fraser",
           "quebec",
+          "northvan"
+        ],
+        "vegan-mango": [
+          "fraser",
+          "quebec",
+          "frances",
           "northvan"
         ],
         "vegan-toasted-coconut": [
@@ -204,6 +201,12 @@
           "northvan"
         ],
         "lemon-tart": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
+        "matcha-green-tea": [
           "fraser",
           "quebec",
           "frances",
@@ -250,12 +253,6 @@
           "frances",
           "northvan"
         ],
-        "vegan-mango": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
         "vegan-raspberry": [
           "fraser",
           "quebec",
@@ -283,6 +280,9 @@
           "quebec",
           "northvan"
         ],
+        "sour-cherry-goat-cheese": [
+          "frances"
+        ],
         "sour-cherry-goat-cheese-sammie": [
           "fraser",
           "quebec",
@@ -301,56 +301,47 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-07-05",
-    "previousDay": "2026-07-04",
+    "currentDay": "2026-07-06",
+    "previousDay": "2026-07-05",
     "servingTypes": {
       "scoop": {
         "added": {
-          "matcha-green-tea": [
-            "frances"
+          "vegan-mango": [
+            "fraser"
           ]
         },
+        "removed": {}
+      },
+      "pint": {
+        "added": {},
         "removed": {
-          "butter-pecan": {
-            "name": "Butter Pecan",
-            "storeIds": [
-              "frances"
-            ]
-          },
-          "vegan-mango": {
-            "name": "Vegan Mango",
-            "storeIds": [
-              "fraser"
-            ]
-          },
           "vegan-toasted-coconut": {
             "name": "Vegan Toasted Coconut",
             "storeIds": [
-              "quebec"
+              "frances"
             ]
           }
         }
       },
-      "pint": {
-        "added": {},
-        "removed": {}
-      },
       "sandwich": {
-        "added": {
-          "sour-cherry-goat-cheese": [
-            "frances"
-          ]
-        },
-        "removed": {}
+        "added": {},
+        "removed": {
+          "almond-croissant-sammie": {
+            "name": "Almond Croissant Sammie",
+            "storeIds": [
+              "frances"
+            ]
+          }
+        }
       }
     }
   },
   "counts": {
-    "totalItems": 27,
+    "totalItems": 26,
     "iceCreamFlavors": 20,
     "scoopItems": 18,
     "pintItems": 20,
-    "sandwichItems": 7,
-    "sandwichOnlyItems": 7
+    "sandwichItems": 6,
+    "sandwichOnlyItems": 6
   }
 }
