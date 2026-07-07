@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-07-07T01:13:17.924Z",
+  "lastUpdatedAt": "2026-07-07T21:11:57.622Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated July 6, 2026 at 12pm",
+    "fraser": "Last updated July 7, 2026 at 12pm",
     "quebec": "Last updated July 5, 2026 at 12pm",
     "frances": "Last updated July 5, 2026 at 12pm",
     "northvan": "Last updated July 6, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated July 5, 2026 at 12pm|fraser:Last updated July 6, 2026 at 12pm|northvan:Last updated July 6, 2026 at 12pm|quebec:Last updated July 5, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated July 5, 2026 at 12pm|fraser:Last updated July 7, 2026 at 12pm|northvan:Last updated July 6, 2026 at 12pm|quebec:Last updated July 5, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,14 +15,12 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-07-05",
-    "observedAt": "2026-07-05T20:43:27.620Z",
+    "baselineDay": "2026-07-06",
+    "observedAt": "2026-07-07T01:13:17.924Z",
     "flavorNamesByFlavorId": {
-      "butter-pecan": "Butter Pecan",
       "fresh-lemon": "Fresh Lemon",
       "london-fog": "London Fog",
       "strawberry": "Strawberry",
-      "vegan-mango": "Vegan Mango",
       "vegan-toasted-coconut": "Vegan Toasted Coconut",
       "cannoli": "Cannoli",
       "chocolate": "Chocolate",
@@ -36,21 +34,17 @@
       "vegan-blueberries-cream": "Vegan Blueberries & Cream",
       "vegan-cookies-cream": "Vegan Cookies + Cream",
       "vegan-key-lime-pie": "Vegan Key Lime Pie",
+      "vegan-mango": "Vegan Mango",
       "vegan-raspberry": "Vegan Raspberry",
       "whiskey-hazelnut": "Whiskey Hazelnut",
-      "almond-croissant-sammie": "Almond Croissant Sammie",
       "classic-sammie": "Classic Sammie",
       "peanut-butter-chocolate-chip-sammie": "Peanut Butter Chocolate Chip Sammie",
       "sour-cherry-goat-cheese": "Sour Cherry Goat Cheese",
       "sour-cherry-goat-cheese-sammie": "Sour Cherry Goat Cheese Sammie",
-      "vegan-cookie-butter-sammie": "Vegan Cookie Butter Sammie",
-      "vegan-turtles-sammie": "Vegan Turtles Sammie"
+      "vegan-cookie-butter-sammie": "Vegan Cookie Butter Sammie"
     },
     "servingTypes": {
       "scoop": {
-        "butter-pecan": [
-          "fraser"
-        ],
         "london-fog": [
           "quebec",
           "frances",
@@ -59,11 +53,6 @@
         "strawberry": [
           "fraser",
           "quebec",
-          "northvan"
-        ],
-        "vegan-mango": [
-          "quebec",
-          "frances",
           "northvan"
         ],
         "cannoli": [
@@ -138,6 +127,12 @@
           "frances",
           "northvan"
         ],
+        "vegan-mango": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
         "vegan-raspberry": [
           "fraser",
           "quebec",
@@ -152,9 +147,6 @@
         ]
       },
       "pint": {
-        "butter-pecan": [
-          "northvan"
-        ],
         "fresh-lemon": [
           "quebec",
           "northvan"
@@ -170,16 +162,9 @@
           "quebec",
           "northvan"
         ],
-        "vegan-mango": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
         "vegan-toasted-coconut": [
           "fraser",
           "quebec",
-          "frances",
           "northvan"
         ],
         "cannoli": [
@@ -253,6 +238,12 @@
           "frances",
           "northvan"
         ],
+        "vegan-mango": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
         "vegan-raspberry": [
           "fraser",
           "quebec",
@@ -267,9 +258,6 @@
         ]
       },
       "sandwich": {
-        "almond-croissant-sammie": [
-          "frances"
-        ],
         "classic-sammie": [
           "fraser",
           "quebec",
@@ -277,8 +265,7 @@
           "northvan"
         ],
         "peanut-butter-chocolate-chip-sammie": [
-          "quebec",
-          "northvan"
+          "quebec"
         ],
         "sour-cherry-goat-cheese": [
           "frances"
@@ -293,26 +280,19 @@
           "quebec",
           "frances",
           "northvan"
-        ],
-        "vegan-turtles-sammie": [
-          "northvan"
         ]
       }
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-07-06",
-    "previousDay": "2026-07-05",
+    "currentDay": "2026-07-07",
+    "previousDay": "2026-07-06",
     "servingTypes": {
       "scoop": {
-        "added": {
-          "vegan-mango": [
-            "fraser"
-          ]
-        },
+        "added": {},
         "removed": {
-          "butter-pecan": {
-            "name": "Butter Pecan",
+          "vegan-mango": {
+            "name": "Vegan Mango",
             "storeIds": [
               "fraser"
             ]
@@ -322,42 +302,17 @@
       "pint": {
         "added": {},
         "removed": {
-          "vegan-toasted-coconut": {
-            "name": "Vegan Toasted Coconut",
+          "vegan-blueberries-cream": {
+            "name": "Vegan Blueberries & Cream",
             "storeIds": [
-              "frances"
-            ]
-          },
-          "butter-pecan": {
-            "name": "Butter Pecan",
-            "storeIds": [
-              "northvan"
+              "fraser"
             ]
           }
         }
       },
       "sandwich": {
         "added": {},
-        "removed": {
-          "peanut-butter-chocolate-chip-sammie": {
-            "name": "Peanut Butter Chocolate Chip Sammie",
-            "storeIds": [
-              "northvan"
-            ]
-          },
-          "almond-croissant-sammie": {
-            "name": "Almond Croissant Sammie",
-            "storeIds": [
-              "frances"
-            ]
-          },
-          "vegan-turtles-sammie": {
-            "name": "Vegan Turtles Sammie",
-            "storeIds": [
-              "northvan"
-            ]
-          }
-        }
+        "removed": {}
       }
     }
   },
