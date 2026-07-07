@@ -1,18 +1,5 @@
 [
   {
-    "id": "butter-pecan",
-    "name": "Butter Pecan",
-    "isVegan": false,
-    "scoopStores": [
-      "fraser"
-    ],
-    "pintStores": [
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "Whiskey Hazelnut’s cousin! Pecan pieces are roasted with butter and salt, and added to our ice cream base with organic vanilla. Comfort in a scoop!"
-  },
-  {
     "id": "fresh-lemon",
     "name": "Fresh Lemon",
     "isVegan": false,
@@ -377,8 +364,7 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
-      "quebec",
-      "northvan"
+      "quebec"
     ],
     "description": "Natural peanut butter and house-made milk chocolate flakes, sandwiched together with a layer of sweet fudge on a chocolate cake – this sammie is the perfect blend of salty richness and smooth sweet chocolate, it hits all the spots!"
   },
@@ -419,16 +405,5 @@
       "northvan"
     ],
     "description": "House-made speculoos cookies are combined in a variety of ways into this delectable ice cream! Rich cookie butter is swirled throughout a lightly spiced base and topped with a speculoos cookie crumble for a lovely bite of added texture."
-  },
-  {
-    "id": "vegan-turtles-sammie",
-    "name": "Vegan Turtles Sammie",
-    "isVegan": true,
-    "scoopStores": [],
-    "pintStores": [],
-    "sandwichStores": [
-      "northvan"
-    ],
-    "description": "Our light chocolate vegan base has walnut praline blended into it to create a nutty background flavour. Sweet toffee bits, dark chocolate chips, and roasted, salted nuts are generously sprinkled throughout for pops of crunch and caramelly goodness. All sealed together with a layer of sweet fudge on soft chocolate cake, this sammie is a delectable combination of sweet, salty, nutty, and crunchy – just like a classic turtles candy!"
   }
 ]

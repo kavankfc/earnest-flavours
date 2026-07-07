@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-07-06T21:17:09.826Z",
+  "lastUpdatedAt": "2026-07-07T01:13:17.924Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated July 6, 2026 at 12pm",
     "quebec": "Last updated July 5, 2026 at 12pm",
     "frances": "Last updated July 5, 2026 at 12pm",
-    "northvan": "Last updated July 5, 2026 at 12pm"
+    "northvan": "Last updated July 6, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated July 5, 2026 at 12pm|fraser:Last updated July 6, 2026 at 12pm|northvan:Last updated July 5, 2026 at 12pm|quebec:Last updated July 5, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated July 5, 2026 at 12pm|fraser:Last updated July 6, 2026 at 12pm|northvan:Last updated July 6, 2026 at 12pm|quebec:Last updated July 5, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -310,7 +310,14 @@
             "fraser"
           ]
         },
-        "removed": {}
+        "removed": {
+          "butter-pecan": {
+            "name": "Butter Pecan",
+            "storeIds": [
+              "fraser"
+            ]
+          }
+        }
       },
       "pint": {
         "added": {},
@@ -320,16 +327,34 @@
             "storeIds": [
               "frances"
             ]
+          },
+          "butter-pecan": {
+            "name": "Butter Pecan",
+            "storeIds": [
+              "northvan"
+            ]
           }
         }
       },
       "sandwich": {
         "added": {},
         "removed": {
+          "peanut-butter-chocolate-chip-sammie": {
+            "name": "Peanut Butter Chocolate Chip Sammie",
+            "storeIds": [
+              "northvan"
+            ]
+          },
           "almond-croissant-sammie": {
             "name": "Almond Croissant Sammie",
             "storeIds": [
               "frances"
+            ]
+          },
+          "vegan-turtles-sammie": {
+            "name": "Vegan Turtles Sammie",
+            "storeIds": [
+              "northvan"
             ]
           }
         }
@@ -337,11 +362,11 @@
     }
   },
   "counts": {
-    "totalItems": 26,
-    "iceCreamFlavors": 20,
-    "scoopItems": 18,
-    "pintItems": 20,
-    "sandwichItems": 6,
-    "sandwichOnlyItems": 6
+    "totalItems": 24,
+    "iceCreamFlavors": 19,
+    "scoopItems": 17,
+    "pintItems": 19,
+    "sandwichItems": 5,
+    "sandwichOnlyItems": 5
   }
 }
