@@ -1,5 +1,16 @@
 [
   {
+    "id": "butter-pecan",
+    "name": "Butter Pecan",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser"
+    ],
+    "pintStores": [],
+    "sandwichStores": [],
+    "description": "Whiskey Hazelnut’s cousin! Pecan pieces are roasted with butter and salt, and added to our ice cream base with organic vanilla. Comfort in a scoop!"
+  },
+  {
     "id": "fresh-lemon",
     "name": "Fresh Lemon",
     "isVegan": false,
@@ -45,24 +56,6 @@
     ],
     "sandwichStores": [],
     "description": "Local strawberries from Mandair Farms are picked at the peak of the season and frozen to preserve their vibrant fruitiness to enjoy in winter. We add a touch of white balsamic to enhance and balance the natural sweetness of the strawberries. A must try for fans of strawberry ice cream!"
-  },
-  {
-    "id": "vegan-mango",
-    "name": "Vegan Mango",
-    "isVegan": true,
-    "scoopStores": [
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "We blend mango puree into our classic vegan base, resulting in a beautifully vibrant and fruity treat! Mango puree is sourced from Ponthier."
   },
   {
     "id": "vegan-toasted-coconut",
@@ -304,6 +297,25 @@
     "description": "Our take on key lime pie in vegan ice cream form! A tart lime-coconut ice cream base with a house-made graham crumble. The sweet crumble offsets the tartness of the base, creating a nicely balanced bite with a scrumptious texture!"
   },
   {
+    "id": "vegan-mango",
+    "name": "Vegan Mango",
+    "isVegan": true,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "We blend mango puree into our classic vegan base, resulting in a beautifully vibrant and fruity treat! Mango puree is sourced from Ponthier."
+  },
+  {
     "id": "vegan-raspberry",
     "name": "Vegan Raspberry",
     "isVegan": true,
@@ -354,17 +366,6 @@
       "northvan"
     ],
     "description": "Our take on a classic ice cream sandwich. Tahitian vanilla ice cream is sandwiched between chocolate cake and finished with a thin layer of fudge sauce. This flavour never goes out of style!"
-  },
-  {
-    "id": "peanut-butter-chocolate-chip-sammie",
-    "name": "Peanut Butter Chocolate Chip Sammie",
-    "isVegan": false,
-    "scoopStores": [],
-    "pintStores": [],
-    "sandwichStores": [
-      "quebec"
-    ],
-    "description": "Natural peanut butter and house-made milk chocolate flakes, sandwiched together with a layer of sweet fudge on a chocolate cake – this sammie is the perfect blend of salty richness and smooth sweet chocolate, it hits all the spots!"
   },
   {
     "id": "sour-cherry-goat-cheese",
