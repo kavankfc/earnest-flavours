@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-07-08T20:51:54.104Z",
+  "lastUpdatedAt": "2026-07-09T21:08:51.544Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated July 8, 2026 at 12pm",
+    "fraser": "Last updated July 9, 2026 at 12pm",
     "quebec": "Last updated July 7, 2026 at 12pm",
     "frances": "Last updated July 5, 2026 at 12pm",
     "northvan": "Last updated July 8, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated July 5, 2026 at 12pm|fraser:Last updated July 8, 2026 at 12pm|northvan:Last updated July 8, 2026 at 12pm|quebec:Last updated July 7, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated July 5, 2026 at 12pm|fraser:Last updated July 9, 2026 at 12pm|northvan:Last updated July 8, 2026 at 12pm|quebec:Last updated July 7, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,13 +15,13 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-07-07",
-    "observedAt": "2026-07-07T21:11:57.622Z",
+    "baselineDay": "2026-07-08",
+    "observedAt": "2026-07-08T20:51:54.104Z",
     "flavorNamesByFlavorId": {
+      "butter-pecan": "Butter Pecan",
       "fresh-lemon": "Fresh Lemon",
       "london-fog": "London Fog",
       "strawberry": "Strawberry",
-      "vegan-mango": "Vegan Mango",
       "vegan-toasted-coconut": "Vegan Toasted Coconut",
       "cannoli": "Cannoli",
       "chocolate": "Chocolate",
@@ -35,16 +35,19 @@
       "vegan-blueberries-cream": "Vegan Blueberries & Cream",
       "vegan-cookies-cream": "Vegan Cookies + Cream",
       "vegan-key-lime-pie": "Vegan Key Lime Pie",
+      "vegan-mango": "Vegan Mango",
       "vegan-raspberry": "Vegan Raspberry",
       "whiskey-hazelnut": "Whiskey Hazelnut",
       "classic-sammie": "Classic Sammie",
-      "peanut-butter-chocolate-chip-sammie": "Peanut Butter Chocolate Chip Sammie",
       "sour-cherry-goat-cheese": "Sour Cherry Goat Cheese",
       "sour-cherry-goat-cheese-sammie": "Sour Cherry Goat Cheese Sammie",
       "vegan-cookie-butter-sammie": "Vegan Cookie Butter Sammie"
     },
     "servingTypes": {
       "scoop": {
+        "butter-pecan": [
+          "fraser"
+        ],
         "london-fog": [
           "quebec",
           "frances",
@@ -53,11 +56,6 @@
         "strawberry": [
           "fraser",
           "quebec",
-          "northvan"
-        ],
-        "vegan-mango": [
-          "quebec",
-          "frances",
           "northvan"
         ],
         "cannoli": [
@@ -132,6 +130,12 @@
           "frances",
           "northvan"
         ],
+        "vegan-mango": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
         "vegan-raspberry": [
           "fraser",
           "quebec",
@@ -159,12 +163,6 @@
         "strawberry": [
           "fraser",
           "quebec",
-          "northvan"
-        ],
-        "vegan-mango": [
-          "fraser",
-          "quebec",
-          "frances",
           "northvan"
         ],
         "vegan-toasted-coconut": [
@@ -242,6 +240,12 @@
           "frances",
           "northvan"
         ],
+        "vegan-mango": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
         "vegan-raspberry": [
           "fraser",
           "quebec",
@@ -262,9 +266,6 @@
           "frances",
           "northvan"
         ],
-        "peanut-butter-chocolate-chip-sammie": [
-          "quebec"
-        ],
         "sour-cherry-goat-cheese": [
           "frances"
         ],
@@ -283,18 +284,11 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-07-08",
-    "previousDay": "2026-07-07",
+    "currentDay": "2026-07-09",
+    "previousDay": "2026-07-08",
     "servingTypes": {
       "scoop": {
-        "added": {
-          "butter-pecan": [
-            "fraser"
-          ],
-          "vegan-mango": [
-            "fraser"
-          ]
-        },
+        "added": {},
         "removed": {}
       },
       "pint": {
@@ -303,14 +297,7 @@
       },
       "sandwich": {
         "added": {},
-        "removed": {
-          "peanut-butter-chocolate-chip-sammie": {
-            "name": "Peanut Butter Chocolate Chip Sammie",
-            "storeIds": [
-              "quebec"
-            ]
-          }
-        }
+        "removed": {}
       }
     }
   },
