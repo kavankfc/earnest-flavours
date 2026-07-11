@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-07-10T01:05:30.270Z",
+  "lastUpdatedAt": "2026-07-11T20:35:15.016Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated July 9, 2026 at 12pm",
+    "fraser": "Last updated July 10, 2026 at 12pm",
     "quebec": "Last updated July 7, 2026 at 12pm",
     "frances": "Last updated July 9, 2026 at 12pm",
     "northvan": "Last updated July 8, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated July 9, 2026 at 12pm|fraser:Last updated July 9, 2026 at 12pm|northvan:Last updated July 8, 2026 at 12pm|quebec:Last updated July 7, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated July 9, 2026 at 12pm|fraser:Last updated July 10, 2026 at 12pm|northvan:Last updated July 8, 2026 at 12pm|quebec:Last updated July 7, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-07-08",
-    "observedAt": "2026-07-08T20:51:54.104Z",
+    "baselineDay": "2026-07-10",
+    "observedAt": "2026-07-10T01:05:30.270Z",
     "flavorNamesByFlavorId": {
       "butter-pecan": "Butter Pecan",
       "fresh-lemon": "Fresh Lemon",
@@ -225,7 +225,6 @@
         ],
         "vegan-blueberries-cream": [
           "quebec",
-          "frances",
           "northvan"
         ],
         "vegan-cookies-cream": [
@@ -284,8 +283,8 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-07-09",
-    "previousDay": "2026-07-08",
+    "currentDay": "2026-07-11",
+    "previousDay": "2026-07-10",
     "servingTypes": {
       "scoop": {
         "added": {},
@@ -294,10 +293,10 @@
       "pint": {
         "added": {},
         "removed": {
-          "vegan-blueberries-cream": {
-            "name": "Vegan Blueberries & Cream",
+          "strawberry": {
+            "name": "Strawberry",
             "storeIds": [
-              "frances"
+              "fraser"
             ]
           }
         }
