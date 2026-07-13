@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-07-12T00:14:53.214Z",
+  "lastUpdatedAt": "2026-07-13T00:15:19.870Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated July 10, 2026 at 12pm",
+    "fraser": "Last updated July 12, 2026 at 12pm",
     "quebec": "Last updated July 7, 2026 at 12pm",
-    "frances": "Last updated July 9, 2026 at 12pm",
+    "frances": "Last updated July 12, 2026 at 12pm",
     "northvan": "Last updated July 11, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated July 9, 2026 at 12pm|fraser:Last updated July 10, 2026 at 12pm|northvan:Last updated July 11, 2026 at 12pm|quebec:Last updated July 7, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated July 12, 2026 at 12pm|fraser:Last updated July 12, 2026 at 12pm|northvan:Last updated July 11, 2026 at 12pm|quebec:Last updated July 7, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-07-10",
-    "observedAt": "2026-07-10T01:05:30.270Z",
+    "baselineDay": "2026-07-11",
+    "observedAt": "2026-07-12T00:14:53.214Z",
     "flavorNamesByFlavorId": {
       "butter-pecan": "Butter Pecan",
       "fresh-lemon": "Fresh Lemon",
@@ -151,8 +151,7 @@
       },
       "pint": {
         "fresh-lemon": [
-          "quebec",
-          "northvan"
+          "quebec"
         ],
         "london-fog": [
           "fraser",
@@ -161,7 +160,6 @@
           "northvan"
         ],
         "strawberry": [
-          "fraser",
           "quebec",
           "northvan"
         ],
@@ -283,29 +281,24 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-07-11",
-    "previousDay": "2026-07-10",
+    "currentDay": "2026-07-12",
+    "previousDay": "2026-07-11",
     "servingTypes": {
       "scoop": {
         "added": {},
-        "removed": {}
-      },
-      "pint": {
-        "added": {},
         "removed": {
-          "fresh-lemon": {
-            "name": "Fresh Lemon",
+          "vegan-blueberries-cream": {
+            "name": "Vegan Blueberries & Cream",
             "storeIds": [
-              "northvan"
-            ]
-          },
-          "strawberry": {
-            "name": "Strawberry",
-            "storeIds": [
-              "fraser"
+              "fraser",
+              "frances"
             ]
           }
         }
+      },
+      "pint": {
+        "added": {},
+        "removed": {}
       },
       "sandwich": {
         "added": {},
