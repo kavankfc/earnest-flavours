@@ -11,17 +11,6 @@
     "description": "Whiskey Hazelnut’s cousin! Pecan pieces are roasted with butter and salt, and added to our ice cream base with organic vanilla. Comfort in a scoop!"
   },
   {
-    "id": "fresh-lemon",
-    "name": "Fresh Lemon",
-    "isVegan": false,
-    "scoopStores": [],
-    "pintStores": [
-      "quebec"
-    ],
-    "sandwichStores": [],
-    "description": "“One of the favourites in the warmer months, it’s a refreshing and light flavour. We reduce down lemon juice and lemon zest from our friends at Chasers Juice and then add some lemon oil to really boost the flavour. This is simply mixed in with our ice cream base for an almost yoghurt- like flavour!”"
-  },
-  {
     "id": "strawberry",
     "name": "Strawberry",
     "isVegan": false,
@@ -360,6 +349,17 @@
       "northvan"
     ],
     "description": "Our take on a classic ice cream sandwich. Tahitian vanilla ice cream is sandwiched between chocolate cake and finished with a thin layer of fudge sauce. This flavour never goes out of style!"
+  },
+  {
+    "id": "coffee-toffee-sammie",
+    "name": "Coffee Toffee Sammie",
+    "isVegan": false,
+    "scoopStores": [],
+    "pintStores": [],
+    "sandwichStores": [
+      "frances"
+    ],
+    "description": "Rich coffee ice cream is speckled with crisp espresso chocolate flakes and melty bites of toffee. Layered with fudge on soft chocolate cake, this sammie is a delectable treat with a fun mix of textures."
   },
   {
     "id": "sour-cherry-goat-cheese",

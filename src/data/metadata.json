@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-07-13T20:45:26.194Z",
+  "lastUpdatedAt": "2026-07-14T00:12:31.757Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated July 12, 2026 at 12pm",
     "quebec": "Last updated July 13, 2026 at 12pm",
-    "frances": "Last updated July 12, 2026 at 12pm",
+    "frances": "Last updated July 13, 2026 at 12pm",
     "northvan": "Last updated July 11, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated July 12, 2026 at 12pm|fraser:Last updated July 12, 2026 at 12pm|northvan:Last updated July 11, 2026 at 12pm|quebec:Last updated July 13, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated July 13, 2026 at 12pm|fraser:Last updated July 12, 2026 at 12pm|northvan:Last updated July 11, 2026 at 12pm|quebec:Last updated July 13, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -305,21 +305,31 @@
             "storeIds": [
               "quebec"
             ]
+          },
+          "fresh-lemon": {
+            "name": "Fresh Lemon",
+            "storeIds": [
+              "quebec"
+            ]
           }
         }
       },
       "sandwich": {
-        "added": {},
+        "added": {
+          "coffee-toffee-sammie": [
+            "frances"
+          ]
+        },
         "removed": {}
       }
     }
   },
   "counts": {
     "totalItems": 24,
-    "iceCreamFlavors": 20,
+    "iceCreamFlavors": 19,
     "scoopItems": 18,
-    "pintItems": 19,
-    "sandwichItems": 4,
-    "sandwichOnlyItems": 4
+    "pintItems": 18,
+    "sandwichItems": 5,
+    "sandwichOnlyItems": 5
   }
 }
