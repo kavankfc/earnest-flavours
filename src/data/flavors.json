@@ -351,17 +351,6 @@
     "description": "Our take on a classic ice cream sandwich. Tahitian vanilla ice cream is sandwiched between chocolate cake and finished with a thin layer of fudge sauce. This flavour never goes out of style!"
   },
   {
-    "id": "coffee-toffee-sammie",
-    "name": "Coffee Toffee Sammie",
-    "isVegan": false,
-    "scoopStores": [],
-    "pintStores": [],
-    "sandwichStores": [
-      "frances"
-    ],
-    "description": "Rich coffee ice cream is speckled with crisp espresso chocolate flakes and melty bites of toffee. Layered with fudge on soft chocolate cake, this sammie is a delectable treat with a fun mix of textures."
-  },
-  {
     "id": "sour-cherry-goat-cheese",
     "name": "Sour Cherry Goat Cheese",
     "isVegan": false,
