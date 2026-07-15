@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-07-14T20:47:07.729Z",
+  "lastUpdatedAt": "2026-07-15T20:46:14.273Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated July 12, 2026 at 12pm",
-    "quebec": "Last updated July 14, 2026 at 12pm",
+    "quebec": "Last updated July 15, 2026 at 12pm",
     "frances": "Last updated July 14, 2026 at 12pm",
     "northvan": "Last updated July 11, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated July 14, 2026 at 12pm|fraser:Last updated July 12, 2026 at 12pm|northvan:Last updated July 11, 2026 at 12pm|quebec:Last updated July 14, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated July 14, 2026 at 12pm|fraser:Last updated July 12, 2026 at 12pm|northvan:Last updated July 11, 2026 at 12pm|quebec:Last updated July 15, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-07-13",
-    "observedAt": "2026-07-14T00:12:31.757Z",
+    "baselineDay": "2026-07-14",
+    "observedAt": "2026-07-14T20:47:07.729Z",
     "flavorNamesByFlavorId": {
       "butter-pecan": "Butter Pecan",
       "strawberry": "Strawberry",
@@ -38,7 +38,6 @@
       "vegan-raspberry": "Vegan Raspberry",
       "whiskey-hazelnut": "Whiskey Hazelnut",
       "classic-sammie": "Classic Sammie",
-      "coffee-toffee-sammie": "Coffee Toffee Sammie",
       "sour-cherry-goat-cheese": "Sour Cherry Goat Cheese",
       "sour-cherry-goat-cheese-sammie": "Sour Cherry Goat Cheese Sammie",
       "vegan-cookie-butter-sammie": "Vegan Cookie Butter Sammie"
@@ -257,9 +256,6 @@
           "frances",
           "northvan"
         ],
-        "coffee-toffee-sammie": [
-          "frances"
-        ],
         "sour-cherry-goat-cheese": [
           "frances"
         ],
@@ -278,12 +274,19 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-07-14",
-    "previousDay": "2026-07-13",
+    "currentDay": "2026-07-15",
+    "previousDay": "2026-07-14",
     "servingTypes": {
       "scoop": {
         "added": {},
-        "removed": {}
+        "removed": {
+          "vegan-mango": {
+            "name": "Vegan Mango",
+            "storeIds": [
+              "quebec"
+            ]
+          }
+        }
       },
       "pint": {
         "added": {},
@@ -291,14 +294,7 @@
       },
       "sandwich": {
         "added": {},
-        "removed": {
-          "coffee-toffee-sammie": {
-            "name": "Coffee Toffee Sammie",
-            "storeIds": [
-              "frances"
-            ]
-          }
-        }
+        "removed": {}
       }
     }
   },
