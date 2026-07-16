@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-07-15T20:46:14.273Z",
+  "lastUpdatedAt": "2026-07-16T20:40:24.700Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated July 12, 2026 at 12pm",
+    "fraser": "Last updated July 15, 2026 at 12pm",
     "quebec": "Last updated July 15, 2026 at 12pm",
     "frances": "Last updated July 14, 2026 at 12pm",
     "northvan": "Last updated July 11, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated July 14, 2026 at 12pm|fraser:Last updated July 12, 2026 at 12pm|northvan:Last updated July 11, 2026 at 12pm|quebec:Last updated July 15, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated July 14, 2026 at 12pm|fraser:Last updated July 15, 2026 at 12pm|northvan:Last updated July 11, 2026 at 12pm|quebec:Last updated July 15, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,12 +15,13 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-07-14",
-    "observedAt": "2026-07-14T20:47:07.729Z",
+    "baselineDay": "2026-07-15",
+    "observedAt": "2026-07-15T20:46:14.273Z",
     "flavorNamesByFlavorId": {
       "butter-pecan": "Butter Pecan",
       "strawberry": "Strawberry",
       "vegan-blueberries-cream": "Vegan Blueberries & Cream",
+      "vegan-mango": "Vegan Mango",
       "vegan-toasted-coconut": "Vegan Toasted Coconut",
       "cannoli": "Cannoli",
       "chocolate": "Chocolate",
@@ -34,7 +35,6 @@
       "tahitian-vanilla": "Tahitian Vanilla",
       "vegan-cookies-cream": "Vegan Cookies + Cream",
       "vegan-key-lime-pie": "Vegan Key Lime Pie",
-      "vegan-mango": "Vegan Mango",
       "vegan-raspberry": "Vegan Raspberry",
       "whiskey-hazelnut": "Whiskey Hazelnut",
       "classic-sammie": "Classic Sammie",
@@ -53,6 +53,11 @@
         ],
         "vegan-blueberries-cream": [
           "quebec",
+          "northvan"
+        ],
+        "vegan-mango": [
+          "fraser",
+          "frances",
           "northvan"
         ],
         "cannoli": [
@@ -127,12 +132,6 @@
           "frances",
           "northvan"
         ],
-        "vegan-mango": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
         "vegan-raspberry": [
           "fraser",
           "quebec",
@@ -152,6 +151,12 @@
           "northvan"
         ],
         "vegan-blueberries-cream": [
+          "northvan"
+        ],
+        "vegan-mango": [
+          "fraser",
+          "quebec",
+          "frances",
           "northvan"
         ],
         "vegan-toasted-coconut": [
@@ -230,12 +235,6 @@
           "frances",
           "northvan"
         ],
-        "vegan-mango": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
         "vegan-raspberry": [
           "fraser",
           "quebec",
@@ -274,19 +273,19 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-07-15",
-    "previousDay": "2026-07-14",
+    "currentDay": "2026-07-16",
+    "previousDay": "2026-07-15",
     "servingTypes": {
       "scoop": {
-        "added": {},
-        "removed": {
-          "vegan-mango": {
-            "name": "Vegan Mango",
-            "storeIds": [
-              "quebec"
-            ]
-          }
-        }
+        "added": {
+          "fresh-lemon": [
+            "fraser"
+          ],
+          "vegan-mango": [
+            "quebec"
+          ]
+        },
+        "removed": {}
       },
       "pint": {
         "added": {},
@@ -299,9 +298,9 @@
     }
   },
   "counts": {
-    "totalItems": 23,
-    "iceCreamFlavors": 19,
-    "scoopItems": 18,
+    "totalItems": 24,
+    "iceCreamFlavors": 20,
+    "scoopItems": 19,
     "pintItems": 18,
     "sandwichItems": 4,
     "sandwichOnlyItems": 4

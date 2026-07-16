@@ -11,6 +11,17 @@
     "description": "Whiskey Hazelnut’s cousin! Pecan pieces are roasted with butter and salt, and added to our ice cream base with organic vanilla. Comfort in a scoop!"
   },
   {
+    "id": "fresh-lemon",
+    "name": "Fresh Lemon",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser"
+    ],
+    "pintStores": [],
+    "sandwichStores": [],
+    "description": "“One of the favourites in the warmer months, it’s a refreshing and light flavour. We reduce down lemon juice and lemon zest from our friends at Chasers Juice and then add some lemon oil to really boost the flavour. This is simply mixed in with our ice cream base for an almost yoghurt- like flavour!”"
+  },
+  {
     "id": "strawberry",
     "name": "Strawberry",
     "isVegan": false,
@@ -38,24 +49,6 @@
     ],
     "sandwichStores": [],
     "description": "The perfect mix of light vanilla and bright berry flavours, this new flavour is like a bowl of fresh blueberries topped with whipped cream! Our vanilla oat-coconut base is brightened with a splash of lemon juice and swirled with house-made blueberry compote from all Canadian berries."
-  },
-  {
-    "id": "vegan-mango",
-    "name": "Vegan Mango",
-    "isVegan": true,
-    "scoopStores": [
-      "fraser",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "We blend mango puree into our classic vegan base, resulting in a beautifully vibrant and fruity treat! Mango puree is sourced from Ponthier."
   },
   {
     "id": "vegan-toasted-coconut",
@@ -296,6 +289,25 @@
     ],
     "sandwichStores": [],
     "description": "Our take on key lime pie in vegan ice cream form! A tart lime-coconut ice cream base with a house-made graham crumble. The sweet crumble offsets the tartness of the base, creating a nicely balanced bite with a scrumptious texture!"
+  },
+  {
+    "id": "vegan-mango",
+    "name": "Vegan Mango",
+    "isVegan": true,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "We blend mango puree into our classic vegan base, resulting in a beautifully vibrant and fruity treat! Mango puree is sourced from Ponthier."
   },
   {
     "id": "vegan-raspberry",
