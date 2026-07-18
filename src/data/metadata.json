@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-07-17T20:39:40.266Z",
+  "lastUpdatedAt": "2026-07-18T20:34:17.279Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated July 15, 2026 at 12pm",
+    "fraser": "Last updated July 18, 2026 at 12pm",
     "quebec": "Last updated July 15, 2026 at 12pm",
     "frances": "Last updated July 17, 2026 at 12pm",
     "northvan": "Last updated July 11, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated July 17, 2026 at 12pm|fraser:Last updated July 15, 2026 at 12pm|northvan:Last updated July 11, 2026 at 12pm|quebec:Last updated July 15, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated July 17, 2026 at 12pm|fraser:Last updated July 18, 2026 at 12pm|northvan:Last updated July 11, 2026 at 12pm|quebec:Last updated July 15, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-07-16",
-    "observedAt": "2026-07-16T20:40:24.700Z",
+    "baselineDay": "2026-07-17",
+    "observedAt": "2026-07-17T20:39:40.266Z",
     "flavorNamesByFlavorId": {
       "butter-pecan": "Butter Pecan",
       "fresh-lemon": "Fresh Lemon",
@@ -161,6 +161,7 @@
         "vegan-toasted-coconut": [
           "fraser",
           "quebec",
+          "frances",
           "northvan"
         ],
         "cannoli": [
@@ -278,19 +279,22 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-07-17",
-    "previousDay": "2026-07-16",
+    "currentDay": "2026-07-18",
+    "previousDay": "2026-07-17",
     "servingTypes": {
       "scoop": {
         "added": {},
-        "removed": {}
+        "removed": {
+          "butter-pecan": {
+            "name": "Butter Pecan",
+            "storeIds": [
+              "fraser"
+            ]
+          }
+        }
       },
       "pint": {
-        "added": {
-          "vegan-toasted-coconut": [
-            "frances"
-          ]
-        },
+        "added": {},
         "removed": {}
       },
       "sandwich": {
@@ -300,9 +304,9 @@
     }
   },
   "counts": {
-    "totalItems": 24,
-    "iceCreamFlavors": 20,
-    "scoopItems": 19,
+    "totalItems": 23,
+    "iceCreamFlavors": 19,
+    "scoopItems": 18,
     "pintItems": 18,
     "sandwichItems": 4,
     "sandwichOnlyItems": 4
