@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-07-18T20:34:17.279Z",
+  "lastUpdatedAt": "2026-07-19T20:35:12.102Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated July 18, 2026 at 12pm",
     "quebec": "Last updated July 15, 2026 at 12pm",
-    "frances": "Last updated July 17, 2026 at 12pm",
+    "frances": "Last updated July 19, 2026 at 12pm",
     "northvan": "Last updated July 11, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated July 17, 2026 at 12pm|fraser:Last updated July 18, 2026 at 12pm|northvan:Last updated July 11, 2026 at 12pm|quebec:Last updated July 15, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated July 19, 2026 at 12pm|fraser:Last updated July 18, 2026 at 12pm|northvan:Last updated July 11, 2026 at 12pm|quebec:Last updated July 15, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,10 +15,9 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-07-17",
-    "observedAt": "2026-07-17T20:39:40.266Z",
+    "baselineDay": "2026-07-18",
+    "observedAt": "2026-07-18T20:34:17.279Z",
     "flavorNamesByFlavorId": {
-      "butter-pecan": "Butter Pecan",
       "fresh-lemon": "Fresh Lemon",
       "strawberry": "Strawberry",
       "vegan-blueberries-cream": "Vegan Blueberries & Cream",
@@ -45,9 +44,6 @@
     },
     "servingTypes": {
       "scoop": {
-        "butter-pecan": [
-          "fraser"
-        ],
         "fresh-lemon": [
           "fraser"
         ],
@@ -279,19 +275,12 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-07-18",
-    "previousDay": "2026-07-17",
+    "currentDay": "2026-07-19",
+    "previousDay": "2026-07-18",
     "servingTypes": {
       "scoop": {
         "added": {},
-        "removed": {
-          "butter-pecan": {
-            "name": "Butter Pecan",
-            "storeIds": [
-              "fraser"
-            ]
-          }
-        }
+        "removed": {}
       },
       "pint": {
         "added": {},
