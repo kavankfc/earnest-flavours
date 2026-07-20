@@ -25,6 +25,11 @@
     "description": "The classic Italian pastry made into a delectable ice cream! Ricotta and cream cheese are combined in the base to achieve the right cheesy flavour, with orange zest adding a pop of brightness to balance. Mini chocolate chips and pieces of crunchy (gluten free!) cannoli shell are sprinkled throughout for lovely bites of texture."
   },
   {
+    "id": "cardamom",
+    "name": "Cardamom",
+    "description": "Our organic cardamom comes to us from our friends at the Gathering Place, a family run business on Cortes Island."
+  },
+  {
     "id": "carrot-cake",
     "name": "Carrot Cake",
     "description": "House-made spiced carrot cake and cream cheese fudge generously sprinkled through a lightly spiced ice cream, creating a classic dessert in ice cream form. Featuring spices from Gathering Place Trading and Carrots from Discovery Organics."

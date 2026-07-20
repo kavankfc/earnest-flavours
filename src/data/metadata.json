@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-07-19T20:35:12.102Z",
+  "lastUpdatedAt": "2026-07-20T00:59:46.619Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated July 18, 2026 at 12pm",
+    "fraser": "Last updated July 19, 2026 at 12pm",
     "quebec": "Last updated July 15, 2026 at 12pm",
     "frances": "Last updated July 19, 2026 at 12pm",
     "northvan": "Last updated July 11, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated July 19, 2026 at 12pm|fraser:Last updated July 18, 2026 at 12pm|northvan:Last updated July 11, 2026 at 12pm|quebec:Last updated July 15, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated July 19, 2026 at 12pm|fraser:Last updated July 19, 2026 at 12pm|northvan:Last updated July 11, 2026 at 12pm|quebec:Last updated July 15, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -279,8 +279,19 @@
     "previousDay": "2026-07-18",
     "servingTypes": {
       "scoop": {
-        "added": {},
-        "removed": {}
+        "added": {
+          "cardamom": [
+            "fraser"
+          ]
+        },
+        "removed": {
+          "fresh-lemon": {
+            "name": "Fresh Lemon",
+            "storeIds": [
+              "fraser"
+            ]
+          }
+        }
       },
       "pint": {
         "added": {},
