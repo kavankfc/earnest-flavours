@@ -26,20 +26,6 @@
     "description": "Local strawberries from Mandair Farms are picked at the peak of the season and frozen to preserve their vibrant fruitiness to enjoy in winter. We add a touch of white balsamic to enhance and balance the natural sweetness of the strawberries. A must try for fans of strawberry ice cream!"
   },
   {
-    "id": "vegan-blueberries-cream",
-    "name": "Vegan Blueberries & Cream",
-    "isVegan": true,
-    "scoopStores": [
-      "quebec",
-      "northvan"
-    ],
-    "pintStores": [
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "The perfect mix of light vanilla and bright berry flavours, this new flavour is like a bowl of fresh blueberries topped with whipped cream! Our vanilla oat-coconut base is brightened with a splash of lemon juice and swirled with house-made blueberry compote from all Canadian berries."
-  },
-  {
     "id": "vegan-toasted-coconut",
     "name": "Vegan Toasted Coconut",
     "isVegan": true,
@@ -383,7 +369,6 @@
     "pintStores": [],
     "sandwichStores": [
       "fraser",
-      "quebec",
       "frances",
       "northvan"
     ],
