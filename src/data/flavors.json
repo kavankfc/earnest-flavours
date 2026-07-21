@@ -1,14 +1,14 @@
 [
   {
-    "id": "cardamom",
-    "name": "Cardamom",
+    "id": "butter-pecan",
+    "name": "Butter Pecan",
     "isVegan": false,
     "scoopStores": [
-      "fraser"
+      "quebec"
     ],
     "pintStores": [],
     "sandwichStores": [],
-    "description": "Our organic cardamom comes to us from our friends at the Gathering Place, a family run business on Cortes Island."
+    "description": "Whiskey Hazelnut’s cousin! Pecan pieces are roasted with butter and salt, and added to our ice cream base with organic vanilla. Comfort in a scoop!"
   },
   {
     "id": "strawberry",
@@ -368,10 +368,20 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
-      "fraser",
       "frances",
       "northvan"
     ],
     "description": "House-made speculoos cookies are combined in a variety of ways into this delectable ice cream! Rich cookie butter is swirled throughout a lightly spiced base and topped with a speculoos cookie crumble for a lovely bite of added texture."
+  },
+  {
+    "id": "vegan-turtles-sammie",
+    "name": "Vegan Turtles Sammie",
+    "isVegan": true,
+    "scoopStores": [],
+    "pintStores": [],
+    "sandwichStores": [
+      "fraser"
+    ],
+    "description": "Our light chocolate vegan base has walnut praline blended into it to create a nutty background flavour. Sweet toffee bits, dark chocolate chips, and roasted, salted nuts are generously sprinkled throughout for pops of crunch and caramelly goodness. All sealed together with a layer of sweet fudge on soft chocolate cake, this sammie is a delectable combination of sweet, salty, nutty, and crunchy – just like a classic turtles candy!"
   }
 ]
