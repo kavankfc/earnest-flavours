@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-07-21T20:55:31.674Z",
+  "lastUpdatedAt": "2026-07-22T20:50:43.112Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated July 21, 2026 at 12pm",
-    "quebec": "Last updated July 21, 2026 at 12pm",
+    "quebec": "Last updated July 22, 2026 at 12pm",
     "frances": "Last updated July 20, 2026 at 12pm",
     "northvan": "Last updated July 20, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated July 20, 2026 at 12pm|fraser:Last updated July 21, 2026 at 12pm|northvan:Last updated July 20, 2026 at 12pm|quebec:Last updated July 21, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated July 20, 2026 at 12pm|fraser:Last updated July 21, 2026 at 12pm|northvan:Last updated July 20, 2026 at 12pm|quebec:Last updated July 22, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,10 +15,10 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-07-20",
-    "observedAt": "2026-07-20T20:56:35.079Z",
+    "baselineDay": "2026-07-21",
+    "observedAt": "2026-07-21T20:55:31.674Z",
     "flavorNamesByFlavorId": {
-      "cardamom": "Cardamom",
+      "butter-pecan": "Butter Pecan",
       "strawberry": "Strawberry",
       "vegan-toasted-coconut": "Vegan Toasted Coconut",
       "cannoli": "Cannoli",
@@ -39,12 +39,13 @@
       "classic-sammie": "Classic Sammie",
       "sour-cherry-goat-cheese": "Sour Cherry Goat Cheese",
       "sour-cherry-goat-cheese-sammie": "Sour Cherry Goat Cheese Sammie",
-      "vegan-cookie-butter-sammie": "Vegan Cookie Butter Sammie"
+      "vegan-cookie-butter-sammie": "Vegan Cookie Butter Sammie",
+      "vegan-turtles-sammie": "Vegan Turtles Sammie"
     },
     "servingTypes": {
       "scoop": {
-        "cardamom": [
-          "fraser"
+        "butter-pecan": [
+          "quebec"
         ],
         "strawberry": [
           "quebec",
@@ -258,31 +259,22 @@
           "northvan"
         ],
         "vegan-cookie-butter-sammie": [
-          "fraser",
           "frances",
           "northvan"
+        ],
+        "vegan-turtles-sammie": [
+          "fraser"
         ]
       }
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-07-21",
-    "previousDay": "2026-07-20",
+    "currentDay": "2026-07-22",
+    "previousDay": "2026-07-21",
     "servingTypes": {
       "scoop": {
-        "added": {
-          "butter-pecan": [
-            "quebec"
-          ]
-        },
-        "removed": {
-          "cardamom": {
-            "name": "Cardamom",
-            "storeIds": [
-              "fraser"
-            ]
-          }
-        }
+        "added": {},
+        "removed": {}
       },
       "pint": {
         "added": {},
@@ -290,27 +282,20 @@
       },
       "sandwich": {
         "added": {
-          "vegan-turtles-sammie": [
-            "fraser"
+          "vegan-coconut-brownie-sammie": [
+            "quebec"
           ]
         },
-        "removed": {
-          "vegan-cookie-butter-sammie": {
-            "name": "Vegan Cookie Butter Sammie",
-            "storeIds": [
-              "fraser"
-            ]
-          }
-        }
+        "removed": {}
       }
     }
   },
   "counts": {
-    "totalItems": 23,
+    "totalItems": 24,
     "iceCreamFlavors": 18,
     "scoopItems": 17,
     "pintItems": 17,
-    "sandwichItems": 5,
-    "sandwichOnlyItems": 5
+    "sandwichItems": 6,
+    "sandwichOnlyItems": 6
   }
 }

@@ -362,6 +362,17 @@
     "description": "Since we missed it as a seasonal, this cult classic is back as a sammie, but with a twist! Goat cheese ice cream is swirled with sour cherry compote to create a wonderfully cheesy and fruity flavour profile. Topped with a tart cherry jam that has a hint of almond extract added to boost that cherry flavour, plus a layer of goat cheese-vanilla cake crumble to complete this cheesy sammie. It’s the perfect bright treat for these hot summer days!"
   },
   {
+    "id": "vegan-coconut-brownie-sammie",
+    "name": "Vegan Coconut Brownie Sammie",
+    "isVegan": true,
+    "scoopStores": [],
+    "pintStores": [],
+    "sandwichStores": [
+      "quebec"
+    ],
+    "description": "Light chocolate ice cream is speckled with toasted coconut flakes and topped with a layer of fudge and bites of fudgey brownie. The resulting sammie is a delightful mix of chocolate and coconut flavours and textures!"
+  },
+  {
     "id": "vegan-cookie-butter-sammie",
     "name": "Vegan Cookie Butter Sammie",
     "isVegan": true,
