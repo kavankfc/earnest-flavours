@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-07-22T20:50:43.112Z",
+  "lastUpdatedAt": "2026-07-24T00:15:44.517Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated July 21, 2026 at 12pm",
+    "fraser": "Last updated July 23, 2026 at 12pm",
     "quebec": "Last updated July 22, 2026 at 12pm",
     "frances": "Last updated July 20, 2026 at 12pm",
     "northvan": "Last updated July 20, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated July 20, 2026 at 12pm|fraser:Last updated July 21, 2026 at 12pm|northvan:Last updated July 20, 2026 at 12pm|quebec:Last updated July 22, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated July 20, 2026 at 12pm|fraser:Last updated July 23, 2026 at 12pm|northvan:Last updated July 20, 2026 at 12pm|quebec:Last updated July 22, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-07-21",
-    "observedAt": "2026-07-21T20:55:31.674Z",
+    "baselineDay": "2026-07-22",
+    "observedAt": "2026-07-22T20:50:43.112Z",
     "flavorNamesByFlavorId": {
       "butter-pecan": "Butter Pecan",
       "strawberry": "Strawberry",
@@ -39,6 +39,7 @@
       "classic-sammie": "Classic Sammie",
       "sour-cherry-goat-cheese": "Sour Cherry Goat Cheese",
       "sour-cherry-goat-cheese-sammie": "Sour Cherry Goat Cheese Sammie",
+      "vegan-coconut-brownie-sammie": "Vegan Coconut Brownie Sammie",
       "vegan-cookie-butter-sammie": "Vegan Cookie Butter Sammie",
       "vegan-turtles-sammie": "Vegan Turtles Sammie"
     },
@@ -258,6 +259,9 @@
           "quebec",
           "northvan"
         ],
+        "vegan-coconut-brownie-sammie": [
+          "quebec"
+        ],
         "vegan-cookie-butter-sammie": [
           "frances",
           "northvan"
@@ -269,23 +273,37 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-07-22",
-    "previousDay": "2026-07-21",
+    "currentDay": "2026-07-23",
+    "previousDay": "2026-07-22",
     "servingTypes": {
       "scoop": {
-        "added": {},
-        "removed": {}
-      },
-      "pint": {
-        "added": {},
-        "removed": {}
-      },
-      "sandwich": {
         "added": {
-          "vegan-coconut-brownie-sammie": [
+          "cardamom": [
             "quebec"
           ]
         },
+        "removed": {
+          "butter-pecan": {
+            "name": "Butter Pecan",
+            "storeIds": [
+              "quebec"
+            ]
+          }
+        }
+      },
+      "pint": {
+        "added": {},
+        "removed": {
+          "vegan-toasted-coconut": {
+            "name": "Vegan Toasted Coconut",
+            "storeIds": [
+              "fraser"
+            ]
+          }
+        }
+      },
+      "sandwich": {
+        "added": {},
         "removed": {}
       }
     }
