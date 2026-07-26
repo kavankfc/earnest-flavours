@@ -1,16 +1,5 @@
 [
   {
-    "id": "cardamom",
-    "name": "Cardamom",
-    "isVegan": false,
-    "scoopStores": [
-      "quebec"
-    ],
-    "pintStores": [],
-    "sandwichStores": [],
-    "description": "Our organic cardamom comes to us from our friends at the Gathering Place, a family run business on Cortes Island."
-  },
-  {
     "id": "strawberry",
     "name": "Strawberry",
     "isVegan": false,

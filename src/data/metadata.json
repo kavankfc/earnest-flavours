@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-07-25T20:37:41.232Z",
+  "lastUpdatedAt": "2026-07-26T20:42:40.799Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated July 25, 2026 at 12pm",
-    "quebec": "Last updated July 22, 2026 at 12pm",
-    "frances": "Last updated July 20, 2026 at 12pm",
+    "quebec": "Last updated July 25, 2026 at 12pm",
+    "frances": "Last updated July 26, 2026 at 12pm",
     "northvan": "Last updated July 20, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated July 20, 2026 at 12pm|fraser:Last updated July 25, 2026 at 12pm|northvan:Last updated July 20, 2026 at 12pm|quebec:Last updated July 22, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated July 26, 2026 at 12pm|fraser:Last updated July 25, 2026 at 12pm|northvan:Last updated July 20, 2026 at 12pm|quebec:Last updated July 25, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-07-24",
-    "observedAt": "2026-07-25T00:58:04.314Z",
+    "baselineDay": "2026-07-25",
+    "observedAt": "2026-07-25T20:37:41.232Z",
     "flavorNamesByFlavorId": {
       "cardamom": "Cardamom",
       "strawberry": "Strawberry",
@@ -272,12 +272,19 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-07-25",
-    "previousDay": "2026-07-24",
+    "currentDay": "2026-07-26",
+    "previousDay": "2026-07-25",
     "servingTypes": {
       "scoop": {
         "added": {},
-        "removed": {}
+        "removed": {
+          "cardamom": {
+            "name": "Cardamom",
+            "storeIds": [
+              "quebec"
+            ]
+          }
+        }
       },
       "pint": {
         "added": {},
@@ -290,9 +297,9 @@
     }
   },
   "counts": {
-    "totalItems": 24,
-    "iceCreamFlavors": 18,
-    "scoopItems": 17,
+    "totalItems": 23,
+    "iceCreamFlavors": 17,
+    "scoopItems": 16,
     "pintItems": 17,
     "sandwichItems": 6,
     "sandwichOnlyItems": 6
