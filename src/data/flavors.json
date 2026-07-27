@@ -15,6 +15,24 @@
     "description": "Local strawberries from Mandair Farms are picked at the peak of the season and frozen to preserve their vibrant fruitiness to enjoy in winter. We add a touch of white balsamic to enhance and balance the natural sweetness of the strawberries. A must try for fans of strawberry ice cream!"
   },
   {
+    "id": "vegan-mango",
+    "name": "Vegan Mango",
+    "isVegan": true,
+    "scoopStores": [
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "We blend mango puree into our classic vegan base, resulting in a beautifully vibrant and fruity treat! Mango puree is sourced from Ponthier."
+  },
+  {
     "id": "vegan-toasted-coconut",
     "name": "Vegan Toasted Coconut",
     "isVegan": true,
@@ -190,6 +208,7 @@
       "northvan"
     ],
     "pintStores": [
+      "fraser",
       "quebec",
       "frances",
       "northvan"
@@ -253,25 +272,6 @@
     ],
     "sandwichStores": [],
     "description": "Our take on key lime pie in vegan ice cream form! A tart lime-coconut ice cream base with a house-made graham crumble. The sweet crumble offsets the tartness of the base, creating a nicely balanced bite with a scrumptious texture!"
-  },
-  {
-    "id": "vegan-mango",
-    "name": "Vegan Mango",
-    "isVegan": true,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "We blend mango puree into our classic vegan base, resulting in a beautifully vibrant and fruity treat! Mango puree is sourced from Ponthier."
   },
   {
     "id": "vegan-raspberry",
@@ -356,7 +356,8 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
-      "quebec"
+      "quebec",
+      "frances"
     ],
     "description": "Light chocolate ice cream is speckled with toasted coconut flakes and topped with a layer of fudge and bites of fudgey brownie. The resulting sammie is a delightful mix of chocolate and coconut flavours and textures!"
   },
@@ -367,7 +368,6 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
-      "frances",
       "northvan"
     ],
     "description": "House-made speculoos cookies are combined in a variety of ways into this delectable ice cream! Rich cookie butter is swirled throughout a lightly spiced base and topped with a speculoos cookie crumble for a lovely bite of added texture."

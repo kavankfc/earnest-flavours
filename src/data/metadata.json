@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-07-26T20:42:40.799Z",
+  "lastUpdatedAt": "2026-07-27T20:57:31.848Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated July 25, 2026 at 12pm",
+    "fraser": "Last updated July 27, 2026 at 12pm",
     "quebec": "Last updated July 25, 2026 at 12pm",
-    "frances": "Last updated July 26, 2026 at 12pm",
+    "frances": "Last updated July 27, 2026 at 12pm",
     "northvan": "Last updated July 20, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated July 26, 2026 at 12pm|fraser:Last updated July 25, 2026 at 12pm|northvan:Last updated July 20, 2026 at 12pm|quebec:Last updated July 25, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated July 27, 2026 at 12pm|fraser:Last updated July 27, 2026 at 12pm|northvan:Last updated July 20, 2026 at 12pm|quebec:Last updated July 25, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,10 +15,9 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-07-25",
-    "observedAt": "2026-07-25T20:37:41.232Z",
+    "baselineDay": "2026-07-26",
+    "observedAt": "2026-07-26T20:42:40.799Z",
     "flavorNamesByFlavorId": {
-      "cardamom": "Cardamom",
       "strawberry": "Strawberry",
       "vegan-toasted-coconut": "Vegan Toasted Coconut",
       "cannoli": "Cannoli",
@@ -45,9 +44,6 @@
     },
     "servingTypes": {
       "scoop": {
-        "cardamom": [
-          "quebec"
-        ],
         "strawberry": [
           "quebec",
           "northvan"
@@ -272,27 +268,42 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-07-26",
-    "previousDay": "2026-07-25",
+    "currentDay": "2026-07-27",
+    "previousDay": "2026-07-26",
     "servingTypes": {
       "scoop": {
         "added": {},
         "removed": {
-          "cardamom": {
-            "name": "Cardamom",
+          "vegan-mango": {
+            "name": "Vegan Mango",
             "storeIds": [
-              "quebec"
+              "fraser"
             ]
           }
         }
       },
       "pint": {
-        "added": {},
+        "added": {
+          "salted-caramel": [
+            "fraser"
+          ]
+        },
         "removed": {}
       },
       "sandwich": {
-        "added": {},
-        "removed": {}
+        "added": {
+          "vegan-coconut-brownie-sammie": [
+            "frances"
+          ]
+        },
+        "removed": {
+          "vegan-cookie-butter-sammie": {
+            "name": "Vegan Cookie Butter Sammie",
+            "storeIds": [
+              "frances"
+            ]
+          }
+        }
       }
     }
   },
