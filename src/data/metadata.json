@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-07-30T00:52:11.784Z",
+  "lastUpdatedAt": "2026-07-30T20:52:26.701Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated July 29, 2026 at 12pm",
-    "quebec": "Last updated July 25, 2026 at 12pm",
+    "fraser": "Last updated July 30, 2026 at 12pm",
+    "quebec": "Last updated July 30, 2026 at 12pm",
     "frances": "Last updated July 27, 2026 at 12pm",
     "northvan": "Last updated July 20, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated July 27, 2026 at 12pm|fraser:Last updated July 29, 2026 at 12pm|northvan:Last updated July 20, 2026 at 12pm|quebec:Last updated July 25, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated July 27, 2026 at 12pm|fraser:Last updated July 30, 2026 at 12pm|northvan:Last updated July 20, 2026 at 12pm|quebec:Last updated July 30, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,10 +15,11 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-07-28",
-    "observedAt": "2026-07-27T20:57:31.848Z",
+    "baselineDay": "2026-07-29",
+    "observedAt": "2026-07-30T00:52:11.784Z",
     "flavorNamesByFlavorId": {
       "strawberry": "Strawberry",
+      "vegan-key-lime-pie": "Vegan Key Lime Pie",
       "vegan-mango": "Vegan Mango",
       "vegan-toasted-coconut": "Vegan Toasted Coconut",
       "cannoli": "Cannoli",
@@ -32,20 +33,23 @@
       "salted-caramel": "Salted Caramel",
       "tahitian-vanilla": "Tahitian Vanilla",
       "vegan-cookies-cream": "Vegan Cookies + Cream",
-      "vegan-key-lime-pie": "Vegan Key Lime Pie",
       "vegan-raspberry": "Vegan Raspberry",
       "whiskey-hazelnut": "Whiskey Hazelnut",
       "classic-sammie": "Classic Sammie",
       "sour-cherry-goat-cheese": "Sour Cherry Goat Cheese",
       "sour-cherry-goat-cheese-sammie": "Sour Cherry Goat Cheese Sammie",
       "vegan-coconut-brownie-sammie": "Vegan Coconut Brownie Sammie",
-      "vegan-cookie-butter-sammie": "Vegan Cookie Butter Sammie",
-      "vegan-turtles-sammie": "Vegan Turtles Sammie"
+      "vegan-cookie-butter-sammie": "Vegan Cookie Butter Sammie"
     },
     "servingTypes": {
       "scoop": {
         "strawberry": [
           "quebec",
+          "northvan"
+        ],
+        "vegan-key-lime-pie": [
+          "quebec",
+          "frances",
           "northvan"
         ],
         "vegan-mango": [
@@ -119,12 +123,6 @@
           "frances",
           "northvan"
         ],
-        "vegan-key-lime-pie": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
         "vegan-raspberry": [
           "fraser",
           "quebec",
@@ -141,6 +139,12 @@
       "pint": {
         "strawberry": [
           "quebec",
+          "northvan"
+        ],
+        "vegan-key-lime-pie": [
+          "fraser",
+          "quebec",
+          "frances",
           "northvan"
         ],
         "vegan-mango": [
@@ -220,12 +224,6 @@
           "frances",
           "northvan"
         ],
-        "vegan-key-lime-pie": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
         "vegan-raspberry": [
           "fraser",
           "quebec",
@@ -255,21 +253,19 @@
           "northvan"
         ],
         "vegan-coconut-brownie-sammie": [
+          "fraser",
           "quebec",
           "frances"
         ],
         "vegan-cookie-butter-sammie": [
           "northvan"
-        ],
-        "vegan-turtles-sammie": [
-          "fraser"
         ]
       }
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-07-29",
-    "previousDay": "2026-07-28",
+    "currentDay": "2026-07-30",
+    "previousDay": "2026-07-29",
     "servingTypes": {
       "scoop": {
         "added": {},
@@ -277,7 +273,13 @@
           "vegan-key-lime-pie": {
             "name": "Vegan Key Lime Pie",
             "storeIds": [
-              "fraser"
+              "quebec"
+            ]
+          },
+          "vegan-mango": {
+            "name": "Vegan Mango",
+            "storeIds": [
+              "quebec"
             ]
           }
         }
@@ -287,19 +289,8 @@
         "removed": {}
       },
       "sandwich": {
-        "added": {
-          "vegan-coconut-brownie-sammie": [
-            "fraser"
-          ]
-        },
-        "removed": {
-          "vegan-turtles-sammie": {
-            "name": "Vegan Turtles Sammie",
-            "storeIds": [
-              "fraser"
-            ]
-          }
-        }
+        "added": {},
+        "removed": {}
       }
     }
   },
