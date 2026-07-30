@@ -15,6 +15,24 @@
     "description": "Local strawberries from Mandair Farms are picked at the peak of the season and frozen to preserve their vibrant fruitiness to enjoy in winter. We add a touch of white balsamic to enhance and balance the natural sweetness of the strawberries. A must try for fans of strawberry ice cream!"
   },
   {
+    "id": "vegan-key-lime-pie",
+    "name": "Vegan Key Lime Pie",
+    "isVegan": true,
+    "scoopStores": [
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Our take on key lime pie in vegan ice cream form! A tart lime-coconut ice cream base with a house-made graham crumble. The sweet crumble offsets the tartness of the base, creating a nicely balanced bite with a scrumptious texture!"
+  },
+  {
     "id": "vegan-mango",
     "name": "Vegan Mango",
     "isVegan": true,
@@ -255,25 +273,6 @@
     "description": "A vegan twist on a childhood favourite that is brimming with chunks of cookies in a creamy vanilla base. Fun fact, we make this flavour with the exact same organic chocolate sandwich cookies we use in our dairy cookies and cream!"
   },
   {
-    "id": "vegan-key-lime-pie",
-    "name": "Vegan Key Lime Pie",
-    "isVegan": true,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "Our take on key lime pie in vegan ice cream form! A tart lime-coconut ice cream base with a house-made graham crumble. The sweet crumble offsets the tartness of the base, creating a nicely balanced bite with a scrumptious texture!"
-  },
-  {
     "id": "vegan-raspberry",
     "name": "Vegan Raspberry",
     "isVegan": true,
@@ -356,6 +355,7 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
+      "fraser",
       "quebec",
       "frances"
     ],
@@ -371,16 +371,5 @@
       "northvan"
     ],
     "description": "House-made speculoos cookies are combined in a variety of ways into this delectable ice cream! Rich cookie butter is swirled throughout a lightly spiced base and topped with a speculoos cookie crumble for a lovely bite of added texture."
-  },
-  {
-    "id": "vegan-turtles-sammie",
-    "name": "Vegan Turtles Sammie",
-    "isVegan": true,
-    "scoopStores": [],
-    "pintStores": [],
-    "sandwichStores": [
-      "fraser"
-    ],
-    "description": "Our light chocolate vegan base has walnut praline blended into it to create a nutty background flavour. Sweet toffee bits, dark chocolate chips, and roasted, salted nuts are generously sprinkled throughout for pops of crunch and caramelly goodness. All sealed together with a layer of sweet fudge on soft chocolate cake, this sammie is a delectable combination of sweet, salty, nutty, and crunchy – just like a classic turtles candy!"
   }
 ]
