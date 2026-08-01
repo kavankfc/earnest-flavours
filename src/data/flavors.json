@@ -1,5 +1,39 @@
 [
   {
+    "id": "baklava",
+    "name": "Baklava",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Buttery layers of phyllo pastry and clusters of spiced nuts are generously scattered through a light, honey base. Like a slice of honey-drenched baklava blended into ice cream!"
+  },
+  {
+    "id": "blackberry-coriander",
+    "name": "Blackberry Coriander",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Organic coriander (from Gathering Place Trading) brings light citrus and nutty notes to the base, while BC Blackberries (from Mandair Farms) add a fresh fruity pop. Swirled together, these flavours compliment each other to create wonderfully bright ice cream perfect for those who love fruit and citrus."
+  },
+  {
     "id": "strawberry",
     "name": "Strawberry",
     "isVegan": false,
@@ -15,12 +49,28 @@
     "description": "Local strawberries from Mandair Farms are picked at the peak of the season and frozen to preserve their vibrant fruitiness to enjoy in winter. We add a touch of white balsamic to enhance and balance the natural sweetness of the strawberries. A must try for fans of strawberry ice cream!"
   },
   {
+    "id": "toasted-marshmallow",
+    "name": "Toasted Marshmallow",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "This flavour honours a classic summer time tradition with major campfire vibes! Roasted house-made marshmallows are blended into our ice cream base. Tastes and melts in your mouth just like a real toasted marshmallow!"
+  },
+  {
     "id": "vegan-key-lime-pie",
     "name": "Vegan Key Lime Pie",
     "isVegan": true,
     "scoopStores": [
-      "frances",
-      "northvan"
+      "frances"
     ],
     "pintStores": [
       "fraser",
@@ -36,8 +86,7 @@
     "name": "Vegan Mango",
     "isVegan": true,
     "scoopStores": [
-      "frances",
-      "northvan"
+      "frances"
     ],
     "pintStores": [
       "fraser",
@@ -47,6 +96,40 @@
     ],
     "sandwichStores": [],
     "description": "We blend mango puree into our classic vegan base, resulting in a beautifully vibrant and fruity treat! Mango puree is sourced from Ponthier."
+  },
+  {
+    "id": "vegan-s-mores",
+    "name": "Vegan S’mores",
+    "isVegan": true,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "The campfire staple brought to life as a vegan ice cream! House-made cookies are blended into the base to mimic the flavour of a graham cracker, as well as a sprinkle of graham crumble for texture. Dandies vegan marshmallows are toasted and folded in along with a rich fudgey swirl, supplying caramelly notes to round out that toasty s’mores flavour."
+  },
+  {
+    "id": "vegan-strawberry-elderflower-ripple",
+    "name": "Vegan Strawberry Elderflower Ripple",
+    "isVegan": true,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Local, organic elderflowers from Elderberry Grove Farm are steeped into our classic oat-coconut base. Swirled with fresh strawberry sauce, this flavour is bright and fruity with a delicate floral background – perfectly refreshing for these hot summer days!"
   },
   {
     "id": "vegan-toasted-coconut",
@@ -355,19 +438,9 @@
     "sandwichStores": [
       "fraser",
       "quebec",
-      "frances"
-    ],
-    "description": "Light chocolate ice cream is speckled with toasted coconut flakes and topped with a layer of fudge and bites of fudgey brownie. The resulting sammie is a delightful mix of chocolate and coconut flavours and textures!"
-  },
-  {
-    "id": "vegan-cookie-butter-sammie",
-    "name": "Vegan Cookie Butter Sammie",
-    "isVegan": true,
-    "scoopStores": [],
-    "pintStores": [],
-    "sandwichStores": [
+      "frances",
       "northvan"
     ],
-    "description": "House-made speculoos cookies are combined in a variety of ways into this delectable ice cream! Rich cookie butter is swirled throughout a lightly spiced base and topped with a speculoos cookie crumble for a lovely bite of added texture."
+    "description": "Light chocolate ice cream is speckled with toasted coconut flakes and topped with a layer of fudge and bites of fudgey brownie. The resulting sammie is a delightful mix of chocolate and coconut flavours and textures!"
   }
 ]

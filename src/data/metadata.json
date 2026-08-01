@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-07-30T20:52:26.701Z",
+  "lastUpdatedAt": "2026-08-01T20:37:36.266Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated July 30, 2026 at 12pm",
-    "quebec": "Last updated July 30, 2026 at 12pm",
+    "fraser": "Last updated August 1, 2026 at 12pm",
+    "quebec": "Last updated July 31, 2026 at 12pm",
     "frances": "Last updated July 27, 2026 at 12pm",
-    "northvan": "Last updated July 20, 2026 at 12pm"
+    "northvan": "Last updated August 1, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated July 27, 2026 at 12pm|fraser:Last updated July 30, 2026 at 12pm|northvan:Last updated July 20, 2026 at 12pm|quebec:Last updated July 30, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated July 27, 2026 at 12pm|fraser:Last updated August 1, 2026 at 12pm|northvan:Last updated August 1, 2026 at 12pm|quebec:Last updated July 31, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-07-29",
-    "observedAt": "2026-07-30T00:52:11.784Z",
+    "baselineDay": "2026-07-31",
+    "observedAt": "2026-07-30T20:52:26.701Z",
     "flavorNamesByFlavorId": {
       "strawberry": "Strawberry",
       "vegan-key-lime-pie": "Vegan Key Lime Pie",
@@ -48,12 +48,10 @@
           "northvan"
         ],
         "vegan-key-lime-pie": [
-          "quebec",
           "frances",
           "northvan"
         ],
         "vegan-mango": [
-          "quebec",
           "frances",
           "northvan"
         ],
@@ -264,42 +262,105 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-07-30",
-    "previousDay": "2026-07-29",
+    "currentDay": "2026-08-01",
+    "previousDay": "2026-07-31",
     "servingTypes": {
       "scoop": {
-        "added": {},
+        "added": {
+          "baklava": [
+            "fraser",
+            "quebec",
+            "northvan"
+          ],
+          "blackberry-coriander": [
+            "fraser",
+            "quebec",
+            "northvan"
+          ],
+          "toasted-marshmallow": [
+            "fraser",
+            "quebec",
+            "northvan"
+          ],
+          "vegan-s-mores": [
+            "fraser",
+            "quebec",
+            "northvan"
+          ],
+          "vegan-strawberry-elderflower-ripple": [
+            "fraser",
+            "quebec",
+            "northvan"
+          ]
+        },
         "removed": {
           "vegan-key-lime-pie": {
             "name": "Vegan Key Lime Pie",
             "storeIds": [
-              "quebec"
+              "northvan"
             ]
           },
           "vegan-mango": {
             "name": "Vegan Mango",
             "storeIds": [
-              "quebec"
+              "northvan"
             ]
           }
         }
       },
       "pint": {
-        "added": {},
+        "added": {
+          "baklava": [
+            "fraser",
+            "quebec",
+            "northvan"
+          ],
+          "blackberry-coriander": [
+            "fraser",
+            "quebec",
+            "northvan"
+          ],
+          "toasted-marshmallow": [
+            "fraser",
+            "quebec",
+            "northvan"
+          ],
+          "vegan-s-mores": [
+            "fraser",
+            "quebec",
+            "northvan"
+          ],
+          "vegan-strawberry-elderflower-ripple": [
+            "fraser",
+            "quebec",
+            "northvan"
+          ]
+        },
         "removed": {}
       },
       "sandwich": {
-        "added": {},
-        "removed": {}
+        "added": {
+          "vegan-coconut-brownie-sammie": [
+            "northvan"
+          ]
+        },
+        "removed": {
+          "vegan-cookie-butter-sammie": {
+            "name": "Vegan Cookie Butter Sammie",
+            "storeIds": [
+              "northvan"
+            ]
+          }
+        }
       }
     }
   },
   "counts": {
-    "totalItems": 22,
-    "iceCreamFlavors": 17,
-    "scoopItems": 16,
-    "pintItems": 17,
-    "sandwichItems": 5,
-    "sandwichOnlyItems": 5
+    "totalItems": 26,
+    "iceCreamFlavors": 22,
+    "scoopItems": 21,
+    "pintItems": 22,
+    "sandwichItems": 4,
+    "sandwichOnlyItems": 4
   }
 }

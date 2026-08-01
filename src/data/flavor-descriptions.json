@@ -10,9 +10,19 @@
     "description": "For a limited time only, this crowd-favourite flavour is back as a sammie! Fluffy almond cake is topped with our delectable almond croissant ice cream – double baked buttery croissant pieces with toasted almonds folded into a light almond base. A layer of warm caramel seals this sammie together with a croissant crumble topping for a delightful crunch!"
   },
   {
+    "id": "baklava",
+    "name": "Baklava",
+    "description": "Buttery layers of phyllo pastry and clusters of spiced nuts are generously scattered through a light, honey base. Like a slice of honey-drenched baklava blended into ice cream!"
+  },
+  {
     "id": "birthday-cake",
     "name": "Birthday Cake",
     "description": "What’s better than birthday cake with ice cream? Birthday cake IN ice cream! Bites of house-made cake throughout pink vanilla ice cream, complete with naturally coloured sprinkles. Happy birthday to us!"
+  },
+  {
+    "id": "blackberry-coriander",
+    "name": "Blackberry Coriander",
+    "description": "Organic coriander (from Gathering Place Trading) brings light citrus and nutty notes to the base, while BC Blackberries (from Mandair Farms) add a fresh fruity pop. Swirled together, these flavours compliment each other to create wonderfully bright ice cream perfect for those who love fruit and citrus."
   },
   {
     "id": "butter-pecan",
@@ -185,6 +195,11 @@
     "description": "This flavour has been a core since day one. Our pure vanilla extract is sourced from premium slow-grown, sun-cured vanilla beans of the “Tahitian” variety. The flavour from the beans is cold-extracted to preserve its complex bouquet. These vanilla beans are brighter and more floral than the rounder, woodsier Madagascar variety."
   },
   {
+    "id": "toasted-marshmallow",
+    "name": "Toasted Marshmallow",
+    "description": "This flavour honours a classic summer time tradition with major campfire vibes! Roasted house-made marshmallows are blended into our ice cream base. Tastes and melts in your mouth just like a real toasted marshmallow!"
+  },
+  {
     "id": "vegan-apple-crisp",
     "name": "Vegan Apple Crisp",
     "description": "BC Honeycrisp apples roasted with brown sugar and whiskey for a lovely caramelized flavour. Swirled into a lightly spiced oat-coconut base, along with generous handfuls of oat crisp crumble. Like a warm apple crisp a la mode!"
@@ -270,9 +285,19 @@
     "description": "One of our original vegan flavours. Local raspberries from Mandair Farms pureed and blended into our signature vegan coconut base – it’s bright, tart, refreshing and looks as good as it tastes."
   },
   {
+    "id": "vegan-s-mores",
+    "name": "Vegan S’mores",
+    "description": "The campfire staple brought to life as a vegan ice cream! House-made cookies are blended into the base to mimic the flavour of a graham cracker, as well as a sprinkle of graham crumble for texture. Dandies vegan marshmallows are toasted and folded in along with a rich fudgey swirl, supplying caramelly notes to round out that toasty s’mores flavour."
+  },
+  {
     "id": "vegan-strawberry-chocolate-sprinkle-sammie",
     "name": "Vegan Strawberry Chocolate Sprinkle Sammie",
     "description": "Bright strawberry ice cream is speckled with deliciously chocolatey sprinkles. Sandwiched with a layer of strawberry jam on soft chocolate cake, this fruity-chocolatey treat is perfectly balanced and scrumptious!"
+  },
+  {
+    "id": "vegan-strawberry-elderflower-ripple",
+    "name": "Vegan Strawberry Elderflower Ripple",
+    "description": "Local, organic elderflowers from Elderberry Grove Farm are steeped into our classic oat-coconut base. Swirled with fresh strawberry sauce, this flavour is bright and fruity with a delicate floral background – perfectly refreshing for these hot summer days!"
   },
   {
     "id": "vegan-strawberry-rhubarb-ripple",
