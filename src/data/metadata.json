@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-08-02T20:39:38.582Z",
+  "lastUpdatedAt": "2026-08-03T01:02:17.644Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated August 2, 2026 at 12pm",
-    "quebec": "Last updated July 31, 2026 at 12pm",
+    "quebec": "Last updated August 2, 2026 at 12pm",
     "frances": "Last updated August 2, 2026 at 12pm",
     "northvan": "Last updated August 1, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated August 2, 2026 at 12pm|fraser:Last updated August 2, 2026 at 12pm|northvan:Last updated August 1, 2026 at 12pm|quebec:Last updated July 31, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated August 2, 2026 at 12pm|fraser:Last updated August 2, 2026 at 12pm|northvan:Last updated August 1, 2026 at 12pm|quebec:Last updated August 2, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -317,10 +317,10 @@
     "servingTypes": {
       "scoop": {
         "added": {
-          "baklava": [
+          "blackberry-coriander": [
             "frances"
           ],
-          "blackberry-coriander": [
+          "baklava": [
             "frances"
           ],
           "toasted-marshmallow": [
@@ -334,6 +334,12 @@
           ]
         },
         "removed": {
+          "blackberry-coriander": {
+            "name": "Blackberry Coriander",
+            "storeIds": [
+              "quebec"
+            ]
+          },
           "cannoli": {
             "name": "Cannoli",
             "storeIds": [
@@ -356,10 +362,10 @@
       },
       "pint": {
         "added": {
-          "baklava": [
+          "blackberry-coriander": [
             "frances"
           ],
-          "blackberry-coriander": [
+          "baklava": [
             "frances"
           ],
           "toasted-marshmallow": [
