@@ -1,23 +1,5 @@
 [
   {
-    "id": "blackberry-coriander",
-    "name": "Blackberry Coriander",
-    "isVegan": false,
-    "scoopStores": [
-      "fraser",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "Organic coriander (from Gathering Place Trading) brings light citrus and nutty notes to the base, while BC Blackberries (from Mandair Farms) add a fresh fruity pop. Swirled together, these flavours compliment each other to create wonderfully bright ice cream perfect for those who love fruit and citrus."
-  },
-  {
     "id": "cannoli",
     "name": "Cannoli",
     "isVegan": false,
@@ -104,6 +86,25 @@
     ],
     "sandwichStores": [],
     "description": "Buttery layers of phyllo pastry and clusters of spiced nuts are generously scattered through a light, honey base. Like a slice of honey-drenched baklava blended into ice cream!"
+  },
+  {
+    "id": "blackberry-coriander",
+    "name": "Blackberry Coriander",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Organic coriander (from Gathering Place Trading) brings light citrus and nutty notes to the base, while BC Blackberries (from Mandair Farms) add a fresh fruity pop. Swirled together, these flavours compliment each other to create wonderfully bright ice cream perfect for those who love fruit and citrus."
   },
   {
     "id": "chocolate",
@@ -396,7 +397,6 @@
     "pintStores": [],
     "sandwichStores": [
       "fraser",
-      "quebec",
       "frances",
       "northvan"
     ],
