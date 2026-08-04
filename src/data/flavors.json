@@ -9,11 +9,27 @@
       "northvan"
     ],
     "pintStores": [
-      "quebec",
-      "northvan"
+      "quebec"
     ],
     "sandwichStores": [],
     "description": "The classic Italian pastry made into a delectable ice cream! Ricotta and cream cheese are combined in the base to achieve the right cheesy flavour, with orange zest adding a pop of brightness to balance. Mini chocolate chips and pieces of crunchy (gluten free!) cannoli shell are sprinkled throughout for lovely bites of texture."
+  },
+  {
+    "id": "raspberry",
+    "name": "Raspberry",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances"
+    ],
+    "pintStores": [
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Locally sourced raspberries harvested in the peak of summer from our friends at family-run Mandair Farms bring this flavour to life. Its bright, tart and fresh – perfect for summer days."
   },
   {
     "id": "strawberry",
@@ -50,8 +66,7 @@
     "scoopStores": [],
     "pintStores": [
       "fraser",
-      "quebec",
-      "northvan"
+      "quebec"
     ],
     "sandwichStores": [],
     "description": "We blend mango puree into our classic vegan base, resulting in a beautifully vibrant and fruity treat! Mango puree is sourced from Ponthier."
@@ -218,25 +233,6 @@
     ],
     "sandwichStores": [],
     "description": "The classic mint chocolate ice cream made with lots of house made dark chocolate chips! Like peppermint patty but better. No artificial food colouring is added so it’s white, not green. Fresh and minty, with the added crunch from the dark chocolate flakes."
-  },
-  {
-    "id": "raspberry",
-    "name": "Raspberry",
-    "isVegan": false,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "Locally sourced raspberries harvested in the peak of summer from our friends at family-run Mandair Farms bring this flavour to life. Its bright, tart and fresh – perfect for summer days."
   },
   {
     "id": "salted-caramel",

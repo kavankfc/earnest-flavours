@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-08-03T20:49:25.675Z",
+  "lastUpdatedAt": "2026-08-04T00:57:45.074Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated August 3, 2026 at 12pm",
     "quebec": "Last updated August 2, 2026 at 12pm",
     "frances": "Last updated August 2, 2026 at 12pm",
-    "northvan": "Last updated August 1, 2026 at 12pm"
+    "northvan": "Last updated August 3, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated August 2, 2026 at 12pm|fraser:Last updated August 3, 2026 at 12pm|northvan:Last updated August 1, 2026 at 12pm|quebec:Last updated August 2, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated August 2, 2026 at 12pm|fraser:Last updated August 3, 2026 at 12pm|northvan:Last updated August 3, 2026 at 12pm|quebec:Last updated August 2, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -316,11 +316,37 @@
             "quebec"
           ]
         },
-        "removed": {}
+        "removed": {
+          "raspberry": {
+            "name": "Raspberry",
+            "storeIds": [
+              "northvan"
+            ]
+          }
+        }
       },
       "pint": {
         "added": {},
-        "removed": {}
+        "removed": {
+          "cannoli": {
+            "name": "Cannoli",
+            "storeIds": [
+              "northvan"
+            ]
+          },
+          "raspberry": {
+            "name": "Raspberry",
+            "storeIds": [
+              "fraser"
+            ]
+          },
+          "vegan-mango": {
+            "name": "Vegan Mango",
+            "storeIds": [
+              "northvan"
+            ]
+          }
+        }
       },
       "sandwich": {
         "added": {},
