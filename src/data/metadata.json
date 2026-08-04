@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-08-04T00:57:45.074Z",
+  "lastUpdatedAt": "2026-08-04T20:58:43.817Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated August 3, 2026 at 12pm",
+    "fraser": "Last updated August 4, 2026 at 12pm",
     "quebec": "Last updated August 2, 2026 at 12pm",
     "frances": "Last updated August 2, 2026 at 12pm",
     "northvan": "Last updated August 3, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated August 2, 2026 at 12pm|fraser:Last updated August 3, 2026 at 12pm|northvan:Last updated August 3, 2026 at 12pm|quebec:Last updated August 2, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated August 2, 2026 at 12pm|fraser:Last updated August 4, 2026 at 12pm|northvan:Last updated August 3, 2026 at 12pm|quebec:Last updated August 2, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,23 +15,23 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-08-02",
-    "observedAt": "2026-08-03T01:02:17.644Z",
+    "baselineDay": "2026-08-03",
+    "observedAt": "2026-08-04T00:57:45.074Z",
     "flavorNamesByFlavorId": {
-      "blackberry-coriander": "Blackberry Coriander",
       "cannoli": "Cannoli",
+      "raspberry": "Raspberry",
       "strawberry": "Strawberry",
       "vegan-key-lime-pie": "Vegan Key Lime Pie",
       "vegan-mango": "Vegan Mango",
       "vegan-toasted-coconut": "Vegan Toasted Coconut",
       "baklava": "Baklava",
+      "blackberry-coriander": "Blackberry Coriander",
       "chocolate": "Chocolate",
       "cookies-cream": "Cookies + Cream",
       "lemon-tart": "Lemon Tart",
       "london-fog": "London Fog",
       "matcha-green-tea": "Matcha Green Tea",
       "mint-chip": "Mint Chip",
-      "raspberry": "Raspberry",
       "salted-caramel": "Salted Caramel",
       "tahitian-vanilla": "Tahitian Vanilla",
       "toasted-marshmallow": "Toasted Marshmallow",
@@ -47,21 +47,27 @@
     },
     "servingTypes": {
       "scoop": {
-        "blackberry-coriander": [
-          "fraser",
-          "frances",
-          "northvan"
-        ],
         "cannoli": [
           "fraser",
           "quebec",
           "northvan"
+        ],
+        "raspberry": [
+          "fraser",
+          "quebec",
+          "frances"
         ],
         "strawberry": [
           "quebec",
           "northvan"
         ],
         "baklava": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
+        "blackberry-coriander": [
           "fraser",
           "quebec",
           "frances",
@@ -98,12 +104,6 @@
           "northvan"
         ],
         "mint-chip": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
-        "raspberry": [
           "fraser",
           "quebec",
           "frances",
@@ -159,14 +159,12 @@
         ]
       },
       "pint": {
-        "blackberry-coriander": [
-          "fraser",
+        "cannoli": [
+          "quebec"
+        ],
+        "raspberry": [
           "quebec",
           "frances",
-          "northvan"
-        ],
-        "cannoli": [
-          "quebec",
           "northvan"
         ],
         "strawberry": [
@@ -180,14 +178,19 @@
         ],
         "vegan-mango": [
           "fraser",
-          "quebec",
-          "northvan"
+          "quebec"
         ],
         "vegan-toasted-coconut": [
           "quebec",
           "northvan"
         ],
         "baklava": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
+        "blackberry-coriander": [
           "fraser",
           "quebec",
           "frances",
@@ -223,12 +226,6 @@
           "northvan"
         ],
         "mint-chip": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
-        "raspberry": [
           "fraser",
           "quebec",
           "frances",
@@ -285,7 +282,6 @@
       "sandwich": {
         "classic-sammie": [
           "fraser",
-          "quebec",
           "frances",
           "northvan"
         ],
@@ -307,43 +303,41 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-08-03",
-    "previousDay": "2026-08-02",
+    "currentDay": "2026-08-04",
+    "previousDay": "2026-08-03",
     "servingTypes": {
       "scoop": {
         "added": {
-          "blackberry-coriander": [
-            "quebec"
+          "strawberry": [
+            "fraser"
           ]
         },
         "removed": {
-          "raspberry": {
-            "name": "Raspberry",
+          "cannoli": {
+            "name": "Cannoli",
             "storeIds": [
-              "northvan"
+              "fraser"
+            ]
+          },
+          "mint-chip": {
+            "name": "Mint Chip",
+            "storeIds": [
+              "fraser"
             ]
           }
         }
       },
       "pint": {
-        "added": {},
+        "added": {
+          "strawberry": [
+            "fraser"
+          ]
+        },
         "removed": {
-          "cannoli": {
-            "name": "Cannoli",
-            "storeIds": [
-              "northvan"
-            ]
-          },
-          "raspberry": {
-            "name": "Raspberry",
+          "lemon-tart": {
+            "name": "Lemon Tart",
             "storeIds": [
               "fraser"
-            ]
-          },
-          "vegan-mango": {
-            "name": "Vegan Mango",
-            "storeIds": [
-              "northvan"
             ]
           }
         }
@@ -354,7 +348,7 @@
           "classic-sammie": {
             "name": "Classic Sammie",
             "storeIds": [
-              "quebec"
+              "fraser"
             ]
           }
         }
