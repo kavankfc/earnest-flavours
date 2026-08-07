@@ -14,15 +14,21 @@
     "description": "The classic Italian pastry made into a delectable ice cream! Ricotta and cream cheese are combined in the base to achieve the right cheesy flavour, with orange zest adding a pop of brightness to balance. Mini chocolate chips and pieces of crunchy (gluten free!) cannoli shell are sprinkled throughout for lovely bites of texture."
   },
   {
-    "id": "cardamom",
-    "name": "Cardamom",
+    "id": "lemon-tart",
+    "name": "Lemon Tart",
     "isVegan": false,
     "scoopStores": [
-      "fraser"
+      "fraser",
+      "quebec",
+      "frances"
     ],
-    "pintStores": [],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances"
+    ],
     "sandwichStores": [],
-    "description": "Our organic cardamom comes to us from our friends at the Gathering Place, a family run business on Cortes Island."
+    "description": "This flavour originated as a sundae, but it was so scrumptious that we had to make it into an ice cream! Buttery, flaky pie crust pieces and a tangy lemon curd swirl in vanilla ice cream make for a balance of sweet, tart, creamy, and crispy in each bite."
   },
   {
     "id": "mint-chip",
@@ -96,7 +102,8 @@
     "scoopStores": [],
     "pintStores": [
       "fraser",
-      "quebec"
+      "quebec",
+      "northvan"
     ],
     "sandwichStores": [],
     "description": "We blend mango puree into our classic vegan base, resulting in a beautifully vibrant and fruity treat! Mango puree is sourced from Ponthier."
@@ -107,8 +114,7 @@
     "isVegan": true,
     "scoopStores": [],
     "pintStores": [
-      "quebec",
-      "northvan"
+      "quebec"
     ],
     "sandwichStores": [],
     "description": "The vegan version of our beloved toasted coconut ice cream. Desiccated coconut is toasted in house, supplying a depth of nutty flavour. Coconut extract is added to pack in those wonderful tropical tasting notes. Creamy coconut bliss!"
@@ -188,25 +194,6 @@
     ],
     "sandwichStores": [],
     "description": "Organic Chocolate Vanilla Cream Sandwich Cookies, featuring a darker chocolate flavour profile with a crisp cookie crunch. It’s all about the cookies, like a spoonful of childhood!"
-  },
-  {
-    "id": "lemon-tart",
-    "name": "Lemon Tart",
-    "isVegan": false,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "This flavour originated as a sundae, but it was so scrumptious that we had to make it into an ice cream! Buttery, flaky pie crust pieces and a tangy lemon curd swirl in vanilla ice cream make for a balance of sweet, tart, creamy, and crispy in each bite."
   },
   {
     "id": "london-fog",
@@ -440,6 +427,7 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
+      "fraser",
       "quebec",
       "frances",
       "northvan"
