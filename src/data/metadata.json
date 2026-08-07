@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-08-06T00:15:15.049Z",
+  "lastUpdatedAt": "2026-08-07T00:49:30.948Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated August 5, 2026 at 12pm",
-    "quebec": "Last updated August 4, 2026 at 12pm",
+    "fraser": "Last updated August 6, 2026 at 12pm",
+    "quebec": "Last updated August 6, 2026 at 12pm",
     "frances": "Last updated August 2, 2026 at 12pm",
     "northvan": "Last updated August 3, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated August 2, 2026 at 12pm|fraser:Last updated August 5, 2026 at 12pm|northvan:Last updated August 3, 2026 at 12pm|quebec:Last updated August 4, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated August 2, 2026 at 12pm|fraser:Last updated August 6, 2026 at 12pm|northvan:Last updated August 3, 2026 at 12pm|quebec:Last updated August 6, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,10 +15,11 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-08-04",
-    "observedAt": "2026-08-04T20:58:43.817Z",
+    "baselineDay": "2026-08-05",
+    "observedAt": "2026-08-06T00:15:15.049Z",
     "flavorNamesByFlavorId": {
       "cannoli": "Cannoli",
+      "cardamom": "Cardamom",
       "mint-chip": "Mint Chip",
       "raspberry": "Raspberry",
       "strawberry": "Strawberry",
@@ -51,6 +52,9 @@
           "quebec",
           "northvan"
         ],
+        "cardamom": [
+          "fraser"
+        ],
         "mint-chip": [
           "quebec",
           "frances",
@@ -58,7 +62,6 @@
         ],
         "raspberry": [
           "fraser",
-          "quebec",
           "frances"
         ],
         "strawberry": [
@@ -159,7 +162,7 @@
       },
       "pint": {
         "cannoli": [
-          "quebec"
+          "fraser"
         ],
         "mint-chip": [
           "fraser",
@@ -168,6 +171,7 @@
           "northvan"
         ],
         "raspberry": [
+          "fraser",
           "quebec",
           "frances",
           "northvan"
@@ -215,6 +219,7 @@
           "northvan"
         ],
         "lemon-tart": [
+          "fraser",
           "quebec",
           "frances",
           "northvan"
@@ -280,6 +285,7 @@
       },
       "sandwich": {
         "classic-sammie": [
+          "fraser",
           "frances",
           "northvan"
         ],
@@ -301,52 +307,38 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-08-05",
-    "previousDay": "2026-08-04",
+    "currentDay": "2026-08-06",
+    "previousDay": "2026-08-05",
     "servingTypes": {
       "scoop": {
-        "added": {
-          "cardamom": [
-            "fraser"
-          ]
-        },
-        "removed": {
-          "raspberry": {
-            "name": "Raspberry",
-            "storeIds": [
-              "quebec"
-            ]
-          }
-        }
+        "added": {},
+        "removed": {}
       },
       "pint": {
         "added": {
           "cannoli": [
-            "fraser"
-          ],
-          "raspberry": [
-            "fraser"
-          ],
-          "lemon-tart": [
-            "fraser"
+            "quebec"
           ]
         },
         "removed": {
           "cannoli": {
             "name": "Cannoli",
             "storeIds": [
-              "quebec"
+              "fraser"
             ]
           }
         }
       },
       "sandwich": {
-        "added": {
-          "classic-sammie": [
-            "fraser"
-          ]
-        },
-        "removed": {}
+        "added": {},
+        "removed": {
+          "vegan-coconut-brownie-sammie": {
+            "name": "Vegan Coconut Brownie Sammie",
+            "storeIds": [
+              "fraser"
+            ]
+          }
+        }
       }
     }
   },
