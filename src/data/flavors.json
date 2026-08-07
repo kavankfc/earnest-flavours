@@ -7,9 +7,7 @@
       "quebec",
       "northvan"
     ],
-    "pintStores": [
-      "quebec"
-    ],
+    "pintStores": [],
     "sandwichStores": [],
     "description": "The classic Italian pastry made into a delectable ice cream! Ricotta and cream cheese are combined in the base to achieve the right cheesy flavour, with orange zest adding a pop of brightness to balance. Mini chocolate chips and pieces of crunchy (gluten free!) cannoli shell are sprinkled throughout for lovely bites of texture."
   },
@@ -101,7 +99,6 @@
     "isVegan": true,
     "scoopStores": [],
     "pintStores": [
-      "fraser",
       "quebec",
       "northvan"
     ],
@@ -114,6 +111,7 @@
     "isVegan": true,
     "scoopStores": [],
     "pintStores": [
+      "fraser",
       "quebec"
     ],
     "sandwichStores": [],
@@ -391,6 +389,7 @@
     "pintStores": [],
     "sandwichStores": [
       "fraser",
+      "quebec",
       "frances",
       "northvan"
     ],
