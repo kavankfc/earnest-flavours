@@ -16,7 +16,6 @@
     "name": "Lemon Tart",
     "isVegan": false,
     "scoopStores": [
-      "fraser",
       "quebec",
       "frances"
     ],
@@ -50,35 +49,14 @@
     "id": "raspberry",
     "name": "Raspberry",
     "isVegan": false,
-    "scoopStores": [
-      "fraser",
-      "frances"
-    ],
+    "scoopStores": [],
     "pintStores": [
       "fraser",
       "quebec",
-      "frances",
       "northvan"
     ],
     "sandwichStores": [],
     "description": "Locally sourced raspberries harvested in the peak of summer from our friends at family-run Mandair Farms bring this flavour to life. Its bright, tart and fresh – perfect for summer days."
-  },
-  {
-    "id": "strawberry",
-    "name": "Strawberry",
-    "isVegan": false,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "Local strawberries from Mandair Farms are picked at the peak of the season and frozen to preserve their vibrant fruitiness to enjoy in winter. We add a touch of white balsamic to enhance and balance the natural sweetness of the strawberries. A must try for fans of strawberry ice cream!"
   },
   {
     "id": "vegan-key-lime-pie",
@@ -248,6 +226,25 @@
     ],
     "sandwichStores": [],
     "description": "A classic for good reason. We’ve been making this one since day one and it remains a favourite still. Deeply caramelized sugar mixed with cream and salt from Vancouver Island Sea Salt Co. Its rich, creamly and buttery and the perfect balance of salty and sweet."
+  },
+  {
+    "id": "strawberry",
+    "name": "Strawberry",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Local strawberries from Mandair Farms are picked at the peak of the season and frozen to preserve their vibrant fruitiness to enjoy in winter. We add a touch of white balsamic to enhance and balance the natural sweetness of the strawberries. A must try for fans of strawberry ice cream!"
   },
   {
     "id": "tahitian-vanilla",

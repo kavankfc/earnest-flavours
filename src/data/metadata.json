@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-08-07T23:54:15.275Z",
+  "lastUpdatedAt": "2026-08-09T20:16:18.474Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated August 7, 2026 at 12pm",
+    "fraser": "Last updated August 9, 2026 at 12pm",
     "quebec": "Last updated August 7, 2026 at 12pm",
-    "frances": "Last updated August 2, 2026 at 12pm",
+    "frances": "Last updated August 9, 2026 at 12pm",
     "northvan": "Last updated August 7, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated August 2, 2026 at 12pm|fraser:Last updated August 7, 2026 at 12pm|northvan:Last updated August 7, 2026 at 12pm|quebec:Last updated August 7, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated August 9, 2026 at 12pm|fraser:Last updated August 9, 2026 at 12pm|northvan:Last updated August 7, 2026 at 12pm|quebec:Last updated August 7, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,11 +15,11 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-08-06",
-    "observedAt": "2026-08-07T00:49:30.948Z",
+    "baselineDay": "2026-08-08",
+    "observedAt": "2026-08-07T23:54:15.275Z",
     "flavorNamesByFlavorId": {
       "cannoli": "Cannoli",
-      "cardamom": "Cardamom",
+      "lemon-tart": "Lemon Tart",
       "mint-chip": "Mint Chip",
       "raspberry": "Raspberry",
       "strawberry": "Strawberry",
@@ -30,7 +30,6 @@
       "blackberry-coriander": "Blackberry Coriander",
       "chocolate": "Chocolate",
       "cookies-cream": "Cookies + Cream",
-      "lemon-tart": "Lemon Tart",
       "london-fog": "London Fog",
       "matcha-green-tea": "Matcha Green Tea",
       "salted-caramel": "Salted Caramel",
@@ -52,8 +51,10 @@
           "quebec",
           "northvan"
         ],
-        "cardamom": [
-          "fraser"
+        "lemon-tart": [
+          "fraser",
+          "quebec",
+          "frances"
         ],
         "mint-chip": [
           "quebec",
@@ -88,12 +89,6 @@
           "northvan"
         ],
         "cookies-cream": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
-        "lemon-tart": [
           "fraser",
           "quebec",
           "frances",
@@ -161,8 +156,10 @@
         ]
       },
       "pint": {
-        "cannoli": [
-          "quebec"
+        "lemon-tart": [
+          "fraser",
+          "quebec",
+          "frances"
         ],
         "mint-chip": [
           "fraser",
@@ -187,12 +184,12 @@
           "northvan"
         ],
         "vegan-mango": [
-          "fraser",
-          "quebec"
-        ],
-        "vegan-toasted-coconut": [
           "quebec",
           "northvan"
+        ],
+        "vegan-toasted-coconut": [
+          "fraser",
+          "quebec"
         ],
         "baklava": [
           "fraser",
@@ -213,12 +210,6 @@
           "northvan"
         ],
         "cookies-cream": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
-        "lemon-tart": [
           "fraser",
           "quebec",
           "frances",
@@ -286,6 +277,7 @@
       "sandwich": {
         "classic-sammie": [
           "fraser",
+          "quebec",
           "frances",
           "northvan"
         ],
@@ -298,6 +290,7 @@
           "northvan"
         ],
         "vegan-coconut-brownie-sammie": [
+          "fraser",
           "quebec",
           "frances",
           "northvan"
@@ -306,71 +299,48 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-08-07",
-    "previousDay": "2026-08-06",
+    "currentDay": "2026-08-09",
+    "previousDay": "2026-08-08",
     "servingTypes": {
       "scoop": {
-        "added": {},
+        "added": {
+          "strawberry": [
+            "frances"
+          ]
+        },
         "removed": {
           "lemon-tart": {
             "name": "Lemon Tart",
             "storeIds": [
-              "northvan"
+              "fraser"
             ]
           },
-          "cardamom": {
-            "name": "Cardamom",
+          "raspberry": {
+            "name": "Raspberry",
             "storeIds": [
-              "fraser"
+              "fraser",
+              "frances"
             ]
           }
         }
       },
       "pint": {
         "added": {
-          "vegan-mango": [
-            "northvan"
-          ],
-          "vegan-toasted-coconut": [
-            "fraser"
+          "strawberry": [
+            "frances"
           ]
         },
         "removed": {
-          "lemon-tart": {
-            "name": "Lemon Tart",
+          "raspberry": {
+            "name": "Raspberry",
             "storeIds": [
-              "northvan"
-            ]
-          },
-          "vegan-mango": {
-            "name": "Vegan Mango",
-            "storeIds": [
-              "fraser"
-            ]
-          },
-          "vegan-toasted-coconut": {
-            "name": "Vegan Toasted Coconut",
-            "storeIds": [
-              "northvan"
-            ]
-          },
-          "cannoli": {
-            "name": "Cannoli",
-            "storeIds": [
-              "quebec"
+              "frances"
             ]
           }
         }
       },
       "sandwich": {
-        "added": {
-          "classic-sammie": [
-            "quebec"
-          ],
-          "vegan-coconut-brownie-sammie": [
-            "fraser"
-          ]
-        },
+        "added": {},
         "removed": {}
       }
     }
@@ -378,7 +348,7 @@
   "counts": {
     "totalItems": 26,
     "iceCreamFlavors": 22,
-    "scoopItems": 19,
+    "scoopItems": 18,
     "pintItems": 21,
     "sandwichItems": 4,
     "sandwichOnlyItems": 4
