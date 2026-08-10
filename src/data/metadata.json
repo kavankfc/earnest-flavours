@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-08-09T20:16:18.474Z",
+  "lastUpdatedAt": "2026-08-10T23:57:15.678Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated August 9, 2026 at 12pm",
     "quebec": "Last updated August 7, 2026 at 12pm",
-    "frances": "Last updated August 9, 2026 at 12pm",
+    "frances": "Last updated August 10, 2026 at 12pm",
     "northvan": "Last updated August 7, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated August 9, 2026 at 12pm|fraser:Last updated August 9, 2026 at 12pm|northvan:Last updated August 7, 2026 at 12pm|quebec:Last updated August 7, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated August 10, 2026 at 12pm|fraser:Last updated August 9, 2026 at 12pm|northvan:Last updated August 7, 2026 at 12pm|quebec:Last updated August 7, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,14 +15,13 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-08-08",
-    "observedAt": "2026-08-07T23:54:15.275Z",
+    "baselineDay": "2026-08-09",
+    "observedAt": "2026-08-09T20:16:18.474Z",
     "flavorNamesByFlavorId": {
       "cannoli": "Cannoli",
       "lemon-tart": "Lemon Tart",
       "mint-chip": "Mint Chip",
       "raspberry": "Raspberry",
-      "strawberry": "Strawberry",
       "vegan-key-lime-pie": "Vegan Key Lime Pie",
       "vegan-mango": "Vegan Mango",
       "vegan-toasted-coconut": "Vegan Toasted Coconut",
@@ -33,6 +32,7 @@
       "london-fog": "London Fog",
       "matcha-green-tea": "Matcha Green Tea",
       "salted-caramel": "Salted Caramel",
+      "strawberry": "Strawberry",
       "tahitian-vanilla": "Tahitian Vanilla",
       "toasted-marshmallow": "Toasted Marshmallow",
       "vegan-cookies-cream": "Vegan Cookies + Cream",
@@ -52,22 +52,12 @@
           "northvan"
         ],
         "lemon-tart": [
-          "fraser",
           "quebec",
           "frances"
         ],
         "mint-chip": [
           "quebec",
           "frances",
-          "northvan"
-        ],
-        "raspberry": [
-          "fraser",
-          "frances"
-        ],
-        "strawberry": [
-          "fraser",
-          "quebec",
           "northvan"
         ],
         "baklava": [
@@ -107,6 +97,12 @@
           "northvan"
         ],
         "salted-caramel": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
+        "strawberry": [
           "fraser",
           "quebec",
           "frances",
@@ -170,12 +166,6 @@
         "raspberry": [
           "fraser",
           "quebec",
-          "frances",
-          "northvan"
-        ],
-        "strawberry": [
-          "fraser",
-          "quebec",
           "northvan"
         ],
         "vegan-key-lime-pie": [
@@ -227,6 +217,12 @@
           "northvan"
         ],
         "salted-caramel": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
+        "strawberry": [
           "fraser",
           "quebec",
           "frances",
@@ -299,26 +295,15 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-08-09",
-    "previousDay": "2026-08-08",
+    "currentDay": "2026-08-10",
+    "previousDay": "2026-08-09",
     "servingTypes": {
       "scoop": {
-        "added": {
-          "strawberry": [
-            "frances"
-          ]
-        },
+        "added": {},
         "removed": {
           "lemon-tart": {
             "name": "Lemon Tart",
             "storeIds": [
-              "fraser"
-            ]
-          },
-          "raspberry": {
-            "name": "Raspberry",
-            "storeIds": [
-              "fraser",
               "frances"
             ]
           }
@@ -326,18 +311,23 @@
       },
       "pint": {
         "added": {
-          "strawberry": [
+          "raspberry": [
+            "frances"
+          ],
+          "vegan-key-lime-pie": [
+            "frances"
+          ],
+          "vegan-mango": [
+            "frances"
+          ],
+          "vegan-toasted-coconut": [
+            "frances"
+          ],
+          "matcha-green-tea": [
             "frances"
           ]
         },
-        "removed": {
-          "raspberry": {
-            "name": "Raspberry",
-            "storeIds": [
-              "frances"
-            ]
-          }
-        }
+        "removed": {}
       },
       "sandwich": {
         "added": {},

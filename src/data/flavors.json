@@ -16,8 +16,7 @@
     "name": "Lemon Tart",
     "isVegan": false,
     "scoopStores": [
-      "quebec",
-      "frances"
+      "quebec"
     ],
     "pintStores": [
       "fraser",
@@ -53,6 +52,7 @@
     "pintStores": [
       "fraser",
       "quebec",
+      "frances",
       "northvan"
     ],
     "sandwichStores": [],
@@ -66,6 +66,7 @@
     "pintStores": [
       "fraser",
       "quebec",
+      "frances",
       "northvan"
     ],
     "sandwichStores": [],
@@ -78,6 +79,7 @@
     "scoopStores": [],
     "pintStores": [
       "quebec",
+      "frances",
       "northvan"
     ],
     "sandwichStores": [],
@@ -90,7 +92,8 @@
     "scoopStores": [],
     "pintStores": [
       "fraser",
-      "quebec"
+      "quebec",
+      "frances"
     ],
     "sandwichStores": [],
     "description": "The vegan version of our beloved toasted coconut ice cream. Desiccated coconut is toasted in house, supplying a depth of nutty flavour. Coconut extract is added to pack in those wonderful tropical tasting notes. Creamy coconut bliss!"
@@ -203,6 +206,7 @@
     "pintStores": [
       "fraser",
       "quebec",
+      "frances",
       "northvan"
     ],
     "sandwichStores": [],
