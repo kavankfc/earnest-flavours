@@ -16,8 +16,7 @@
     "isVegan": false,
     "scoopStores": [],
     "pintStores": [
-      "fraser",
-      "quebec"
+      "fraser"
     ],
     "sandwichStores": [],
     "description": "This flavour originated as a sundae, but it was so scrumptious that we had to make it into an ice cream! Buttery, flaky pie crust pieces and a tangy lemon curd swirl in vanilla ice cream make for a balance of sweet, tart, creamy, and crispy in each bite."
@@ -307,6 +306,7 @@
       "northvan"
     ],
     "pintStores": [
+      "fraser",
       "quebec",
       "frances",
       "northvan"
