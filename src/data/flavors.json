@@ -14,9 +14,7 @@
     "id": "lemon-tart",
     "name": "Lemon Tart",
     "isVegan": false,
-    "scoopStores": [
-      "quebec"
-    ],
+    "scoopStores": [],
     "pintStores": [
       "fraser",
       "quebec"
@@ -73,7 +71,6 @@
     "isVegan": true,
     "scoopStores": [],
     "pintStores": [
-      "quebec",
       "northvan"
     ],
     "sandwichStores": [],

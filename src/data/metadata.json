@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-08-13T20:26:32.730Z",
+  "lastUpdatedAt": "2026-08-14T00:04:19.092Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated August 13, 2026 at 12pm",
-    "quebec": "Last updated August 11, 2026 at 12pm",
+    "quebec": "Last updated August 13, 2026 at 12pm",
     "frances": "Last updated August 13, 2026 at 12pm",
     "northvan": "Last updated August 7, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated August 13, 2026 at 12pm|fraser:Last updated August 13, 2026 at 12pm|northvan:Last updated August 7, 2026 at 12pm|quebec:Last updated August 11, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated August 13, 2026 at 12pm|fraser:Last updated August 13, 2026 at 12pm|northvan:Last updated August 7, 2026 at 12pm|quebec:Last updated August 13, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -300,7 +300,14 @@
     "servingTypes": {
       "scoop": {
         "added": {},
-        "removed": {}
+        "removed": {
+          "lemon-tart": {
+            "name": "Lemon Tart",
+            "storeIds": [
+              "quebec"
+            ]
+          }
+        }
       },
       "pint": {
         "added": {},
@@ -316,6 +323,12 @@
             "storeIds": [
               "fraser",
               "frances"
+            ]
+          },
+          "vegan-mango": {
+            "name": "Vegan Mango",
+            "storeIds": [
+              "quebec"
             ]
           },
           "vegan-toasted-coconut": {
@@ -335,7 +348,7 @@
   "counts": {
     "totalItems": 26,
     "iceCreamFlavors": 22,
-    "scoopItems": 18,
+    "scoopItems": 17,
     "pintItems": 21,
     "sandwichItems": 4,
     "sandwichOnlyItems": 4
