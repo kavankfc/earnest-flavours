@@ -11,17 +11,6 @@
     "description": "The classic Italian pastry made into a delectable ice cream! Ricotta and cream cheese are combined in the base to achieve the right cheesy flavour, with orange zest adding a pop of brightness to balance. Mini chocolate chips and pieces of crunchy (gluten free!) cannoli shell are sprinkled throughout for lovely bites of texture."
   },
   {
-    "id": "lemon-tart",
-    "name": "Lemon Tart",
-    "isVegan": false,
-    "scoopStores": [],
-    "pintStores": [
-      "fraser"
-    ],
-    "sandwichStores": [],
-    "description": "This flavour originated as a sundae, but it was so scrumptious that we had to make it into an ice cream! Buttery, flaky pie crust pieces and a tangy lemon curd swirl in vanilla ice cream make for a balance of sweet, tart, creamy, and crispy in each bite."
-  },
-  {
     "id": "mint-chip",
     "name": "Mint Chip",
     "isVegan": false,
@@ -57,9 +46,7 @@
     "isVegan": true,
     "scoopStores": [],
     "pintStores": [
-      "fraser",
       "quebec",
-      "frances",
       "northvan"
     ],
     "sandwichStores": [],
@@ -82,7 +69,6 @@
     "isVegan": true,
     "scoopStores": [],
     "pintStores": [
-      "quebec",
       "frances"
     ],
     "sandwichStores": [],
