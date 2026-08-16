@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-08-16T20:05:11.979Z",
+  "lastUpdatedAt": "2026-08-16T23:40:21.529Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated August 15, 2026 at 12pm",
     "quebec": "Last updated August 14, 2026 at 12pm",
     "frances": "Last updated August 16, 2026 at 12pm",
-    "northvan": "Last updated August 7, 2026 at 12pm"
+    "northvan": "Last updated August 16, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated August 16, 2026 at 12pm|fraser:Last updated August 15, 2026 at 12pm|northvan:Last updated August 7, 2026 at 12pm|quebec:Last updated August 14, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated August 16, 2026 at 12pm|fraser:Last updated August 15, 2026 at 12pm|northvan:Last updated August 16, 2026 at 12pm|quebec:Last updated August 14, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -294,7 +294,14 @@
     "servingTypes": {
       "scoop": {
         "added": {},
-        "removed": {}
+        "removed": {
+          "cannoli": {
+            "name": "Cannoli",
+            "storeIds": [
+              "northvan"
+            ]
+          }
+        }
       },
       "pint": {
         "added": {},
@@ -317,6 +324,12 @@
             "storeIds": [
               "fraser"
             ]
+          },
+          "vegan-mango": {
+            "name": "Vegan Mango",
+            "storeIds": [
+              "northvan"
+            ]
           }
         }
       },
@@ -327,10 +340,10 @@
     }
   },
   "counts": {
-    "totalItems": 25,
-    "iceCreamFlavors": 21,
-    "scoopItems": 17,
-    "pintItems": 20,
+    "totalItems": 23,
+    "iceCreamFlavors": 19,
+    "scoopItems": 16,
+    "pintItems": 19,
     "sandwichItems": 4,
     "sandwichOnlyItems": 4
   }

@@ -1,16 +1,5 @@
 [
   {
-    "id": "cannoli",
-    "name": "Cannoli",
-    "isVegan": false,
-    "scoopStores": [
-      "northvan"
-    ],
-    "pintStores": [],
-    "sandwichStores": [],
-    "description": "The classic Italian pastry made into a delectable ice cream! Ricotta and cream cheese are combined in the base to achieve the right cheesy flavour, with orange zest adding a pop of brightness to balance. Mini chocolate chips and pieces of crunchy (gluten free!) cannoli shell are sprinkled throughout for lovely bites of texture."
-  },
-  {
     "id": "mint-chip",
     "name": "Mint Chip",
     "isVegan": false,
@@ -51,17 +40,6 @@
     ],
     "sandwichStores": [],
     "description": "Our take on key lime pie in vegan ice cream form! A tart lime-coconut ice cream base with a house-made graham crumble. The sweet crumble offsets the tartness of the base, creating a nicely balanced bite with a scrumptious texture!"
-  },
-  {
-    "id": "vegan-mango",
-    "name": "Vegan Mango",
-    "isVegan": true,
-    "scoopStores": [],
-    "pintStores": [
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "We blend mango puree into our classic vegan base, resulting in a beautifully vibrant and fruity treat! Mango puree is sourced from Ponthier."
   },
   {
     "id": "vegan-toasted-coconut",
