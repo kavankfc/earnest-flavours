@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-08-17T20:11:35.920Z",
+  "lastUpdatedAt": "2026-08-17T23:42:58.886Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated August 16, 2026 at 12pm",
+    "fraser": "Last updated August 17, 2026 at 12pm",
     "quebec": "Last updated August 16, 2026 at 12pm",
     "frances": "Last updated August 16, 2026 at 12pm",
-    "northvan": "Last updated August 16, 2026 at 12pm"
+    "northvan": "Last updated August 17, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated August 16, 2026 at 12pm|fraser:Last updated August 16, 2026 at 12pm|northvan:Last updated August 16, 2026 at 12pm|quebec:Last updated August 16, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated August 16, 2026 at 12pm|fraser:Last updated August 17, 2026 at 12pm|northvan:Last updated August 17, 2026 at 12pm|quebec:Last updated August 16, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -279,11 +279,24 @@
     "servingTypes": {
       "scoop": {
         "added": {},
-        "removed": {}
+        "removed": {
+          "vegan-raspberry": {
+            "name": "Vegan Raspberry",
+            "storeIds": [
+              "fraser"
+            ]
+          }
+        }
       },
       "pint": {
         "added": {},
         "removed": {
+          "raspberry": {
+            "name": "Raspberry",
+            "storeIds": [
+              "northvan"
+            ]
+          },
           "vegan-key-lime-pie": {
             "name": "Vegan Key Lime Pie",
             "storeIds": [

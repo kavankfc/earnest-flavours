@@ -23,8 +23,7 @@
     "isVegan": false,
     "scoopStores": [],
     "pintStores": [
-      "quebec",
-      "northvan"
+      "quebec"
     ],
     "sandwichStores": [],
     "description": "Locally sourced raspberries harvested in the peak of summer from our friends at family-run Mandair Farms bring this flavour to life. Its bright, tart and fresh – perfect for summer days."
@@ -39,6 +38,24 @@
     ],
     "sandwichStores": [],
     "description": "Our take on key lime pie in vegan ice cream form! A tart lime-coconut ice cream base with a house-made graham crumble. The sweet crumble offsets the tartness of the base, creating a nicely balanced bite with a scrumptious texture!"
+  },
+  {
+    "id": "vegan-raspberry",
+    "name": "Vegan Raspberry",
+    "isVegan": true,
+    "scoopStores": [
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "One of our original vegan flavours. Local raspberries from Mandair Farms pureed and blended into our signature vegan coconut base – it’s bright, tart, refreshing and looks as good as it tastes."
   },
   {
     "id": "vegan-toasted-coconut",
@@ -258,25 +275,6 @@
     ],
     "sandwichStores": [],
     "description": "A vegan twist on a childhood favourite that is brimming with chunks of cookies in a creamy vanilla base. Fun fact, we make this flavour with the exact same organic chocolate sandwich cookies we use in our dairy cookies and cream!"
-  },
-  {
-    "id": "vegan-raspberry",
-    "name": "Vegan Raspberry",
-    "isVegan": true,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "One of our original vegan flavours. Local raspberries from Mandair Farms pureed and blended into our signature vegan coconut base – it’s bright, tart, refreshing and looks as good as it tastes."
   },
   {
     "id": "vegan-s-mores",
