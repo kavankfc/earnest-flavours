@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-08-16T23:40:21.529Z",
+  "lastUpdatedAt": "2026-08-17T20:11:35.920Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated August 15, 2026 at 12pm",
-    "quebec": "Last updated August 14, 2026 at 12pm",
+    "fraser": "Last updated August 16, 2026 at 12pm",
+    "quebec": "Last updated August 16, 2026 at 12pm",
     "frances": "Last updated August 16, 2026 at 12pm",
     "northvan": "Last updated August 16, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated August 16, 2026 at 12pm|fraser:Last updated August 15, 2026 at 12pm|northvan:Last updated August 16, 2026 at 12pm|quebec:Last updated August 14, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated August 16, 2026 at 12pm|fraser:Last updated August 16, 2026 at 12pm|northvan:Last updated August 16, 2026 at 12pm|quebec:Last updated August 16, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,15 +15,12 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-08-15",
-    "observedAt": "2026-08-14T23:43:22.016Z",
+    "baselineDay": "2026-08-16",
+    "observedAt": "2026-08-16T23:40:21.529Z",
     "flavorNamesByFlavorId": {
-      "cannoli": "Cannoli",
-      "lemon-tart": "Lemon Tart",
       "mint-chip": "Mint Chip",
       "raspberry": "Raspberry",
       "vegan-key-lime-pie": "Vegan Key Lime Pie",
-      "vegan-mango": "Vegan Mango",
       "vegan-toasted-coconut": "Vegan Toasted Coconut",
       "baklava": "Baklava",
       "blackberry-coriander": "Blackberry Coriander",
@@ -47,9 +44,6 @@
     },
     "servingTypes": {
       "scoop": {
-        "cannoli": [
-          "northvan"
-        ],
         "mint-chip": [
           "quebec",
           "frances",
@@ -147,9 +141,6 @@
         ]
       },
       "pint": {
-        "lemon-tart": [
-          "fraser"
-        ],
         "mint-chip": [
           "fraser",
           "quebec",
@@ -161,16 +152,10 @@
           "northvan"
         ],
         "vegan-key-lime-pie": [
-          "fraser",
           "quebec",
-          "frances",
-          "northvan"
-        ],
-        "vegan-mango": [
           "northvan"
         ],
         "vegan-toasted-coconut": [
-          "quebec",
           "frances"
         ],
         "baklava": [
@@ -289,19 +274,12 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-08-16",
-    "previousDay": "2026-08-15",
+    "currentDay": "2026-08-17",
+    "previousDay": "2026-08-16",
     "servingTypes": {
       "scoop": {
         "added": {},
-        "removed": {
-          "cannoli": {
-            "name": "Cannoli",
-            "storeIds": [
-              "northvan"
-            ]
-          }
-        }
+        "removed": {}
       },
       "pint": {
         "added": {},
@@ -309,26 +287,13 @@
           "vegan-key-lime-pie": {
             "name": "Vegan Key Lime Pie",
             "storeIds": [
-              "fraser",
-              "frances"
-            ]
-          },
-          "vegan-toasted-coconut": {
-            "name": "Vegan Toasted Coconut",
-            "storeIds": [
               "quebec"
             ]
           },
-          "lemon-tart": {
-            "name": "Lemon Tart",
+          "matcha-green-tea": {
+            "name": "Matcha Green Tea",
             "storeIds": [
               "fraser"
-            ]
-          },
-          "vegan-mango": {
-            "name": "Vegan Mango",
-            "storeIds": [
-              "northvan"
             ]
           }
         }
