@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-08-17T23:42:58.886Z",
+  "lastUpdatedAt": "2026-08-18T20:08:54.302Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated August 17, 2026 at 12pm",
+    "fraser": "Last updated August 18, 2026 at 12pm",
     "quebec": "Last updated August 16, 2026 at 12pm",
     "frances": "Last updated August 16, 2026 at 12pm",
     "northvan": "Last updated August 17, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated August 16, 2026 at 12pm|fraser:Last updated August 17, 2026 at 12pm|northvan:Last updated August 17, 2026 at 12pm|quebec:Last updated August 16, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated August 16, 2026 at 12pm|fraser:Last updated August 18, 2026 at 12pm|northvan:Last updated August 17, 2026 at 12pm|quebec:Last updated August 16, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,12 +15,13 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-08-16",
-    "observedAt": "2026-08-16T23:40:21.529Z",
+    "baselineDay": "2026-08-17",
+    "observedAt": "2026-08-17T23:42:58.886Z",
     "flavorNamesByFlavorId": {
       "mint-chip": "Mint Chip",
       "raspberry": "Raspberry",
       "vegan-key-lime-pie": "Vegan Key Lime Pie",
+      "vegan-raspberry": "Vegan Raspberry",
       "vegan-toasted-coconut": "Vegan Toasted Coconut",
       "baklava": "Baklava",
       "blackberry-coriander": "Blackberry Coriander",
@@ -33,7 +34,6 @@
       "tahitian-vanilla": "Tahitian Vanilla",
       "toasted-marshmallow": "Toasted Marshmallow",
       "vegan-cookies-cream": "Vegan Cookies + Cream",
-      "vegan-raspberry": "Vegan Raspberry",
       "vegan-s-mores": "Vegan S’mores",
       "vegan-strawberry-elderflower-ripple": "Vegan Strawberry Elderflower Ripple",
       "whiskey-hazelnut": "Whiskey Hazelnut",
@@ -45,6 +45,11 @@
     "servingTypes": {
       "scoop": {
         "mint-chip": [
+          "quebec",
+          "frances",
+          "northvan"
+        ],
+        "vegan-raspberry": [
           "quebec",
           "frances",
           "northvan"
@@ -115,12 +120,6 @@
           "frances",
           "northvan"
         ],
-        "vegan-raspberry": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
         "vegan-s-mores": [
           "fraser",
           "quebec",
@@ -148,11 +147,15 @@
           "northvan"
         ],
         "raspberry": [
-          "quebec",
-          "northvan"
+          "quebec"
         ],
         "vegan-key-lime-pie": [
+          "northvan"
+        ],
+        "vegan-raspberry": [
+          "fraser",
           "quebec",
+          "frances",
           "northvan"
         ],
         "vegan-toasted-coconut": [
@@ -189,7 +192,6 @@
           "northvan"
         ],
         "matcha-green-tea": [
-          "fraser",
           "quebec",
           "frances",
           "northvan"
@@ -219,12 +221,6 @@
           "northvan"
         ],
         "vegan-cookies-cream": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
-        "vegan-raspberry": [
           "fraser",
           "quebec",
           "frances",
@@ -274,42 +270,20 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-08-17",
-    "previousDay": "2026-08-16",
+    "currentDay": "2026-08-18",
+    "previousDay": "2026-08-17",
     "servingTypes": {
       "scoop": {
-        "added": {},
-        "removed": {
-          "vegan-raspberry": {
-            "name": "Vegan Raspberry",
-            "storeIds": [
-              "fraser"
-            ]
-          }
-        }
+        "added": {
+          "vegan-raspberry": [
+            "fraser"
+          ]
+        },
+        "removed": {}
       },
       "pint": {
         "added": {},
-        "removed": {
-          "raspberry": {
-            "name": "Raspberry",
-            "storeIds": [
-              "northvan"
-            ]
-          },
-          "vegan-key-lime-pie": {
-            "name": "Vegan Key Lime Pie",
-            "storeIds": [
-              "quebec"
-            ]
-          },
-          "matcha-green-tea": {
-            "name": "Matcha Green Tea",
-            "storeIds": [
-              "fraser"
-            ]
-          }
-        }
+        "removed": {}
       },
       "sandwich": {
         "added": {},
