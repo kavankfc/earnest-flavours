@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-08-21T20:10:28.740Z",
+  "lastUpdatedAt": "2026-08-21T23:44:48.039Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated August 20, 2026 at 12pm",
     "quebec": "Last updated August 21, 2026 at 12pm",
-    "frances": "Last updated August 16, 2026 at 12pm",
-    "northvan": "Last updated August 17, 2026 at 12pm"
+    "frances": "Last updated August 21, 2026 at 12pm",
+    "northvan": "Last updated August 21, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated August 16, 2026 at 12pm|fraser:Last updated August 20, 2026 at 12pm|northvan:Last updated August 17, 2026 at 12pm|quebec:Last updated August 21, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated August 21, 2026 at 12pm|fraser:Last updated August 20, 2026 at 12pm|northvan:Last updated August 21, 2026 at 12pm|quebec:Last updated August 21, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -287,6 +287,18 @@
             "storeIds": [
               "quebec"
             ]
+          },
+          "vegan-key-lime-pie": {
+            "name": "Vegan Key Lime Pie",
+            "storeIds": [
+              "northvan"
+            ]
+          },
+          "vegan-toasted-coconut": {
+            "name": "Vegan Toasted Coconut",
+            "storeIds": [
+              "frances"
+            ]
           }
         }
       },
@@ -297,10 +309,10 @@
     }
   },
   "counts": {
-    "totalItems": 22,
-    "iceCreamFlavors": 18,
+    "totalItems": 20,
+    "iceCreamFlavors": 16,
     "scoopItems": 16,
-    "pintItems": 18,
+    "pintItems": 16,
     "sandwichItems": 4,
     "sandwichOnlyItems": 4
   }

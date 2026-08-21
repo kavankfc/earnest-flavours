@@ -18,28 +18,6 @@
     "description": "The classic mint chocolate ice cream made with lots of house made dark chocolate chips! Like peppermint patty but better. No artificial food colouring is added so it’s white, not green. Fresh and minty, with the added crunch from the dark chocolate flakes."
   },
   {
-    "id": "vegan-key-lime-pie",
-    "name": "Vegan Key Lime Pie",
-    "isVegan": true,
-    "scoopStores": [],
-    "pintStores": [
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "Our take on key lime pie in vegan ice cream form! A tart lime-coconut ice cream base with a house-made graham crumble. The sweet crumble offsets the tartness of the base, creating a nicely balanced bite with a scrumptious texture!"
-  },
-  {
-    "id": "vegan-toasted-coconut",
-    "name": "Vegan Toasted Coconut",
-    "isVegan": true,
-    "scoopStores": [],
-    "pintStores": [
-      "frances"
-    ],
-    "sandwichStores": [],
-    "description": "The vegan version of our beloved toasted coconut ice cream. Desiccated coconut is toasted in house, supplying a depth of nutty flavour. Coconut extract is added to pack in those wonderful tropical tasting notes. Creamy coconut bliss!"
-  },
-  {
     "id": "baklava",
     "name": "Baklava",
     "isVegan": false,
