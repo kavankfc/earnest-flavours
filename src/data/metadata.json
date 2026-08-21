@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-08-20T20:13:35.592Z",
+  "lastUpdatedAt": "2026-08-21T20:10:28.740Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated August 20, 2026 at 12pm",
-    "quebec": "Last updated August 16, 2026 at 12pm",
+    "quebec": "Last updated August 21, 2026 at 12pm",
     "frances": "Last updated August 16, 2026 at 12pm",
     "northvan": "Last updated August 17, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated August 16, 2026 at 12pm|fraser:Last updated August 20, 2026 at 12pm|northvan:Last updated August 17, 2026 at 12pm|quebec:Last updated August 16, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated August 16, 2026 at 12pm|fraser:Last updated August 20, 2026 at 12pm|northvan:Last updated August 17, 2026 at 12pm|quebec:Last updated August 21, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-08-19",
-    "observedAt": "2026-08-18T20:08:54.302Z",
+    "baselineDay": "2026-08-20",
+    "observedAt": "2026-08-20T20:13:35.592Z",
     "flavorNamesByFlavorId": {
       "mint-chip": "Mint Chip",
       "raspberry": "Raspberry",
@@ -187,6 +187,7 @@
           "northvan"
         ],
         "matcha-green-tea": [
+          "fraser",
           "quebec",
           "frances",
           "northvan"
@@ -271,20 +272,23 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-08-20",
-    "previousDay": "2026-08-19",
+    "currentDay": "2026-08-21",
+    "previousDay": "2026-08-20",
     "servingTypes": {
       "scoop": {
         "added": {},
         "removed": {}
       },
       "pint": {
-        "added": {
-          "matcha-green-tea": [
-            "fraser"
-          ]
-        },
-        "removed": {}
+        "added": {},
+        "removed": {
+          "raspberry": {
+            "name": "Raspberry",
+            "storeIds": [
+              "quebec"
+            ]
+          }
+        }
       },
       "sandwich": {
         "added": {},
@@ -293,10 +297,10 @@
     }
   },
   "counts": {
-    "totalItems": 23,
-    "iceCreamFlavors": 19,
+    "totalItems": 22,
+    "iceCreamFlavors": 18,
     "scoopItems": 16,
-    "pintItems": 19,
+    "pintItems": 18,
     "sandwichItems": 4,
     "sandwichOnlyItems": 4
   }

@@ -18,17 +18,6 @@
     "description": "The classic mint chocolate ice cream made with lots of house made dark chocolate chips! Like peppermint patty but better. No artificial food colouring is added so it’s white, not green. Fresh and minty, with the added crunch from the dark chocolate flakes."
   },
   {
-    "id": "raspberry",
-    "name": "Raspberry",
-    "isVegan": false,
-    "scoopStores": [],
-    "pintStores": [
-      "quebec"
-    ],
-    "sandwichStores": [],
-    "description": "Locally sourced raspberries harvested in the peak of summer from our friends at family-run Mandair Farms bring this flavour to life. Its bright, tart and fresh – perfect for summer days."
-  },
-  {
     "id": "vegan-key-lime-pie",
     "name": "Vegan Key Lime Pie",
     "isVegan": true,
