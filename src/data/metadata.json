@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-08-21T23:44:48.039Z",
+  "lastUpdatedAt": "2026-08-22T20:07:58.468Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated August 20, 2026 at 12pm",
-    "quebec": "Last updated August 21, 2026 at 12pm",
+    "quebec": "Last updated August 22, 2026 at 12pm",
     "frances": "Last updated August 21, 2026 at 12pm",
     "northvan": "Last updated August 21, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated August 21, 2026 at 12pm|fraser:Last updated August 20, 2026 at 12pm|northvan:Last updated August 21, 2026 at 12pm|quebec:Last updated August 21, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated August 21, 2026 at 12pm|fraser:Last updated August 20, 2026 at 12pm|northvan:Last updated August 21, 2026 at 12pm|quebec:Last updated August 22, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,13 +15,10 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-08-20",
-    "observedAt": "2026-08-20T20:13:35.592Z",
+    "baselineDay": "2026-08-21",
+    "observedAt": "2026-08-21T23:44:48.039Z",
     "flavorNamesByFlavorId": {
       "mint-chip": "Mint Chip",
-      "raspberry": "Raspberry",
-      "vegan-key-lime-pie": "Vegan Key Lime Pie",
-      "vegan-toasted-coconut": "Vegan Toasted Coconut",
       "baklava": "Baklava",
       "blackberry-coriander": "Blackberry Coriander",
       "chocolate": "Chocolate",
@@ -147,15 +144,6 @@
           "frances",
           "northvan"
         ],
-        "raspberry": [
-          "quebec"
-        ],
-        "vegan-key-lime-pie": [
-          "northvan"
-        ],
-        "vegan-toasted-coconut": [
-          "frances"
-        ],
         "baklava": [
           "fraser",
           "quebec",
@@ -272,8 +260,8 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-08-21",
-    "previousDay": "2026-08-20",
+    "currentDay": "2026-08-22",
+    "previousDay": "2026-08-21",
     "servingTypes": {
       "scoop": {
         "added": {},
@@ -281,30 +269,18 @@
       },
       "pint": {
         "added": {},
-        "removed": {
-          "raspberry": {
-            "name": "Raspberry",
-            "storeIds": [
-              "quebec"
-            ]
-          },
-          "vegan-key-lime-pie": {
-            "name": "Vegan Key Lime Pie",
-            "storeIds": [
-              "northvan"
-            ]
-          },
-          "vegan-toasted-coconut": {
-            "name": "Vegan Toasted Coconut",
-            "storeIds": [
-              "frances"
-            ]
-          }
-        }
+        "removed": {}
       },
       "sandwich": {
         "added": {},
-        "removed": {}
+        "removed": {
+          "vegan-coconut-brownie-sammie": {
+            "name": "Vegan Coconut Brownie Sammie",
+            "storeIds": [
+              "quebec"
+            ]
+          }
+        }
       }
     }
   },
