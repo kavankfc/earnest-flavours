@@ -25,6 +25,11 @@
     "description": "Organic coriander (from Gathering Place Trading) brings light citrus and nutty notes to the base, while BC Blackberries (from Mandair Farms) add a fresh fruity pop. Swirled together, these flavours compliment each other to create wonderfully bright ice cream perfect for those who love fruit and citrus."
   },
   {
+    "id": "bourbon-peach-sammie",
+    "name": "Bourbon Peach Sammie",
+    "description": "Making a return after 3 long years, Bourbon peach is back! Okanagan peaches are processed in house to create a fresh, fruity jam. Blended into our ice cream base along with Bourbon, vanilla, and a pinch of cinnamon, before being layered onto fluffy vanilla cake. An extra layer of peach jam brings this sammie together and highlights the beautiful peach flavour."
+  },
+  {
     "id": "butter-pecan",
     "name": "Butter Pecan",
     "description": "Whiskey Hazelnut’s cousin! Pecan pieces are roasted with butter and salt, and added to our ice cream base with organic vanilla. Comfort in a scoop!"
@@ -238,6 +243,11 @@
     "id": "vegan-coconut-brownie-sammie",
     "name": "Vegan Coconut Brownie Sammie",
     "description": "Light chocolate ice cream is speckled with toasted coconut flakes and topped with a layer of fudge and bites of fudgey brownie. The resulting sammie is a delightful mix of chocolate and coconut flavours and textures!"
+  },
+  {
+    "id": "vegan-coffee-cookie-crunch-sammie",
+    "name": "Vegan Coffee Cookie Crunch Sammie",
+    "description": "Strong, creamy coffee balanced by the sweetness of our classic vanilla creme sandwich cookies make this sammie irresistible! Bits of cookie are swirled through the ice cream and even more cookies are added on top of a layer of fudge for the perfect fudgey and crispy bite."
   },
   {
     "id": "vegan-cookie-butter-sammie",

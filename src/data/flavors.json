@@ -303,6 +303,17 @@
     "description": "An Earnest Ice Cream original, made from day one and remains a favourite and top-seller. Roasted, salted BC hazelnuts in Whiskey ice cream base. A smooth, boozy flavour with a buttery crunch."
   },
   {
+    "id": "bourbon-peach-sammie",
+    "name": "Bourbon Peach Sammie",
+    "isVegan": false,
+    "scoopStores": [],
+    "pintStores": [],
+    "sandwichStores": [
+      "frances"
+    ],
+    "description": "Making a return after 3 long years, Bourbon peach is back! Okanagan peaches are processed in house to create a fresh, fruity jam. Blended into our ice cream base along with Bourbon, vanilla, and a pinch of cinnamon, before being layered onto fluffy vanilla cake. An extra layer of peach jam brings this sammie together and highlights the beautiful peach flavour."
+  },
+  {
     "id": "classic-sammie",
     "name": "Classic Sammie",
     "isVegan": false,
@@ -315,17 +326,6 @@
       "northvan"
     ],
     "description": "Our take on a classic ice cream sandwich. Tahitian vanilla ice cream is sandwiched between chocolate cake and finished with a thin layer of fudge sauce. This flavour never goes out of style!"
-  },
-  {
-    "id": "sour-cherry-goat-cheese",
-    "name": "Sour Cherry Goat Cheese",
-    "isVegan": false,
-    "scoopStores": [],
-    "pintStores": [],
-    "sandwichStores": [
-      "frances"
-    ],
-    "description": "This complex flavour is tart and rich – with an elevated fro-yo tanginess. Highlighting Okanagan cherries (sourced through Pacific Coast Fruit) and goat cheese from Hewitt’s, a Canadian farmer-owned company."
   },
   {
     "id": "sour-cherry-goat-cheese-sammie",
@@ -352,5 +352,16 @@
       "northvan"
     ],
     "description": "Light chocolate ice cream is speckled with toasted coconut flakes and topped with a layer of fudge and bites of fudgey brownie. The resulting sammie is a delightful mix of chocolate and coconut flavours and textures!"
+  },
+  {
+    "id": "vegan-coffee-cookie-crunch-sammie",
+    "name": "Vegan Coffee Cookie Crunch Sammie",
+    "isVegan": true,
+    "scoopStores": [],
+    "pintStores": [],
+    "sandwichStores": [
+      "quebec"
+    ],
+    "description": "Strong, creamy coffee balanced by the sweetness of our classic vanilla creme sandwich cookies make this sammie irresistible! Bits of cookie are swirled through the ice cream and even more cookies are added on top of a layer of fudge for the perfect fudgey and crispy bite."
   }
 ]

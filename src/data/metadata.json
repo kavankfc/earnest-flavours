@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-08-22T20:07:58.468Z",
+  "lastUpdatedAt": "2026-08-23T20:07:19.962Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated August 20, 2026 at 12pm",
     "quebec": "Last updated August 22, 2026 at 12pm",
-    "frances": "Last updated August 21, 2026 at 12pm",
+    "frances": "Last updated August 23, 2026 at 12pm",
     "northvan": "Last updated August 21, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated August 21, 2026 at 12pm|fraser:Last updated August 20, 2026 at 12pm|northvan:Last updated August 21, 2026 at 12pm|quebec:Last updated August 22, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated August 23, 2026 at 12pm|fraser:Last updated August 20, 2026 at 12pm|northvan:Last updated August 21, 2026 at 12pm|quebec:Last updated August 22, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-08-21",
-    "observedAt": "2026-08-21T23:44:48.039Z",
+    "baselineDay": "2026-08-22",
+    "observedAt": "2026-08-22T20:07:58.468Z",
     "flavorNamesByFlavorId": {
       "mint-chip": "Mint Chip",
       "baklava": "Baklava",
@@ -252,7 +252,6 @@
         ],
         "vegan-coconut-brownie-sammie": [
           "fraser",
-          "quebec",
           "frances",
           "northvan"
         ]
@@ -260,8 +259,8 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-08-22",
-    "previousDay": "2026-08-21",
+    "currentDay": "2026-08-23",
+    "previousDay": "2026-08-22",
     "servingTypes": {
       "scoop": {
         "added": {},
@@ -272,12 +271,19 @@
         "removed": {}
       },
       "sandwich": {
-        "added": {},
+        "added": {
+          "bourbon-peach-sammie": [
+            "frances"
+          ],
+          "vegan-coffee-cookie-crunch-sammie": [
+            "quebec"
+          ]
+        },
         "removed": {
-          "vegan-coconut-brownie-sammie": {
-            "name": "Vegan Coconut Brownie Sammie",
+          "sour-cherry-goat-cheese": {
+            "name": "Sour Cherry Goat Cheese",
             "storeIds": [
-              "quebec"
+              "frances"
             ]
           }
         }
@@ -285,11 +291,11 @@
     }
   },
   "counts": {
-    "totalItems": 20,
+    "totalItems": 21,
     "iceCreamFlavors": 16,
     "scoopItems": 16,
     "pintItems": 16,
-    "sandwichItems": 4,
-    "sandwichOnlyItems": 4
+    "sandwichItems": 5,
+    "sandwichOnlyItems": 5
   }
 }
