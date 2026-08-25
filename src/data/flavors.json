@@ -275,7 +275,6 @@
       "northvan"
     ],
     "pintStores": [
-      "fraser",
       "quebec",
       "frances",
       "northvan"
@@ -309,6 +308,7 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
+      "fraser",
       "frances"
     ],
     "description": "Making a return after 3 long years, Bourbon peach is back! Okanagan peaches are processed in house to create a fresh, fruity jam. Blended into our ice cream base along with Bourbon, vanilla, and a pinch of cinnamon, before being layered onto fluffy vanilla cake. An extra layer of peach jam brings this sammie together and highlights the beautiful peach flavour."
@@ -347,7 +347,6 @@
     "pintStores": [],
     "sandwichStores": [
       "fraser",
-      "frances",
       "northvan"
     ],
     "description": "Light chocolate ice cream is speckled with toasted coconut flakes and topped with a layer of fudge and bites of fudgey brownie. The resulting sammie is a delightful mix of chocolate and coconut flavours and textures!"
@@ -359,7 +358,8 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
-      "quebec"
+      "quebec",
+      "frances"
     ],
     "description": "Strong, creamy coffee balanced by the sweetness of our classic vanilla creme sandwich cookies make this sammie irresistible! Bits of cookie are swirled through the ice cream and even more cookies are added on top of a layer of fudge for the perfect fudgey and crispy bite."
   }

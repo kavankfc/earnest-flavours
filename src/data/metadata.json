@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-08-23T23:41:38.598Z",
+  "lastUpdatedAt": "2026-08-25T20:13:17.245Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated August 23, 2026 at 12pm",
+    "fraser": "Last updated August 24, 2026 at 12pm",
     "quebec": "Last updated August 22, 2026 at 12pm",
-    "frances": "Last updated August 23, 2026 at 12pm",
+    "frances": "Last updated August 24, 2026 at 12pm",
     "northvan": "Last updated August 21, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated August 23, 2026 at 12pm|fraser:Last updated August 23, 2026 at 12pm|northvan:Last updated August 21, 2026 at 12pm|quebec:Last updated August 22, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated August 24, 2026 at 12pm|fraser:Last updated August 24, 2026 at 12pm|northvan:Last updated August 21, 2026 at 12pm|quebec:Last updated August 22, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-08-22",
-    "observedAt": "2026-08-22T20:07:58.468Z",
+    "baselineDay": "2026-08-24",
+    "observedAt": "2026-08-23T23:41:38.598Z",
     "flavorNamesByFlavorId": {
       "mint-chip": "Mint Chip",
       "baklava": "Baklava",
@@ -34,10 +34,11 @@
       "vegan-s-mores": "Vegan S’mores",
       "vegan-strawberry-elderflower-ripple": "Vegan Strawberry Elderflower Ripple",
       "whiskey-hazelnut": "Whiskey Hazelnut",
+      "bourbon-peach-sammie": "Bourbon Peach Sammie",
       "classic-sammie": "Classic Sammie",
-      "sour-cherry-goat-cheese": "Sour Cherry Goat Cheese",
       "sour-cherry-goat-cheese-sammie": "Sour Cherry Goat Cheese Sammie",
-      "vegan-coconut-brownie-sammie": "Vegan Coconut Brownie Sammie"
+      "vegan-coconut-brownie-sammie": "Vegan Coconut Brownie Sammie",
+      "vegan-coffee-cookie-crunch-sammie": "Vegan Coffee Cookie Crunch Sammie"
     },
     "servingTypes": {
       "scoop": {
@@ -236,17 +237,16 @@
         ]
       },
       "sandwich": {
+        "bourbon-peach-sammie": [
+          "frances"
+        ],
         "classic-sammie": [
           "fraser",
           "quebec",
           "frances",
           "northvan"
         ],
-        "sour-cherry-goat-cheese": [
-          "frances"
-        ],
         "sour-cherry-goat-cheese-sammie": [
-          "fraser",
           "quebec",
           "northvan"
         ],
@@ -254,13 +254,16 @@
           "fraser",
           "frances",
           "northvan"
+        ],
+        "vegan-coffee-cookie-crunch-sammie": [
+          "quebec"
         ]
       }
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-08-23",
-    "previousDay": "2026-08-22",
+    "currentDay": "2026-08-25",
+    "previousDay": "2026-08-24",
     "servingTypes": {
       "scoop": {
         "added": {},
@@ -268,26 +271,27 @@
       },
       "pint": {
         "added": {},
-        "removed": {}
+        "removed": {
+          "vegan-strawberry-elderflower-ripple": {
+            "name": "Vegan Strawberry Elderflower Ripple",
+            "storeIds": [
+              "fraser"
+            ]
+          }
+        }
       },
       "sandwich": {
         "added": {
           "bourbon-peach-sammie": [
-            "frances"
+            "fraser"
           ],
           "vegan-coffee-cookie-crunch-sammie": [
-            "quebec"
+            "frances"
           ]
         },
         "removed": {
-          "sour-cherry-goat-cheese-sammie": {
-            "name": "Sour Cherry Goat Cheese Sammie",
-            "storeIds": [
-              "fraser"
-            ]
-          },
-          "sour-cherry-goat-cheese": {
-            "name": "Sour Cherry Goat Cheese",
+          "vegan-coconut-brownie-sammie": {
+            "name": "Vegan Coconut Brownie Sammie",
             "storeIds": [
               "frances"
             ]
