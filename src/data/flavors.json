@@ -18,6 +18,34 @@
     "description": "The classic mint chocolate ice cream made with lots of house made dark chocolate chips! Like peppermint patty but better. No artificial food colouring is added so it’s white, not green. Fresh and minty, with the added crunch from the dark chocolate flakes."
   },
   {
+    "id": "vegan-blackcurrant-ripple",
+    "name": "Vegan Blackcurrant Ripple",
+    "isVegan": true,
+    "scoopStores": [
+      "frances"
+    ],
+    "pintStores": [],
+    "sandwichStores": [],
+    "description": "Canadian currant puree from Pacific Coast Fruit is cooked into a luxurious tart compote. Bright ripples of compote are offset by the sweetness of our classic oat-coconut base. Creamy, fruity, and delightfully refreshing, this ice cream is a perfectly balanced pick-me-up!"
+  },
+  {
+    "id": "vegan-strawberry-elderflower-ripple",
+    "name": "Vegan Strawberry Elderflower Ripple",
+    "isVegan": true,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "northvan"
+    ],
+    "pintStores": [
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Local, organic elderflowers from Elderberry Grove Farm are steeped into our classic oat-coconut base. Swirled with fresh strawberry sauce, this flavour is bright and fruity with a delicate floral background – perfectly refreshing for these hot summer days!"
+  },
+  {
     "id": "baklava",
     "name": "Baklava",
     "isVegan": false,
@@ -263,24 +291,6 @@
     ],
     "sandwichStores": [],
     "description": "The campfire staple brought to life as a vegan ice cream! House-made cookies are blended into the base to mimic the flavour of a graham cracker, as well as a sprinkle of graham crumble for texture. Dandies vegan marshmallows are toasted and folded in along with a rich fudgey swirl, supplying caramelly notes to round out that toasty s’mores flavour."
-  },
-  {
-    "id": "vegan-strawberry-elderflower-ripple",
-    "name": "Vegan Strawberry Elderflower Ripple",
-    "isVegan": true,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "Local, organic elderflowers from Elderberry Grove Farm are steeped into our classic oat-coconut base. Swirled with fresh strawberry sauce, this flavour is bright and fruity with a delicate floral background – perfectly refreshing for these hot summer days!"
   },
   {
     "id": "whiskey-hazelnut",

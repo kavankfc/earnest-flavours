@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-08-27T04:35:11.647Z",
+  "lastUpdatedAt": "2026-08-29T02:29:19.046Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated August 24, 2026 at 12pm",
+    "fraser": "Last updated August 28, 2026 at 12pm",
     "quebec": "Last updated August 26, 2026 at 12pm",
-    "frances": "Last updated August 24, 2026 at 12pm",
+    "frances": "Last updated August 28, 2026 at 12pm",
     "northvan": "Last updated August 21, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated August 24, 2026 at 12pm|fraser:Last updated August 24, 2026 at 12pm|northvan:Last updated August 21, 2026 at 12pm|quebec:Last updated August 26, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated August 28, 2026 at 12pm|fraser:Last updated August 28, 2026 at 12pm|northvan:Last updated August 21, 2026 at 12pm|quebec:Last updated August 26, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-08-25",
-    "observedAt": "2026-08-25T20:13:17.245Z",
+    "baselineDay": "2026-08-27",
+    "observedAt": "2026-08-27T04:35:11.647Z",
     "flavorNamesByFlavorId": {
       "mint-chip": "Mint Chip",
       "baklava": "Baklava",
@@ -238,6 +238,7 @@
       "sandwich": {
         "bourbon-peach-sammie": [
           "fraser",
+          "quebec",
           "frances"
         ],
         "classic-sammie": [
@@ -247,7 +248,6 @@
           "northvan"
         ],
         "sour-cherry-goat-cheese-sammie": [
-          "quebec",
           "northvan"
         ],
         "vegan-coconut-brownie-sammie": [
@@ -262,38 +262,38 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-08-26",
-    "previousDay": "2026-08-25",
+    "currentDay": "2026-08-28",
+    "previousDay": "2026-08-27",
     "servingTypes": {
       "scoop": {
-        "added": {},
-        "removed": {}
+        "added": {
+          "vegan-blackcurrant-ripple": [
+            "frances"
+          ]
+        },
+        "removed": {
+          "vegan-strawberry-elderflower-ripple": {
+            "name": "Vegan Strawberry Elderflower Ripple",
+            "storeIds": [
+              "frances"
+            ]
+          }
+        }
       },
       "pint": {
         "added": {},
         "removed": {}
       },
       "sandwich": {
-        "added": {
-          "bourbon-peach-sammie": [
-            "quebec"
-          ]
-        },
-        "removed": {
-          "sour-cherry-goat-cheese-sammie": {
-            "name": "Sour Cherry Goat Cheese Sammie",
-            "storeIds": [
-              "quebec"
-            ]
-          }
-        }
+        "added": {},
+        "removed": {}
       }
     }
   },
   "counts": {
-    "totalItems": 21,
-    "iceCreamFlavors": 16,
-    "scoopItems": 16,
+    "totalItems": 22,
+    "iceCreamFlavors": 17,
+    "scoopItems": 17,
     "pintItems": 16,
     "sandwichItems": 5,
     "sandwichOnlyItems": 5
