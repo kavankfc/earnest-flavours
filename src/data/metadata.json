@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-08-29T02:29:19.046Z",
+  "lastUpdatedAt": "2026-08-29T22:03:04.732Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated August 28, 2026 at 12pm",
+    "fraser": "Last updated August 29, 2026 at 12pm",
     "quebec": "Last updated August 26, 2026 at 12pm",
-    "frances": "Last updated August 28, 2026 at 12pm",
+    "frances": "Last updated August 29, 2026 at 12pm",
     "northvan": "Last updated August 21, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated August 28, 2026 at 12pm|fraser:Last updated August 28, 2026 at 12pm|northvan:Last updated August 21, 2026 at 12pm|quebec:Last updated August 26, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated August 29, 2026 at 12pm|fraser:Last updated August 29, 2026 at 12pm|northvan:Last updated August 21, 2026 at 12pm|quebec:Last updated August 26, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,10 +15,12 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-08-27",
-    "observedAt": "2026-08-27T04:35:11.647Z",
+    "baselineDay": "2026-08-28",
+    "observedAt": "2026-08-29T02:29:19.046Z",
     "flavorNamesByFlavorId": {
       "mint-chip": "Mint Chip",
+      "vegan-blackcurrant-ripple": "Vegan Blackcurrant Ripple",
+      "vegan-strawberry-elderflower-ripple": "Vegan Strawberry Elderflower Ripple",
       "baklava": "Baklava",
       "blackberry-coriander": "Blackberry Coriander",
       "chocolate": "Chocolate",
@@ -32,7 +34,6 @@
       "vegan-cookies-cream": "Vegan Cookies + Cream",
       "vegan-raspberry": "Vegan Raspberry",
       "vegan-s-mores": "Vegan S’mores",
-      "vegan-strawberry-elderflower-ripple": "Vegan Strawberry Elderflower Ripple",
       "whiskey-hazelnut": "Whiskey Hazelnut",
       "bourbon-peach-sammie": "Bourbon Peach Sammie",
       "classic-sammie": "Classic Sammie",
@@ -45,6 +46,14 @@
         "mint-chip": [
           "quebec",
           "frances",
+          "northvan"
+        ],
+        "vegan-blackcurrant-ripple": [
+          "frances"
+        ],
+        "vegan-strawberry-elderflower-ripple": [
+          "fraser",
+          "quebec",
           "northvan"
         ],
         "baklava": [
@@ -120,12 +129,6 @@
           "northvan"
         ],
         "vegan-s-mores": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
-        "vegan-strawberry-elderflower-ripple": [
           "fraser",
           "quebec",
           "frances",
@@ -145,6 +148,11 @@
           "frances",
           "northvan"
         ],
+        "vegan-strawberry-elderflower-ripple": [
+          "quebec",
+          "frances",
+          "northvan"
+        ],
         "baklava": [
           "fraser",
           "quebec",
@@ -219,11 +227,6 @@
         ],
         "vegan-s-mores": [
           "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
-        "vegan-strawberry-elderflower-ripple": [
           "quebec",
           "frances",
           "northvan"
@@ -262,26 +265,19 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-08-28",
-    "previousDay": "2026-08-27",
+    "currentDay": "2026-08-29",
+    "previousDay": "2026-08-28",
     "servingTypes": {
       "scoop": {
+        "added": {},
+        "removed": {}
+      },
+      "pint": {
         "added": {
           "vegan-blackcurrant-ripple": [
             "frances"
           ]
         },
-        "removed": {
-          "vegan-strawberry-elderflower-ripple": {
-            "name": "Vegan Strawberry Elderflower Ripple",
-            "storeIds": [
-              "frances"
-            ]
-          }
-        }
-      },
-      "pint": {
-        "added": {},
         "removed": {}
       },
       "sandwich": {
@@ -294,7 +290,7 @@
     "totalItems": 22,
     "iceCreamFlavors": 17,
     "scoopItems": 17,
-    "pintItems": 16,
+    "pintItems": 17,
     "sandwichItems": 5,
     "sandwichOnlyItems": 5
   }
