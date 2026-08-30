@@ -40,7 +40,6 @@
       "northvan"
     ],
     "pintStores": [
-      "quebec",
       "frances",
       "northvan"
     ],
@@ -58,8 +57,6 @@
       "northvan"
     ],
     "pintStores": [
-      "fraser",
-      "quebec",
       "frances",
       "northvan"
     ],
@@ -77,7 +74,6 @@
       "northvan"
     ],
     "pintStores": [
-      "fraser",
       "quebec",
       "frances",
       "northvan"
@@ -358,7 +354,6 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
-      "fraser",
       "northvan"
     ],
     "description": "Light chocolate ice cream is speckled with toasted coconut flakes and topped with a layer of fudge and bites of fudgey brownie. The resulting sammie is a delightful mix of chocolate and coconut flavours and textures!"
@@ -370,6 +365,7 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
+      "fraser",
       "quebec",
       "frances"
     ],

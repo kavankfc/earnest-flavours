@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-08-29T22:03:04.732Z",
+  "lastUpdatedAt": "2026-08-30T22:09:59.876Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated August 29, 2026 at 12pm",
-    "quebec": "Last updated August 26, 2026 at 12pm",
+    "fraser": "Last updated August 30, 2026 at 12pm",
+    "quebec": "Last updated August 30, 2026 at 12pm",
     "frances": "Last updated August 29, 2026 at 12pm",
     "northvan": "Last updated August 21, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated August 29, 2026 at 12pm|fraser:Last updated August 29, 2026 at 12pm|northvan:Last updated August 21, 2026 at 12pm|quebec:Last updated August 26, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated August 29, 2026 at 12pm|fraser:Last updated August 30, 2026 at 12pm|northvan:Last updated August 21, 2026 at 12pm|quebec:Last updated August 30, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-08-28",
-    "observedAt": "2026-08-29T02:29:19.046Z",
+    "baselineDay": "2026-08-29",
+    "observedAt": "2026-08-29T22:03:04.732Z",
     "flavorNamesByFlavorId": {
       "mint-chip": "Mint Chip",
       "vegan-blackcurrant-ripple": "Vegan Blackcurrant Ripple",
@@ -148,6 +148,9 @@
           "frances",
           "northvan"
         ],
+        "vegan-blackcurrant-ripple": [
+          "frances"
+        ],
         "vegan-strawberry-elderflower-ripple": [
           "quebec",
           "frances",
@@ -265,24 +268,51 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-08-29",
-    "previousDay": "2026-08-28",
+    "currentDay": "2026-08-30",
+    "previousDay": "2026-08-29",
     "servingTypes": {
       "scoop": {
         "added": {},
         "removed": {}
       },
       "pint": {
-        "added": {
-          "vegan-blackcurrant-ripple": [
-            "frances"
-          ]
-        },
-        "removed": {}
+        "added": {},
+        "removed": {
+          "vegan-strawberry-elderflower-ripple": {
+            "name": "Vegan Strawberry Elderflower Ripple",
+            "storeIds": [
+              "quebec"
+            ]
+          },
+          "baklava": {
+            "name": "Baklava",
+            "storeIds": [
+              "fraser",
+              "quebec"
+            ]
+          },
+          "blackberry-coriander": {
+            "name": "Blackberry Coriander",
+            "storeIds": [
+              "fraser"
+            ]
+          }
+        }
       },
       "sandwich": {
-        "added": {},
-        "removed": {}
+        "added": {
+          "vegan-coffee-cookie-crunch-sammie": [
+            "fraser"
+          ]
+        },
+        "removed": {
+          "vegan-coconut-brownie-sammie": {
+            "name": "Vegan Coconut Brownie Sammie",
+            "storeIds": [
+              "fraser"
+            ]
+          }
+        }
       }
     }
   },
