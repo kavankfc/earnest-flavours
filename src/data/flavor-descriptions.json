@@ -25,6 +25,11 @@
     "description": "Organic coriander (from Gathering Place Trading) brings light citrus and nutty notes to the base, while BC Blackberries (from Mandair Farms) add a fresh fruity pop. Swirled together, these flavours compliment each other to create wonderfully bright ice cream perfect for those who love fruit and citrus."
   },
   {
+    "id": "bourbon-peach",
+    "name": "Bourbon Peach",
+    "description": "Tastes like a peach cobbler–oh so satisfying! We use fresh peaches from our friends at Jobst Hof Orchard, a family operated orchard in the beautiful Okanagan Valley. The peaches are rinsed, cored and cut, and then roasted with sugar and cinnamon. These are then blended into our ice cream base with sugar, bourbon, vanilla, and salt. The bourbon really makes the peaches shine!"
+  },
+  {
     "id": "bourbon-peach-sammie",
     "name": "Bourbon Peach Sammie",
     "description": "Making a return after 3 long years, Bourbon peach is back! Okanagan peaches are processed in house to create a fresh, fruity jam. Blended into our ice cream base along with Bourbon, vanilla, and a pinch of cinnamon, before being layered onto fluffy vanilla cake. An extra layer of peach jam brings this sammie together and highlights the beautiful peach flavour."
@@ -53,6 +58,11 @@
     "id": "carrot-cake-sammie",
     "name": "Carrot Cake Sammie",
     "description": "Our carrot cake ice cream in sammie form: lightly spiced ice cream is sprinkled with loads of soft carrot cake chunks and rich cream cheese fudge. A layer of caramel seals our spiced cake around this decadent treat!"
+  },
+  {
+    "id": "cherry-amaretto",
+    "name": "Cherry Amaretto",
+    "description": "The classic nutty amaretto flavour accompanied by bright cherry jam swirled throughout! A hint of almond extract adds extra depth, but worry not – it’s made with other natural flavours and does not contain almonds! Amaretto dregs are sourced through our friends at Sons of Vancouver Distillery, and BC Cherries are sourced from Snowcrest. Though our cherries are machine-pitted, there is a small possibility of finding a pit – that’s the risk we take when using whole, real fruit."
   },
   {
     "id": "chocolate",
@@ -293,6 +303,11 @@
     "id": "vegan-peaches-cream",
     "name": "Vegan Peaches & Cream",
     "description": "Like a roasted peach topped with vanilla ice cream and a sprinkle of cinnamon! Our oat-coconut base with an added hint of cinnamon is swirled with a bright, roasted peach compote. Fresh peaches are sourced from Jobst-Hof Orchard, a family operated orchard in the beautiful Okanagan Valley."
+  },
+  {
+    "id": "vegan-peppermint-fudge-brownie",
+    "name": "Vegan Peppermint Fudge Brownie",
+    "description": "The classic combination of mint and chocolate, elevated to a deluxe level full of texture. Smooth, minty ice cream is swirled with a rich chocolate ripple and a generous helping of fudgy, chocolate chip brownie bites. The fresh minty flavour helps cut the richness of the chocolate, resulting in a beautifully balanced ice cream."
   },
   {
     "id": "vegan-raspberry",
