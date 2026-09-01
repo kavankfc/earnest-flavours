@@ -42,6 +42,17 @@
     "description": "Whiskey Hazelnut’s cousin! Pecan pieces are roasted with butter and salt, and added to our ice cream base with organic vanilla. Comfort in a scoop!"
   },
   {
+    "id": "cardamom",
+    "name": "Cardamom",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser"
+    ],
+    "pintStores": [],
+    "sandwichStores": [],
+    "description": "Our organic cardamom comes to us from our friends at the Gathering Place, a family run business on Cortes Island."
+  },
+  {
     "id": "cherry-amaretto",
     "name": "Cherry Amaretto",
     "isVegan": false,
@@ -55,11 +66,21 @@
     "description": "The classic nutty amaretto flavour accompanied by bright cherry jam swirled throughout! A hint of almond extract adds extra depth, but worry not – it’s made with other natural flavours and does not contain almonds! Amaretto dregs are sourced through our friends at Sons of Vancouver Distillery, and BC Cherries are sourced from Snowcrest. Though our cherries are machine-pitted, there is a small possibility of finding a pit – that’s the risk we take when using whole, real fruit."
   },
   {
+    "id": "coffee",
+    "name": "Coffee",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser"
+    ],
+    "pintStores": [],
+    "sandwichStores": [],
+    "description": "Made with organic, fair-trade coffee from Mount Hagen, this ice cream tastes just like a creamy iced coffee! The perfect balance of rich coffee and sweet cream, this flavour is sure to satisfy any coffee-lover."
+  },
+  {
     "id": "toasted-marshmallow",
     "name": "Toasted Marshmallow",
     "isVegan": false,
     "scoopStores": [
-      "quebec",
       "frances"
     ],
     "pintStores": [
@@ -76,6 +97,7 @@
     "name": "Vegan Blackcurrant Ripple",
     "isVegan": true,
     "scoopStores": [
+      "fraser",
       "frances",
       "northvan"
     ],
@@ -124,7 +146,6 @@
     "name": "Vegan Strawberry Elderflower Ripple",
     "isVegan": true,
     "scoopStores": [
-      "fraser",
       "quebec",
       "northvan"
     ],

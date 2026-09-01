@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-08-31T23:27:27.329Z",
+  "lastUpdatedAt": "2026-09-01T01:53:51.739Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated August 31, 2026 at 12pm",
-    "quebec": "Last updated August 30, 2026 at 12pm",
+    "quebec": "Last updated August 31, 2026 at 12pm",
     "frances": "Last updated August 29, 2026 at 12pm",
     "northvan": "Last updated August 31, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated August 29, 2026 at 12pm|fraser:Last updated August 31, 2026 at 12pm|northvan:Last updated August 31, 2026 at 12pm|quebec:Last updated August 30, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated August 29, 2026 at 12pm|fraser:Last updated August 31, 2026 at 12pm|northvan:Last updated August 31, 2026 at 12pm|quebec:Last updated August 31, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -272,10 +272,17 @@
           "butter-pecan": [
             "quebec"
           ],
+          "cardamom": [
+            "fraser"
+          ],
           "cherry-amaretto": [
             "northvan"
           ],
+          "coffee": [
+            "fraser"
+          ],
           "vegan-blackcurrant-ripple": [
+            "fraser",
             "northvan"
           ],
           "vegan-peppermint-fudge-brownie": [
@@ -304,11 +311,18 @@
             "name": "Toasted Marshmallow",
             "storeIds": [
               "fraser",
+              "quebec",
               "northvan"
             ]
           },
           "vegan-s-mores": {
             "name": "Vegan S’mores",
+            "storeIds": [
+              "fraser"
+            ]
+          },
+          "vegan-strawberry-elderflower-ripple": {
+            "name": "Vegan Strawberry Elderflower Ripple",
             "storeIds": [
               "fraser"
             ]
@@ -348,9 +362,9 @@
     }
   },
   "counts": {
-    "totalItems": 26,
-    "iceCreamFlavors": 20,
-    "scoopItems": 20,
+    "totalItems": 28,
+    "iceCreamFlavors": 22,
+    "scoopItems": 22,
     "pintItems": 19,
     "sandwichItems": 6,
     "sandwichOnlyItems": 6
