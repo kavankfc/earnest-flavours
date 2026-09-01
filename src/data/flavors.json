@@ -8,9 +8,7 @@
       "frances",
       "northvan"
     ],
-    "pintStores": [
-      "frances"
-    ],
+    "pintStores": [],
     "sandwichStores": [],
     "description": "Buttery layers of phyllo pastry and clusters of spiced nuts are generously scattered through a light, honey base. Like a slice of honey-drenched baklava blended into ice cream!"
   },
@@ -23,7 +21,6 @@
       "frances"
     ],
     "pintStores": [
-      "quebec",
       "frances",
       "northvan"
     ],
@@ -42,30 +39,6 @@
     "description": "Whiskey Hazelnut’s cousin! Pecan pieces are roasted with butter and salt, and added to our ice cream base with organic vanilla. Comfort in a scoop!"
   },
   {
-    "id": "cardamom",
-    "name": "Cardamom",
-    "isVegan": false,
-    "scoopStores": [
-      "fraser"
-    ],
-    "pintStores": [],
-    "sandwichStores": [],
-    "description": "Our organic cardamom comes to us from our friends at the Gathering Place, a family run business on Cortes Island."
-  },
-  {
-    "id": "cherry-amaretto",
-    "name": "Cherry Amaretto",
-    "isVegan": false,
-    "scoopStores": [
-      "northvan"
-    ],
-    "pintStores": [
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "The classic nutty amaretto flavour accompanied by bright cherry jam swirled throughout! A hint of almond extract adds extra depth, but worry not – it’s made with other natural flavours and does not contain almonds! Amaretto dregs are sourced through our friends at Sons of Vancouver Distillery, and BC Cherries are sourced from Snowcrest. Though our cherries are machine-pitted, there is a small possibility of finding a pit – that’s the risk we take when using whole, real fruit."
-  },
-  {
     "id": "coffee",
     "name": "Coffee",
     "isVegan": false,
@@ -77,51 +50,51 @@
     "description": "Made with organic, fair-trade coffee from Mount Hagen, this ice cream tastes just like a creamy iced coffee! The perfect balance of rich coffee and sweet cream, this flavour is sure to satisfy any coffee-lover."
   },
   {
-    "id": "toasted-marshmallow",
-    "name": "Toasted Marshmallow",
+    "id": "milk-cookies",
+    "name": "Milk + Cookies",
     "isVegan": false,
     "scoopStores": [
+      "fraser",
+      "quebec",
       "frances"
     ],
     "pintStores": [
       "fraser",
       "quebec",
-      "frances",
+      "frances"
+    ],
+    "sandwichStores": [],
+    "description": "The Milk & Cookies sammie was such a hit that we decided to make it into a full ice cream flavour! House-made chocolate chip cookies are chopped into bite-sized pieces and generously sprinkled throughout a light, milky base. Like a freshly baked chocolate chip cookie dipped in milk!"
+  },
+  {
+    "id": "strawberry",
+    "name": "Strawberry",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Local strawberries from Mandair Farms are picked at the peak of the season and frozen to preserve their vibrant fruitiness to enjoy in winter. We add a touch of white balsamic to enhance and balance the natural sweetness of the strawberries. A must try for fans of strawberry ice cream!"
+  },
+  {
+    "id": "toasted-marshmallow",
+    "name": "Toasted Marshmallow",
+    "isVegan": false,
+    "scoopStores": [],
+    "pintStores": [
+      "fraser",
+      "quebec",
       "northvan"
     ],
     "sandwichStores": [],
     "description": "This flavour honours a classic summer time tradition with major campfire vibes! Roasted house-made marshmallows are blended into our ice cream base. Tastes and melts in your mouth just like a real toasted marshmallow!"
-  },
-  {
-    "id": "vegan-blackcurrant-ripple",
-    "name": "Vegan Blackcurrant Ripple",
-    "isVegan": true,
-    "scoopStores": [
-      "fraser",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "Canadian currant puree from Pacific Coast Fruit is cooked into a luxurious tart compote. Bright ripples of compote are offset by the sweetness of our classic oat-coconut base. Creamy, fruity, and delightfully refreshing, this ice cream is a perfectly balanced pick-me-up!"
-  },
-  {
-    "id": "vegan-peppermint-fudge-brownie",
-    "name": "Vegan Peppermint Fudge Brownie",
-    "isVegan": true,
-    "scoopStores": [
-      "fraser",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "The classic combination of mint and chocolate, elevated to a deluxe level full of texture. Smooth, minty ice cream is swirled with a rich chocolate ripple and a generous helping of fudgy, chocolate chip brownie bites. The fresh minty flavour helps cut the richness of the chocolate, resulting in a beautifully balanced ice cream."
   },
   {
     "id": "vegan-s-mores",
@@ -135,7 +108,6 @@
     "pintStores": [
       "fraser",
       "quebec",
-      "frances",
       "northvan"
     ],
     "sandwichStores": [],
@@ -150,11 +122,29 @@
       "northvan"
     ],
     "pintStores": [
-      "frances",
       "northvan"
     ],
     "sandwichStores": [],
     "description": "Local, organic elderflowers from Elderberry Grove Farm are steeped into our classic oat-coconut base. Swirled with fresh strawberry sauce, this flavour is bright and fruity with a delicate floral background – perfectly refreshing for these hot summer days!"
+  },
+  {
+    "id": "cherry-amaretto",
+    "name": "Cherry Amaretto",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "The classic nutty amaretto flavour accompanied by bright cherry jam swirled throughout! A hint of almond extract adds extra depth, but worry not – it’s made with other natural flavours and does not contain almonds! Amaretto dregs are sourced through our friends at Sons of Vancouver Distillery, and BC Cherries are sourced from Snowcrest. Though our cherries are machine-pitted, there is a small possibility of finding a pit – that’s the risk we take when using whole, real fruit."
   },
   {
     "id": "chocolate",
@@ -271,25 +261,6 @@
     "description": "A classic for good reason. We’ve been making this one since day one and it remains a favourite still. Deeply caramelized sugar mixed with cream and salt from Vancouver Island Sea Salt Co. Its rich, creamly and buttery and the perfect balance of salty and sweet."
   },
   {
-    "id": "strawberry",
-    "name": "Strawberry",
-    "isVegan": false,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "Local strawberries from Mandair Farms are picked at the peak of the season and frozen to preserve their vibrant fruitiness to enjoy in winter. We add a touch of white balsamic to enhance and balance the natural sweetness of the strawberries. A must try for fans of strawberry ice cream!"
-  },
-  {
     "id": "tahitian-vanilla",
     "name": "Tahitian Vanilla",
     "isVegan": false,
@@ -309,6 +280,25 @@
     "description": "This flavour has been a core since day one. Our pure vanilla extract is sourced from premium slow-grown, sun-cured vanilla beans of the “Tahitian” variety. The flavour from the beans is cold-extracted to preserve its complex bouquet. These vanilla beans are brighter and more floral than the rounder, woodsier Madagascar variety."
   },
   {
+    "id": "vegan-blackcurrant-ripple",
+    "name": "Vegan Blackcurrant Ripple",
+    "isVegan": true,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Canadian currant puree from Pacific Coast Fruit is cooked into a luxurious tart compote. Bright ripples of compote are offset by the sweetness of our classic oat-coconut base. Creamy, fruity, and delightfully refreshing, this ice cream is a perfectly balanced pick-me-up!"
+  },
+  {
     "id": "vegan-cookies-cream",
     "name": "Vegan Cookies + Cream",
     "isVegan": true,
@@ -326,6 +316,25 @@
     ],
     "sandwichStores": [],
     "description": "A vegan twist on a childhood favourite that is brimming with chunks of cookies in a creamy vanilla base. Fun fact, we make this flavour with the exact same organic chocolate sandwich cookies we use in our dairy cookies and cream!"
+  },
+  {
+    "id": "vegan-peppermint-fudge-brownie",
+    "name": "Vegan Peppermint Fudge Brownie",
+    "isVegan": true,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "The classic combination of mint and chocolate, elevated to a deluxe level full of texture. Smooth, minty ice cream is swirled with a rich chocolate ripple and a generous helping of fudgy, chocolate chip brownie bites. The fresh minty flavour helps cut the richness of the chocolate, resulting in a beautifully balanced ice cream."
   },
   {
     "id": "vegan-raspberry",
