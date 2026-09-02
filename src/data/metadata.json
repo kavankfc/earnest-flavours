@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-09-02T01:08:58.774Z",
+  "lastUpdatedAt": "2026-09-02T22:02:54.615Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated September 1, 2026 at 12pm",
-    "quebec": "Last updated September 1, 2026 at 12pm",
+    "quebec": "Last updated September 2, 2026 at 12pm",
     "frances": "Last updated September 1, 2026 at 12pm",
-    "northvan": "Last updated September 1, 2026 at 12pm"
+    "northvan": "Last updated September 2, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated September 1, 2026 at 12pm|fraser:Last updated September 1, 2026 at 12pm|northvan:Last updated September 1, 2026 at 12pm|quebec:Last updated September 1, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated September 1, 2026 at 12pm|fraser:Last updated September 1, 2026 at 12pm|northvan:Last updated September 2, 2026 at 12pm|quebec:Last updated September 2, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,29 +15,28 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-08-31",
-    "observedAt": "2026-09-01T01:53:51.739Z",
+    "baselineDay": "2026-09-01",
+    "observedAt": "2026-09-02T01:08:58.774Z",
     "flavorNamesByFlavorId": {
       "baklava": "Baklava",
       "blackberry-coriander": "Blackberry Coriander",
       "butter-pecan": "Butter Pecan",
-      "cardamom": "Cardamom",
-      "cherry-amaretto": "Cherry Amaretto",
-      "coffee": "Coffee",
+      "strawberry": "Strawberry",
       "toasted-marshmallow": "Toasted Marshmallow",
-      "vegan-blackcurrant-ripple": "Vegan Blackcurrant Ripple",
-      "vegan-peppermint-fudge-brownie": "Vegan Peppermint Fudge Brownie",
       "vegan-s-mores": "Vegan S’mores",
       "vegan-strawberry-elderflower-ripple": "Vegan Strawberry Elderflower Ripple",
+      "cherry-amaretto": "Cherry Amaretto",
       "chocolate": "Chocolate",
       "cookies-cream": "Cookies + Cream",
       "london-fog": "London Fog",
       "matcha-green-tea": "Matcha Green Tea",
+      "milk-cookies": "Milk + Cookies",
       "mint-chip": "Mint Chip",
       "salted-caramel": "Salted Caramel",
-      "strawberry": "Strawberry",
       "tahitian-vanilla": "Tahitian Vanilla",
+      "vegan-blackcurrant-ripple": "Vegan Blackcurrant Ripple",
       "vegan-cookies-cream": "Vegan Cookies + Cream",
+      "vegan-peppermint-fudge-brownie": "Vegan Peppermint Fudge Brownie",
       "vegan-raspberry": "Vegan Raspberry",
       "whiskey-hazelnut": "Whiskey Hazelnut",
       "bourbon-peach": "Bourbon Peach",
@@ -61,25 +60,9 @@
         "butter-pecan": [
           "quebec"
         ],
-        "cardamom": [
-          "fraser"
-        ],
-        "cherry-amaretto": [
-          "northvan"
-        ],
-        "coffee": [
-          "fraser"
-        ],
-        "toasted-marshmallow": [
-          "frances"
-        ],
-        "vegan-blackcurrant-ripple": [
+        "strawberry": [
           "fraser",
-          "frances",
-          "northvan"
-        ],
-        "vegan-peppermint-fudge-brownie": [
-          "fraser",
+          "quebec",
           "northvan"
         ],
         "vegan-s-mores": [
@@ -89,6 +72,12 @@
         ],
         "vegan-strawberry-elderflower-ripple": [
           "quebec",
+          "northvan"
+        ],
+        "cherry-amaretto": [
+          "fraser",
+          "quebec",
+          "frances",
           "northvan"
         ],
         "chocolate": [
@@ -115,6 +104,12 @@
           "frances",
           "northvan"
         ],
+        "milk-cookies": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
         "mint-chip": [
           "fraser",
           "quebec",
@@ -127,19 +122,25 @@
           "frances",
           "northvan"
         ],
-        "strawberry": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
         "tahitian-vanilla": [
           "fraser",
           "quebec",
           "frances",
           "northvan"
         ],
+        "vegan-blackcurrant-ripple": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
         "vegan-cookies-cream": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
+        "vegan-peppermint-fudge-brownie": [
           "fraser",
           "quebec",
           "frances",
@@ -159,38 +160,31 @@
         ]
       },
       "pint": {
-        "baklava": [
-          "frances"
-        ],
         "blackberry-coriander": [
-          "quebec",
           "frances",
           "northvan"
         ],
-        "cherry-amaretto": [
+        "strawberry": [
+          "fraser",
+          "quebec",
           "northvan"
         ],
         "toasted-marshmallow": [
           "fraser",
           "quebec",
-          "frances",
-          "northvan"
-        ],
-        "vegan-blackcurrant-ripple": [
-          "frances",
-          "northvan"
-        ],
-        "vegan-peppermint-fudge-brownie": [
-          "fraser",
           "northvan"
         ],
         "vegan-s-mores": [
           "fraser",
           "quebec",
-          "frances",
           "northvan"
         ],
         "vegan-strawberry-elderflower-ripple": [
+          "northvan"
+        ],
+        "cherry-amaretto": [
+          "fraser",
+          "quebec",
           "frances",
           "northvan"
         ],
@@ -218,6 +212,12 @@
           "frances",
           "northvan"
         ],
+        "milk-cookies": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
         "mint-chip": [
           "fraser",
           "quebec",
@@ -230,19 +230,25 @@
           "frances",
           "northvan"
         ],
-        "strawberry": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
         "tahitian-vanilla": [
           "fraser",
           "quebec",
           "frances",
           "northvan"
         ],
+        "vegan-blackcurrant-ripple": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
         "vegan-cookies-cream": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
+        "vegan-peppermint-fudge-brownie": [
           "fraser",
           "quebec",
           "frances",
@@ -291,117 +297,16 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-09-01",
-    "previousDay": "2026-08-31",
+    "currentDay": "2026-09-02",
+    "previousDay": "2026-09-01",
     "servingTypes": {
       "scoop": {
-        "added": {
-          "cherry-amaretto": [
-            "fraser",
-            "quebec",
-            "frances"
-          ],
-          "milk-cookies": [
-            "fraser",
-            "quebec",
-            "frances",
-            "northvan"
-          ],
-          "vegan-blackcurrant-ripple": [
-            "quebec"
-          ],
-          "vegan-peppermint-fudge-brownie": [
-            "quebec",
-            "frances"
-          ]
-        },
-        "removed": {
-          "strawberry": {
-            "name": "Strawberry",
-            "storeIds": [
-              "frances"
-            ]
-          },
-          "cardamom": {
-            "name": "Cardamom",
-            "storeIds": [
-              "fraser"
-            ]
-          },
-          "coffee": {
-            "name": "Coffee",
-            "storeIds": [
-              "fraser"
-            ]
-          },
-          "toasted-marshmallow": {
-            "name": "Toasted Marshmallow",
-            "storeIds": [
-              "frances"
-            ]
-          }
-        }
+        "added": {},
+        "removed": {}
       },
       "pint": {
-        "added": {
-          "cherry-amaretto": [
-            "fraser",
-            "quebec",
-            "frances"
-          ],
-          "milk-cookies": [
-            "fraser",
-            "quebec",
-            "frances",
-            "northvan"
-          ],
-          "vegan-blackcurrant-ripple": [
-            "fraser",
-            "quebec"
-          ],
-          "vegan-peppermint-fudge-brownie": [
-            "quebec",
-            "frances"
-          ]
-        },
-        "removed": {
-          "blackberry-coriander": {
-            "name": "Blackberry Coriander",
-            "storeIds": [
-              "quebec"
-            ]
-          },
-          "strawberry": {
-            "name": "Strawberry",
-            "storeIds": [
-              "frances"
-            ]
-          },
-          "toasted-marshmallow": {
-            "name": "Toasted Marshmallow",
-            "storeIds": [
-              "frances"
-            ]
-          },
-          "vegan-s-mores": {
-            "name": "Vegan S’mores",
-            "storeIds": [
-              "frances"
-            ]
-          },
-          "vegan-strawberry-elderflower-ripple": {
-            "name": "Vegan Strawberry Elderflower Ripple",
-            "storeIds": [
-              "frances"
-            ]
-          },
-          "baklava": {
-            "name": "Baklava",
-            "storeIds": [
-              "frances"
-            ]
-          }
-        }
+        "added": {},
+        "removed": {}
       },
       "sandwich": {
         "added": {},
