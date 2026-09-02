@@ -39,34 +39,6 @@
     "description": "Whiskey Hazelnut’s cousin! Pecan pieces are roasted with butter and salt, and added to our ice cream base with organic vanilla. Comfort in a scoop!"
   },
   {
-    "id": "coffee",
-    "name": "Coffee",
-    "isVegan": false,
-    "scoopStores": [
-      "fraser"
-    ],
-    "pintStores": [],
-    "sandwichStores": [],
-    "description": "Made with organic, fair-trade coffee from Mount Hagen, this ice cream tastes just like a creamy iced coffee! The perfect balance of rich coffee and sweet cream, this flavour is sure to satisfy any coffee-lover."
-  },
-  {
-    "id": "milk-cookies",
-    "name": "Milk + Cookies",
-    "isVegan": false,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "frances"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "frances"
-    ],
-    "sandwichStores": [],
-    "description": "The Milk & Cookies sammie was such a hit that we decided to make it into a full ice cream flavour! House-made chocolate chip cookies are chopped into bite-sized pieces and generously sprinkled throughout a light, milky base. Like a freshly baked chocolate chip cookie dipped in milk!"
-  },
-  {
     "id": "strawberry",
     "name": "Strawberry",
     "isVegan": false,
@@ -221,6 +193,25 @@
     ],
     "sandwichStores": [],
     "description": "Our matcha green tea powder is supplied by Aiya and grown in Nishio, a historic tea cultivation region in Japan, from a family owned and operated farm for the last 125 years. It’s a shade-grown matcha, giving it light colour and caramel notes. Aiya are dedicated to giving back to the world through helping with the reforestation of mangrove and mahogany forests in Southeast Asia. We simply blend the matcha powder straight into our ice cream base!"
+  },
+  {
+    "id": "milk-cookies",
+    "name": "Milk + Cookies",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "The Milk & Cookies sammie was such a hit that we decided to make it into a full ice cream flavour! House-made chocolate chip cookies are chopped into bite-sized pieces and generously sprinkled throughout a light, milky base. Like a freshly baked chocolate chip cookie dipped in milk!"
   },
   {
     "id": "mint-chip",

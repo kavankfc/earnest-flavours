@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-09-01T22:07:56.359Z",
+  "lastUpdatedAt": "2026-09-02T01:08:58.774Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated September 1, 2026 at 12pm",
     "quebec": "Last updated September 1, 2026 at 12pm",
     "frances": "Last updated September 1, 2026 at 12pm",
-    "northvan": "Last updated August 31, 2026 at 12pm"
+    "northvan": "Last updated September 1, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated September 1, 2026 at 12pm|fraser:Last updated September 1, 2026 at 12pm|northvan:Last updated August 31, 2026 at 12pm|quebec:Last updated September 1, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated September 1, 2026 at 12pm|fraser:Last updated September 1, 2026 at 12pm|northvan:Last updated September 1, 2026 at 12pm|quebec:Last updated September 1, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -296,15 +296,16 @@
     "servingTypes": {
       "scoop": {
         "added": {
-          "milk-cookies": [
-            "fraser",
-            "quebec",
-            "frances"
-          ],
           "cherry-amaretto": [
             "fraser",
             "quebec",
             "frances"
+          ],
+          "milk-cookies": [
+            "fraser",
+            "quebec",
+            "frances",
+            "northvan"
           ],
           "vegan-blackcurrant-ripple": [
             "quebec"
@@ -327,6 +328,12 @@
               "fraser"
             ]
           },
+          "coffee": {
+            "name": "Coffee",
+            "storeIds": [
+              "fraser"
+            ]
+          },
           "toasted-marshmallow": {
             "name": "Toasted Marshmallow",
             "storeIds": [
@@ -337,15 +344,16 @@
       },
       "pint": {
         "added": {
-          "milk-cookies": [
-            "fraser",
-            "quebec",
-            "frances"
-          ],
           "cherry-amaretto": [
             "fraser",
             "quebec",
             "frances"
+          ],
+          "milk-cookies": [
+            "fraser",
+            "quebec",
+            "frances",
+            "northvan"
           ],
           "vegan-blackcurrant-ripple": [
             "fraser",
@@ -402,9 +410,9 @@
     }
   },
   "counts": {
-    "totalItems": 28,
-    "iceCreamFlavors": 22,
-    "scoopItems": 21,
+    "totalItems": 27,
+    "iceCreamFlavors": 21,
+    "scoopItems": 20,
     "pintItems": 19,
     "sandwichItems": 6,
     "sandwichOnlyItems": 6
