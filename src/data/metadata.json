@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-09-02T22:02:54.615Z",
+  "lastUpdatedAt": "2026-09-03T21:56:54.360Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated September 1, 2026 at 12pm",
-    "quebec": "Last updated September 2, 2026 at 12pm",
-    "frances": "Last updated September 1, 2026 at 12pm",
+    "fraser": "Last updated September 3, 2026 at 12pm",
+    "quebec": "Last updated September 3, 2026 at 12pm",
+    "frances": "Last updated September 2, 2026 at 12pm",
     "northvan": "Last updated September 2, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated September 1, 2026 at 12pm|fraser:Last updated September 1, 2026 at 12pm|northvan:Last updated September 2, 2026 at 12pm|quebec:Last updated September 2, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated September 2, 2026 at 12pm|fraser:Last updated September 3, 2026 at 12pm|northvan:Last updated September 2, 2026 at 12pm|quebec:Last updated September 3, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-09-01",
-    "observedAt": "2026-09-02T01:08:58.774Z",
+    "baselineDay": "2026-09-02",
+    "observedAt": "2026-09-02T22:02:54.615Z",
     "flavorNamesByFlavorId": {
       "baklava": "Baklava",
       "blackberry-coriander": "Blackberry Coriander",
@@ -297,16 +297,42 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-09-02",
-    "previousDay": "2026-09-01",
+    "currentDay": "2026-09-03",
+    "previousDay": "2026-09-02",
     "servingTypes": {
       "scoop": {
         "added": {},
-        "removed": {}
+        "removed": {
+          "baklava": {
+            "name": "Baklava",
+            "storeIds": [
+              "frances"
+            ]
+          },
+          "blackberry-coriander": {
+            "name": "Blackberry Coriander",
+            "storeIds": [
+              "fraser"
+            ]
+          },
+          "vegan-strawberry-elderflower-ripple": {
+            "name": "Vegan Strawberry Elderflower Ripple",
+            "storeIds": [
+              "quebec"
+            ]
+          }
+        }
       },
       "pint": {
         "added": {},
-        "removed": {}
+        "removed": {
+          "blackberry-coriander": {
+            "name": "Blackberry Coriander",
+            "storeIds": [
+              "frances"
+            ]
+          }
+        }
       },
       "sandwich": {
         "added": {},
