@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-09-03T21:56:54.360Z",
+  "lastUpdatedAt": "2026-09-04T21:53:26.858Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated September 3, 2026 at 12pm",
-    "quebec": "Last updated September 3, 2026 at 12pm",
+    "fraser": "Last updated September 4, 2026 at 12pm",
+    "quebec": "Last updated September 4, 2026 at 12pm",
     "frances": "Last updated September 2, 2026 at 12pm",
     "northvan": "Last updated September 2, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated September 2, 2026 at 12pm|fraser:Last updated September 3, 2026 at 12pm|northvan:Last updated September 2, 2026 at 12pm|quebec:Last updated September 3, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated September 2, 2026 at 12pm|fraser:Last updated September 4, 2026 at 12pm|northvan:Last updated September 2, 2026 at 12pm|quebec:Last updated September 4, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-09-02",
-    "observedAt": "2026-09-02T22:02:54.615Z",
+    "baselineDay": "2026-09-03",
+    "observedAt": "2026-09-03T21:56:54.360Z",
     "flavorNamesByFlavorId": {
       "baklava": "Baklava",
       "blackberry-coriander": "Blackberry Coriander",
@@ -50,11 +50,9 @@
       "scoop": {
         "baklava": [
           "fraser",
-          "frances",
           "northvan"
         ],
         "blackberry-coriander": [
-          "fraser",
           "frances"
         ],
         "butter-pecan": [
@@ -71,7 +69,6 @@
           "northvan"
         ],
         "vegan-strawberry-elderflower-ripple": [
-          "quebec",
           "northvan"
         ],
         "cherry-amaretto": [
@@ -161,7 +158,6 @@
       },
       "pint": {
         "blackberry-coriander": [
-          "frances",
           "northvan"
         ],
         "strawberry": [
@@ -297,26 +293,14 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-09-03",
-    "previousDay": "2026-09-02",
+    "currentDay": "2026-09-04",
+    "previousDay": "2026-09-03",
     "servingTypes": {
       "scoop": {
         "added": {},
         "removed": {
-          "baklava": {
-            "name": "Baklava",
-            "storeIds": [
-              "frances"
-            ]
-          },
-          "blackberry-coriander": {
-            "name": "Blackberry Coriander",
-            "storeIds": [
-              "fraser"
-            ]
-          },
-          "vegan-strawberry-elderflower-ripple": {
-            "name": "Vegan Strawberry Elderflower Ripple",
+          "butter-pecan": {
+            "name": "Butter Pecan",
             "storeIds": [
               "quebec"
             ]
@@ -326,10 +310,10 @@
       "pint": {
         "added": {},
         "removed": {
-          "blackberry-coriander": {
-            "name": "Blackberry Coriander",
+          "toasted-marshmallow": {
+            "name": "Toasted Marshmallow",
             "storeIds": [
-              "frances"
+              "quebec"
             ]
           }
         }
@@ -341,9 +325,9 @@
     }
   },
   "counts": {
-    "totalItems": 27,
-    "iceCreamFlavors": 21,
-    "scoopItems": 20,
+    "totalItems": 26,
+    "iceCreamFlavors": 20,
+    "scoopItems": 19,
     "pintItems": 19,
     "sandwichItems": 6,
     "sandwichOnlyItems": 6
