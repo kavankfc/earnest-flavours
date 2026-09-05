@@ -15,9 +15,7 @@
     "id": "blackberry-coriander",
     "name": "Blackberry Coriander",
     "isVegan": false,
-    "scoopStores": [
-      "frances"
-    ],
+    "scoopStores": [],
     "pintStores": [
       "northvan"
     ],
@@ -47,7 +45,6 @@
     "isVegan": false,
     "scoopStores": [],
     "pintStores": [
-      "fraser",
       "northvan"
     ],
     "sandwichStores": [],
@@ -58,8 +55,6 @@
     "name": "Vegan S’mores",
     "isVegan": true,
     "scoopStores": [
-      "quebec",
-      "frances",
       "northvan"
     ],
     "pintStores": [

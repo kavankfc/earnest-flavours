@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-09-04T21:53:26.858Z",
+  "lastUpdatedAt": "2026-09-05T21:44:52.180Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated September 4, 2026 at 12pm",
-    "quebec": "Last updated September 4, 2026 at 12pm",
-    "frances": "Last updated September 2, 2026 at 12pm",
+    "fraser": "Last updated September 5, 2026 at 12pm",
+    "quebec": "Last updated September 5, 2026 at 12pm",
+    "frances": "Last updated September 5, 2026 at 12pm",
     "northvan": "Last updated September 2, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated September 2, 2026 at 12pm|fraser:Last updated September 4, 2026 at 12pm|northvan:Last updated September 2, 2026 at 12pm|quebec:Last updated September 4, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated September 5, 2026 at 12pm|fraser:Last updated September 5, 2026 at 12pm|northvan:Last updated September 2, 2026 at 12pm|quebec:Last updated September 5, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,12 +15,11 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-09-03",
-    "observedAt": "2026-09-03T21:56:54.360Z",
+    "baselineDay": "2026-09-04",
+    "observedAt": "2026-09-04T21:53:26.858Z",
     "flavorNamesByFlavorId": {
       "baklava": "Baklava",
       "blackberry-coriander": "Blackberry Coriander",
-      "butter-pecan": "Butter Pecan",
       "strawberry": "Strawberry",
       "toasted-marshmallow": "Toasted Marshmallow",
       "vegan-s-mores": "Vegan S’mores",
@@ -54,9 +53,6 @@
         ],
         "blackberry-coriander": [
           "frances"
-        ],
-        "butter-pecan": [
-          "quebec"
         ],
         "strawberry": [
           "fraser",
@@ -167,7 +163,6 @@
         ],
         "toasted-marshmallow": [
           "fraser",
-          "quebec",
           "northvan"
         ],
         "vegan-s-mores": [
@@ -293,16 +288,23 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-09-04",
-    "previousDay": "2026-09-03",
+    "currentDay": "2026-09-05",
+    "previousDay": "2026-09-04",
     "servingTypes": {
       "scoop": {
         "added": {},
         "removed": {
-          "butter-pecan": {
-            "name": "Butter Pecan",
+          "vegan-s-mores": {
+            "name": "Vegan S’mores",
             "storeIds": [
-              "quebec"
+              "quebec",
+              "frances"
+            ]
+          },
+          "blackberry-coriander": {
+            "name": "Blackberry Coriander",
+            "storeIds": [
+              "frances"
             ]
           }
         }
@@ -313,7 +315,7 @@
           "toasted-marshmallow": {
             "name": "Toasted Marshmallow",
             "storeIds": [
-              "quebec"
+              "fraser"
             ]
           }
         }
@@ -327,7 +329,7 @@
   "counts": {
     "totalItems": 26,
     "iceCreamFlavors": 20,
-    "scoopItems": 19,
+    "scoopItems": 18,
     "pintItems": 19,
     "sandwichItems": 6,
     "sandwichOnlyItems": 6
