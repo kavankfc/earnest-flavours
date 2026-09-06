@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-09-05T21:44:52.180Z",
+  "lastUpdatedAt": "2026-09-06T21:47:16.940Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated September 5, 2026 at 12pm",
+    "fraser": "Last updated September 6, 2026 at 12pm",
     "quebec": "Last updated September 5, 2026 at 12pm",
     "frances": "Last updated September 5, 2026 at 12pm",
     "northvan": "Last updated September 2, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated September 5, 2026 at 12pm|fraser:Last updated September 5, 2026 at 12pm|northvan:Last updated September 2, 2026 at 12pm|quebec:Last updated September 5, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated September 5, 2026 at 12pm|fraser:Last updated September 6, 2026 at 12pm|northvan:Last updated September 2, 2026 at 12pm|quebec:Last updated September 5, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-09-04",
-    "observedAt": "2026-09-04T21:53:26.858Z",
+    "baselineDay": "2026-09-05",
+    "observedAt": "2026-09-05T21:44:52.180Z",
     "flavorNamesByFlavorId": {
       "baklava": "Baklava",
       "blackberry-coriander": "Blackberry Coriander",
@@ -51,17 +51,12 @@
           "fraser",
           "northvan"
         ],
-        "blackberry-coriander": [
-          "frances"
-        ],
         "strawberry": [
           "fraser",
           "quebec",
           "northvan"
         ],
         "vegan-s-mores": [
-          "quebec",
-          "frances",
           "northvan"
         ],
         "vegan-strawberry-elderflower-ripple": [
@@ -162,7 +157,6 @@
           "northvan"
         ],
         "toasted-marshmallow": [
-          "fraser",
           "northvan"
         ],
         "vegan-s-mores": [
@@ -288,34 +282,26 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-09-05",
-    "previousDay": "2026-09-04",
+    "currentDay": "2026-09-06",
+    "previousDay": "2026-09-05",
     "servingTypes": {
       "scoop": {
+        "added": {},
+        "removed": {}
+      },
+      "pint": {
         "added": {},
         "removed": {
           "vegan-s-mores": {
             "name": "Vegan S’mores",
             "storeIds": [
-              "quebec",
-              "frances"
+              "fraser"
             ]
           },
-          "blackberry-coriander": {
-            "name": "Blackberry Coriander",
+          "milk-cookies": {
+            "name": "Milk + Cookies",
             "storeIds": [
-              "frances"
-            ]
-          }
-        }
-      },
-      "pint": {
-        "added": {},
-        "removed": {
-          "toasted-marshmallow": {
-            "name": "Toasted Marshmallow",
-            "storeIds": [
-              "fraser"
+              "quebec"
             ]
           }
         }
