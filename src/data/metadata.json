@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-09-06T21:47:16.940Z",
+  "lastUpdatedAt": "2026-09-07T01:09:01.532Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated September 6, 2026 at 12pm",
-    "quebec": "Last updated September 5, 2026 at 12pm",
+    "quebec": "Last updated September 6, 2026 at 12pm",
     "frances": "Last updated September 5, 2026 at 12pm",
     "northvan": "Last updated September 2, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated September 5, 2026 at 12pm|fraser:Last updated September 6, 2026 at 12pm|northvan:Last updated September 2, 2026 at 12pm|quebec:Last updated September 5, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated September 5, 2026 at 12pm|fraser:Last updated September 6, 2026 at 12pm|northvan:Last updated September 2, 2026 at 12pm|quebec:Last updated September 6, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -290,18 +290,16 @@
         "removed": {}
       },
       "pint": {
-        "added": {},
+        "added": {
+          "toasted-marshmallow": [
+            "quebec"
+          ]
+        },
         "removed": {
           "vegan-s-mores": {
             "name": "Vegan S’mores",
             "storeIds": [
               "fraser"
-            ]
-          },
-          "milk-cookies": {
-            "name": "Milk + Cookies",
-            "storeIds": [
-              "quebec"
             ]
           }
         }
