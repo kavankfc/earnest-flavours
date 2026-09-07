@@ -4,7 +4,6 @@
     "name": "Baklava",
     "isVegan": false,
     "scoopStores": [
-      "fraser",
       "northvan"
     ],
     "pintStores": [],
@@ -12,15 +11,21 @@
     "description": "Buttery layers of phyllo pastry and clusters of spiced nuts are generously scattered through a light, honey base. Like a slice of honey-drenched baklava blended into ice cream!"
   },
   {
-    "id": "blackberry-coriander",
-    "name": "Blackberry Coriander",
+    "id": "milk-cookies",
+    "name": "Milk + Cookies",
     "isVegan": false,
-    "scoopStores": [],
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances"
+    ],
     "pintStores": [
+      "quebec",
+      "frances",
       "northvan"
     ],
     "sandwichStores": [],
-    "description": "Organic coriander (from Gathering Place Trading) brings light citrus and nutty notes to the base, while BC Blackberries (from Mandair Farms) add a fresh fruity pop. Swirled together, these flavours compliment each other to create wonderfully bright ice cream perfect for those who love fruit and citrus."
+    "description": "The Milk & Cookies sammie was such a hit that we decided to make it into a full ice cream flavour! House-made chocolate chip cookies are chopped into bite-sized pieces and generously sprinkled throughout a light, milky base. Like a freshly baked chocolate chip cookie dipped in milk!"
   },
   {
     "id": "strawberry",
@@ -45,8 +50,7 @@
     "isVegan": false,
     "scoopStores": [],
     "pintStores": [
-      "quebec",
-      "northvan"
+      "quebec"
     ],
     "sandwichStores": [],
     "description": "This flavour honours a classic summer time tradition with major campfire vibes! Roasted house-made marshmallows are blended into our ice cream base. Tastes and melts in your mouth just like a real toasted marshmallow!"
@@ -172,25 +176,6 @@
     ],
     "sandwichStores": [],
     "description": "Our matcha green tea powder is supplied by Aiya and grown in Nishio, a historic tea cultivation region in Japan, from a family owned and operated farm for the last 125 years. It’s a shade-grown matcha, giving it light colour and caramel notes. Aiya are dedicated to giving back to the world through helping with the reforestation of mangrove and mahogany forests in Southeast Asia. We simply blend the matcha powder straight into our ice cream base!"
-  },
-  {
-    "id": "milk-cookies",
-    "name": "Milk + Cookies",
-    "isVegan": false,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "The Milk & Cookies sammie was such a hit that we decided to make it into a full ice cream flavour! House-made chocolate chip cookies are chopped into bite-sized pieces and generously sprinkled throughout a light, milky base. Like a freshly baked chocolate chip cookie dipped in milk!"
   },
   {
     "id": "mint-chip",
@@ -362,7 +347,6 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
-      "fraser",
       "quebec",
       "frances"
     ],
@@ -411,7 +395,6 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
-      "fraser",
       "quebec",
       "frances"
     ],
