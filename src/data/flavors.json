@@ -45,17 +45,6 @@
     "description": "Local strawberries from Mandair Farms are picked at the peak of the season and frozen to preserve their vibrant fruitiness to enjoy in winter. We add a touch of white balsamic to enhance and balance the natural sweetness of the strawberries. A must try for fans of strawberry ice cream!"
   },
   {
-    "id": "toasted-marshmallow",
-    "name": "Toasted Marshmallow",
-    "isVegan": false,
-    "scoopStores": [],
-    "pintStores": [
-      "quebec"
-    ],
-    "sandwichStores": [],
-    "description": "This flavour honours a classic summer time tradition with major campfire vibes! Roasted house-made marshmallows are blended into our ice cream base. Tastes and melts in your mouth just like a real toasted marshmallow!"
-  },
-  {
     "id": "vegan-s-mores",
     "name": "Vegan S’mores",
     "isVegan": true,
