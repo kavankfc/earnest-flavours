@@ -342,6 +342,17 @@
     "description": "Making a return after 3 long years, Bourbon peach is back! Okanagan peaches are processed in house to create a fresh, fruity jam. Blended into our ice cream base along with Bourbon, vanilla, and a pinch of cinnamon, before being layered onto fluffy vanilla cake. An extra layer of peach jam brings this sammie together and highlights the beautiful peach flavour."
   },
   {
+    "id": "chocolate-raspberry-cheesecake-sammie",
+    "name": "Chocolate Raspberry Cheesecake Sammie",
+    "isVegan": false,
+    "scoopStores": [],
+    "pintStores": [],
+    "sandwichStores": [
+      "fraser"
+    ],
+    "description": "Tangy raspberry ice cream is speckled with crunchy dark chocolate chips and delectable bites of house-made cheesecake. Topped with a layer of fudge and sandwiched with soft chocolate cake, this sammie is the perfect balance of chocolatey, fruity, and cheescakey richness!"
+  },
+  {
     "id": "classic-sammie",
     "name": "Classic Sammie",
     "isVegan": false,
