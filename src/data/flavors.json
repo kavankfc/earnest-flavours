@@ -1,16 +1,5 @@
 [
   {
-    "id": "baklava",
-    "name": "Baklava",
-    "isVegan": false,
-    "scoopStores": [
-      "northvan"
-    ],
-    "pintStores": [],
-    "sandwichStores": [],
-    "description": "Buttery layers of phyllo pastry and clusters of spiced nuts are generously scattered through a light, honey base. Like a slice of honey-drenched baklava blended into ice cream!"
-  },
-  {
     "id": "milk-cookies",
     "name": "Milk + Cookies",
     "isVegan": false,
@@ -20,6 +9,7 @@
       "frances"
     ],
     "pintStores": [
+      "fraser",
       "quebec",
       "frances",
       "northvan"
@@ -48,9 +38,7 @@
     "id": "vegan-s-mores",
     "name": "Vegan S’mores",
     "isVegan": true,
-    "scoopStores": [
-      "northvan"
-    ],
+    "scoopStores": [],
     "pintStores": [
       "quebec",
       "northvan"
@@ -62,9 +50,7 @@
     "id": "vegan-strawberry-elderflower-ripple",
     "name": "Vegan Strawberry Elderflower Ripple",
     "isVegan": true,
-    "scoopStores": [
-      "northvan"
-    ],
+    "scoopStores": [],
     "pintStores": [
       "northvan"
     ],
@@ -319,17 +305,6 @@
     "description": "An Earnest Ice Cream original, made from day one and remains a favourite and top-seller. Roasted, salted BC hazelnuts in Whiskey ice cream base. A smooth, boozy flavour with a buttery crunch."
   },
   {
-    "id": "bourbon-peach",
-    "name": "Bourbon Peach",
-    "isVegan": false,
-    "scoopStores": [],
-    "pintStores": [],
-    "sandwichStores": [
-      "northvan"
-    ],
-    "description": "Tastes like a peach cobbler–oh so satisfying! We use fresh peaches from our friends at Jobst Hof Orchard, a family operated orchard in the beautiful Okanagan Valley. The peaches are rinsed, cored and cut, and then roasted with sugar and cinnamon. These are then blended into our ice cream base with sugar, bourbon, vanilla, and salt. The bourbon really makes the peaches shine!"
-  },
-  {
     "id": "bourbon-peach-sammie",
     "name": "Bourbon Peach Sammie",
     "isVegan": false,
@@ -348,7 +323,8 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
-      "fraser"
+      "fraser",
+      "northvan"
     ],
     "description": "Tangy raspberry ice cream is speckled with crunchy dark chocolate chips and delectable bites of house-made cheesecake. Topped with a layer of fudge and sandwiched with soft chocolate cake, this sammie is the perfect balance of chocolatey, fruity, and cheescakey richness!"
   },
