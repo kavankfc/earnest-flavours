@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-09-11T01:14:35.614Z",
+  "lastUpdatedAt": "2026-09-11T22:02:40.193Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated September 9, 2026 at 12pm",
     "quebec": "Last updated September 9, 2026 at 12pm",
     "frances": "Last updated September 9, 2026 at 12pm",
-    "northvan": "Last updated September 10, 2026 at 12pm"
+    "northvan": "Last updated September 11, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated September 9, 2026 at 12pm|fraser:Last updated September 9, 2026 at 12pm|northvan:Last updated September 10, 2026 at 12pm|quebec:Last updated September 9, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated September 9, 2026 at 12pm|fraser:Last updated September 9, 2026 at 12pm|northvan:Last updated September 11, 2026 at 12pm|quebec:Last updated September 9, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,13 +15,12 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-09-09",
-    "observedAt": "2026-09-10T01:12:45.882Z",
+    "baselineDay": "2026-09-10",
+    "observedAt": "2026-09-11T01:14:35.614Z",
     "flavorNamesByFlavorId": {
       "milk-cookies": "Milk + Cookies",
       "strawberry": "Strawberry",
       "vegan-s-mores": "Vegan S’mores",
-      "vegan-strawberry-elderflower-ripple": "Vegan Strawberry Elderflower Ripple",
       "cherry-amaretto": "Cherry Amaretto",
       "chocolate": "Chocolate",
       "cookies-cream": "Cookies + Cream",
@@ -150,9 +149,6 @@
           "quebec",
           "northvan"
         ],
-        "vegan-strawberry-elderflower-ripple": [
-          "northvan"
-        ],
         "cherry-amaretto": [
           "fraser",
           "quebec",
@@ -261,8 +257,8 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-09-10",
-    "previousDay": "2026-09-09",
+    "currentDay": "2026-09-11",
+    "previousDay": "2026-09-10",
     "servingTypes": {
       "scoop": {
         "added": {},
@@ -270,14 +266,7 @@
       },
       "pint": {
         "added": {},
-        "removed": {
-          "vegan-strawberry-elderflower-ripple": {
-            "name": "Vegan Strawberry Elderflower Ripple",
-            "storeIds": [
-              "northvan"
-            ]
-          }
-        }
+        "removed": {}
       },
       "sandwich": {
         "added": {},
