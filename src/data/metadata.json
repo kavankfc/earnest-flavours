@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-09-10T01:12:45.882Z",
+  "lastUpdatedAt": "2026-09-11T01:14:35.614Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated September 9, 2026 at 12pm",
     "quebec": "Last updated September 9, 2026 at 12pm",
     "frances": "Last updated September 9, 2026 at 12pm",
-    "northvan": "Last updated September 9, 2026 at 12pm"
+    "northvan": "Last updated September 10, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated September 9, 2026 at 12pm|fraser:Last updated September 9, 2026 at 12pm|northvan:Last updated September 9, 2026 at 12pm|quebec:Last updated September 9, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated September 9, 2026 at 12pm|fraser:Last updated September 9, 2026 at 12pm|northvan:Last updated September 10, 2026 at 12pm|quebec:Last updated September 9, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,10 +15,9 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-09-08",
-    "observedAt": "2026-09-09T01:19:15.542Z",
+    "baselineDay": "2026-09-09",
+    "observedAt": "2026-09-10T01:12:45.882Z",
     "flavorNamesByFlavorId": {
-      "baklava": "Baklava",
       "milk-cookies": "Milk + Cookies",
       "strawberry": "Strawberry",
       "vegan-s-mores": "Vegan S’mores",
@@ -36,7 +35,6 @@
       "vegan-peppermint-fudge-brownie": "Vegan Peppermint Fudge Brownie",
       "vegan-raspberry": "Vegan Raspberry",
       "whiskey-hazelnut": "Whiskey Hazelnut",
-      "bourbon-peach": "Bourbon Peach",
       "bourbon-peach-sammie": "Bourbon Peach Sammie",
       "chocolate-raspberry-cheesecake-sammie": "Chocolate Raspberry Cheesecake Sammie",
       "classic-sammie": "Classic Sammie",
@@ -46,9 +44,6 @@
     },
     "servingTypes": {
       "scoop": {
-        "baklava": [
-          "northvan"
-        ],
         "milk-cookies": [
           "fraser",
           "quebec",
@@ -57,12 +52,6 @@
         "strawberry": [
           "fraser",
           "quebec",
-          "northvan"
-        ],
-        "vegan-s-mores": [
-          "northvan"
-        ],
-        "vegan-strawberry-elderflower-ripple": [
           "northvan"
         ],
         "cherry-amaretto": [
@@ -146,6 +135,7 @@
       },
       "pint": {
         "milk-cookies": [
+          "fraser",
           "quebec",
           "frances",
           "northvan"
@@ -153,6 +143,7 @@
         "strawberry": [
           "fraser",
           "quebec",
+          "frances",
           "northvan"
         ],
         "vegan-s-mores": [
@@ -242,15 +233,13 @@
         ]
       },
       "sandwich": {
-        "bourbon-peach": [
-          "northvan"
-        ],
         "bourbon-peach-sammie": [
           "quebec",
           "frances"
         ],
         "chocolate-raspberry-cheesecake-sammie": [
-          "fraser"
+          "fraser",
+          "northvan"
         ],
         "classic-sammie": [
           "fraser",
@@ -272,24 +261,16 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-09-09",
-    "previousDay": "2026-09-08",
+    "currentDay": "2026-09-10",
+    "previousDay": "2026-09-09",
     "servingTypes": {
       "scoop": {
         "added": {},
+        "removed": {}
+      },
+      "pint": {
+        "added": {},
         "removed": {
-          "baklava": {
-            "name": "Baklava",
-            "storeIds": [
-              "northvan"
-            ]
-          },
-          "vegan-s-mores": {
-            "name": "Vegan S’mores",
-            "storeIds": [
-              "northvan"
-            ]
-          },
           "vegan-strawberry-elderflower-ripple": {
             "name": "Vegan Strawberry Elderflower Ripple",
             "storeIds": [
@@ -298,39 +279,17 @@
           }
         }
       },
-      "pint": {
-        "added": {
-          "milk-cookies": [
-            "fraser"
-          ],
-          "strawberry": [
-            "frances"
-          ]
-        },
-        "removed": {}
-      },
       "sandwich": {
-        "added": {
-          "chocolate-raspberry-cheesecake-sammie": [
-            "northvan"
-          ]
-        },
-        "removed": {
-          "bourbon-peach": {
-            "name": "Bourbon Peach",
-            "storeIds": [
-              "northvan"
-            ]
-          }
-        }
+        "added": {},
+        "removed": {}
       }
     }
   },
   "counts": {
-    "totalItems": 23,
-    "iceCreamFlavors": 17,
+    "totalItems": 22,
+    "iceCreamFlavors": 16,
     "scoopItems": 15,
-    "pintItems": 17,
+    "pintItems": 16,
     "sandwichItems": 6,
     "sandwichOnlyItems": 6
   }
