@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-09-12T01:17:12.510Z",
+  "lastUpdatedAt": "2026-09-12T21:43:36.853Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated September 9, 2026 at 12pm",
-    "quebec": "Last updated September 9, 2026 at 12pm",
+    "fraser": "Last updated September 12, 2026 at 12pm",
+    "quebec": "Last updated September 12, 2026 at 12pm",
     "frances": "Last updated September 11, 2026 at 12pm",
     "northvan": "Last updated September 11, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated September 11, 2026 at 12pm|fraser:Last updated September 9, 2026 at 12pm|northvan:Last updated September 11, 2026 at 12pm|quebec:Last updated September 9, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated September 11, 2026 at 12pm|fraser:Last updated September 12, 2026 at 12pm|northvan:Last updated September 11, 2026 at 12pm|quebec:Last updated September 12, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-09-10",
-    "observedAt": "2026-09-11T01:14:35.614Z",
+    "baselineDay": "2026-09-11",
+    "observedAt": "2026-09-12T01:17:12.510Z",
     "flavorNamesByFlavorId": {
       "milk-cookies": "Milk + Cookies",
       "strawberry": "Strawberry",
@@ -235,6 +235,7 @@
         ],
         "chocolate-raspberry-cheesecake-sammie": [
           "fraser",
+          "frances",
           "northvan"
         ],
         "classic-sammie": [
@@ -257,8 +258,8 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-09-11",
-    "previousDay": "2026-09-10",
+    "currentDay": "2026-09-12",
+    "previousDay": "2026-09-11",
     "servingTypes": {
       "scoop": {
         "added": {},
@@ -271,7 +272,7 @@
       "sandwich": {
         "added": {
           "chocolate-raspberry-cheesecake-sammie": [
-            "frances"
+            "quebec"
           ]
         },
         "removed": {}
