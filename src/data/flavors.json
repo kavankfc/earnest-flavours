@@ -301,8 +301,7 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
-      "quebec",
-      "frances"
+      "quebec"
     ],
     "description": "Making a return after 3 long years, Bourbon peach is back! Okanagan peaches are processed in house to create a fresh, fruity jam. Blended into our ice cream base along with Bourbon, vanilla, and a pinch of cinnamon, before being layered onto fluffy vanilla cake. An extra layer of peach jam brings this sammie together and highlights the beautiful peach flavour."
   },
@@ -335,17 +334,6 @@
     "description": "Our take on a classic ice cream sandwich. Tahitian vanilla ice cream is sandwiched between chocolate cake and finished with a thin layer of fudge sauce. This flavour never goes out of style!"
   },
   {
-    "id": "sour-cherry-goat-cheese-sammie",
-    "name": "Sour Cherry Goat Cheese Sammie",
-    "isVegan": false,
-    "scoopStores": [],
-    "pintStores": [],
-    "sandwichStores": [
-      "northvan"
-    ],
-    "description": "Since we missed it as a seasonal, this cult classic is back as a sammie, but with a twist! Goat cheese ice cream is swirled with sour cherry compote to create a wonderfully cheesy and fruity flavour profile. Topped with a tart cherry jam that has a hint of almond extract added to boost that cherry flavour, plus a layer of goat cheese-vanilla cake crumble to complete this cheesy sammie. It’s the perfect bright treat for these hot summer days!"
-  },
-  {
     "id": "vegan-coconut-brownie-sammie",
     "name": "Vegan Coconut Brownie Sammie",
     "isVegan": true,
@@ -357,6 +345,17 @@
     "description": "Light chocolate ice cream is speckled with toasted coconut flakes and topped with a layer of fudge and bites of fudgey brownie. The resulting sammie is a delightful mix of chocolate and coconut flavours and textures!"
   },
   {
+    "id": "vegan-coconut-dulce-latte-sammie",
+    "name": "Vegan Coconut Dulce Latte Sammie",
+    "isVegan": true,
+    "scoopStores": [],
+    "pintStores": [],
+    "sandwichStores": [
+      "frances"
+    ],
+    "description": "Strong, creamy coffee balanced by the sweetness of our house-made coconut dulce sauce! Finished with a crunchy coconut streusel and toasted coconut flake for an extra bite of toasty deliciousness."
+  },
+  {
     "id": "vegan-coffee-cookie-crunch-sammie",
     "name": "Vegan Coffee Cookie Crunch Sammie",
     "isVegan": true,
@@ -364,7 +363,7 @@
     "pintStores": [],
     "sandwichStores": [
       "quebec",
-      "frances"
+      "northvan"
     ],
     "description": "Strong, creamy coffee balanced by the sweetness of our classic vanilla creme sandwich cookies make this sammie irresistible! Bits of cookie are swirled through the ice cream and even more cookies are added on top of a layer of fudge for the perfect fudgey and crispy bite."
   }
