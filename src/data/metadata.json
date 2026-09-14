@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-09-13T21:49:48.973Z",
+  "lastUpdatedAt": "2026-09-14T22:47:24.825Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated September 13, 2026 at 12pm",
-    "quebec": "Last updated September 12, 2026 at 12pm",
+    "quebec": "Last updated September 14, 2026 at 12pm",
     "frances": "Last updated September 13, 2026 at 12pm",
     "northvan": "Last updated September 13, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated September 13, 2026 at 12pm|fraser:Last updated September 13, 2026 at 12pm|northvan:Last updated September 13, 2026 at 12pm|quebec:Last updated September 12, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated September 13, 2026 at 12pm|fraser:Last updated September 13, 2026 at 12pm|northvan:Last updated September 13, 2026 at 12pm|quebec:Last updated September 14, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-09-12",
-    "observedAt": "2026-09-12T21:43:36.853Z",
+    "baselineDay": "2026-09-13",
+    "observedAt": "2026-09-13T21:49:48.973Z",
     "flavorNamesByFlavorId": {
       "milk-cookies": "Milk + Cookies",
       "strawberry": "Strawberry",
@@ -37,8 +37,8 @@
       "bourbon-peach-sammie": "Bourbon Peach Sammie",
       "chocolate-raspberry-cheesecake-sammie": "Chocolate Raspberry Cheesecake Sammie",
       "classic-sammie": "Classic Sammie",
-      "sour-cherry-goat-cheese-sammie": "Sour Cherry Goat Cheese Sammie",
       "vegan-coconut-brownie-sammie": "Vegan Coconut Brownie Sammie",
+      "vegan-coconut-dulce-latte-sammie": "Vegan Coconut Dulce Latte Sammie",
       "vegan-coffee-cookie-crunch-sammie": "Vegan Coffee Cookie Crunch Sammie"
     },
     "servingTypes": {
@@ -230,8 +230,7 @@
       },
       "sandwich": {
         "bourbon-peach-sammie": [
-          "quebec",
-          "frances"
+          "quebec"
         ],
         "chocolate-raspberry-cheesecake-sammie": [
           "fraser",
@@ -245,22 +244,22 @@
           "frances",
           "northvan"
         ],
-        "sour-cherry-goat-cheese-sammie": [
-          "northvan"
-        ],
         "vegan-coconut-brownie-sammie": [
           "northvan"
         ],
+        "vegan-coconut-dulce-latte-sammie": [
+          "frances"
+        ],
         "vegan-coffee-cookie-crunch-sammie": [
           "quebec",
-          "frances"
+          "northvan"
         ]
       }
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-09-13",
-    "previousDay": "2026-09-12",
+    "currentDay": "2026-09-14",
+    "previousDay": "2026-09-13",
     "servingTypes": {
       "scoop": {
         "added": {},
@@ -271,31 +270,24 @@
         "removed": {}
       },
       "sandwich": {
-        "added": {
-          "vegan-coconut-dulce-latte-sammie": [
-            "frances"
-          ],
-          "vegan-coffee-cookie-crunch-sammie": [
-            "northvan"
-          ]
-        },
+        "added": {},
         "removed": {
-          "bourbon-peach-sammie": {
-            "name": "Bourbon Peach Sammie",
-            "storeIds": [
-              "frances"
-            ]
-          },
           "vegan-coffee-cookie-crunch-sammie": {
             "name": "Vegan Coffee Cookie Crunch Sammie",
             "storeIds": [
-              "frances"
+              "quebec"
             ]
           },
-          "sour-cherry-goat-cheese-sammie": {
-            "name": "Sour Cherry Goat Cheese Sammie",
+          "bourbon-peach-sammie": {
+            "name": "Bourbon Peach Sammie",
             "storeIds": [
-              "northvan"
+              "quebec"
+            ]
+          },
+          "vegan-coconut-dulce-latte-sammie": {
+            "name": "Vegan Coconut Dulce Latte Sammie",
+            "storeIds": [
+              "frances"
             ]
           }
         }
@@ -303,11 +295,11 @@
     }
   },
   "counts": {
-    "totalItems": 22,
+    "totalItems": 20,
     "iceCreamFlavors": 16,
     "scoopItems": 15,
     "pintItems": 16,
-    "sandwichItems": 6,
-    "sandwichOnlyItems": 6
+    "sandwichItems": 4,
+    "sandwichOnlyItems": 4
   }
 }
