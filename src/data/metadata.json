@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-09-14T22:47:24.825Z",
+  "lastUpdatedAt": "2026-09-15T22:28:30.293Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated September 13, 2026 at 12pm",
-    "quebec": "Last updated September 14, 2026 at 12pm",
+    "quebec": "Last updated September 15, 2026 at 12pm",
     "frances": "Last updated September 13, 2026 at 12pm",
     "northvan": "Last updated September 13, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated September 13, 2026 at 12pm|fraser:Last updated September 13, 2026 at 12pm|northvan:Last updated September 13, 2026 at 12pm|quebec:Last updated September 14, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated September 13, 2026 at 12pm|fraser:Last updated September 13, 2026 at 12pm|northvan:Last updated September 13, 2026 at 12pm|quebec:Last updated September 15, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-09-13",
-    "observedAt": "2026-09-13T21:49:48.973Z",
+    "baselineDay": "2026-09-14",
+    "observedAt": "2026-09-14T22:47:24.825Z",
     "flavorNamesByFlavorId": {
       "milk-cookies": "Milk + Cookies",
       "strawberry": "Strawberry",
@@ -34,11 +34,9 @@
       "vegan-peppermint-fudge-brownie": "Vegan Peppermint Fudge Brownie",
       "vegan-raspberry": "Vegan Raspberry",
       "whiskey-hazelnut": "Whiskey Hazelnut",
-      "bourbon-peach-sammie": "Bourbon Peach Sammie",
       "chocolate-raspberry-cheesecake-sammie": "Chocolate Raspberry Cheesecake Sammie",
       "classic-sammie": "Classic Sammie",
       "vegan-coconut-brownie-sammie": "Vegan Coconut Brownie Sammie",
-      "vegan-coconut-dulce-latte-sammie": "Vegan Coconut Dulce Latte Sammie",
       "vegan-coffee-cookie-crunch-sammie": "Vegan Coffee Cookie Crunch Sammie"
     },
     "servingTypes": {
@@ -229,9 +227,6 @@
         ]
       },
       "sandwich": {
-        "bourbon-peach-sammie": [
-          "quebec"
-        ],
         "chocolate-raspberry-cheesecake-sammie": [
           "fraser",
           "quebec",
@@ -247,19 +242,15 @@
         "vegan-coconut-brownie-sammie": [
           "northvan"
         ],
-        "vegan-coconut-dulce-latte-sammie": [
-          "frances"
-        ],
         "vegan-coffee-cookie-crunch-sammie": [
-          "quebec",
           "northvan"
         ]
       }
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-09-14",
-    "previousDay": "2026-09-13",
+    "currentDay": "2026-09-15",
+    "previousDay": "2026-09-14",
     "servingTypes": {
       "scoop": {
         "added": {},
@@ -267,30 +258,18 @@
       },
       "pint": {
         "added": {},
-        "removed": {}
-      },
-      "sandwich": {
-        "added": {},
         "removed": {
-          "vegan-coffee-cookie-crunch-sammie": {
-            "name": "Vegan Coffee Cookie Crunch Sammie",
+          "vegan-s-mores": {
+            "name": "Vegan S’mores",
             "storeIds": [
               "quebec"
-            ]
-          },
-          "bourbon-peach-sammie": {
-            "name": "Bourbon Peach Sammie",
-            "storeIds": [
-              "quebec"
-            ]
-          },
-          "vegan-coconut-dulce-latte-sammie": {
-            "name": "Vegan Coconut Dulce Latte Sammie",
-            "storeIds": [
-              "frances"
             ]
           }
         }
+      },
+      "sandwich": {
+        "added": {},
+        "removed": {}
       }
     }
   },
