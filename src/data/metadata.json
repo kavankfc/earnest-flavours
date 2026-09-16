@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-09-15T22:28:30.293Z",
+  "lastUpdatedAt": "2026-09-16T22:25:32.714Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated September 13, 2026 at 12pm",
     "quebec": "Last updated September 15, 2026 at 12pm",
-    "frances": "Last updated September 13, 2026 at 12pm",
+    "frances": "Last updated September 16, 2026 at 12pm",
     "northvan": "Last updated September 13, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated September 13, 2026 at 12pm|fraser:Last updated September 13, 2026 at 12pm|northvan:Last updated September 13, 2026 at 12pm|quebec:Last updated September 15, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated September 16, 2026 at 12pm|fraser:Last updated September 13, 2026 at 12pm|northvan:Last updated September 13, 2026 at 12pm|quebec:Last updated September 15, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-09-14",
-    "observedAt": "2026-09-14T22:47:24.825Z",
+    "baselineDay": "2026-09-15",
+    "observedAt": "2026-09-15T22:28:30.293Z",
     "flavorNamesByFlavorId": {
       "milk-cookies": "Milk + Cookies",
       "strawberry": "Strawberry",
@@ -144,7 +144,6 @@
           "northvan"
         ],
         "vegan-s-mores": [
-          "quebec",
           "northvan"
         ],
         "cherry-amaretto": [
@@ -249,23 +248,20 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-09-15",
-    "previousDay": "2026-09-14",
+    "currentDay": "2026-09-16",
+    "previousDay": "2026-09-15",
     "servingTypes": {
       "scoop": {
-        "added": {},
+        "added": {
+          "strawberry": [
+            "frances"
+          ]
+        },
         "removed": {}
       },
       "pint": {
         "added": {},
-        "removed": {
-          "vegan-s-mores": {
-            "name": "Vegan S’mores",
-            "storeIds": [
-              "quebec"
-            ]
-          }
-        }
+        "removed": {}
       },
       "sandwich": {
         "added": {},
