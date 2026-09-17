@@ -1,23 +1,5 @@
 [
   {
-    "id": "milk-cookies",
-    "name": "Milk + Cookies",
-    "isVegan": false,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "frances"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "The Milk & Cookies sammie was such a hit that we decided to make it into a full ice cream flavour! House-made chocolate chip cookies are chopped into bite-sized pieces and generously sprinkled throughout a light, milky base. Like a freshly baked chocolate chip cookie dipped in milk!"
-  },
-  {
     "id": "vegan-s-mores",
     "name": "Vegan S’mores",
     "isVegan": true,
@@ -122,6 +104,25 @@
     ],
     "sandwichStores": [],
     "description": "Our matcha green tea powder is supplied by Aiya and grown in Nishio, a historic tea cultivation region in Japan, from a family owned and operated farm for the last 125 years. It’s a shade-grown matcha, giving it light colour and caramel notes. Aiya are dedicated to giving back to the world through helping with the reforestation of mangrove and mahogany forests in Southeast Asia. We simply blend the matcha powder straight into our ice cream base!"
+  },
+  {
+    "id": "milk-cookies",
+    "name": "Milk + Cookies",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "The Milk & Cookies sammie was such a hit that we decided to make it into a full ice cream flavour! House-made chocolate chip cookies are chopped into bite-sized pieces and generously sprinkled throughout a light, milky base. Like a freshly baked chocolate chip cookie dipped in milk!"
   },
   {
     "id": "mint-chip",
@@ -332,6 +333,17 @@
       "northvan"
     ],
     "description": "Light chocolate ice cream is speckled with toasted coconut flakes and topped with a layer of fudge and bites of fudgey brownie. The resulting sammie is a delightful mix of chocolate and coconut flavours and textures!"
+  },
+  {
+    "id": "vegan-coconut-dulce-latte-sammie",
+    "name": "Vegan Coconut Dulce Latte Sammie",
+    "isVegan": true,
+    "scoopStores": [],
+    "pintStores": [],
+    "sandwichStores": [
+      "frances"
+    ],
+    "description": "Strong, creamy coffee balanced by the sweetness of our house-made coconut dulce sauce! Finished with a crunchy coconut streusel and toasted coconut flake for an extra bite of toasty deliciousness."
   },
   {
     "id": "vegan-coffee-cookie-crunch-sammie",

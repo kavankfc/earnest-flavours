@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-09-16T22:25:32.714Z",
+  "lastUpdatedAt": "2026-09-17T22:28:25.383Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated September 13, 2026 at 12pm",
     "quebec": "Last updated September 15, 2026 at 12pm",
-    "frances": "Last updated September 16, 2026 at 12pm",
-    "northvan": "Last updated September 13, 2026 at 12pm"
+    "frances": "Last updated September 17, 2026 at 12pm",
+    "northvan": "Last updated September 17, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated September 16, 2026 at 12pm|fraser:Last updated September 13, 2026 at 12pm|northvan:Last updated September 13, 2026 at 12pm|quebec:Last updated September 15, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated September 17, 2026 at 12pm|fraser:Last updated September 13, 2026 at 12pm|northvan:Last updated September 17, 2026 at 12pm|quebec:Last updated September 15, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,11 +15,10 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-09-15",
-    "observedAt": "2026-09-15T22:28:30.293Z",
+    "baselineDay": "2026-09-16",
+    "observedAt": "2026-09-16T22:25:32.714Z",
     "flavorNamesByFlavorId": {
       "milk-cookies": "Milk + Cookies",
-      "strawberry": "Strawberry",
       "vegan-s-mores": "Vegan S’mores",
       "cherry-amaretto": "Cherry Amaretto",
       "chocolate": "Chocolate",
@@ -28,6 +27,7 @@
       "matcha-green-tea": "Matcha Green Tea",
       "mint-chip": "Mint Chip",
       "salted-caramel": "Salted Caramel",
+      "strawberry": "Strawberry",
       "tahitian-vanilla": "Tahitian Vanilla",
       "vegan-blackcurrant-ripple": "Vegan Blackcurrant Ripple",
       "vegan-cookies-cream": "Vegan Cookies + Cream",
@@ -45,11 +45,6 @@
           "fraser",
           "quebec",
           "frances"
-        ],
-        "strawberry": [
-          "fraser",
-          "quebec",
-          "northvan"
         ],
         "cherry-amaretto": [
           "fraser",
@@ -88,6 +83,12 @@
           "northvan"
         ],
         "salted-caramel": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
+        "strawberry": [
           "fraser",
           "quebec",
           "frances",
@@ -137,12 +138,6 @@
           "frances",
           "northvan"
         ],
-        "strawberry": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
         "vegan-s-mores": [
           "northvan"
         ],
@@ -183,6 +178,12 @@
           "northvan"
         ],
         "salted-caramel": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
+        "strawberry": [
           "fraser",
           "quebec",
           "frances",
@@ -248,13 +249,13 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-09-16",
-    "previousDay": "2026-09-15",
+    "currentDay": "2026-09-17",
+    "previousDay": "2026-09-16",
     "servingTypes": {
       "scoop": {
         "added": {
-          "strawberry": [
-            "frances"
+          "milk-cookies": [
+            "northvan"
           ]
         },
         "removed": {}
@@ -264,17 +265,21 @@
         "removed": {}
       },
       "sandwich": {
-        "added": {},
+        "added": {
+          "vegan-coconut-dulce-latte-sammie": [
+            "frances"
+          ]
+        },
         "removed": {}
       }
     }
   },
   "counts": {
-    "totalItems": 20,
+    "totalItems": 21,
     "iceCreamFlavors": 16,
     "scoopItems": 15,
     "pintItems": 16,
-    "sandwichItems": 4,
-    "sandwichOnlyItems": 4
+    "sandwichItems": 5,
+    "sandwichOnlyItems": 5
   }
 }
