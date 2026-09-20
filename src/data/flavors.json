@@ -345,16 +345,5 @@
       "frances"
     ],
     "description": "Strong, creamy coffee balanced by the sweetness of our house-made coconut dulce sauce! Finished with a crunchy coconut streusel and toasted coconut flake for an extra bite of toasty deliciousness."
-  },
-  {
-    "id": "vegan-coffee-cookie-crunch-sammie",
-    "name": "Vegan Coffee Cookie Crunch Sammie",
-    "isVegan": true,
-    "scoopStores": [],
-    "pintStores": [],
-    "sandwichStores": [
-      "northvan"
-    ],
-    "description": "Strong, creamy coffee balanced by the sweetness of our classic vanilla creme sandwich cookies make this sammie irresistible! Bits of cookie are swirled through the ice cream and even more cookies are added on top of a layer of fudge for the perfect fudgey and crispy bite."
   }
 ]

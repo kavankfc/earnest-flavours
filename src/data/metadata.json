@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-09-18T21:58:39.325Z",
+  "lastUpdatedAt": "2026-09-20T01:19:48.440Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated September 18, 2026 at 12pm",
     "quebec": "Last updated September 15, 2026 at 12pm",
     "frances": "Last updated September 17, 2026 at 12pm",
-    "northvan": "Last updated September 17, 2026 at 12pm"
+    "northvan": "Last updated September 19, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated September 17, 2026 at 12pm|fraser:Last updated September 18, 2026 at 12pm|northvan:Last updated September 17, 2026 at 12pm|quebec:Last updated September 15, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated September 17, 2026 at 12pm|fraser:Last updated September 18, 2026 at 12pm|northvan:Last updated September 19, 2026 at 12pm|quebec:Last updated September 15, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-09-17",
-    "observedAt": "2026-09-17T22:28:25.383Z",
+    "baselineDay": "2026-09-18",
+    "observedAt": "2026-09-18T21:58:39.325Z",
     "flavorNamesByFlavorId": {
       "vegan-s-mores": "Vegan S’mores",
       "cherry-amaretto": "Cherry Amaretto",
@@ -245,6 +245,7 @@
           "northvan"
         ],
         "vegan-coconut-dulce-latte-sammie": [
+          "fraser",
           "frances"
         ],
         "vegan-coffee-cookie-crunch-sammie": [
@@ -254,8 +255,8 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-09-18",
-    "previousDay": "2026-09-17",
+    "currentDay": "2026-09-19",
+    "previousDay": "2026-09-18",
     "servingTypes": {
       "scoop": {
         "added": {},
@@ -266,21 +267,24 @@
         "removed": {}
       },
       "sandwich": {
-        "added": {
-          "vegan-coconut-dulce-latte-sammie": [
-            "fraser"
-          ]
-        },
-        "removed": {}
+        "added": {},
+        "removed": {
+          "vegan-coffee-cookie-crunch-sammie": {
+            "name": "Vegan Coffee Cookie Crunch Sammie",
+            "storeIds": [
+              "northvan"
+            ]
+          }
+        }
       }
     }
   },
   "counts": {
-    "totalItems": 21,
+    "totalItems": 20,
     "iceCreamFlavors": 16,
     "scoopItems": 15,
     "pintItems": 16,
-    "sandwichItems": 5,
-    "sandwichOnlyItems": 5
+    "sandwichItems": 4,
+    "sandwichOnlyItems": 4
   }
 }
