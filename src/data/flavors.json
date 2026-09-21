@@ -1,5 +1,23 @@
 [
   {
+    "id": "vegan-peppermint-fudge-brownie",
+    "name": "Vegan Peppermint Fudge Brownie",
+    "isVegan": true,
+    "scoopStores": [
+      "fraser",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "The classic combination of mint and chocolate, elevated to a deluxe level full of texture. Smooth, minty ice cream is swirled with a rich chocolate ripple and a generous helping of fudgy, chocolate chip brownie bites. The fresh minty flavour helps cut the richness of the chocolate, resulting in a beautifully balanced ice cream."
+  },
+  {
     "id": "vegan-s-mores",
     "name": "Vegan S’mores",
     "isVegan": true,
@@ -239,25 +257,6 @@
     "description": "A vegan twist on a childhood favourite that is brimming with chunks of cookies in a creamy vanilla base. Fun fact, we make this flavour with the exact same organic chocolate sandwich cookies we use in our dairy cookies and cream!"
   },
   {
-    "id": "vegan-peppermint-fudge-brownie",
-    "name": "Vegan Peppermint Fudge Brownie",
-    "isVegan": true,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "The classic combination of mint and chocolate, elevated to a deluxe level full of texture. Smooth, minty ice cream is swirled with a rich chocolate ripple and a generous helping of fudgy, chocolate chip brownie bites. The fresh minty flavour helps cut the richness of the chocolate, resulting in a beautifully balanced ice cream."
-  },
-  {
     "id": "vegan-raspberry",
     "name": "Vegan Raspberry",
     "isVegan": true,
@@ -324,17 +323,6 @@
     "description": "Our take on a classic ice cream sandwich. Tahitian vanilla ice cream is sandwiched between chocolate cake and finished with a thin layer of fudge sauce. This flavour never goes out of style!"
   },
   {
-    "id": "vegan-coconut-brownie-sammie",
-    "name": "Vegan Coconut Brownie Sammie",
-    "isVegan": true,
-    "scoopStores": [],
-    "pintStores": [],
-    "sandwichStores": [
-      "northvan"
-    ],
-    "description": "Light chocolate ice cream is speckled with toasted coconut flakes and topped with a layer of fudge and bites of fudgey brownie. The resulting sammie is a delightful mix of chocolate and coconut flavours and textures!"
-  },
-  {
     "id": "vegan-coconut-dulce-latte-sammie",
     "name": "Vegan Coconut Dulce Latte Sammie",
     "isVegan": true,
@@ -342,7 +330,8 @@
     "pintStores": [],
     "sandwichStores": [
       "fraser",
-      "frances"
+      "frances",
+      "northvan"
     ],
     "description": "Strong, creamy coffee balanced by the sweetness of our house-made coconut dulce sauce! Finished with a crunchy coconut streusel and toasted coconut flake for an extra bite of toasty deliciousness."
   }
