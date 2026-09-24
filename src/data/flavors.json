@@ -4,7 +4,6 @@
     "name": "Vegan Peppermint Fudge Brownie",
     "isVegan": true,
     "scoopStores": [
-      "fraser",
       "frances"
     ],
     "pintStores": [
@@ -329,6 +328,7 @@
     "pintStores": [],
     "sandwichStores": [
       "fraser",
+      "quebec",
       "frances",
       "northvan"
     ],
