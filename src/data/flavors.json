@@ -1,5 +1,23 @@
 [
   {
+    "id": "vegan-blackcurrant-ripple",
+    "name": "Vegan Blackcurrant Ripple",
+    "isVegan": true,
+    "scoopStores": [
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Canadian currant puree from Pacific Coast Fruit is cooked into a luxurious tart compote. Bright ripples of compote are offset by the sweetness of our classic oat-coconut base. Creamy, fruity, and delightfully refreshing, this ice cream is a perfectly balanced pick-me-up!"
+  },
+  {
     "id": "vegan-peppermint-fudge-brownie",
     "name": "Vegan Peppermint Fudge Brownie",
     "isVegan": true,
@@ -132,7 +150,6 @@
       "northvan"
     ],
     "pintStores": [
-      "fraser",
       "quebec",
       "frances",
       "northvan"
@@ -215,25 +232,6 @@
     ],
     "sandwichStores": [],
     "description": "This flavour has been a core since day one. Our pure vanilla extract is sourced from premium slow-grown, sun-cured vanilla beans of the “Tahitian” variety. The flavour from the beans is cold-extracted to preserve its complex bouquet. These vanilla beans are brighter and more floral than the rounder, woodsier Madagascar variety."
-  },
-  {
-    "id": "vegan-blackcurrant-ripple",
-    "name": "Vegan Blackcurrant Ripple",
-    "isVegan": true,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "Canadian currant puree from Pacific Coast Fruit is cooked into a luxurious tart compote. Bright ripples of compote are offset by the sweetness of our classic oat-coconut base. Creamy, fruity, and delightfully refreshing, this ice cream is a perfectly balanced pick-me-up!"
   },
   {
     "id": "vegan-cookies-cream",
