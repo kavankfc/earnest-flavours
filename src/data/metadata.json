@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-09-26T01:43:56.413Z",
+  "lastUpdatedAt": "2026-09-26T22:13:42.455Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated September 25, 2026 at 12pm",
+    "fraser": "Last updated September 26, 2026 at 12pm",
     "quebec": "Last updated September 23, 2026 at 12pm",
     "frances": "Last updated September 25, 2026 at 12pm",
     "northvan": "Last updated September 23, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated September 25, 2026 at 12pm|fraser:Last updated September 25, 2026 at 12pm|northvan:Last updated September 23, 2026 at 12pm|quebec:Last updated September 23, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated September 25, 2026 at 12pm|fraser:Last updated September 26, 2026 at 12pm|northvan:Last updated September 23, 2026 at 12pm|quebec:Last updated September 23, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,9 +15,10 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-09-24",
-    "observedAt": "2026-09-24T22:45:04.022Z",
+    "baselineDay": "2026-09-25",
+    "observedAt": "2026-09-26T01:43:56.413Z",
     "flavorNamesByFlavorId": {
+      "vegan-blackcurrant-ripple": "Vegan Blackcurrant Ripple",
       "vegan-peppermint-fudge-brownie": "Vegan Peppermint Fudge Brownie",
       "vegan-s-mores": "Vegan S’mores",
       "cherry-amaretto": "Cherry Amaretto",
@@ -30,7 +31,6 @@
       "salted-caramel": "Salted Caramel",
       "strawberry": "Strawberry",
       "tahitian-vanilla": "Tahitian Vanilla",
-      "vegan-blackcurrant-ripple": "Vegan Blackcurrant Ripple",
       "vegan-cookies-cream": "Vegan Cookies + Cream",
       "vegan-raspberry": "Vegan Raspberry",
       "whiskey-hazelnut": "Whiskey Hazelnut",
@@ -40,6 +40,11 @@
     },
     "servingTypes": {
       "scoop": {
+        "vegan-blackcurrant-ripple": [
+          "quebec",
+          "frances",
+          "northvan"
+        ],
         "vegan-peppermint-fudge-brownie": [
           "frances"
         ],
@@ -103,12 +108,6 @@
           "frances",
           "northvan"
         ],
-        "vegan-blackcurrant-ripple": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
         "vegan-cookies-cream": [
           "fraser",
           "quebec",
@@ -129,6 +128,11 @@
         ]
       },
       "pint": {
+        "vegan-blackcurrant-ripple": [
+          "fraser",
+          "quebec",
+          "northvan"
+        ],
         "vegan-peppermint-fudge-brownie": [
           "fraser",
           "quebec",
@@ -169,7 +173,6 @@
           "northvan"
         ],
         "milk-cookies": [
-          "fraser",
           "quebec",
           "frances",
           "northvan"
@@ -193,12 +196,6 @@
           "northvan"
         ],
         "tahitian-vanilla": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
-        "vegan-blackcurrant-ripple": [
           "fraser",
           "quebec",
           "frances",
@@ -246,29 +243,16 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-09-25",
-    "previousDay": "2026-09-24",
+    "currentDay": "2026-09-26",
+    "previousDay": "2026-09-25",
     "servingTypes": {
       "scoop": {
-        "added": {},
+        "added": {
+          "vegan-peppermint-fudge-brownie": [
+            "fraser"
+          ]
+        },
         "removed": {
-          "vegan-blackcurrant-ripple": {
-            "name": "Vegan Blackcurrant Ripple",
-            "storeIds": [
-              "fraser"
-            ]
-          }
-        }
-      },
-      "pint": {
-        "added": {},
-        "removed": {
-          "vegan-blackcurrant-ripple": {
-            "name": "Vegan Blackcurrant Ripple",
-            "storeIds": [
-              "frances"
-            ]
-          },
           "milk-cookies": {
             "name": "Milk + Cookies",
             "storeIds": [
@@ -276,6 +260,14 @@
             ]
           }
         }
+      },
+      "pint": {
+        "added": {
+          "milk-cookies": [
+            "fraser"
+          ]
+        },
+        "removed": {}
       },
       "sandwich": {
         "added": {},
