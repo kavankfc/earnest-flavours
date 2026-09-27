@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-09-26T22:13:42.455Z",
+  "lastUpdatedAt": "2026-09-27T22:36:48.666Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated September 26, 2026 at 12pm",
-    "quebec": "Last updated September 23, 2026 at 12pm",
-    "frances": "Last updated September 25, 2026 at 12pm",
-    "northvan": "Last updated September 23, 2026 at 12pm"
+    "quebec": "Last updated September 27, 2026 at 12pm",
+    "frances": "Last updated September 27, 2026 at 12pm",
+    "northvan": "Last updated September 26, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated September 25, 2026 at 12pm|fraser:Last updated September 26, 2026 at 12pm|northvan:Last updated September 23, 2026 at 12pm|quebec:Last updated September 23, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated September 27, 2026 at 12pm|fraser:Last updated September 26, 2026 at 12pm|northvan:Last updated September 26, 2026 at 12pm|quebec:Last updated September 27, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,9 +15,10 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-09-25",
-    "observedAt": "2026-09-26T01:43:56.413Z",
+    "baselineDay": "2026-09-26",
+    "observedAt": "2026-09-26T22:13:42.455Z",
     "flavorNamesByFlavorId": {
+      "milk-cookies": "Milk + Cookies",
       "vegan-blackcurrant-ripple": "Vegan Blackcurrant Ripple",
       "vegan-peppermint-fudge-brownie": "Vegan Peppermint Fudge Brownie",
       "vegan-s-mores": "Vegan S’mores",
@@ -26,7 +27,6 @@
       "cookies-cream": "Cookies + Cream",
       "london-fog": "London Fog",
       "matcha-green-tea": "Matcha Green Tea",
-      "milk-cookies": "Milk + Cookies",
       "mint-chip": "Mint Chip",
       "salted-caramel": "Salted Caramel",
       "strawberry": "Strawberry",
@@ -40,12 +40,18 @@
     },
     "servingTypes": {
       "scoop": {
+        "milk-cookies": [
+          "quebec",
+          "frances",
+          "northvan"
+        ],
         "vegan-blackcurrant-ripple": [
           "quebec",
           "frances",
           "northvan"
         ],
         "vegan-peppermint-fudge-brownie": [
+          "fraser",
           "frances"
         ],
         "cherry-amaretto": [
@@ -73,12 +79,6 @@
           "northvan"
         ],
         "matcha-green-tea": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
-        "milk-cookies": [
           "fraser",
           "quebec",
           "frances",
@@ -128,6 +128,12 @@
         ]
       },
       "pint": {
+        "milk-cookies": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
         "vegan-blackcurrant-ripple": [
           "fraser",
           "quebec",
@@ -168,11 +174,6 @@
         ],
         "matcha-green-tea": [
           "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
-        "milk-cookies": [
           "quebec",
           "frances",
           "northvan"
@@ -243,31 +244,33 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-09-26",
-    "previousDay": "2026-09-25",
+    "currentDay": "2026-09-27",
+    "previousDay": "2026-09-26",
     "servingTypes": {
       "scoop": {
-        "added": {
-          "vegan-peppermint-fudge-brownie": [
-            "fraser"
-          ]
-        },
+        "added": {},
         "removed": {
           "milk-cookies": {
             "name": "Milk + Cookies",
             "storeIds": [
-              "fraser"
+              "quebec",
+              "frances",
+              "northvan"
             ]
           }
         }
       },
       "pint": {
-        "added": {
-          "milk-cookies": [
-            "fraser"
-          ]
-        },
-        "removed": {}
+        "added": {},
+        "removed": {
+          "milk-cookies": {
+            "name": "Milk + Cookies",
+            "storeIds": [
+              "fraser",
+              "quebec"
+            ]
+          }
+        }
       },
       "sandwich": {
         "added": {},
@@ -278,7 +281,7 @@
   "counts": {
     "totalItems": 19,
     "iceCreamFlavors": 16,
-    "scoopItems": 15,
+    "scoopItems": 14,
     "pintItems": 16,
     "sandwichItems": 3,
     "sandwichOnlyItems": 3

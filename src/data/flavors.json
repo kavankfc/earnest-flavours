@@ -3,14 +3,8 @@
     "id": "milk-cookies",
     "name": "Milk + Cookies",
     "isVegan": false,
-    "scoopStores": [
-      "quebec",
-      "frances",
-      "northvan"
-    ],
+    "scoopStores": [],
     "pintStores": [
-      "fraser",
-      "quebec",
       "frances",
       "northvan"
     ],
