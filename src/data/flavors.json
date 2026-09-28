@@ -1,17 +1,5 @@
 [
   {
-    "id": "milk-cookies",
-    "name": "Milk + Cookies",
-    "isVegan": false,
-    "scoopStores": [],
-    "pintStores": [
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "The Milk & Cookies sammie was such a hit that we decided to make it into a full ice cream flavour! House-made chocolate chip cookies are chopped into bite-sized pieces and generously sprinkled throughout a light, milky base. Like a freshly baked chocolate chip cookie dipped in milk!"
-  },
-  {
     "id": "vegan-blackcurrant-ripple",
     "name": "Vegan Blackcurrant Ripple",
     "isVegan": true,
@@ -37,7 +25,6 @@
       "frances"
     ],
     "pintStores": [
-      "fraser",
       "quebec",
       "frances",
       "northvan"
@@ -293,7 +280,6 @@
     "sandwichStores": [
       "fraser",
       "quebec",
-      "frances",
       "northvan"
     ],
     "description": "Tangy raspberry ice cream is speckled with crunchy dark chocolate chips and delectable bites of house-made cheesecake. Topped with a layer of fudge and sandwiched with soft chocolate cake, this sammie is the perfect balance of chocolatey, fruity, and cheescakey richness!"
