@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-09-28T23:59:51.294Z",
+  "lastUpdatedAt": "2026-09-29T23:14:33.169Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated September 28, 2026 at 12pm",
-    "quebec": "Last updated September 27, 2026 at 12pm",
+    "fraser": "Last updated September 29, 2026 at 12pm",
+    "quebec": "Last updated September 29, 2026 at 12pm",
     "frances": "Last updated September 27, 2026 at 12pm",
     "northvan": "Last updated September 27, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated September 27, 2026 at 12pm|fraser:Last updated September 28, 2026 at 12pm|northvan:Last updated September 27, 2026 at 12pm|quebec:Last updated September 27, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated September 27, 2026 at 12pm|fraser:Last updated September 29, 2026 at 12pm|northvan:Last updated September 27, 2026 at 12pm|quebec:Last updated September 29, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,10 +15,9 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-09-27",
-    "observedAt": "2026-09-27T22:36:48.666Z",
+    "baselineDay": "2026-09-28",
+    "observedAt": "2026-09-28T23:59:51.294Z",
     "flavorNamesByFlavorId": {
-      "milk-cookies": "Milk + Cookies",
       "vegan-blackcurrant-ripple": "Vegan Blackcurrant Ripple",
       "vegan-peppermint-fudge-brownie": "Vegan Peppermint Fudge Brownie",
       "vegan-s-mores": "Vegan S’mores",
@@ -123,17 +122,12 @@
         ]
       },
       "pint": {
-        "milk-cookies": [
-          "frances",
-          "northvan"
-        ],
         "vegan-blackcurrant-ripple": [
           "fraser",
           "quebec",
           "northvan"
         ],
         "vegan-peppermint-fudge-brownie": [
-          "fraser",
           "quebec",
           "frances",
           "northvan"
@@ -218,7 +212,6 @@
         "chocolate-raspberry-cheesecake-sammie": [
           "fraser",
           "quebec",
-          "frances",
           "northvan"
         ],
         "classic-sammie": [
@@ -237,48 +230,31 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-09-28",
-    "previousDay": "2026-09-27",
+    "currentDay": "2026-09-29",
+    "previousDay": "2026-09-28",
     "servingTypes": {
       "scoop": {
-        "added": {},
+        "added": {
+          "cardamom": [
+            "fraser"
+          ]
+        },
         "removed": {}
       },
       "pint": {
         "added": {},
-        "removed": {
-          "vegan-peppermint-fudge-brownie": {
-            "name": "Vegan Peppermint Fudge Brownie",
-            "storeIds": [
-              "fraser"
-            ]
-          },
-          "milk-cookies": {
-            "name": "Milk + Cookies",
-            "storeIds": [
-              "frances",
-              "northvan"
-            ]
-          }
-        }
+        "removed": {}
       },
       "sandwich": {
         "added": {},
-        "removed": {
-          "chocolate-raspberry-cheesecake-sammie": {
-            "name": "Chocolate Raspberry Cheesecake Sammie",
-            "storeIds": [
-              "frances"
-            ]
-          }
-        }
+        "removed": {}
       }
     }
   },
   "counts": {
-    "totalItems": 18,
-    "iceCreamFlavors": 15,
-    "scoopItems": 14,
+    "totalItems": 19,
+    "iceCreamFlavors": 16,
+    "scoopItems": 15,
     "pintItems": 15,
     "sandwichItems": 3,
     "sandwichOnlyItems": 3

@@ -1,5 +1,16 @@
 [
   {
+    "id": "cardamom",
+    "name": "Cardamom",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser"
+    ],
+    "pintStores": [],
+    "sandwichStores": [],
+    "description": "Our organic cardamom comes to us from our friends at the Gathering Place, a family run business on Cortes Island."
+  },
+  {
     "id": "vegan-blackcurrant-ripple",
     "name": "Vegan Blackcurrant Ripple",
     "isVegan": true,
