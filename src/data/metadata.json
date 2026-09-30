@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-09-29T23:14:33.169Z",
+  "lastUpdatedAt": "2026-09-30T02:13:18.103Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated September 29, 2026 at 12pm",
     "quebec": "Last updated September 29, 2026 at 12pm",
     "frances": "Last updated September 27, 2026 at 12pm",
-    "northvan": "Last updated September 27, 2026 at 12pm"
+    "northvan": "Last updated September 29, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated September 27, 2026 at 12pm|fraser:Last updated September 29, 2026 at 12pm|northvan:Last updated September 27, 2026 at 12pm|quebec:Last updated September 29, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated September 27, 2026 at 12pm|fraser:Last updated September 29, 2026 at 12pm|northvan:Last updated September 29, 2026 at 12pm|quebec:Last updated September 29, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -237,6 +237,12 @@
         "added": {
           "cardamom": [
             "fraser"
+          ],
+          "vegan-chocolate": [
+            "northvan"
+          ],
+          "vegan-peppermint-fudge-brownie": [
+            "northvan"
           ]
         },
         "removed": {}
@@ -252,9 +258,9 @@
     }
   },
   "counts": {
-    "totalItems": 19,
-    "iceCreamFlavors": 16,
-    "scoopItems": 15,
+    "totalItems": 20,
+    "iceCreamFlavors": 17,
+    "scoopItems": 16,
     "pintItems": 15,
     "sandwichItems": 3,
     "sandwichOnlyItems": 3
