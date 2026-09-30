@@ -315,6 +315,11 @@
     "description": "This is the classic BC dessert bar in ice cream form! Dark chocolate chips and nanaimo bar crumble in our creamy coconut-cashew “custard” base."
   },
   {
+    "id": "vegan-peach-oat-crisp",
+    "name": "Vegan Peach Oat Crisp",
+    "description": "Beautiful Okanagan peaches from Jobst-Hof Orchards are processed in house into a delicious roasted peach compote. Swirled through a light and creamy base with a hint of cinnamon, alongside crunchy bites of oat crisp – this flavour is a wonderful balance of fruity and warm notes. Like a scoop of peach crisp a la mode!"
+  },
+  {
     "id": "vegan-peaches-cream",
     "name": "Vegan Peaches & Cream",
     "description": "Like a roasted peach topped with vanilla ice cream and a sprinkle of cinnamon! Our oat-coconut base with an added hint of cinnamon is swirled with a bright, roasted peach compote. Fresh peaches are sourced from Jobst-Hof Orchard, a family operated orchard in the beautiful Okanagan Valley."

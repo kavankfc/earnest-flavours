@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-09-30T02:13:18.103Z",
+  "lastUpdatedAt": "2026-09-30T23:14:38.899Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated September 29, 2026 at 12pm",
-    "quebec": "Last updated September 29, 2026 at 12pm",
-    "frances": "Last updated September 27, 2026 at 12pm",
-    "northvan": "Last updated September 29, 2026 at 12pm"
+    "fraser": "Last updated September 30, 2026 at 12pm",
+    "quebec": "Last updated September 30, 2026 at 12pm",
+    "frances": "Last updated September 30, 2026 at 12pm",
+    "northvan": "Last updated September 30, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated September 27, 2026 at 12pm|fraser:Last updated September 29, 2026 at 12pm|northvan:Last updated September 29, 2026 at 12pm|quebec:Last updated September 29, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated September 30, 2026 at 12pm|fraser:Last updated September 30, 2026 at 12pm|northvan:Last updated September 30, 2026 at 12pm|quebec:Last updated September 30, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,10 +15,12 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-09-28",
-    "observedAt": "2026-09-28T23:59:51.294Z",
+    "baselineDay": "2026-09-29",
+    "observedAt": "2026-09-30T02:13:18.103Z",
     "flavorNamesByFlavorId": {
+      "cardamom": "Cardamom",
       "vegan-blackcurrant-ripple": "Vegan Blackcurrant Ripple",
+      "vegan-chocolate": "Vegan Chocolate",
       "vegan-peppermint-fudge-brownie": "Vegan Peppermint Fudge Brownie",
       "vegan-s-mores": "Vegan S’mores",
       "cherry-amaretto": "Cherry Amaretto",
@@ -39,14 +41,21 @@
     },
     "servingTypes": {
       "scoop": {
+        "cardamom": [
+          "fraser"
+        ],
         "vegan-blackcurrant-ripple": [
           "quebec",
           "frances",
           "northvan"
         ],
+        "vegan-chocolate": [
+          "northvan"
+        ],
         "vegan-peppermint-fudge-brownie": [
           "fraser",
-          "frances"
+          "frances",
+          "northvan"
         ],
         "cherry-amaretto": [
           "fraser",
@@ -230,25 +239,31 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-09-29",
-    "previousDay": "2026-09-28",
+    "currentDay": "2026-09-30",
+    "previousDay": "2026-09-29",
     "servingTypes": {
       "scoop": {
         "added": {
-          "cardamom": [
-            "fraser"
-          ],
-          "vegan-chocolate": [
-            "northvan"
-          ],
-          "vegan-peppermint-fudge-brownie": [
-            "northvan"
+          "vegan-peach-oat-crisp": [
+            "quebec"
           ]
         },
-        "removed": {}
+        "removed": {
+          "vegan-blackcurrant-ripple": {
+            "name": "Vegan Blackcurrant Ripple",
+            "storeIds": [
+              "quebec",
+              "northvan"
+            ]
+          }
+        }
       },
       "pint": {
-        "added": {},
+        "added": {
+          "vegan-peach-oat-crisp": [
+            "quebec"
+          ]
+        },
         "removed": {}
       },
       "sandwich": {
@@ -258,10 +273,10 @@
     }
   },
   "counts": {
-    "totalItems": 20,
-    "iceCreamFlavors": 17,
-    "scoopItems": 16,
-    "pintItems": 15,
+    "totalItems": 21,
+    "iceCreamFlavors": 18,
+    "scoopItems": 17,
+    "pintItems": 16,
     "sandwichItems": 3,
     "sandwichOnlyItems": 3
   }

@@ -15,9 +15,7 @@
     "name": "Vegan Blackcurrant Ripple",
     "isVegan": true,
     "scoopStores": [
-      "quebec",
-      "frances",
-      "northvan"
+      "frances"
     ],
     "pintStores": [
       "fraser",
@@ -37,6 +35,19 @@
     "pintStores": [],
     "sandwichStores": [],
     "description": "A vegan staple we have been running since day one! Surprisingly creamy and rich, the subtle bitterness of dark chocolate and cocoa powder add depth to the creaminess of our coconut milk base."
+  },
+  {
+    "id": "vegan-peach-oat-crisp",
+    "name": "Vegan Peach Oat Crisp",
+    "isVegan": true,
+    "scoopStores": [
+      "quebec"
+    ],
+    "pintStores": [
+      "quebec"
+    ],
+    "sandwichStores": [],
+    "description": "Beautiful Okanagan peaches from Jobst-Hof Orchards are processed in house into a delicious roasted peach compote. Swirled through a light and creamy base with a hint of cinnamon, alongside crunchy bites of oat crisp – this flavour is a wonderful balance of fruity and warm notes. Like a scoop of peach crisp a la mode!"
   },
   {
     "id": "vegan-peppermint-fudge-brownie",
