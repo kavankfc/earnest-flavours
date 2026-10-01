@@ -1,24 +1,10 @@
 [
   {
-    "id": "cardamom",
-    "name": "Cardamom",
-    "isVegan": false,
-    "scoopStores": [
-      "fraser"
-    ],
-    "pintStores": [],
-    "sandwichStores": [],
-    "description": "Our organic cardamom comes to us from our friends at the Gathering Place, a family run business on Cortes Island."
-  },
-  {
     "id": "vegan-blackcurrant-ripple",
     "name": "Vegan Blackcurrant Ripple",
     "isVegan": true,
-    "scoopStores": [
-      "frances"
-    ],
+    "scoopStores": [],
     "pintStores": [
-      "fraser",
       "quebec",
       "northvan"
     ],
@@ -37,29 +23,13 @@
     "description": "A vegan staple we have been running since day one! Surprisingly creamy and rich, the subtle bitterness of dark chocolate and cocoa powder add depth to the creaminess of our coconut milk base."
   },
   {
-    "id": "vegan-peach-oat-crisp",
-    "name": "Vegan Peach Oat Crisp",
-    "isVegan": true,
-    "scoopStores": [
-      "quebec"
-    ],
-    "pintStores": [
-      "quebec"
-    ],
-    "sandwichStores": [],
-    "description": "Beautiful Okanagan peaches from Jobst-Hof Orchards are processed in house into a delicious roasted peach compote. Swirled through a light and creamy base with a hint of cinnamon, alongside crunchy bites of oat crisp – this flavour is a wonderful balance of fruity and warm notes. Like a scoop of peach crisp a la mode!"
-  },
-  {
     "id": "vegan-peppermint-fudge-brownie",
     "name": "Vegan Peppermint Fudge Brownie",
     "isVegan": true,
     "scoopStores": [
-      "fraser",
-      "frances",
       "northvan"
     ],
     "pintStores": [
-      "quebec",
       "frances",
       "northvan"
     ],
@@ -76,6 +46,25 @@
     ],
     "sandwichStores": [],
     "description": "The campfire staple brought to life as a vegan ice cream! House-made cookies are blended into the base to mimic the flavour of a graham cracker, as well as a sprinkle of graham crumble for texture. Dandies vegan marshmallows are toasted and folded in along with a rich fudgey swirl, supplying caramelly notes to round out that toasty s’mores flavour."
+  },
+  {
+    "id": "apple-pie",
+    "name": "Apple Pie",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Caramelized, oven roasted BC Honeycrisp apples in a warm spiced ice cream base, speckled with house-made buttery pie crust pieces. Your favourite fall desert in ice cream form."
   },
   {
     "id": "cherry-amaretto",
@@ -135,6 +124,25 @@
     "description": "Organic Chocolate Vanilla Cream Sandwich Cookies, featuring a darker chocolate flavour profile with a crisp cookie crunch. It’s all about the cookies, like a spoonful of childhood!"
   },
   {
+    "id": "haskap-berry-streusel",
+    "name": "Haskap Berry Streusel",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "A new flavour celebrating local haskap berries from Kirkaberry Farms! Haskap berries are cooked into a delectable compote with a handful of blueberries added for extra brightness. Swirled into a light vanilla base alongside pieces of gluten-friendly streusel, this flavour is as beautiful as it is delicious! Fruity and toasty notes are reminiscent of a berry pie, a la mode of course!"
+  },
+  {
     "id": "london-fog",
     "name": "London Fog",
     "isVegan": false,
@@ -190,6 +198,25 @@
     ],
     "sandwichStores": [],
     "description": "The classic mint chocolate ice cream made with lots of house made dark chocolate chips! Like peppermint patty but better. No artificial food colouring is added so it’s white, not green. Fresh and minty, with the added crunch from the dark chocolate flakes."
+  },
+  {
+    "id": "pumpkin-pie",
+    "name": "Pumpkin Pie",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Everything you love about pumpkin pie, frozen. Pumpkin is stewed low and slow with organic spices until deeply sweet and fragrant, then blended into our creamy dairy base. Flaky pie crust pieces add a satisfying crunch to each spoonful."
   },
   {
     "id": "salted-caramel",
@@ -268,6 +295,44 @@
     "description": "A vegan twist on a childhood favourite that is brimming with chunks of cookies in a creamy vanilla base. Fun fact, we make this flavour with the exact same organic chocolate sandwich cookies we use in our dairy cookies and cream!"
   },
   {
+    "id": "vegan-peach-oat-crisp",
+    "name": "Vegan Peach Oat Crisp",
+    "isVegan": true,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Beautiful Okanagan peaches from Jobst-Hof Orchards are processed in house into a delicious roasted peach compote. Swirled through a light and creamy base with a hint of cinnamon, alongside crunchy bites of oat crisp – this flavour is a wonderful balance of fruity and warm notes. Like a scoop of peach crisp a la mode!"
+  },
+  {
+    "id": "vegan-peanut-butter-pie",
+    "name": "Vegan Peanut Butter Pie",
+    "isVegan": true,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Beautifully light, yet rich and creamy, our whipped peanut butter base is generously sprinkled with chocolate crumble and dark chocolate flakes. Lending a delightful crunch like the cookie crust and chocolate topping of a peanut butter pie, these inclusions blend perfectly with the base to create a delicious and balanced flavour profile. A must-try for chocolate-peanut butter lovers!"
+  },
+  {
     "id": "vegan-raspberry",
     "name": "Vegan Raspberry",
     "isVegan": true,
@@ -312,8 +377,8 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
-      "fraser",
       "quebec",
+      "frances",
       "northvan"
     ],
     "description": "Tangy raspberry ice cream is speckled with crunchy dark chocolate chips and delectable bites of house-made cheesecake. Topped with a layer of fudge and sandwiched with soft chocolate cake, this sammie is the perfect balance of chocolatey, fruity, and cheescakey richness!"

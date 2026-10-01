@@ -10,6 +10,11 @@
     "description": "For a limited time only, this crowd-favourite flavour is back as a sammie! Fluffy almond cake is topped with our delectable almond croissant ice cream – double baked buttery croissant pieces with toasted almonds folded into a light almond base. A layer of warm caramel seals this sammie together with a croissant crumble topping for a delightful crunch!"
   },
   {
+    "id": "apple-pie",
+    "name": "Apple Pie",
+    "description": "Caramelized, oven roasted BC Honeycrisp apples in a warm spiced ice cream base, speckled with house-made buttery pie crust pieces. Your favourite fall desert in ice cream form."
+  },
+  {
     "id": "baklava",
     "name": "Baklava",
     "description": "Buttery layers of phyllo pastry and clusters of spiced nuts are generously scattered through a light, honey base. Like a slice of honey-drenched baklava blended into ice cream!"
@@ -120,6 +125,11 @@
     "description": "“One of the favourites in the warmer months, it’s a refreshing and light flavour. We reduce down lemon juice and lemon zest from our friends at Chasers Juice and then add some lemon oil to really boost the flavour. This is simply mixed in with our ice cream base for an almost yoghurt- like flavour!”"
   },
   {
+    "id": "haskap-berry-streusel",
+    "name": "Haskap Berry Streusel",
+    "description": "A new flavour celebrating local haskap berries from Kirkaberry Farms! Haskap berries are cooked into a delectable compote with a handful of blueberries added for extra brightness. Swirled into a light vanilla base alongside pieces of gluten-friendly streusel, this flavour is as beautiful as it is delicious! Fruity and toasty notes are reminiscent of a berry pie, a la mode of course!"
+  },
+  {
     "id": "irish-cream",
     "name": "Irish Cream",
     "description": "Your favourite Irish cream liqueur in frozen form. It’s creamy, slightly boozy, with a hint of chocolate and coffee."
@@ -183,6 +193,11 @@
     "id": "pistachio",
     "name": "Pistachio",
     "description": "A classic flavour, finally at Earnest! Pistachio is the ultimate smooth, creamy, and nutty flavour. Pistachio butter is coming to us from our friends at Premier Nuts."
+  },
+  {
+    "id": "pumpkin-pie",
+    "name": "Pumpkin Pie",
+    "description": "Everything you love about pumpkin pie, frozen. Pumpkin is stewed low and slow with organic spices until deeply sweet and fragrant, then blended into our creamy dairy base. Flaky pie crust pieces add a satisfying crunch to each spoonful."
   },
   {
     "id": "raspberry",
@@ -323,6 +338,11 @@
     "id": "vegan-peaches-cream",
     "name": "Vegan Peaches & Cream",
     "description": "Like a roasted peach topped with vanilla ice cream and a sprinkle of cinnamon! Our oat-coconut base with an added hint of cinnamon is swirled with a bright, roasted peach compote. Fresh peaches are sourced from Jobst-Hof Orchard, a family operated orchard in the beautiful Okanagan Valley."
+  },
+  {
+    "id": "vegan-peanut-butter-pie",
+    "name": "Vegan Peanut Butter Pie",
+    "description": "Beautifully light, yet rich and creamy, our whipped peanut butter base is generously sprinkled with chocolate crumble and dark chocolate flakes. Lending a delightful crunch like the cookie crust and chocolate topping of a peanut butter pie, these inclusions blend perfectly with the base to create a delicious and balanced flavour profile. A must-try for chocolate-peanut butter lovers!"
   },
   {
     "id": "vegan-peppermint-fudge-brownie",
