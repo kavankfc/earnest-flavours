@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-10-02T23:19:55.666Z",
+  "lastUpdatedAt": "2026-10-03T02:08:10.717Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated October 2, 2026 at 12pm",
-    "quebec": "Last updated October 1, 2026 at 12pm",
+    "quebec": "Last updated October 2, 2026 at 12pm",
     "frances": "Last updated October 1, 2026 at 12pm",
     "northvan": "Last updated October 1, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated October 1, 2026 at 12pm|fraser:Last updated October 2, 2026 at 12pm|northvan:Last updated October 1, 2026 at 12pm|quebec:Last updated October 1, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated October 1, 2026 at 12pm|fraser:Last updated October 2, 2026 at 12pm|northvan:Last updated October 1, 2026 at 12pm|quebec:Last updated October 2, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -303,17 +303,29 @@
         "removed": {}
       },
       "sandwich": {
-        "added": {},
-        "removed": {}
+        "added": {
+          "campfire-crunch-sammie": [
+            "fraser",
+            "quebec"
+          ]
+        },
+        "removed": {
+          "chocolate-raspberry-cheesecake-sammie": {
+            "name": "Chocolate Raspberry Cheesecake Sammie",
+            "storeIds": [
+              "quebec"
+            ]
+          }
+        }
       }
     }
   },
   "counts": {
-    "totalItems": 24,
+    "totalItems": 25,
     "iceCreamFlavors": 21,
     "scoopItems": 19,
     "pintItems": 20,
-    "sandwichItems": 3,
-    "sandwichOnlyItems": 3
+    "sandwichItems": 4,
+    "sandwichOnlyItems": 4
   }
 }

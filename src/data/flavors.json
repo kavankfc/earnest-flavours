@@ -371,13 +371,24 @@
     "description": "An Earnest Ice Cream original, made from day one and remains a favourite and top-seller. Roasted, salted BC hazelnuts in Whiskey ice cream base. A smooth, boozy flavour with a buttery crunch."
   },
   {
+    "id": "campfire-crunch-sammie",
+    "name": "Campfire Crunch Sammie",
+    "isVegan": false,
+    "scoopStores": [],
+    "pintStores": [],
+    "sandwichStores": [
+      "fraser",
+      "quebec"
+    ],
+    "description": "The campfire staple brought to life as an ice cream sammie! We’ve taken our toasted marshmallow ice cream blended it with our chocolate creme cookies to give a slightly toasted chocolatey flavour profile. Paired with a rich, fudgy, and caramel sauce all topped with a crunchy layer of our house made cannoli pieces and a dusting of our chocolate creme cookies. A true decant treat that whisks you to the campfire night"
+  },
+  {
     "id": "chocolate-raspberry-cheesecake-sammie",
     "name": "Chocolate Raspberry Cheesecake Sammie",
     "isVegan": false,
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
-      "quebec",
       "frances",
       "northvan"
     ],
