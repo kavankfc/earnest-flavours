@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-10-03T02:08:10.717Z",
+  "lastUpdatedAt": "2026-10-03T22:28:37.945Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated October 2, 2026 at 12pm",
     "quebec": "Last updated October 2, 2026 at 12pm",
-    "frances": "Last updated October 1, 2026 at 12pm",
+    "frances": "Last updated October 3, 2026 at 12pm",
     "northvan": "Last updated October 1, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated October 1, 2026 at 12pm|fraser:Last updated October 2, 2026 at 12pm|northvan:Last updated October 1, 2026 at 12pm|quebec:Last updated October 2, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated October 3, 2026 at 12pm|fraser:Last updated October 2, 2026 at 12pm|northvan:Last updated October 1, 2026 at 12pm|quebec:Last updated October 2, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-10-01",
-    "observedAt": "2026-10-01T23:30:02.968Z",
+    "baselineDay": "2026-10-02",
+    "observedAt": "2026-10-03T02:08:10.717Z",
     "flavorNamesByFlavorId": {
       "vegan-blackcurrant-ripple": "Vegan Blackcurrant Ripple",
       "vegan-chocolate": "Vegan Chocolate",
@@ -39,6 +39,7 @@
       "vegan-peanut-butter-pie": "Vegan Peanut Butter Pie",
       "vegan-raspberry": "Vegan Raspberry",
       "whiskey-hazelnut": "Whiskey Hazelnut",
+      "campfire-crunch-sammie": "Campfire Crunch Sammie",
       "chocolate-raspberry-cheesecake-sammie": "Chocolate Raspberry Cheesecake Sammie",
       "classic-sammie": "Classic Sammie",
       "vegan-coconut-dulce-latte-sammie": "Vegan Coconut Dulce Latte Sammie"
@@ -270,8 +271,11 @@
         ]
       },
       "sandwich": {
+        "campfire-crunch-sammie": [
+          "fraser",
+          "quebec"
+        ],
         "chocolate-raspberry-cheesecake-sammie": [
-          "quebec",
           "frances",
           "northvan"
         ],
@@ -291,8 +295,8 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-10-02",
-    "previousDay": "2026-10-01",
+    "currentDay": "2026-10-03",
+    "previousDay": "2026-10-02",
     "servingTypes": {
       "scoop": {
         "added": {},
@@ -300,23 +304,24 @@
       },
       "pint": {
         "added": {},
-        "removed": {}
-      },
-      "sandwich": {
-        "added": {
-          "campfire-crunch-sammie": [
-            "fraser",
-            "quebec"
-          ]
-        },
         "removed": {
-          "chocolate-raspberry-cheesecake-sammie": {
-            "name": "Chocolate Raspberry Cheesecake Sammie",
+          "vegan-peppermint-fudge-brownie": {
+            "name": "Vegan Peppermint Fudge Brownie",
             "storeIds": [
-              "quebec"
+              "frances"
+            ]
+          },
+          "cherry-amaretto": {
+            "name": "Cherry Amaretto",
+            "storeIds": [
+              "frances"
             ]
           }
         }
+      },
+      "sandwich": {
+        "added": {},
+        "removed": {}
       }
     }
   },
