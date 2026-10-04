@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-10-03T22:28:37.945Z",
+  "lastUpdatedAt": "2026-10-04T02:46:41.004Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated October 2, 2026 at 12pm",
     "quebec": "Last updated October 2, 2026 at 12pm",
     "frances": "Last updated October 3, 2026 at 12pm",
-    "northvan": "Last updated October 1, 2026 at 12pm"
+    "northvan": "Last updated October 3, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated October 3, 2026 at 12pm|fraser:Last updated October 2, 2026 at 12pm|northvan:Last updated October 1, 2026 at 12pm|quebec:Last updated October 2, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated October 3, 2026 at 12pm|fraser:Last updated October 2, 2026 at 12pm|northvan:Last updated October 3, 2026 at 12pm|quebec:Last updated October 2, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -300,21 +300,47 @@
     "servingTypes": {
       "scoop": {
         "added": {},
-        "removed": {}
+        "removed": {
+          "cherry-amaretto": {
+            "name": "Cherry Amaretto",
+            "storeIds": [
+              "northvan"
+            ]
+          },
+          "vegan-peppermint-fudge-brownie": {
+            "name": "Vegan Peppermint Fudge Brownie",
+            "storeIds": [
+              "northvan"
+            ]
+          }
+        }
       },
       "pint": {
         "added": {},
         "removed": {
+          "cherry-amaretto": {
+            "name": "Cherry Amaretto",
+            "storeIds": [
+              "frances",
+              "northvan"
+            ]
+          },
+          "vegan-blackcurrant-ripple": {
+            "name": "Vegan Blackcurrant Ripple",
+            "storeIds": [
+              "northvan"
+            ]
+          },
           "vegan-peppermint-fudge-brownie": {
             "name": "Vegan Peppermint Fudge Brownie",
             "storeIds": [
               "frances"
             ]
           },
-          "cherry-amaretto": {
-            "name": "Cherry Amaretto",
+          "vegan-s-mores": {
+            "name": "Vegan S’mores",
             "storeIds": [
-              "frances"
+              "northvan"
             ]
           }
         }
@@ -326,10 +352,10 @@
     }
   },
   "counts": {
-    "totalItems": 25,
-    "iceCreamFlavors": 21,
-    "scoopItems": 19,
-    "pintItems": 20,
+    "totalItems": 24,
+    "iceCreamFlavors": 20,
+    "scoopItems": 18,
+    "pintItems": 19,
     "sandwichItems": 4,
     "sandwichOnlyItems": 4
   }
