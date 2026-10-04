@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-10-04T02:46:41.004Z",
+  "lastUpdatedAt": "2026-10-04T22:34:15.772Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated October 2, 2026 at 12pm",
     "quebec": "Last updated October 2, 2026 at 12pm",
-    "frances": "Last updated October 3, 2026 at 12pm",
+    "frances": "Last updated October 4, 2026 at 12pm",
     "northvan": "Last updated October 3, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated October 3, 2026 at 12pm|fraser:Last updated October 2, 2026 at 12pm|northvan:Last updated October 3, 2026 at 12pm|quebec:Last updated October 2, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated October 4, 2026 at 12pm|fraser:Last updated October 2, 2026 at 12pm|northvan:Last updated October 3, 2026 at 12pm|quebec:Last updated October 2, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,15 +15,14 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-10-02",
-    "observedAt": "2026-10-03T02:08:10.717Z",
+    "baselineDay": "2026-10-03",
+    "observedAt": "2026-10-04T02:46:41.004Z",
     "flavorNamesByFlavorId": {
+      "cherry-amaretto": "Cherry Amaretto",
       "vegan-blackcurrant-ripple": "Vegan Blackcurrant Ripple",
       "vegan-chocolate": "Vegan Chocolate",
       "vegan-peppermint-fudge-brownie": "Vegan Peppermint Fudge Brownie",
-      "vegan-s-mores": "Vegan S’mores",
       "apple-pie": "Apple Pie",
-      "cherry-amaretto": "Cherry Amaretto",
       "chocolate": "Chocolate",
       "cookies-cream": "Cookies + Cream",
       "haskap-berry-streusel": "Haskap Berry Streusel",
@@ -46,19 +45,15 @@
     },
     "servingTypes": {
       "scoop": {
+        "cherry-amaretto": [
+          "fraser",
+          "quebec",
+          "frances"
+        ],
         "vegan-chocolate": [
           "northvan"
         ],
-        "vegan-peppermint-fudge-brownie": [
-          "northvan"
-        ],
         "apple-pie": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
-        "cherry-amaretto": [
           "fraser",
           "quebec",
           "frances",
@@ -156,24 +151,17 @@
         ]
       },
       "pint": {
+        "cherry-amaretto": [
+          "fraser",
+          "quebec"
+        ],
         "vegan-blackcurrant-ripple": [
-          "quebec",
-          "northvan"
+          "quebec"
         ],
         "vegan-peppermint-fudge-brownie": [
-          "frances",
-          "northvan"
-        ],
-        "vegan-s-mores": [
           "northvan"
         ],
         "apple-pie": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
-        "cherry-amaretto": [
           "fraser",
           "quebec",
           "frances",
@@ -295,8 +283,8 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-10-03",
-    "previousDay": "2026-10-02",
+    "currentDay": "2026-10-04",
+    "previousDay": "2026-10-03",
     "servingTypes": {
       "scoop": {
         "added": {},
@@ -304,46 +292,14 @@
           "cherry-amaretto": {
             "name": "Cherry Amaretto",
             "storeIds": [
-              "northvan"
-            ]
-          },
-          "vegan-peppermint-fudge-brownie": {
-            "name": "Vegan Peppermint Fudge Brownie",
-            "storeIds": [
-              "northvan"
+              "frances"
             ]
           }
         }
       },
       "pint": {
         "added": {},
-        "removed": {
-          "cherry-amaretto": {
-            "name": "Cherry Amaretto",
-            "storeIds": [
-              "frances",
-              "northvan"
-            ]
-          },
-          "vegan-blackcurrant-ripple": {
-            "name": "Vegan Blackcurrant Ripple",
-            "storeIds": [
-              "northvan"
-            ]
-          },
-          "vegan-peppermint-fudge-brownie": {
-            "name": "Vegan Peppermint Fudge Brownie",
-            "storeIds": [
-              "frances"
-            ]
-          },
-          "vegan-s-mores": {
-            "name": "Vegan S’mores",
-            "storeIds": [
-              "northvan"
-            ]
-          }
-        }
+        "removed": {}
       },
       "sandwich": {
         "added": {},
