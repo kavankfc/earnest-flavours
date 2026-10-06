@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-10-06T01:00:21.956Z",
+  "lastUpdatedAt": "2026-10-06T23:22:43.892Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated October 4, 2026 at 12pm",
-    "quebec": "Last updated October 5, 2026 at 12pm",
-    "frances": "Last updated October 4, 2026 at 12pm",
-    "northvan": "Last updated October 3, 2026 at 12pm"
+    "fraser": "Last updated October 6, 2026 at 12pm",
+    "quebec": "Last updated October 6, 2026 at 12pm",
+    "frances": "Last updated October 6, 2026 at 12pm",
+    "northvan": "Last updated October 6, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated October 4, 2026 at 12pm|fraser:Last updated October 4, 2026 at 12pm|northvan:Last updated October 3, 2026 at 12pm|quebec:Last updated October 5, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated October 6, 2026 at 12pm|fraser:Last updated October 6, 2026 at 12pm|northvan:Last updated October 6, 2026 at 12pm|quebec:Last updated October 6, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-10-04",
-    "observedAt": "2026-10-05T02:09:40.656Z",
+    "baselineDay": "2026-10-05",
+    "observedAt": "2026-10-06T01:00:21.956Z",
     "flavorNamesByFlavorId": {
       "cherry-amaretto": "Cherry Amaretto",
       "vegan-blackcurrant-ripple": "Vegan Blackcurrant Ripple",
@@ -282,8 +282,8 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-10-05",
-    "previousDay": "2026-10-04",
+    "currentDay": "2026-10-06",
+    "previousDay": "2026-10-05",
     "servingTypes": {
       "scoop": {
         "added": {},
@@ -294,8 +294,19 @@
         "removed": {}
       },
       "sandwich": {
-        "added": {},
-        "removed": {}
+        "added": {
+          "campfire-crunch-sammie": [
+            "frances"
+          ]
+        },
+        "removed": {
+          "chocolate-raspberry-cheesecake-sammie": {
+            "name": "Chocolate Raspberry Cheesecake Sammie",
+            "storeIds": [
+              "frances"
+            ]
+          }
+        }
       }
     }
   },
