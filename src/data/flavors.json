@@ -4,7 +4,6 @@
     "name": "Cherry Amaretto",
     "isVegan": false,
     "scoopStores": [
-      "fraser",
       "quebec"
     ],
     "pintStores": [
@@ -35,6 +34,24 @@
     "pintStores": [],
     "sandwichStores": [],
     "description": "A vegan staple we have been running since day one! Surprisingly creamy and rich, the subtle bitterness of dark chocolate and cocoa powder add depth to the creaminess of our coconut milk base."
+  },
+  {
+    "id": "vegan-peanut-butter-pie",
+    "name": "Vegan Peanut Butter Pie",
+    "isVegan": true,
+    "scoopStores": [
+      "fraser",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Beautifully light, yet rich and creamy, our whipped peanut butter base is generously sprinkled with chocolate crumble and dark chocolate flakes. Lending a delightful crunch like the cookie crust and chocolate topping of a peanut butter pie, these inclusions blend perfectly with the base to create a delicious and balanced flavour profile. A must-try for chocolate-peanut butter lovers!"
   },
   {
     "id": "vegan-peppermint-fudge-brownie",
@@ -293,25 +310,6 @@
     ],
     "sandwichStores": [],
     "description": "Beautiful Okanagan peaches from Jobst-Hof Orchards are processed in house into a delicious roasted peach compote. Swirled through a light and creamy base with a hint of cinnamon, alongside crunchy bites of oat crisp – this flavour is a wonderful balance of fruity and warm notes. Like a scoop of peach crisp a la mode!"
-  },
-  {
-    "id": "vegan-peanut-butter-pie",
-    "name": "Vegan Peanut Butter Pie",
-    "isVegan": true,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "Beautifully light, yet rich and creamy, our whipped peanut butter base is generously sprinkled with chocolate crumble and dark chocolate flakes. Lending a delightful crunch like the cookie crust and chocolate topping of a peanut butter pie, these inclusions blend perfectly with the base to create a delicious and balanced flavour profile. A must-try for chocolate-peanut butter lovers!"
   },
   {
     "id": "vegan-raspberry",

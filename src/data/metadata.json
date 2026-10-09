@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-10-06T23:22:43.892Z",
+  "lastUpdatedAt": "2026-10-09T00:00:22.083Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated October 6, 2026 at 12pm",
-    "quebec": "Last updated October 6, 2026 at 12pm",
+    "fraser": "Last updated October 8, 2026 at 12pm",
+    "quebec": "Last updated October 7, 2026 at 12pm",
     "frances": "Last updated October 6, 2026 at 12pm",
     "northvan": "Last updated October 6, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated October 6, 2026 at 12pm|fraser:Last updated October 6, 2026 at 12pm|northvan:Last updated October 6, 2026 at 12pm|quebec:Last updated October 6, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated October 6, 2026 at 12pm|fraser:Last updated October 8, 2026 at 12pm|northvan:Last updated October 6, 2026 at 12pm|quebec:Last updated October 7, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-10-05",
-    "observedAt": "2026-10-06T01:00:21.956Z",
+    "baselineDay": "2026-10-07",
+    "observedAt": "2026-10-06T23:22:43.892Z",
     "flavorNamesByFlavorId": {
       "cherry-amaretto": "Cherry Amaretto",
       "vegan-blackcurrant-ripple": "Vegan Blackcurrant Ripple",
@@ -260,10 +260,10 @@
       "sandwich": {
         "campfire-crunch-sammie": [
           "fraser",
-          "quebec"
+          "quebec",
+          "frances"
         ],
         "chocolate-raspberry-cheesecake-sammie": [
-          "frances",
           "northvan"
         ],
         "classic-sammie": [
@@ -282,31 +282,33 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-10-06",
-    "previousDay": "2026-10-05",
+    "currentDay": "2026-10-08",
+    "previousDay": "2026-10-07",
     "servingTypes": {
       "scoop": {
         "added": {},
-        "removed": {}
+        "removed": {
+          "cherry-amaretto": {
+            "name": "Cherry Amaretto",
+            "storeIds": [
+              "fraser"
+            ]
+          },
+          "vegan-peanut-butter-pie": {
+            "name": "Vegan Peanut Butter Pie",
+            "storeIds": [
+              "quebec"
+            ]
+          }
+        }
       },
       "pint": {
         "added": {},
         "removed": {}
       },
       "sandwich": {
-        "added": {
-          "campfire-crunch-sammie": [
-            "frances"
-          ]
-        },
-        "removed": {
-          "chocolate-raspberry-cheesecake-sammie": {
-            "name": "Chocolate Raspberry Cheesecake Sammie",
-            "storeIds": [
-              "frances"
-            ]
-          }
-        }
+        "added": {},
+        "removed": {}
       }
     }
   },
