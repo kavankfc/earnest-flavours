@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-10-09T00:00:22.083Z",
+  "lastUpdatedAt": "2026-10-09T03:00:47.228Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated October 8, 2026 at 12pm",
     "quebec": "Last updated October 7, 2026 at 12pm",
     "frances": "Last updated October 6, 2026 at 12pm",
-    "northvan": "Last updated October 6, 2026 at 12pm"
+    "northvan": "Last updated October 8, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated October 6, 2026 at 12pm|fraser:Last updated October 8, 2026 at 12pm|northvan:Last updated October 6, 2026 at 12pm|quebec:Last updated October 7, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated October 6, 2026 at 12pm|fraser:Last updated October 8, 2026 at 12pm|northvan:Last updated October 8, 2026 at 12pm|quebec:Last updated October 7, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -307,7 +307,11 @@
         "removed": {}
       },
       "sandwich": {
-        "added": {},
+        "added": {
+          "campfire-crunch-sammie": [
+            "northvan"
+          ]
+        },
         "removed": {}
       }
     }
