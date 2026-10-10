@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-10-09T03:00:47.228Z",
+  "lastUpdatedAt": "2026-10-10T22:59:46.576Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated October 8, 2026 at 12pm",
-    "quebec": "Last updated October 7, 2026 at 12pm",
-    "frances": "Last updated October 6, 2026 at 12pm",
+    "fraser": "Last updated October 10, 2026 at 12pm",
+    "quebec": "Last updated October 10, 2026 at 12pm",
+    "frances": "Last updated October 10, 2026 at 12pm",
     "northvan": "Last updated October 8, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated October 6, 2026 at 12pm|fraser:Last updated October 8, 2026 at 12pm|northvan:Last updated October 8, 2026 at 12pm|quebec:Last updated October 7, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated October 10, 2026 at 12pm|fraser:Last updated October 10, 2026 at 12pm|northvan:Last updated October 8, 2026 at 12pm|quebec:Last updated October 10, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,12 +15,13 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-10-07",
-    "observedAt": "2026-10-06T23:22:43.892Z",
+    "baselineDay": "2026-10-09",
+    "observedAt": "2026-10-09T03:00:47.228Z",
     "flavorNamesByFlavorId": {
       "cherry-amaretto": "Cherry Amaretto",
       "vegan-blackcurrant-ripple": "Vegan Blackcurrant Ripple",
       "vegan-chocolate": "Vegan Chocolate",
+      "vegan-peanut-butter-pie": "Vegan Peanut Butter Pie",
       "vegan-peppermint-fudge-brownie": "Vegan Peppermint Fudge Brownie",
       "apple-pie": "Apple Pie",
       "chocolate": "Chocolate",
@@ -35,7 +36,6 @@
       "tahitian-vanilla": "Tahitian Vanilla",
       "vegan-cookies-cream": "Vegan Cookies + Cream",
       "vegan-peach-oat-crisp": "Vegan Peach Oat Crisp",
-      "vegan-peanut-butter-pie": "Vegan Peanut Butter Pie",
       "vegan-raspberry": "Vegan Raspberry",
       "whiskey-hazelnut": "Whiskey Hazelnut",
       "campfire-crunch-sammie": "Campfire Crunch Sammie",
@@ -46,10 +46,14 @@
     "servingTypes": {
       "scoop": {
         "cherry-amaretto": [
-          "fraser",
           "quebec"
         ],
         "vegan-chocolate": [
+          "northvan"
+        ],
+        "vegan-peanut-butter-pie": [
+          "fraser",
+          "frances",
           "northvan"
         ],
         "apple-pie": [
@@ -130,12 +134,6 @@
           "frances",
           "northvan"
         ],
-        "vegan-peanut-butter-pie": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
         "vegan-raspberry": [
           "fraser",
           "quebec",
@@ -156,6 +154,12 @@
         ],
         "vegan-blackcurrant-ripple": [
           "quebec"
+        ],
+        "vegan-peanut-butter-pie": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
         ],
         "vegan-peppermint-fudge-brownie": [
           "northvan"
@@ -238,12 +242,6 @@
           "frances",
           "northvan"
         ],
-        "vegan-peanut-butter-pie": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
         "vegan-raspberry": [
           "fraser",
           "quebec",
@@ -261,7 +259,8 @@
         "campfire-crunch-sammie": [
           "fraser",
           "quebec",
-          "frances"
+          "frances",
+          "northvan"
         ],
         "chocolate-raspberry-cheesecake-sammie": [
           "northvan"
@@ -282,20 +281,14 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-10-08",
-    "previousDay": "2026-10-07",
+    "currentDay": "2026-10-10",
+    "previousDay": "2026-10-09",
     "servingTypes": {
       "scoop": {
         "added": {},
         "removed": {
           "cherry-amaretto": {
             "name": "Cherry Amaretto",
-            "storeIds": [
-              "fraser"
-            ]
-          },
-          "vegan-peanut-butter-pie": {
-            "name": "Vegan Peanut Butter Pie",
             "storeIds": [
               "quebec"
             ]
@@ -304,22 +297,32 @@
       },
       "pint": {
         "added": {},
-        "removed": {}
+        "removed": {
+          "pumpkin-pie": {
+            "name": "Pumpkin Pie",
+            "storeIds": [
+              "frances"
+            ]
+          }
+        }
       },
       "sandwich": {
-        "added": {
-          "campfire-crunch-sammie": [
-            "northvan"
-          ]
-        },
-        "removed": {}
+        "added": {},
+        "removed": {
+          "campfire-crunch-sammie": {
+            "name": "Campfire Crunch Sammie",
+            "storeIds": [
+              "frances"
+            ]
+          }
+        }
       }
     }
   },
   "counts": {
     "totalItems": 24,
     "iceCreamFlavors": 20,
-    "scoopItems": 18,
+    "scoopItems": 17,
     "pintItems": 19,
     "sandwichItems": 4,
     "sandwichOnlyItems": 4

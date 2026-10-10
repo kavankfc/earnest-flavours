@@ -3,9 +3,7 @@
     "id": "cherry-amaretto",
     "name": "Cherry Amaretto",
     "isVegan": false,
-    "scoopStores": [
-      "quebec"
-    ],
+    "scoopStores": [],
     "pintStores": [
       "fraser",
       "quebec"
@@ -210,7 +208,6 @@
     "pintStores": [
       "fraser",
       "quebec",
-      "frances",
       "northvan"
     ],
     "sandwichStores": [],
@@ -358,7 +355,6 @@
     "sandwichStores": [
       "fraser",
       "quebec",
-      "frances",
       "northvan"
     ],
     "description": "Reminisce camping season with this sammie! Our toasted marshmallow ice cream is blended with our chocolate creme cookies to give a slightly toasted, chocolatey flavour profile. Paired with a rich, fudgey sauce and topped with a crunchy layer of our house-made cannoli pieces and a dusting of our chocolate creme cookies. A decadent treat that whisks you away to those campfire nights!"
