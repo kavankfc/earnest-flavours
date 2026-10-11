@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-10-10T22:59:46.576Z",
+  "lastUpdatedAt": "2026-10-11T23:14:38.544Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated October 10, 2026 at 12pm",
+    "fraser": "Last updated October 11, 2026 at 12pm",
     "quebec": "Last updated October 10, 2026 at 12pm",
     "frances": "Last updated October 10, 2026 at 12pm",
-    "northvan": "Last updated October 8, 2026 at 12pm"
+    "northvan": "Last updated October 11, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated October 10, 2026 at 12pm|fraser:Last updated October 10, 2026 at 12pm|northvan:Last updated October 8, 2026 at 12pm|quebec:Last updated October 10, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated October 10, 2026 at 12pm|fraser:Last updated October 11, 2026 at 12pm|northvan:Last updated October 11, 2026 at 12pm|quebec:Last updated October 10, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-10-09",
-    "observedAt": "2026-10-09T03:00:47.228Z",
+    "baselineDay": "2026-10-10",
+    "observedAt": "2026-10-10T22:59:46.576Z",
     "flavorNamesByFlavorId": {
       "cherry-amaretto": "Cherry Amaretto",
       "vegan-blackcurrant-ripple": "Vegan Blackcurrant Ripple",
@@ -45,9 +45,6 @@
     },
     "servingTypes": {
       "scoop": {
-        "cherry-amaretto": [
-          "quebec"
-        ],
         "vegan-chocolate": [
           "northvan"
         ],
@@ -209,7 +206,6 @@
         "pumpkin-pie": [
           "fraser",
           "quebec",
-          "frances",
           "northvan"
         ],
         "salted-caramel": [
@@ -259,7 +255,6 @@
         "campfire-crunch-sammie": [
           "fraser",
           "quebec",
-          "frances",
           "northvan"
         ],
         "chocolate-raspberry-cheesecake-sammie": [
@@ -281,16 +276,16 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-10-10",
-    "previousDay": "2026-10-09",
+    "currentDay": "2026-10-11",
+    "previousDay": "2026-10-10",
     "servingTypes": {
       "scoop": {
         "added": {},
         "removed": {
-          "cherry-amaretto": {
-            "name": "Cherry Amaretto",
+          "vegan-chocolate": {
+            "name": "Vegan Chocolate",
             "storeIds": [
-              "quebec"
+              "northvan"
             ]
           }
         }
@@ -301,7 +296,19 @@
           "pumpkin-pie": {
             "name": "Pumpkin Pie",
             "storeIds": [
-              "frances"
+              "fraser"
+            ]
+          },
+          "vegan-peach-oat-crisp": {
+            "name": "Vegan Peach Oat Crisp",
+            "storeIds": [
+              "fraser"
+            ]
+          },
+          "vegan-peppermint-fudge-brownie": {
+            "name": "Vegan Peppermint Fudge Brownie",
+            "storeIds": [
+              "northvan"
             ]
           }
         }
@@ -312,7 +319,7 @@
           "campfire-crunch-sammie": {
             "name": "Campfire Crunch Sammie",
             "storeIds": [
-              "frances"
+              "quebec"
             ]
           }
         }
@@ -320,10 +327,10 @@
     }
   },
   "counts": {
-    "totalItems": 24,
-    "iceCreamFlavors": 20,
-    "scoopItems": 17,
-    "pintItems": 19,
+    "totalItems": 22,
+    "iceCreamFlavors": 18,
+    "scoopItems": 16,
+    "pintItems": 18,
     "sandwichItems": 4,
     "sandwichOnlyItems": 4
   }

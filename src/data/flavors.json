@@ -23,17 +23,6 @@
     "description": "Canadian currant puree from Pacific Coast Fruit is cooked into a luxurious tart compote. Bright ripples of compote are offset by the sweetness of our classic oat-coconut base. Creamy, fruity, and delightfully refreshing, this ice cream is a perfectly balanced pick-me-up!"
   },
   {
-    "id": "vegan-chocolate",
-    "name": "Vegan Chocolate",
-    "isVegan": true,
-    "scoopStores": [
-      "northvan"
-    ],
-    "pintStores": [],
-    "sandwichStores": [],
-    "description": "A vegan staple we have been running since day one! Surprisingly creamy and rich, the subtle bitterness of dark chocolate and cocoa powder add depth to the creaminess of our coconut milk base."
-  },
-  {
     "id": "vegan-peanut-butter-pie",
     "name": "Vegan Peanut Butter Pie",
     "isVegan": true,
@@ -50,17 +39,6 @@
     ],
     "sandwichStores": [],
     "description": "Beautifully light, yet rich and creamy, our whipped peanut butter base is generously sprinkled with chocolate crumble and dark chocolate flakes. Lending a delightful crunch like the cookie crust and chocolate topping of a peanut butter pie, these inclusions blend perfectly with the base to create a delicious and balanced flavour profile. A must-try for chocolate-peanut butter lovers!"
-  },
-  {
-    "id": "vegan-peppermint-fudge-brownie",
-    "name": "Vegan Peppermint Fudge Brownie",
-    "isVegan": true,
-    "scoopStores": [],
-    "pintStores": [
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "The classic combination of mint and chocolate, elevated to a deluxe level full of texture. Smooth, minty ice cream is swirled with a rich chocolate ripple and a generous helping of fudgy, chocolate chip brownie bites. The fresh minty flavour helps cut the richness of the chocolate, resulting in a beautifully balanced ice cream."
   },
   {
     "id": "apple-pie",
@@ -206,7 +184,6 @@
       "northvan"
     ],
     "pintStores": [
-      "fraser",
       "quebec",
       "northvan"
     ],
@@ -300,7 +277,6 @@
       "northvan"
     ],
     "pintStores": [
-      "fraser",
       "quebec",
       "frances",
       "northvan"
@@ -354,7 +330,6 @@
     "pintStores": [],
     "sandwichStores": [
       "fraser",
-      "quebec",
       "northvan"
     ],
     "description": "Reminisce camping season with this sammie! Our toasted marshmallow ice cream is blended with our chocolate creme cookies to give a slightly toasted, chocolatey flavour profile. Paired with a rich, fudgey sauce and topped with a crunchy layer of our house-made cannoli pieces and a dusting of our chocolate creme cookies. A decadent treat that whisks you away to those campfire nights!"
