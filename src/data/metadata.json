@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-10-11T23:14:38.544Z",
+  "lastUpdatedAt": "2026-10-12T02:31:12.554Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated October 11, 2026 at 12pm",
-    "quebec": "Last updated October 10, 2026 at 12pm",
+    "quebec": "Last updated October 11, 2026 at 12pm",
     "frances": "Last updated October 10, 2026 at 12pm",
     "northvan": "Last updated October 11, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated October 10, 2026 at 12pm|fraser:Last updated October 11, 2026 at 12pm|northvan:Last updated October 11, 2026 at 12pm|quebec:Last updated October 10, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated October 10, 2026 at 12pm|fraser:Last updated October 11, 2026 at 12pm|northvan:Last updated October 11, 2026 at 12pm|quebec:Last updated October 11, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -296,7 +296,8 @@
           "pumpkin-pie": {
             "name": "Pumpkin Pie",
             "storeIds": [
-              "fraser"
+              "fraser",
+              "quebec"
             ]
           },
           "vegan-peach-oat-crisp": {
