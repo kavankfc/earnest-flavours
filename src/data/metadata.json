@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-10-12T02:31:12.554Z",
+  "lastUpdatedAt": "2026-10-13T01:39:43.529Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated October 11, 2026 at 12pm",
-    "quebec": "Last updated October 11, 2026 at 12pm",
-    "frances": "Last updated October 10, 2026 at 12pm",
+    "fraser": "Last updated October 12, 2026 at 12pm",
+    "quebec": "Last updated October 12, 2026 at 12pm",
+    "frances": "Last updated October 12, 2026 at 12pm",
     "northvan": "Last updated October 11, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated October 10, 2026 at 12pm|fraser:Last updated October 11, 2026 at 12pm|northvan:Last updated October 11, 2026 at 12pm|quebec:Last updated October 11, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated October 12, 2026 at 12pm|fraser:Last updated October 12, 2026 at 12pm|northvan:Last updated October 11, 2026 at 12pm|quebec:Last updated October 12, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,14 +15,12 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-10-10",
-    "observedAt": "2026-10-10T22:59:46.576Z",
+    "baselineDay": "2026-10-11",
+    "observedAt": "2026-10-12T02:31:12.554Z",
     "flavorNamesByFlavorId": {
       "cherry-amaretto": "Cherry Amaretto",
       "vegan-blackcurrant-ripple": "Vegan Blackcurrant Ripple",
-      "vegan-chocolate": "Vegan Chocolate",
       "vegan-peanut-butter-pie": "Vegan Peanut Butter Pie",
-      "vegan-peppermint-fudge-brownie": "Vegan Peppermint Fudge Brownie",
       "apple-pie": "Apple Pie",
       "chocolate": "Chocolate",
       "cookies-cream": "Cookies + Cream",
@@ -45,9 +43,6 @@
     },
     "servingTypes": {
       "scoop": {
-        "vegan-chocolate": [
-          "northvan"
-        ],
         "vegan-peanut-butter-pie": [
           "fraser",
           "frances",
@@ -158,9 +153,6 @@
           "frances",
           "northvan"
         ],
-        "vegan-peppermint-fudge-brownie": [
-          "northvan"
-        ],
         "apple-pie": [
           "fraser",
           "quebec",
@@ -204,8 +196,6 @@
           "northvan"
         ],
         "pumpkin-pie": [
-          "fraser",
-          "quebec",
           "northvan"
         ],
         "salted-caramel": [
@@ -233,7 +223,6 @@
           "northvan"
         ],
         "vegan-peach-oat-crisp": [
-          "fraser",
           "quebec",
           "frances",
           "northvan"
@@ -254,7 +243,6 @@
       "sandwich": {
         "campfire-crunch-sammie": [
           "fraser",
-          "quebec",
           "northvan"
         ],
         "chocolate-raspberry-cheesecake-sammie": [
@@ -276,40 +264,39 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-10-11",
-    "previousDay": "2026-10-10",
+    "currentDay": "2026-10-12",
+    "previousDay": "2026-10-11",
     "servingTypes": {
       "scoop": {
         "added": {},
-        "removed": {
-          "vegan-chocolate": {
-            "name": "Vegan Chocolate",
-            "storeIds": [
-              "northvan"
-            ]
-          }
-        }
+        "removed": {}
       },
       "pint": {
-        "added": {},
+        "added": {
+          "vegan-peppermint-fudge-brownie": [
+            "frances"
+          ],
+          "vegan-peach-oat-crisp": [
+            "fraser"
+          ]
+        },
         "removed": {
-          "pumpkin-pie": {
-            "name": "Pumpkin Pie",
+          "cherry-amaretto": {
+            "name": "Cherry Amaretto",
             "storeIds": [
-              "fraser",
               "quebec"
             ]
           },
           "vegan-peach-oat-crisp": {
             "name": "Vegan Peach Oat Crisp",
             "storeIds": [
-              "fraser"
+              "frances"
             ]
           },
-          "vegan-peppermint-fudge-brownie": {
-            "name": "Vegan Peppermint Fudge Brownie",
+          "vegan-blackcurrant-ripple": {
+            "name": "Vegan Blackcurrant Ripple",
             "storeIds": [
-              "northvan"
+              "quebec"
             ]
           }
         }
@@ -320,7 +307,7 @@
           "campfire-crunch-sammie": {
             "name": "Campfire Crunch Sammie",
             "storeIds": [
-              "quebec"
+              "fraser"
             ]
           }
         }
