@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-10-13T23:28:14.129Z",
+  "lastUpdatedAt": "2026-10-14T22:44:03.086Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated October 13, 2026 at 12pm",
     "quebec": "Last updated October 13, 2026 at 12pm",
     "frances": "Last updated October 13, 2026 at 12pm",
-    "northvan": "Last updated October 13, 2026 at 12pm"
+    "northvan": "Last updated October 14, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated October 13, 2026 at 12pm|fraser:Last updated October 13, 2026 at 12pm|northvan:Last updated October 13, 2026 at 12pm|quebec:Last updated October 13, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated October 13, 2026 at 12pm|fraser:Last updated October 13, 2026 at 12pm|northvan:Last updated October 14, 2026 at 12pm|quebec:Last updated October 13, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-10-12",
-    "observedAt": "2026-10-13T01:39:43.529Z",
+    "baselineDay": "2026-10-13",
+    "observedAt": "2026-10-13T23:28:14.129Z",
     "flavorNamesByFlavorId": {
       "cherry-amaretto": "Cherry Amaretto",
       "vegan-peanut-butter-pie": "Vegan Peanut Butter Pie",
@@ -262,16 +262,42 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-10-13",
-    "previousDay": "2026-10-12",
+    "currentDay": "2026-10-14",
+    "previousDay": "2026-10-13",
     "servingTypes": {
       "scoop": {
         "added": {},
-        "removed": {}
+        "removed": {
+          "pumpkin-pie": {
+            "name": "Pumpkin Pie",
+            "storeIds": [
+              "quebec"
+            ]
+          }
+        }
       },
       "pint": {
         "added": {},
-        "removed": {}
+        "removed": {
+          "vegan-peach-oat-crisp": {
+            "name": "Vegan Peach Oat Crisp",
+            "storeIds": [
+              "fraser"
+            ]
+          },
+          "cherry-amaretto": {
+            "name": "Cherry Amaretto",
+            "storeIds": [
+              "fraser"
+            ]
+          },
+          "pumpkin-pie": {
+            "name": "Pumpkin Pie",
+            "storeIds": [
+              "northvan"
+            ]
+          }
+        }
       },
       "sandwich": {
         "added": {},
@@ -280,10 +306,10 @@
     }
   },
   "counts": {
-    "totalItems": 22,
-    "iceCreamFlavors": 18,
+    "totalItems": 21,
+    "iceCreamFlavors": 17,
     "scoopItems": 16,
-    "pintItems": 18,
+    "pintItems": 16,
     "sandwichItems": 4,
     "sandwichOnlyItems": 4
   }

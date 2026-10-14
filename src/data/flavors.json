@@ -1,14 +1,16 @@
 [
   {
-    "id": "cherry-amaretto",
-    "name": "Cherry Amaretto",
+    "id": "pumpkin-pie",
+    "name": "Pumpkin Pie",
     "isVegan": false,
-    "scoopStores": [],
-    "pintStores": [
-      "fraser"
+    "scoopStores": [
+      "fraser",
+      "frances",
+      "northvan"
     ],
+    "pintStores": [],
     "sandwichStores": [],
-    "description": "The classic nutty amaretto flavour accompanied by bright cherry jam swirled throughout! A hint of almond extract adds extra depth, but worry not – it’s made with other natural flavours and does not contain almonds! Amaretto dregs are sourced through our friends at Sons of Vancouver Distillery, and BC Cherries are sourced from Snowcrest. Though our cherries are machine-pitted, there is a small possibility of finding a pit – that’s the risk we take when using whole, real fruit."
+    "description": "Everything you love about pumpkin pie, frozen. Pumpkin is stewed low and slow with organic spices until deeply sweet and fragrant, then blended into our creamy dairy base. Flaky pie crust pieces add a satisfying crunch to each spoonful."
   },
   {
     "id": "vegan-peanut-butter-pie",
@@ -173,22 +175,6 @@
     "description": "The classic mint chocolate ice cream made with lots of house made dark chocolate chips! Like peppermint patty but better. No artificial food colouring is added so it’s white, not green. Fresh and minty, with the added crunch from the dark chocolate flakes."
   },
   {
-    "id": "pumpkin-pie",
-    "name": "Pumpkin Pie",
-    "isVegan": false,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "Everything you love about pumpkin pie, frozen. Pumpkin is stewed low and slow with organic spices until deeply sweet and fragrant, then blended into our creamy dairy base. Flaky pie crust pieces add a satisfying crunch to each spoonful."
-  },
-  {
     "id": "salted-caramel",
     "name": "Salted Caramel",
     "isVegan": false,
@@ -275,7 +261,6 @@
       "northvan"
     ],
     "pintStores": [
-      "fraser",
       "quebec",
       "northvan"
     ],
