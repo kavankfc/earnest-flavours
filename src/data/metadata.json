@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-10-14T22:44:03.086Z",
+  "lastUpdatedAt": "2026-10-15T22:43:04.818Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated October 13, 2026 at 12pm",
-    "quebec": "Last updated October 13, 2026 at 12pm",
-    "frances": "Last updated October 13, 2026 at 12pm",
-    "northvan": "Last updated October 14, 2026 at 12pm"
+    "fraser": "Last updated October 15, 2026 at 12pm",
+    "quebec": "Last updated October 15, 2026 at 12pm",
+    "frances": "Last updated October 15, 2026 at 12pm",
+    "northvan": "Last updated October 15, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated October 13, 2026 at 12pm|fraser:Last updated October 13, 2026 at 12pm|northvan:Last updated October 14, 2026 at 12pm|quebec:Last updated October 13, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated October 15, 2026 at 12pm|fraser:Last updated October 15, 2026 at 12pm|northvan:Last updated October 15, 2026 at 12pm|quebec:Last updated October 15, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,10 +15,10 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-10-13",
-    "observedAt": "2026-10-13T23:28:14.129Z",
+    "baselineDay": "2026-10-14",
+    "observedAt": "2026-10-14T22:44:03.086Z",
     "flavorNamesByFlavorId": {
-      "cherry-amaretto": "Cherry Amaretto",
+      "pumpkin-pie": "Pumpkin Pie",
       "vegan-peanut-butter-pie": "Vegan Peanut Butter Pie",
       "vegan-peppermint-fudge-brownie": "Vegan Peppermint Fudge Brownie",
       "apple-pie": "Apple Pie",
@@ -28,7 +28,6 @@
       "london-fog": "London Fog",
       "matcha-green-tea": "Matcha Green Tea",
       "mint-chip": "Mint Chip",
-      "pumpkin-pie": "Pumpkin Pie",
       "salted-caramel": "Salted Caramel",
       "strawberry": "Strawberry",
       "tahitian-vanilla": "Tahitian Vanilla",
@@ -43,6 +42,11 @@
     },
     "servingTypes": {
       "scoop": {
+        "pumpkin-pie": [
+          "fraser",
+          "frances",
+          "northvan"
+        ],
         "vegan-peanut-butter-pie": [
           "fraser",
           "frances",
@@ -85,12 +89,6 @@
           "northvan"
         ],
         "mint-chip": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
-        "pumpkin-pie": [
           "fraser",
           "quebec",
           "frances",
@@ -140,9 +138,6 @@
         ]
       },
       "pint": {
-        "cherry-amaretto": [
-          "fraser"
-        ],
         "vegan-peanut-butter-pie": [
           "fraser",
           "quebec",
@@ -194,9 +189,6 @@
           "frances",
           "northvan"
         ],
-        "pumpkin-pie": [
-          "northvan"
-        ],
         "salted-caramel": [
           "fraser",
           "quebec",
@@ -222,7 +214,6 @@
           "northvan"
         ],
         "vegan-peach-oat-crisp": [
-          "fraser",
           "quebec",
           "northvan"
         ],
@@ -262,55 +253,46 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-10-14",
-    "previousDay": "2026-10-13",
+    "currentDay": "2026-10-15",
+    "previousDay": "2026-10-14",
     "servingTypes": {
       "scoop": {
-        "added": {},
-        "removed": {
-          "pumpkin-pie": {
-            "name": "Pumpkin Pie",
-            "storeIds": [
-              "quebec"
-            ]
-          }
-        }
+        "added": {
+          "pumpkin-pie": [
+            "quebec"
+          ]
+        },
+        "removed": {}
       },
       "pint": {
+        "added": {
+          "pumpkin-pie": [
+            "fraser",
+            "quebec",
+            "northvan"
+          ]
+        },
+        "removed": {}
+      },
+      "sandwich": {
         "added": {},
         "removed": {
-          "vegan-peach-oat-crisp": {
-            "name": "Vegan Peach Oat Crisp",
-            "storeIds": [
-              "fraser"
-            ]
-          },
-          "cherry-amaretto": {
-            "name": "Cherry Amaretto",
-            "storeIds": [
-              "fraser"
-            ]
-          },
-          "pumpkin-pie": {
-            "name": "Pumpkin Pie",
+          "campfire-crunch-sammie": {
+            "name": "Campfire Crunch Sammie",
             "storeIds": [
               "northvan"
             ]
           }
         }
-      },
-      "sandwich": {
-        "added": {},
-        "removed": {}
       }
     }
   },
   "counts": {
-    "totalItems": 21,
+    "totalItems": 20,
     "iceCreamFlavors": 17,
     "scoopItems": 16,
-    "pintItems": 16,
-    "sandwichItems": 4,
-    "sandwichOnlyItems": 4
+    "pintItems": 17,
+    "sandwichItems": 3,
+    "sandwichOnlyItems": 3
   }
 }

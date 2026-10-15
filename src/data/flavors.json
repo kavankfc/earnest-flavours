@@ -1,18 +1,5 @@
 [
   {
-    "id": "pumpkin-pie",
-    "name": "Pumpkin Pie",
-    "isVegan": false,
-    "scoopStores": [
-      "fraser",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [],
-    "sandwichStores": [],
-    "description": "Everything you love about pumpkin pie, frozen. Pumpkin is stewed low and slow with organic spices until deeply sweet and fragrant, then blended into our creamy dairy base. Flaky pie crust pieces add a satisfying crunch to each spoonful."
-  },
-  {
     "id": "vegan-peanut-butter-pie",
     "name": "Vegan Peanut Butter Pie",
     "isVegan": true,
@@ -175,6 +162,24 @@
     "description": "The classic mint chocolate ice cream made with lots of house made dark chocolate chips! Like peppermint patty but better. No artificial food colouring is added so it’s white, not green. Fresh and minty, with the added crunch from the dark chocolate flakes."
   },
   {
+    "id": "pumpkin-pie",
+    "name": "Pumpkin Pie",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Everything you love about pumpkin pie, frozen. Pumpkin is stewed low and slow with organic spices until deeply sweet and fragrant, then blended into our creamy dairy base. Flaky pie crust pieces add a satisfying crunch to each spoonful."
+  },
+  {
     "id": "salted-caramel",
     "name": "Salted Caramel",
     "isVegan": false,
@@ -304,17 +309,6 @@
     ],
     "sandwichStores": [],
     "description": "An Earnest Ice Cream original, made from day one and remains a favourite and top-seller. Roasted, salted BC hazelnuts in Whiskey ice cream base. A smooth, boozy flavour with a buttery crunch."
-  },
-  {
-    "id": "campfire-crunch-sammie",
-    "name": "Campfire Crunch Sammie",
-    "isVegan": false,
-    "scoopStores": [],
-    "pintStores": [],
-    "sandwichStores": [
-      "northvan"
-    ],
-    "description": "Reminisce camping season with this sammie! Our toasted marshmallow ice cream is blended with our chocolate creme cookies to give a slightly toasted, chocolatey flavour profile. Paired with a rich, fudgey sauce and topped with a crunchy layer of our house-made cannoli pieces and a dusting of our chocolate creme cookies. A decadent treat that whisks you away to those campfire nights!"
   },
   {
     "id": "chocolate-raspberry-cheesecake-sammie",
