@@ -315,6 +315,11 @@
     "description": "The ultimate chocolate decadence sammie! Chocolate ice cream is sprinkled with chocolate chips and chocolate sandwich cookie pieces, topped with a thick layer of fudge and sandwiched with soft chocolate cake. Rich and oh-so-chocolatey!"
   },
   {
+    "id": "vegan-grasshopper-pie-sammie",
+    "name": "Vegan Grasshopper Pie Sammie",
+    "description": "This vegan flavours pays homage to the classic Grasshopper Pie. Fluffy mint ice cream with our signature chocolate cream cookies throughout sandwiched between a rich fudgey layer and chocolate cake."
+  },
+  {
     "id": "vegan-key-lime-pie",
     "name": "Vegan Key Lime Pie",
     "description": "Our take on key lime pie in vegan ice cream form! A tart lime-coconut ice cream base with a house-made graham crumble. The sweet crumble offsets the tartness of the base, creating a nicely balanced bite with a scrumptious texture!"

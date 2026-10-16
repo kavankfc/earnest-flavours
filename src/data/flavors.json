@@ -174,6 +174,7 @@
     "pintStores": [
       "fraser",
       "quebec",
+      "frances",
       "northvan"
     ],
     "sandwichStores": [],
@@ -311,6 +312,17 @@
     "description": "An Earnest Ice Cream original, made from day one and remains a favourite and top-seller. Roasted, salted BC hazelnuts in Whiskey ice cream base. A smooth, boozy flavour with a buttery crunch."
   },
   {
+    "id": "campfire-crunch-sammie",
+    "name": "Campfire Crunch Sammie",
+    "isVegan": false,
+    "scoopStores": [],
+    "pintStores": [],
+    "sandwichStores": [
+      "frances"
+    ],
+    "description": "Reminisce camping season with this sammie! Our toasted marshmallow ice cream is blended with our chocolate creme cookies to give a slightly toasted, chocolatey flavour profile. Paired with a rich, fudgey sauce and topped with a crunchy layer of our house-made cannoli pieces and a dusting of our chocolate creme cookies. A decadent treat that whisks you away to those campfire nights!"
+  },
+  {
     "id": "chocolate-raspberry-cheesecake-sammie",
     "name": "Chocolate Raspberry Cheesecake Sammie",
     "isVegan": false,
@@ -348,5 +360,16 @@
       "northvan"
     ],
     "description": "Strong, creamy coffee balanced by the sweetness of our house-made coconut dulce sauce! Finished with a crunchy coconut streusel and toasted coconut flake for an extra bite of toasty deliciousness."
+  },
+  {
+    "id": "vegan-grasshopper-pie-sammie",
+    "name": "Vegan Grasshopper Pie Sammie",
+    "isVegan": true,
+    "scoopStores": [],
+    "pintStores": [],
+    "sandwichStores": [
+      "fraser"
+    ],
+    "description": "This vegan flavours pays homage to the classic Grasshopper Pie. Fluffy mint ice cream with our signature chocolate cream cookies throughout sandwiched between a rich fudgey layer and chocolate cake."
   }
 ]

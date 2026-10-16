@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-10-15T22:43:04.818Z",
+  "lastUpdatedAt": "2026-10-16T22:14:55.559Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated October 15, 2026 at 12pm",
+    "fraser": "Last updated October 16, 2026 at 12pm",
     "quebec": "Last updated October 15, 2026 at 12pm",
     "frances": "Last updated October 15, 2026 at 12pm",
     "northvan": "Last updated October 15, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated October 15, 2026 at 12pm|fraser:Last updated October 15, 2026 at 12pm|northvan:Last updated October 15, 2026 at 12pm|quebec:Last updated October 15, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated October 15, 2026 at 12pm|fraser:Last updated October 16, 2026 at 12pm|northvan:Last updated October 15, 2026 at 12pm|quebec:Last updated October 15, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,10 +15,9 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-10-14",
-    "observedAt": "2026-10-14T22:44:03.086Z",
+    "baselineDay": "2026-10-15",
+    "observedAt": "2026-10-15T22:43:04.818Z",
     "flavorNamesByFlavorId": {
-      "pumpkin-pie": "Pumpkin Pie",
       "vegan-peanut-butter-pie": "Vegan Peanut Butter Pie",
       "vegan-peppermint-fudge-brownie": "Vegan Peppermint Fudge Brownie",
       "apple-pie": "Apple Pie",
@@ -28,6 +27,7 @@
       "london-fog": "London Fog",
       "matcha-green-tea": "Matcha Green Tea",
       "mint-chip": "Mint Chip",
+      "pumpkin-pie": "Pumpkin Pie",
       "salted-caramel": "Salted Caramel",
       "strawberry": "Strawberry",
       "tahitian-vanilla": "Tahitian Vanilla",
@@ -35,18 +35,12 @@
       "vegan-peach-oat-crisp": "Vegan Peach Oat Crisp",
       "vegan-raspberry": "Vegan Raspberry",
       "whiskey-hazelnut": "Whiskey Hazelnut",
-      "campfire-crunch-sammie": "Campfire Crunch Sammie",
       "chocolate-raspberry-cheesecake-sammie": "Chocolate Raspberry Cheesecake Sammie",
       "classic-sammie": "Classic Sammie",
       "vegan-coconut-dulce-latte-sammie": "Vegan Coconut Dulce Latte Sammie"
     },
     "servingTypes": {
       "scoop": {
-        "pumpkin-pie": [
-          "fraser",
-          "frances",
-          "northvan"
-        ],
         "vegan-peanut-butter-pie": [
           "fraser",
           "frances",
@@ -89,6 +83,12 @@
           "northvan"
         ],
         "mint-chip": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
+        "pumpkin-pie": [
           "fraser",
           "quebec",
           "frances",
@@ -189,6 +189,11 @@
           "frances",
           "northvan"
         ],
+        "pumpkin-pie": [
+          "fraser",
+          "quebec",
+          "northvan"
+        ],
         "salted-caramel": [
           "fraser",
           "quebec",
@@ -231,9 +236,6 @@
         ]
       },
       "sandwich": {
-        "campfire-crunch-sammie": [
-          "northvan"
-        ],
         "chocolate-raspberry-cheesecake-sammie": [
           "northvan"
         ],
@@ -253,46 +255,40 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-10-15",
-    "previousDay": "2026-10-14",
+    "currentDay": "2026-10-16",
+    "previousDay": "2026-10-15",
     "servingTypes": {
       "scoop": {
-        "added": {
-          "pumpkin-pie": [
-            "quebec"
-          ]
-        },
+        "added": {},
         "removed": {}
       },
       "pint": {
         "added": {
           "pumpkin-pie": [
-            "fraser",
-            "quebec",
-            "northvan"
+            "frances"
           ]
         },
         "removed": {}
       },
       "sandwich": {
-        "added": {},
-        "removed": {
-          "campfire-crunch-sammie": {
-            "name": "Campfire Crunch Sammie",
-            "storeIds": [
-              "northvan"
-            ]
-          }
-        }
+        "added": {
+          "campfire-crunch-sammie": [
+            "frances"
+          ],
+          "vegan-grasshopper-pie-sammie": [
+            "fraser"
+          ]
+        },
+        "removed": {}
       }
     }
   },
   "counts": {
-    "totalItems": 20,
+    "totalItems": 22,
     "iceCreamFlavors": 17,
     "scoopItems": 16,
     "pintItems": 17,
-    "sandwichItems": 3,
-    "sandwichOnlyItems": 3
+    "sandwichItems": 5,
+    "sandwichOnlyItems": 5
   }
 }
