@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-10-16T22:14:55.559Z",
+  "lastUpdatedAt": "2026-10-17T21:47:54.191Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated October 16, 2026 at 12pm",
+    "fraser": "Last updated October 17, 2026 at 12pm",
     "quebec": "Last updated October 15, 2026 at 12pm",
     "frances": "Last updated October 15, 2026 at 12pm",
     "northvan": "Last updated October 15, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated October 15, 2026 at 12pm|fraser:Last updated October 16, 2026 at 12pm|northvan:Last updated October 15, 2026 at 12pm|quebec:Last updated October 15, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated October 15, 2026 at 12pm|fraser:Last updated October 17, 2026 at 12pm|northvan:Last updated October 15, 2026 at 12pm|quebec:Last updated October 15, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-10-15",
-    "observedAt": "2026-10-15T22:43:04.818Z",
+    "baselineDay": "2026-10-16",
+    "observedAt": "2026-10-16T22:14:55.559Z",
     "flavorNamesByFlavorId": {
       "vegan-peanut-butter-pie": "Vegan Peanut Butter Pie",
       "vegan-peppermint-fudge-brownie": "Vegan Peppermint Fudge Brownie",
@@ -35,9 +35,11 @@
       "vegan-peach-oat-crisp": "Vegan Peach Oat Crisp",
       "vegan-raspberry": "Vegan Raspberry",
       "whiskey-hazelnut": "Whiskey Hazelnut",
+      "campfire-crunch-sammie": "Campfire Crunch Sammie",
       "chocolate-raspberry-cheesecake-sammie": "Chocolate Raspberry Cheesecake Sammie",
       "classic-sammie": "Classic Sammie",
-      "vegan-coconut-dulce-latte-sammie": "Vegan Coconut Dulce Latte Sammie"
+      "vegan-coconut-dulce-latte-sammie": "Vegan Coconut Dulce Latte Sammie",
+      "vegan-grasshopper-pie-sammie": "Vegan Grasshopper Pie Sammie"
     },
     "servingTypes": {
       "scoop": {
@@ -192,6 +194,7 @@
         "pumpkin-pie": [
           "fraser",
           "quebec",
+          "frances",
           "northvan"
         ],
         "salted-caramel": [
@@ -236,6 +239,9 @@
         ]
       },
       "sandwich": {
+        "campfire-crunch-sammie": [
+          "frances"
+        ],
         "chocolate-raspberry-cheesecake-sammie": [
           "northvan"
         ],
@@ -250,32 +256,28 @@
           "quebec",
           "frances",
           "northvan"
+        ],
+        "vegan-grasshopper-pie-sammie": [
+          "fraser"
         ]
       }
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-10-16",
-    "previousDay": "2026-10-15",
+    "currentDay": "2026-10-17",
+    "previousDay": "2026-10-16",
     "servingTypes": {
       "scoop": {
         "added": {},
         "removed": {}
       },
       "pint": {
-        "added": {
-          "pumpkin-pie": [
-            "frances"
-          ]
-        },
+        "added": {},
         "removed": {}
       },
       "sandwich": {
         "added": {
           "campfire-crunch-sammie": [
-            "frances"
-          ],
-          "vegan-grasshopper-pie-sammie": [
             "fraser"
           ]
         },
