@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-10-18T01:15:55.900Z",
+  "lastUpdatedAt": "2026-10-18T21:57:22.365Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated October 17, 2026 at 12pm",
-    "quebec": "Last updated October 17, 2026 at 12pm",
-    "frances": "Last updated October 15, 2026 at 12pm",
+    "fraser": "Last updated October 18, 2026 at 12pm",
+    "quebec": "Last updated October 18, 2026 at 12pm",
+    "frances": "Last updated October 18, 2026 at 12pm",
     "northvan": "Last updated October 17, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated October 15, 2026 at 12pm|fraser:Last updated October 17, 2026 at 12pm|northvan:Last updated October 17, 2026 at 12pm|quebec:Last updated October 17, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated October 18, 2026 at 12pm|fraser:Last updated October 18, 2026 at 12pm|northvan:Last updated October 17, 2026 at 12pm|quebec:Last updated October 18, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,9 +15,11 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-10-16",
-    "observedAt": "2026-10-16T22:14:55.559Z",
+    "baselineDay": "2026-10-17",
+    "observedAt": "2026-10-18T01:15:55.900Z",
     "flavorNamesByFlavorId": {
+      "cardamom": "Cardamom",
+      "vegan-apple-crisp": "Vegan Apple Crisp",
       "vegan-peanut-butter-pie": "Vegan Peanut Butter Pie",
       "vegan-peppermint-fudge-brownie": "Vegan Peppermint Fudge Brownie",
       "apple-pie": "Apple Pie",
@@ -43,6 +45,9 @@
     },
     "servingTypes": {
       "scoop": {
+        "cardamom": [
+          "northvan"
+        ],
         "vegan-peanut-butter-pie": [
           "fraser",
           "frances",
@@ -140,6 +145,12 @@
         ]
       },
       "pint": {
+        "cardamom": [
+          "northvan"
+        ],
+        "vegan-apple-crisp": [
+          "fraser"
+        ],
         "vegan-peanut-butter-pie": [
           "fraser",
           "quebec",
@@ -240,6 +251,8 @@
       },
       "sandwich": {
         "campfire-crunch-sammie": [
+          "fraser",
+          "quebec",
           "frances"
         ],
         "chocolate-raspberry-cheesecake-sammie": [
@@ -264,13 +277,19 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-10-17",
-    "previousDay": "2026-10-16",
+    "currentDay": "2026-10-18",
+    "previousDay": "2026-10-17",
     "servingTypes": {
       "scoop": {
         "added": {
           "cardamom": [
-            "northvan"
+            "quebec"
+          ],
+          "vegan-apple-crisp": [
+            "fraser"
+          ],
+          "vegan-peanut-butter-pie": [
+            "quebec"
           ]
         },
         "removed": {}
@@ -278,29 +297,32 @@
       "pint": {
         "added": {
           "cardamom": [
-            "northvan"
-          ],
-          "vegan-apple-crisp": [
-            "fraser"
+            "quebec"
           ]
         },
         "removed": {}
       },
       "sandwich": {
         "added": {
-          "campfire-crunch-sammie": [
-            "fraser",
-            "quebec"
+          "vegan-grasshopper-pie-sammie": [
+            "frances"
           ]
         },
-        "removed": {}
+        "removed": {
+          "vegan-coconut-dulce-latte-sammie": {
+            "name": "Vegan Coconut Dulce Latte Sammie",
+            "storeIds": [
+              "frances"
+            ]
+          }
+        }
       }
     }
   },
   "counts": {
     "totalItems": 24,
     "iceCreamFlavors": 19,
-    "scoopItems": 17,
+    "scoopItems": 18,
     "pintItems": 19,
     "sandwichItems": 5,
     "sandwichOnlyItems": 5
