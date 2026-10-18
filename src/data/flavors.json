@@ -1,5 +1,29 @@
 [
   {
+    "id": "cardamom",
+    "name": "Cardamom",
+    "isVegan": false,
+    "scoopStores": [
+      "northvan"
+    ],
+    "pintStores": [
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Our organic cardamom comes to us from our friends at the Gathering Place, a family run business on Cortes Island."
+  },
+  {
+    "id": "vegan-apple-crisp",
+    "name": "Vegan Apple Crisp",
+    "isVegan": true,
+    "scoopStores": [],
+    "pintStores": [
+      "fraser"
+    ],
+    "sandwichStores": [],
+    "description": "BC Honeycrisp apples roasted with brown sugar and whiskey for a lovely caramelized flavour. Swirled into a lightly spiced oat-coconut base, along with generous handfuls of oat crisp crumble. Like a warm apple crisp a la mode!"
+  },
+  {
     "id": "vegan-peanut-butter-pie",
     "name": "Vegan Peanut Butter Pie",
     "isVegan": true,
@@ -319,6 +343,7 @@
     "pintStores": [],
     "sandwichStores": [
       "fraser",
+      "quebec",
       "frances"
     ],
     "description": "Reminisce camping season with this sammie! Our toasted marshmallow ice cream is blended with our chocolate creme cookies to give a slightly toasted, chocolatey flavour profile. Paired with a rich, fudgey sauce and topped with a crunchy layer of our house-made cannoli pieces and a dusting of our chocolate creme cookies. A decadent treat that whisks you away to those campfire nights!"

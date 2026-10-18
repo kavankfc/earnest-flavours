@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-10-17T21:47:54.191Z",
+  "lastUpdatedAt": "2026-10-18T01:15:55.900Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated October 17, 2026 at 12pm",
-    "quebec": "Last updated October 15, 2026 at 12pm",
+    "quebec": "Last updated October 17, 2026 at 12pm",
     "frances": "Last updated October 15, 2026 at 12pm",
-    "northvan": "Last updated October 15, 2026 at 12pm"
+    "northvan": "Last updated October 17, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated October 15, 2026 at 12pm|fraser:Last updated October 17, 2026 at 12pm|northvan:Last updated October 15, 2026 at 12pm|quebec:Last updated October 15, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated October 15, 2026 at 12pm|fraser:Last updated October 17, 2026 at 12pm|northvan:Last updated October 17, 2026 at 12pm|quebec:Last updated October 17, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -268,17 +268,29 @@
     "previousDay": "2026-10-16",
     "servingTypes": {
       "scoop": {
-        "added": {},
+        "added": {
+          "cardamom": [
+            "northvan"
+          ]
+        },
         "removed": {}
       },
       "pint": {
-        "added": {},
+        "added": {
+          "cardamom": [
+            "northvan"
+          ],
+          "vegan-apple-crisp": [
+            "fraser"
+          ]
+        },
         "removed": {}
       },
       "sandwich": {
         "added": {
           "campfire-crunch-sammie": [
-            "fraser"
+            "fraser",
+            "quebec"
           ]
         },
         "removed": {}
@@ -286,10 +298,10 @@
     }
   },
   "counts": {
-    "totalItems": 22,
-    "iceCreamFlavors": 17,
-    "scoopItems": 16,
-    "pintItems": 17,
+    "totalItems": 24,
+    "iceCreamFlavors": 19,
+    "scoopItems": 17,
+    "pintItems": 19,
     "sandwichItems": 5,
     "sandwichOnlyItems": 5
   }
