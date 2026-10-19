@@ -22,7 +22,8 @@
       "fraser"
     ],
     "pintStores": [
-      "fraser"
+      "fraser",
+      "northvan"
     ],
     "sandwichStores": [],
     "description": "BC Honeycrisp apples roasted with brown sugar and whiskey for a lovely caramelized flavour. Swirled into a lightly spiced oat-coconut base, along with generous handfuls of oat crisp crumble. Like a warm apple crisp a la mode!"
@@ -347,22 +348,11 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
-      "fraser",
       "quebec",
-      "frances"
-    ],
-    "description": "Reminisce camping season with this sammie! Our toasted marshmallow ice cream is blended with our chocolate creme cookies to give a slightly toasted, chocolatey flavour profile. Paired with a rich, fudgey sauce and topped with a crunchy layer of our house-made cannoli pieces and a dusting of our chocolate creme cookies. A decadent treat that whisks you away to those campfire nights!"
-  },
-  {
-    "id": "chocolate-raspberry-cheesecake-sammie",
-    "name": "Chocolate Raspberry Cheesecake Sammie",
-    "isVegan": false,
-    "scoopStores": [],
-    "pintStores": [],
-    "sandwichStores": [
+      "frances",
       "northvan"
     ],
-    "description": "Tangy raspberry ice cream is speckled with crunchy dark chocolate chips and delectable bites of house-made cheesecake. Topped with a layer of fudge and sandwiched with soft chocolate cake, this sammie is the perfect balance of chocolatey, fruity, and cheescakey richness!"
+    "description": "Reminisce camping season with this sammie! Our toasted marshmallow ice cream is blended with our chocolate creme cookies to give a slightly toasted, chocolatey flavour profile. Paired with a rich, fudgey sauce and topped with a crunchy layer of our house-made cannoli pieces and a dusting of our chocolate creme cookies. A decadent treat that whisks you away to those campfire nights!"
   },
   {
     "id": "classic-sammie",
