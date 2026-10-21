@@ -29,6 +29,22 @@
     "description": "BC Honeycrisp apples roasted with brown sugar and whiskey for a lovely caramelized flavour. Swirled into a lightly spiced oat-coconut base, along with generous handfuls of oat crisp crumble. Like a warm apple crisp a la mode!"
   },
   {
+    "id": "vegan-peach-oat-crisp",
+    "name": "Vegan Peach Oat Crisp",
+    "isVegan": true,
+    "scoopStores": [
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "quebec",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Beautiful Okanagan peaches from Jobst-Hof Orchards are processed in house into a delicious roasted peach compote. Swirled through a light and creamy base with a hint of cinnamon, alongside crunchy bites of oat crisp – this flavour is a wonderful balance of fruity and warm notes. Like a scoop of peach crisp a la mode!"
+  },
+  {
     "id": "apple-pie",
     "name": "Apple Pie",
     "isVegan": false,
@@ -210,7 +226,6 @@
       "northvan"
     ],
     "pintStores": [
-      "fraser",
       "quebec",
       "frances",
       "northvan"
@@ -255,23 +270,6 @@
     ],
     "sandwichStores": [],
     "description": "A vegan twist on a childhood favourite that is brimming with chunks of cookies in a creamy vanilla base. Fun fact, we make this flavour with the exact same organic chocolate sandwich cookies we use in our dairy cookies and cream!"
-  },
-  {
-    "id": "vegan-peach-oat-crisp",
-    "name": "Vegan Peach Oat Crisp",
-    "isVegan": true,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "quebec",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "Beautiful Okanagan peaches from Jobst-Hof Orchards are processed in house into a delicious roasted peach compote. Swirled through a light and creamy base with a hint of cinnamon, alongside crunchy bites of oat crisp – this flavour is a wonderful balance of fruity and warm notes. Like a scoop of peach crisp a la mode!"
   },
   {
     "id": "vegan-peanut-butter-pie",
