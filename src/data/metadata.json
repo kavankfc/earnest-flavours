@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-10-21T22:49:26.021Z",
+  "lastUpdatedAt": "2026-10-22T22:48:48.547Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated October 21, 2026 at 12pm",
-    "quebec": "Last updated October 20, 2026 at 12pm",
+    "quebec": "Last updated October 22, 2026 at 12pm",
     "frances": "Last updated October 20, 2026 at 12pm",
     "northvan": "Last updated October 19, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated October 20, 2026 at 12pm|fraser:Last updated October 21, 2026 at 12pm|northvan:Last updated October 19, 2026 at 12pm|quebec:Last updated October 20, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated October 20, 2026 at 12pm|fraser:Last updated October 21, 2026 at 12pm|northvan:Last updated October 19, 2026 at 12pm|quebec:Last updated October 22, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,11 +15,12 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-10-20",
-    "observedAt": "2026-10-21T01:45:04.712Z",
+    "baselineDay": "2026-10-21",
+    "observedAt": "2026-10-21T22:49:26.021Z",
     "flavorNamesByFlavorId": {
       "cardamom": "Cardamom",
       "vegan-apple-crisp": "Vegan Apple Crisp",
+      "vegan-peach-oat-crisp": "Vegan Peach Oat Crisp",
       "apple-pie": "Apple Pie",
       "chocolate": "Chocolate",
       "cookies-cream": "Cookies + Cream",
@@ -32,7 +33,6 @@
       "strawberry": "Strawberry",
       "tahitian-vanilla": "Tahitian Vanilla",
       "vegan-cookies-cream": "Vegan Cookies + Cream",
-      "vegan-peach-oat-crisp": "Vegan Peach Oat Crisp",
       "vegan-peanut-butter-pie": "Vegan Peanut Butter Pie",
       "vegan-raspberry": "Vegan Raspberry",
       "whiskey-hazelnut": "Whiskey Hazelnut",
@@ -49,6 +49,11 @@
         ],
         "vegan-apple-crisp": [
           "fraser"
+        ],
+        "vegan-peach-oat-crisp": [
+          "quebec",
+          "frances",
+          "northvan"
         ],
         "apple-pie": [
           "fraser",
@@ -117,12 +122,6 @@
           "northvan"
         ],
         "vegan-cookies-cream": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
-        "vegan-peach-oat-crisp": [
           "fraser",
           "quebec",
           "frances",
@@ -156,6 +155,10 @@
           "fraser",
           "northvan"
         ],
+        "vegan-peach-oat-crisp": [
+          "quebec",
+          "northvan"
+        ],
         "apple-pie": [
           "fraser",
           "quebec",
@@ -211,7 +214,6 @@
           "northvan"
         ],
         "strawberry": [
-          "fraser",
           "quebec",
           "frances",
           "northvan"
@@ -226,10 +228,6 @@
           "fraser",
           "quebec",
           "frances",
-          "northvan"
-        ],
-        "vegan-peach-oat-crisp": [
-          "quebec",
           "northvan"
         ],
         "vegan-peanut-butter-pie": [
@@ -276,27 +274,28 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-10-21",
-    "previousDay": "2026-10-20",
+    "currentDay": "2026-10-22",
+    "previousDay": "2026-10-21",
     "servingTypes": {
       "scoop": {
-        "added": {},
+        "added": {
+          "butter-pecan": [
+            "quebec"
+          ]
+        },
+        "removed": {}
+      },
+      "pint": {
+        "added": {
+          "vegan-apple-crisp": [
+            "quebec"
+          ]
+        },
         "removed": {
           "vegan-peach-oat-crisp": {
             "name": "Vegan Peach Oat Crisp",
             "storeIds": [
-              "fraser"
-            ]
-          }
-        }
-      },
-      "pint": {
-        "added": {},
-        "removed": {
-          "strawberry": {
-            "name": "Strawberry",
-            "storeIds": [
-              "fraser"
+              "quebec"
             ]
           }
         }
@@ -308,9 +307,9 @@
     }
   },
   "counts": {
-    "totalItems": 22,
-    "iceCreamFlavors": 18,
-    "scoopItems": 18,
+    "totalItems": 23,
+    "iceCreamFlavors": 19,
+    "scoopItems": 19,
     "pintItems": 18,
     "sandwichItems": 4,
     "sandwichOnlyItems": 4
