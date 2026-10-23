@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-10-22T22:48:48.547Z",
+  "lastUpdatedAt": "2026-10-23T22:41:08.755Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated October 21, 2026 at 12pm",
-    "quebec": "Last updated October 22, 2026 at 12pm",
+    "fraser": "Last updated October 22, 2026 at 12pm",
+    "quebec": "Last updated October 23, 2026 at 12pm",
     "frances": "Last updated October 20, 2026 at 12pm",
     "northvan": "Last updated October 19, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated October 20, 2026 at 12pm|fraser:Last updated October 21, 2026 at 12pm|northvan:Last updated October 19, 2026 at 12pm|quebec:Last updated October 22, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated October 20, 2026 at 12pm|fraser:Last updated October 22, 2026 at 12pm|northvan:Last updated October 19, 2026 at 12pm|quebec:Last updated October 23, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,9 +15,10 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-10-21",
-    "observedAt": "2026-10-21T22:49:26.021Z",
+    "baselineDay": "2026-10-22",
+    "observedAt": "2026-10-22T22:48:48.547Z",
     "flavorNamesByFlavorId": {
+      "butter-pecan": "Butter Pecan",
       "cardamom": "Cardamom",
       "vegan-apple-crisp": "Vegan Apple Crisp",
       "vegan-peach-oat-crisp": "Vegan Peach Oat Crisp",
@@ -43,6 +44,9 @@
     },
     "servingTypes": {
       "scoop": {
+        "butter-pecan": [
+          "quebec"
+        ],
         "cardamom": [
           "quebec",
           "northvan"
@@ -153,10 +157,10 @@
         ],
         "vegan-apple-crisp": [
           "fraser",
+          "quebec",
           "northvan"
         ],
         "vegan-peach-oat-crisp": [
-          "quebec",
           "northvan"
         ],
         "apple-pie": [
@@ -274,28 +278,33 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-10-22",
-    "previousDay": "2026-10-21",
+    "currentDay": "2026-10-23",
+    "previousDay": "2026-10-22",
     "servingTypes": {
       "scoop": {
-        "added": {
-          "butter-pecan": [
-            "quebec"
-          ]
-        },
-        "removed": {}
-      },
-      "pint": {
-        "added": {
-          "vegan-apple-crisp": [
-            "quebec"
-          ]
-        },
+        "added": {},
         "removed": {
-          "vegan-peach-oat-crisp": {
-            "name": "Vegan Peach Oat Crisp",
+          "apple-pie": {
+            "name": "Apple Pie",
             "storeIds": [
               "quebec"
+            ]
+          },
+          "vegan-peanut-butter-pie": {
+            "name": "Vegan Peanut Butter Pie",
+            "storeIds": [
+              "fraser"
+            ]
+          }
+        }
+      },
+      "pint": {
+        "added": {},
+        "removed": {
+          "mint-chip": {
+            "name": "Mint Chip",
+            "storeIds": [
+              "fraser"
             ]
           }
         }
