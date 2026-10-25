@@ -15,11 +15,11 @@
     "name": "Cardamom",
     "isVegan": false,
     "scoopStores": [
+      "fraser",
       "quebec",
       "northvan"
     ],
     "pintStores": [
-      "fraser",
       "quebec",
       "northvan"
     ],
@@ -27,14 +27,31 @@
     "description": "Our organic cardamom comes to us from our friends at the Gathering Place, a family run business on Cortes Island."
   },
   {
+    "id": "haskap-berry-streusel",
+    "name": "Haskap Berry Streusel",
+    "isVegan": false,
+    "scoopStores": [
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "A new flavour celebrating local haskap berries from Kirkaberry Farms! Haskap berries are cooked into a delectable compote with a handful of blueberries added for extra brightness. Swirled into a light vanilla base alongside pieces of gluten-friendly streusel, this flavour is as beautiful as it is delicious! Fruity and toasty notes are reminiscent of a berry pie, a la mode of course!"
+  },
+  {
     "id": "vegan-apple-crisp",
     "name": "Vegan Apple Crisp",
     "isVegan": true,
     "scoopStores": [
-      "fraser"
+      "fraser",
+      "quebec"
     ],
     "pintStores": [
-      "fraser",
       "quebec",
       "northvan"
     ],
@@ -46,7 +63,6 @@
     "name": "Vegan Peach Oat Crisp",
     "isVegan": true,
     "scoopStores": [
-      "quebec",
       "frances",
       "northvan"
     ],
@@ -66,7 +82,6 @@
       "northvan"
     ],
     "pintStores": [
-      "fraser",
       "quebec",
       "frances",
       "northvan"
@@ -130,24 +145,6 @@
     ],
     "sandwichStores": [],
     "description": "Organic Chocolate Vanilla Cream Sandwich Cookies, featuring a darker chocolate flavour profile with a crisp cookie crunch. It’s all about the cookies, like a spoonful of childhood!"
-  },
-  {
-    "id": "haskap-berry-streusel",
-    "name": "Haskap Berry Streusel",
-    "isVegan": false,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "A new flavour celebrating local haskap berries from Kirkaberry Farms! Haskap berries are cooked into a delectable compote with a handful of blueberries added for extra brightness. Swirled into a light vanilla base alongside pieces of gluten-friendly streusel, this flavour is as beautiful as it is delicious! Fruity and toasty notes are reminiscent of a berry pie, a la mode of course!"
   },
   {
     "id": "london-fog",
@@ -372,7 +369,6 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
-      "fraser",
       "quebec",
       "northvan"
     ],
