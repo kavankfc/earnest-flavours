@@ -1,5 +1,23 @@
 [
   {
+    "id": "apple-pie",
+    "name": "Apple Pie",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Caramelized, oven roasted BC Honeycrisp apples in a warm spiced ice cream base, speckled with house-made buttery pie crust pieces. Your favourite fall desert in ice cream form."
+  },
+  {
     "id": "butter-pecan",
     "name": "Butter Pecan",
     "isVegan": false,
@@ -88,25 +106,6 @@
     ],
     "sandwichStores": [],
     "description": "Beautifully light, yet rich and creamy, our whipped peanut butter base is generously sprinkled with chocolate crumble and dark chocolate flakes. Lending a delightful crunch like the cookie crust and chocolate topping of a peanut butter pie, these inclusions blend perfectly with the base to create a delicious and balanced flavour profile. A must-try for chocolate-peanut butter lovers!"
-  },
-  {
-    "id": "apple-pie",
-    "name": "Apple Pie",
-    "isVegan": false,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "Caramelized, oven roasted BC Honeycrisp apples in a warm spiced ice cream base, speckled with house-made buttery pie crust pieces. Your favourite fall desert in ice cream form."
   },
   {
     "id": "chocolate",
@@ -343,10 +342,20 @@
     "sandwichStores": [
       "fraser",
       "quebec",
-      "frances",
       "northvan"
     ],
     "description": "Reminisce camping season with this sammie! Our toasted marshmallow ice cream is blended with our chocolate creme cookies to give a slightly toasted, chocolatey flavour profile. Paired with a rich, fudgey sauce and topped with a crunchy layer of our house-made cannoli pieces and a dusting of our chocolate creme cookies. A decadent treat that whisks you away to those campfire nights!"
+  },
+  {
+    "id": "chocolate-amaretto-sammie",
+    "name": "Chocolate Amaretto Sammie",
+    "isVegan": false,
+    "scoopStores": [],
+    "pintStores": [],
+    "sandwichStores": [
+      "frances"
+    ],
+    "description": "This flavour is perfect for amaretto lovers! Our amaretto ice cream paired with chocolate chips all sandwiched between chocolate cake and finished with a thin layer of amaretto-fudge sauce. A hint of almond extract adds extra depth, but worry not – it’s made with other natural flavours and does not contain almonds! Amaretto dregs are sourced through our friends at Sons of Vancouver Distillery."
   },
   {
     "id": "classic-sammie",

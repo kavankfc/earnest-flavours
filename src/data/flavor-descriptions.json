@@ -80,6 +80,11 @@
     "description": "Smooth, creamy, and oh-so-chocolatey! This ice cream is a lovely balance between our Milk Chocolate and Serious Chocolate flavours, and is sure to satisfy any chocolate-lover."
   },
   {
+    "id": "chocolate-amaretto-sammie",
+    "name": "Chocolate Amaretto Sammie",
+    "description": "This flavour is perfect for amaretto lovers! Our amaretto ice cream paired with chocolate chips all sandwiched between chocolate cake and finished with a thin layer of amaretto-fudge sauce. A hint of almond extract adds extra depth, but worry not – it’s made with other natural flavours and does not contain almonds! Amaretto dregs are sourced through our friends at Sons of Vancouver Distillery."
+  },
+  {
     "id": "chocolate-raspberry-cheesecake-sammie",
     "name": "Chocolate Raspberry Cheesecake Sammie",
     "description": "Tangy raspberry ice cream is speckled with crunchy dark chocolate chips and delectable bites of house-made cheesecake. Topped with a layer of fudge and sandwiched with soft chocolate cake, this sammie is the perfect balance of chocolatey, fruity, and cheescakey richness!"

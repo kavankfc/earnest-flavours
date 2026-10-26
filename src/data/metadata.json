@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-10-25T22:07:10.283Z",
+  "lastUpdatedAt": "2026-10-26T01:24:27.913Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated October 25, 2026 at 12pm",
-    "quebec": "Last updated October 24, 2026 at 12pm",
-    "frances": "Last updated October 20, 2026 at 12pm",
+    "quebec": "Last updated October 25, 2026 at 12pm",
+    "frances": "Last updated October 25, 2026 at 12pm",
     "northvan": "Last updated October 19, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated October 20, 2026 at 12pm|fraser:Last updated October 25, 2026 at 12pm|northvan:Last updated October 19, 2026 at 12pm|quebec:Last updated October 24, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated October 25, 2026 at 12pm|fraser:Last updated October 25, 2026 at 12pm|northvan:Last updated October 19, 2026 at 12pm|quebec:Last updated October 25, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -290,6 +290,12 @@
           ]
         },
         "removed": {
+          "apple-pie": {
+            "name": "Apple Pie",
+            "storeIds": [
+              "quebec"
+            ]
+          },
           "haskap-berry-streusel": {
             "name": "Haskap Berry Streusel",
             "storeIds": [
@@ -328,8 +334,18 @@
         }
       },
       "sandwich": {
-        "added": {},
+        "added": {
+          "chocolate-amaretto-sammie": [
+            "frances"
+          ]
+        },
         "removed": {
+          "campfire-crunch-sammie": {
+            "name": "Campfire Crunch Sammie",
+            "storeIds": [
+              "frances"
+            ]
+          },
           "vegan-coconut-dulce-latte-sammie": {
             "name": "Vegan Coconut Dulce Latte Sammie",
             "storeIds": [
@@ -341,11 +357,11 @@
     }
   },
   "counts": {
-    "totalItems": 23,
+    "totalItems": 24,
     "iceCreamFlavors": 19,
     "scoopItems": 19,
     "pintItems": 18,
-    "sandwichItems": 4,
-    "sandwichOnlyItems": 4
+    "sandwichItems": 5,
+    "sandwichOnlyItems": 5
   }
 }
