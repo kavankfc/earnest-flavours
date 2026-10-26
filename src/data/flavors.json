@@ -4,7 +4,7 @@
     "name": "Apple Pie",
     "isVegan": false,
     "scoopStores": [
-      "fraser",
+      "quebec",
       "frances",
       "northvan"
     ],
@@ -34,7 +34,6 @@
     "isVegan": false,
     "scoopStores": [
       "fraser",
-      "quebec",
       "northvan"
     ],
     "pintStores": [
@@ -54,7 +53,7 @@
       "northvan"
     ],
     "pintStores": [
-      "quebec",
+      "fraser",
       "frances",
       "northvan"
     ],
@@ -70,6 +69,7 @@
       "quebec"
     ],
     "pintStores": [
+      "fraser",
       "quebec",
       "northvan"
     ],
@@ -95,11 +95,12 @@
     "name": "Vegan Peanut Butter Pie",
     "isVegan": true,
     "scoopStores": [
-      "quebec",
+      "fraser",
       "frances",
       "northvan"
     ],
     "pintStores": [
+      "fraser",
       "quebec",
       "frances",
       "northvan"
