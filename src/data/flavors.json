@@ -1,23 +1,5 @@
 [
   {
-    "id": "apple-pie",
-    "name": "Apple Pie",
-    "isVegan": false,
-    "scoopStores": [
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "Caramelized, oven roasted BC Honeycrisp apples in a warm spiced ice cream base, speckled with house-made buttery pie crust pieces. Your favourite fall desert in ice cream form."
-  },
-  {
     "id": "butter-pecan",
     "name": "Butter Pecan",
     "isVegan": false,
@@ -42,23 +24,6 @@
     ],
     "sandwichStores": [],
     "description": "Our organic cardamom comes to us from our friends at the Gathering Place, a family run business on Cortes Island."
-  },
-  {
-    "id": "haskap-berry-streusel",
-    "name": "Haskap Berry Streusel",
-    "isVegan": false,
-    "scoopStores": [
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "A new flavour celebrating local haskap berries from Kirkaberry Farms! Haskap berries are cooked into a delectable compote with a handful of blueberries added for extra brightness. Swirled into a light vanilla base alongside pieces of gluten-friendly streusel, this flavour is as beautiful as it is delicious! Fruity and toasty notes are reminiscent of a berry pie, a la mode of course!"
   },
   {
     "id": "vegan-apple-crisp",
@@ -108,6 +73,25 @@
     "description": "Beautifully light, yet rich and creamy, our whipped peanut butter base is generously sprinkled with chocolate crumble and dark chocolate flakes. Lending a delightful crunch like the cookie crust and chocolate topping of a peanut butter pie, these inclusions blend perfectly with the base to create a delicious and balanced flavour profile. A must-try for chocolate-peanut butter lovers!"
   },
   {
+    "id": "apple-pie",
+    "name": "Apple Pie",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Caramelized, oven roasted BC Honeycrisp apples in a warm spiced ice cream base, speckled with house-made buttery pie crust pieces. Your favourite fall desert in ice cream form."
+  },
+  {
     "id": "chocolate",
     "name": "Chocolate",
     "isVegan": false,
@@ -144,6 +128,24 @@
     ],
     "sandwichStores": [],
     "description": "Organic Chocolate Vanilla Cream Sandwich Cookies, featuring a darker chocolate flavour profile with a crisp cookie crunch. It’s all about the cookies, like a spoonful of childhood!"
+  },
+  {
+    "id": "haskap-berry-streusel",
+    "name": "Haskap Berry Streusel",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "A new flavour celebrating local haskap berries from Kirkaberry Farms! Haskap berries are cooked into a delectable compote with a handful of blueberries added for extra brightness. Swirled into a light vanilla base alongside pieces of gluten-friendly streusel, this flavour is as beautiful as it is delicious! Fruity and toasty notes are reminiscent of a berry pie, a la mode of course!"
   },
   {
     "id": "london-fog",
