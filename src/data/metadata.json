@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-10-26T23:24:36.995Z",
+  "lastUpdatedAt": "2026-10-27T02:12:12.690Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated October 26, 2026 at 12pm",
     "quebec": "Last updated October 25, 2026 at 12pm",
     "frances": "Last updated October 25, 2026 at 12pm",
-    "northvan": "Last updated October 19, 2026 at 12pm"
+    "northvan": "Last updated October 26, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated October 25, 2026 at 12pm|fraser:Last updated October 26, 2026 at 12pm|northvan:Last updated October 19, 2026 at 12pm|quebec:Last updated October 25, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated October 25, 2026 at 12pm|fraser:Last updated October 26, 2026 at 12pm|northvan:Last updated October 26, 2026 at 12pm|quebec:Last updated October 25, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -300,6 +300,12 @@
               "quebec"
             ]
           },
+          "vegan-apple-crisp": {
+            "name": "Vegan Apple Crisp",
+            "storeIds": [
+              "fraser"
+            ]
+          },
           "vegan-peanut-butter-pie": {
             "name": "Vegan Peanut Butter Pie",
             "storeIds": [
@@ -331,7 +337,14 @@
       },
       "sandwich": {
         "added": {},
-        "removed": {}
+        "removed": {
+          "campfire-crunch-sammie": {
+            "name": "Campfire Crunch Sammie",
+            "storeIds": [
+              "northvan"
+            ]
+          }
+        }
       }
     }
   },
