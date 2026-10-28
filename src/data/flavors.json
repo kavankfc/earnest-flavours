@@ -19,6 +19,7 @@
       "northvan"
     ],
     "pintStores": [
+      "fraser",
       "quebec",
       "northvan"
     ],
@@ -48,9 +49,7 @@
       "frances",
       "northvan"
     ],
-    "pintStores": [
-      "northvan"
-    ],
+    "pintStores": [],
     "sandwichStores": [],
     "description": "Beautiful Okanagan peaches from Jobst-Hof Orchards are processed in house into a delicious roasted peach compote. Swirled through a light and creamy base with a hint of cinnamon, alongside crunchy bites of oat crisp – this flavour is a wonderful balance of fruity and warm notes. Like a scoop of peach crisp a la mode!"
   },
@@ -140,9 +139,7 @@
       "northvan"
     ],
     "pintStores": [
-      "fraser",
-      "frances",
-      "northvan"
+      "frances"
     ],
     "sandwichStores": [],
     "description": "A new flavour celebrating local haskap berries from Kirkaberry Farms! Haskap berries are cooked into a delectable compote with a handful of blueberries added for extra brightness. Swirled into a light vanilla base alongside pieces of gluten-friendly streusel, this flavour is as beautiful as it is delicious! Fruity and toasty notes are reminiscent of a berry pie, a la mode of course!"
@@ -342,8 +339,7 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
-      "fraser",
-      "quebec"
+      "fraser"
     ],
     "description": "Reminisce camping season with this sammie! Our toasted marshmallow ice cream is blended with our chocolate creme cookies to give a slightly toasted, chocolatey flavour profile. Paired with a rich, fudgey sauce and topped with a crunchy layer of our house-made cannoli pieces and a dusting of our chocolate creme cookies. A decadent treat that whisks you away to those campfire nights!"
   },
@@ -354,7 +350,8 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
-      "frances"
+      "frances",
+      "northvan"
     ],
     "description": "This flavour is perfect for amaretto lovers! Our amaretto ice cream paired with chocolate chips all sandwiched between chocolate cake and finished with a thin layer of amaretto-fudge sauce. A hint of almond extract adds extra depth, but worry not – it’s made with other natural flavours and does not contain almonds! Amaretto dregs are sourced through our friends at Sons of Vancouver Distillery."
   },
@@ -379,7 +376,6 @@
     "scoopStores": [],
     "pintStores": [],
     "sandwichStores": [
-      "quebec",
       "northvan"
     ],
     "description": "Strong, creamy coffee balanced by the sweetness of our house-made coconut dulce sauce! Finished with a crunchy coconut streusel and toasted coconut flake for an extra bite of toasty deliciousness."
@@ -392,6 +388,7 @@
     "pintStores": [],
     "sandwichStores": [
       "fraser",
+      "quebec",
       "frances"
     ],
     "description": "This vegan flavours pays homage to the classic Grasshopper Pie. Fluffy mint ice cream with our signature chocolate cream cookies throughout sandwiched between a rich fudgey layer and chocolate cake."

@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-10-27T23:16:37.428Z",
+  "lastUpdatedAt": "2026-10-28T23:40:01.299Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated October 27, 2026 at 12pm",
-    "quebec": "Last updated October 25, 2026 at 12pm",
+    "quebec": "Last updated October 28, 2026 at 12pm",
     "frances": "Last updated October 25, 2026 at 12pm",
-    "northvan": "Last updated October 26, 2026 at 12pm"
+    "northvan": "Last updated October 28, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated October 25, 2026 at 12pm|fraser:Last updated October 27, 2026 at 12pm|northvan:Last updated October 26, 2026 at 12pm|quebec:Last updated October 25, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated October 25, 2026 at 12pm|fraser:Last updated October 27, 2026 at 12pm|northvan:Last updated October 28, 2026 at 12pm|quebec:Last updated October 28, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,18 +15,18 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-10-26",
-    "observedAt": "2026-10-27T02:12:12.690Z",
+    "baselineDay": "2026-10-27",
+    "observedAt": "2026-10-27T23:16:37.428Z",
     "flavorNamesByFlavorId": {
-      "apple-pie": "Apple Pie",
       "butter-pecan": "Butter Pecan",
       "cardamom": "Cardamom",
-      "haskap-berry-streusel": "Haskap Berry Streusel",
       "vegan-apple-crisp": "Vegan Apple Crisp",
       "vegan-peach-oat-crisp": "Vegan Peach Oat Crisp",
       "vegan-peanut-butter-pie": "Vegan Peanut Butter Pie",
+      "apple-pie": "Apple Pie",
       "chocolate": "Chocolate",
       "cookies-cream": "Cookies + Cream",
+      "haskap-berry-streusel": "Haskap Berry Streusel",
       "london-fog": "London Fog",
       "matcha-green-tea": "Matcha Green Tea",
       "mint-chip": "Mint Chip",
@@ -45,21 +45,11 @@
     },
     "servingTypes": {
       "scoop": {
-        "apple-pie": [
-          "quebec",
-          "frances",
-          "northvan"
-        ],
         "butter-pecan": [
           "quebec"
         ],
         "cardamom": [
           "fraser",
-          "northvan"
-        ],
-        "haskap-berry-streusel": [
-          "quebec",
-          "frances",
           "northvan"
         ],
         "vegan-apple-crisp": [
@@ -74,6 +64,12 @@
           "frances",
           "northvan"
         ],
+        "apple-pie": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
         "chocolate": [
           "fraser",
           "quebec",
@@ -81,6 +77,12 @@
           "northvan"
         ],
         "cookies-cream": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
+        "haskap-berry-streusel": [
           "fraser",
           "quebec",
           "frances",
@@ -148,19 +150,8 @@
         ]
       },
       "pint": {
-        "apple-pie": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
         "cardamom": [
           "quebec",
-          "northvan"
-        ],
-        "haskap-berry-streusel": [
-          "fraser",
-          "frances",
           "northvan"
         ],
         "vegan-apple-crisp": [
@@ -177,6 +168,12 @@
           "frances",
           "northvan"
         ],
+        "apple-pie": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
         "chocolate": [
           "fraser",
           "quebec",
@@ -186,6 +183,11 @@
         "cookies-cream": [
           "fraser",
           "quebec",
+          "frances",
+          "northvan"
+        ],
+        "haskap-berry-streusel": [
+          "fraser",
           "frances",
           "northvan"
         ],
@@ -274,27 +276,58 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-10-27",
-    "previousDay": "2026-10-26",
+    "currentDay": "2026-10-28",
+    "previousDay": "2026-10-27",
     "servingTypes": {
       "scoop": {
-        "added": {
-          "apple-pie": [
-            "fraser"
-          ],
-          "haskap-berry-streusel": [
-            "fraser"
-          ]
-        },
+        "added": {},
         "removed": {}
       },
       "pint": {
-        "added": {},
-        "removed": {}
+        "added": {
+          "cardamom": [
+            "fraser"
+          ]
+        },
+        "removed": {
+          "haskap-berry-streusel": {
+            "name": "Haskap Berry Streusel",
+            "storeIds": [
+              "fraser",
+              "northvan"
+            ]
+          },
+          "vegan-peach-oat-crisp": {
+            "name": "Vegan Peach Oat Crisp",
+            "storeIds": [
+              "northvan"
+            ]
+          }
+        }
       },
       "sandwich": {
-        "added": {},
-        "removed": {}
+        "added": {
+          "chocolate-amaretto-sammie": [
+            "northvan"
+          ],
+          "vegan-grasshopper-pie-sammie": [
+            "quebec"
+          ]
+        },
+        "removed": {
+          "campfire-crunch-sammie": {
+            "name": "Campfire Crunch Sammie",
+            "storeIds": [
+              "quebec"
+            ]
+          },
+          "vegan-coconut-dulce-latte-sammie": {
+            "name": "Vegan Coconut Dulce Latte Sammie",
+            "storeIds": [
+              "quebec"
+            ]
+          }
+        }
       }
     }
   },
@@ -302,7 +335,7 @@
     "totalItems": 24,
     "iceCreamFlavors": 19,
     "scoopItems": 19,
-    "pintItems": 18,
+    "pintItems": 17,
     "sandwichItems": 5,
     "sandwichOnlyItems": 5
   }
