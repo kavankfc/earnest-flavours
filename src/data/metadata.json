@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-10-29T02:34:16.147Z",
+  "lastUpdatedAt": "2026-10-29T23:40:04.567Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated October 28, 2026 at 12pm",
-    "quebec": "Last updated October 28, 2026 at 12pm",
+    "fraser": "Last updated October 29, 2026 at 12pm",
+    "quebec": "Last updated October 29, 2026 at 12pm",
     "frances": "Last updated October 28, 2026 at 12pm",
-    "northvan": "Last updated October 28, 2026 at 12pm"
+    "northvan": "Last updated October 29, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated October 28, 2026 at 12pm|fraser:Last updated October 28, 2026 at 12pm|northvan:Last updated October 28, 2026 at 12pm|quebec:Last updated October 28, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated October 28, 2026 at 12pm|fraser:Last updated October 29, 2026 at 12pm|northvan:Last updated October 29, 2026 at 12pm|quebec:Last updated October 29, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,18 +15,18 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-10-27",
-    "observedAt": "2026-10-27T23:16:37.428Z",
+    "baselineDay": "2026-10-28",
+    "observedAt": "2026-10-29T02:34:16.147Z",
     "flavorNamesByFlavorId": {
       "butter-pecan": "Butter Pecan",
       "cardamom": "Cardamom",
+      "haskap-berry-streusel": "Haskap Berry Streusel",
       "vegan-apple-crisp": "Vegan Apple Crisp",
       "vegan-peach-oat-crisp": "Vegan Peach Oat Crisp",
       "vegan-peanut-butter-pie": "Vegan Peanut Butter Pie",
       "apple-pie": "Apple Pie",
       "chocolate": "Chocolate",
       "cookies-cream": "Cookies + Cream",
-      "haskap-berry-streusel": "Haskap Berry Streusel",
       "london-fog": "London Fog",
       "matcha-green-tea": "Matcha Green Tea",
       "mint-chip": "Mint Chip",
@@ -52,6 +52,11 @@
           "fraser",
           "northvan"
         ],
+        "haskap-berry-streusel": [
+          "quebec",
+          "frances",
+          "northvan"
+        ],
         "vegan-apple-crisp": [
           "quebec"
         ],
@@ -60,7 +65,6 @@
           "northvan"
         ],
         "vegan-peanut-butter-pie": [
-          "fraser",
           "frances",
           "northvan"
         ],
@@ -77,12 +81,6 @@
           "northvan"
         ],
         "cookies-cream": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
-        "haskap-berry-streusel": [
           "fraser",
           "quebec",
           "frances",
@@ -151,15 +149,13 @@
       },
       "pint": {
         "cardamom": [
+          "fraser",
           "quebec",
           "northvan"
         ],
         "vegan-apple-crisp": [
           "fraser",
           "quebec",
-          "northvan"
-        ],
-        "vegan-peach-oat-crisp": [
           "northvan"
         ],
         "vegan-peanut-butter-pie": [
@@ -183,11 +179,6 @@
         "cookies-cream": [
           "fraser",
           "quebec",
-          "frances",
-          "northvan"
-        ],
-        "haskap-berry-streusel": [
-          "fraser",
           "frances",
           "northvan"
         ],
@@ -252,11 +243,11 @@
       },
       "sandwich": {
         "campfire-crunch-sammie": [
-          "fraser",
-          "quebec"
+          "fraser"
         ],
         "chocolate-amaretto-sammie": [
-          "frances"
+          "frances",
+          "northvan"
         ],
         "classic-sammie": [
           "fraser",
@@ -265,80 +256,63 @@
           "northvan"
         ],
         "vegan-coconut-dulce-latte-sammie": [
-          "quebec",
           "northvan"
         ],
         "vegan-grasshopper-pie-sammie": [
           "fraser",
+          "quebec",
           "frances"
         ]
       }
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-10-28",
-    "previousDay": "2026-10-27",
+    "currentDay": "2026-10-29",
+    "previousDay": "2026-10-28",
     "servingTypes": {
       "scoop": {
-        "added": {},
+        "added": {
+          "cardamom": [
+            "quebec"
+          ],
+          "haskap-berry-streusel": [
+            "fraser"
+          ]
+        },
         "removed": {
-          "haskap-berry-streusel": {
-            "name": "Haskap Berry Streusel",
+          "apple-pie": {
+            "name": "Apple Pie",
             "storeIds": [
-              "fraser"
+              "fraser",
+              "quebec",
+              "northvan"
             ]
           },
           "vegan-peanut-butter-pie": {
             "name": "Vegan Peanut Butter Pie",
             "storeIds": [
-              "fraser"
+              "northvan"
+            ]
+          },
+          "butter-pecan": {
+            "name": "Butter Pecan",
+            "storeIds": [
+              "quebec"
             ]
           }
         }
       },
       "pint": {
-        "added": {
-          "cardamom": [
-            "fraser"
-          ]
-        },
-        "removed": {
-          "vegan-peach-oat-crisp": {
-            "name": "Vegan Peach Oat Crisp",
-            "storeIds": [
-              "northvan"
-            ]
-          },
-          "haskap-berry-streusel": {
-            "name": "Haskap Berry Streusel",
-            "storeIds": [
-              "fraser",
-              "frances",
-              "northvan"
-            ]
-          }
-        }
+        "added": {},
+        "removed": {}
       },
       "sandwich": {
-        "added": {
-          "chocolate-amaretto-sammie": [
-            "northvan"
-          ],
-          "vegan-grasshopper-pie-sammie": [
-            "quebec"
-          ]
-        },
+        "added": {},
         "removed": {
           "campfire-crunch-sammie": {
             "name": "Campfire Crunch Sammie",
             "storeIds": [
-              "quebec"
-            ]
-          },
-          "vegan-coconut-dulce-latte-sammie": {
-            "name": "Vegan Coconut Dulce Latte Sammie",
-            "storeIds": [
-              "quebec"
+              "fraser"
             ]
           }
         }
@@ -346,11 +320,11 @@
     }
   },
   "counts": {
-    "totalItems": 24,
-    "iceCreamFlavors": 19,
-    "scoopItems": 19,
+    "totalItems": 22,
+    "iceCreamFlavors": 18,
+    "scoopItems": 18,
     "pintItems": 16,
-    "sandwichItems": 5,
-    "sandwichOnlyItems": 5
+    "sandwichItems": 4,
+    "sandwichOnlyItems": 4
   }
 }
