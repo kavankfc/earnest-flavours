@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-10-28T23:40:01.299Z",
+  "lastUpdatedAt": "2026-10-29T02:34:16.147Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated October 27, 2026 at 12pm",
+    "fraser": "Last updated October 28, 2026 at 12pm",
     "quebec": "Last updated October 28, 2026 at 12pm",
-    "frances": "Last updated October 25, 2026 at 12pm",
+    "frances": "Last updated October 28, 2026 at 12pm",
     "northvan": "Last updated October 28, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated October 25, 2026 at 12pm|fraser:Last updated October 27, 2026 at 12pm|northvan:Last updated October 28, 2026 at 12pm|quebec:Last updated October 28, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated October 28, 2026 at 12pm|fraser:Last updated October 28, 2026 at 12pm|northvan:Last updated October 28, 2026 at 12pm|quebec:Last updated October 28, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -281,7 +281,20 @@
     "servingTypes": {
       "scoop": {
         "added": {},
-        "removed": {}
+        "removed": {
+          "haskap-berry-streusel": {
+            "name": "Haskap Berry Streusel",
+            "storeIds": [
+              "fraser"
+            ]
+          },
+          "vegan-peanut-butter-pie": {
+            "name": "Vegan Peanut Butter Pie",
+            "storeIds": [
+              "fraser"
+            ]
+          }
+        }
       },
       "pint": {
         "added": {
@@ -290,16 +303,17 @@
           ]
         },
         "removed": {
+          "vegan-peach-oat-crisp": {
+            "name": "Vegan Peach Oat Crisp",
+            "storeIds": [
+              "northvan"
+            ]
+          },
           "haskap-berry-streusel": {
             "name": "Haskap Berry Streusel",
             "storeIds": [
               "fraser",
-              "northvan"
-            ]
-          },
-          "vegan-peach-oat-crisp": {
-            "name": "Vegan Peach Oat Crisp",
-            "storeIds": [
+              "frances",
               "northvan"
             ]
           }
@@ -335,7 +349,7 @@
     "totalItems": 24,
     "iceCreamFlavors": 19,
     "scoopItems": 19,
-    "pintItems": 17,
+    "pintItems": 16,
     "sandwichItems": 5,
     "sandwichOnlyItems": 5
   }
