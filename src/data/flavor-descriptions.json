@@ -75,6 +75,11 @@
     "description": "The classic nutty amaretto flavour accompanied by bright cherry jam swirled throughout! A hint of almond extract adds extra depth, but worry not – it’s made with other natural flavours and does not contain almonds! Amaretto dregs are sourced through our friends at Sons of Vancouver Distillery, and BC Cherries are sourced from Snowcrest. Though our cherries are machine-pitted, there is a small possibility of finding a pit – that’s the risk we take when using whole, real fruit."
   },
   {
+    "id": "cherry-amaretto-sammie",
+    "name": "Cherry Amaretto Sammie",
+    "description": "Sons of Vancouver Amaretto ice cream swirled with a bright cherry jelly, plus lush chocolate cake pieces. All sandwiched between more vegan chocolate cake and finished off with a thin layer of cherry fudge. A light and nutty treat to uplift your brisk winter days."
+  },
+  {
     "id": "chocolate",
     "name": "Chocolate",
     "description": "Smooth, creamy, and oh-so-chocolatey! This ice cream is a lovely balance between our Milk Chocolate and Serious Chocolate flavours, and is sure to satisfy any chocolate-lover."

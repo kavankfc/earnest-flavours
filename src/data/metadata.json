@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-10-29T23:40:04.567Z",
+  "lastUpdatedAt": "2026-10-30T02:44:01.999Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated October 29, 2026 at 12pm",
     "quebec": "Last updated October 29, 2026 at 12pm",
-    "frances": "Last updated October 28, 2026 at 12pm",
+    "frances": "Last updated October 29, 2026 at 12pm",
     "northvan": "Last updated October 29, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated October 28, 2026 at 12pm|fraser:Last updated October 29, 2026 at 12pm|northvan:Last updated October 29, 2026 at 12pm|quebec:Last updated October 29, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated October 29, 2026 at 12pm|fraser:Last updated October 29, 2026 at 12pm|northvan:Last updated October 29, 2026 at 12pm|quebec:Last updated October 29, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -274,9 +274,6 @@
         "added": {
           "cardamom": [
             "quebec"
-          ],
-          "haskap-berry-streusel": [
-            "fraser"
           ]
         },
         "removed": {
@@ -303,11 +300,19 @@
         }
       },
       "pint": {
-        "added": {},
+        "added": {
+          "cardamom": [
+            "frances"
+          ]
+        },
         "removed": {}
       },
       "sandwich": {
-        "added": {},
+        "added": {
+          "cherry-amaretto-sammie": [
+            "fraser"
+          ]
+        },
         "removed": {
           "campfire-crunch-sammie": {
             "name": "Campfire Crunch Sammie",
@@ -320,11 +325,11 @@
     }
   },
   "counts": {
-    "totalItems": 22,
+    "totalItems": 23,
     "iceCreamFlavors": 18,
     "scoopItems": 18,
     "pintItems": 16,
-    "sandwichItems": 4,
-    "sandwichOnlyItems": 4
+    "sandwichItems": 5,
+    "sandwichOnlyItems": 5
   }
 }

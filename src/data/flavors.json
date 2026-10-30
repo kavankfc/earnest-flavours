@@ -27,10 +27,24 @@
     "pintStores": [
       "fraser",
       "quebec",
+      "frances",
       "northvan"
     ],
     "sandwichStores": [],
     "description": "Our organic cardamom comes to us from our friends at the Gathering Place, a family run business on Cortes Island."
+  },
+  {
+    "id": "haskap-berry-streusel",
+    "name": "Haskap Berry Streusel",
+    "isVegan": false,
+    "scoopStores": [
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [],
+    "sandwichStores": [],
+    "description": "A new flavour celebrating local haskap berries from Kirkaberry Farms! Haskap berries are cooked into a delectable compote with a handful of blueberries added for extra brightness. Swirled into a light vanilla base alongside pieces of gluten-friendly streusel, this flavour is as beautiful as it is delicious! Fruity and toasty notes are reminiscent of a berry pie, a la mode of course!"
   },
   {
     "id": "vegan-apple-crisp",
@@ -112,20 +126,6 @@
     ],
     "sandwichStores": [],
     "description": "Organic Chocolate Vanilla Cream Sandwich Cookies, featuring a darker chocolate flavour profile with a crisp cookie crunch. It’s all about the cookies, like a spoonful of childhood!"
-  },
-  {
-    "id": "haskap-berry-streusel",
-    "name": "Haskap Berry Streusel",
-    "isVegan": false,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [],
-    "sandwichStores": [],
-    "description": "A new flavour celebrating local haskap berries from Kirkaberry Farms! Haskap berries are cooked into a delectable compote with a handful of blueberries added for extra brightness. Swirled into a light vanilla base alongside pieces of gluten-friendly streusel, this flavour is as beautiful as it is delicious! Fruity and toasty notes are reminiscent of a berry pie, a la mode of course!"
   },
   {
     "id": "london-fog",
@@ -314,6 +314,17 @@
     ],
     "sandwichStores": [],
     "description": "An Earnest Ice Cream original, made from day one and remains a favourite and top-seller. Roasted, salted BC hazelnuts in Whiskey ice cream base. A smooth, boozy flavour with a buttery crunch."
+  },
+  {
+    "id": "cherry-amaretto-sammie",
+    "name": "Cherry Amaretto Sammie",
+    "isVegan": false,
+    "scoopStores": [],
+    "pintStores": [],
+    "sandwichStores": [
+      "fraser"
+    ],
+    "description": "Sons of Vancouver Amaretto ice cream swirled with a bright cherry jelly, plus lush chocolate cake pieces. All sandwiched between more vegan chocolate cake and finished off with a thin layer of cherry fudge. A light and nutty treat to uplift your brisk winter days."
   },
   {
     "id": "chocolate-amaretto-sammie",
