@@ -20,6 +20,11 @@
     "description": "Buttery layers of phyllo pastry and clusters of spiced nuts are generously scattered through a light, honey base. Like a slice of honey-drenched baklava blended into ice cream!"
   },
   {
+    "id": "baklava-sammie",
+    "name": "Baklava Sammie",
+    "description": "Fluffy vanilla cake paired with our Baklava Ice Cream – buttery layers of phyllo pastry and nuggets of spiced nuts are generously scattered through a lightly spiced honey base. Like a slice of honey-drenched baklava made into an ice cream sammie!"
+  },
+  {
     "id": "birthday-cake",
     "name": "Birthday Cake",
     "description": "What’s better than birthday cake with ice cream? Birthday cake IN ice cream! Bites of house-made cake throughout pink vanilla ice cream, complete with naturally coloured sprinkles. Happy birthday to us!"
@@ -88,6 +93,11 @@
     "id": "chocolate-amaretto-sammie",
     "name": "Chocolate Amaretto Sammie",
     "description": "This flavour is perfect for amaretto lovers! Our amaretto ice cream paired with chocolate chips all sandwiched between chocolate cake and finished with a thin layer of amaretto-fudge sauce. A hint of almond extract adds extra depth, but worry not – it’s made with other natural flavours and does not contain almonds! Amaretto dregs are sourced through our friends at Sons of Vancouver Distillery."
+  },
+  {
+    "id": "chocolate-orange-stracciatella",
+    "name": "Chocolate Orange Stracciatella",
+    "description": "Inspired by Terry’s classic holiday treat. Fine flakes of dark chocolate (stracciatella) in a chocolate orange ice cream create a sensational mouth feel with a classic holiday pairing."
   },
   {
     "id": "chocolate-raspberry-cheesecake-sammie",
@@ -308,6 +318,11 @@
     "id": "vegan-coffee-cookie-crunch-sammie",
     "name": "Vegan Coffee Cookie Crunch Sammie",
     "description": "Strong, creamy coffee balanced by the sweetness of our classic vanilla creme sandwich cookies make this sammie irresistible! Bits of cookie are swirled through the ice cream and even more cookies are added on top of a layer of fudge for the perfect fudgey and crispy bite."
+  },
+  {
+    "id": "vegan-cookie-butter",
+    "name": "Vegan Cookie Butter",
+    "description": "House-made speculoos cookies are combined in a variety of ways into this delectable ice cream! Rich cookie butter sauce is swirled throughout a light cookie base, alongside a sprinkle of crisp cookie crumble."
   },
   {
     "id": "vegan-cookie-butter-sammie",

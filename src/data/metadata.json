@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-10-31T02:33:12.587Z",
+  "lastUpdatedAt": "2026-10-31T22:52:45.839Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated October 30, 2026 at 12pm",
-    "quebec": "Last updated October 29, 2026 at 12pm",
-    "frances": "Last updated October 29, 2026 at 12pm",
-    "northvan": "Last updated October 29, 2026 at 12pm"
+    "fraser": "Last updated October 31, 2026 at 12pm",
+    "quebec": "Last updated October 31, 2026 at 12pm",
+    "frances": "Last updated October 31, 2026 at 12pm",
+    "northvan": "Last updated October 31, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated October 29, 2026 at 12pm|fraser:Last updated October 30, 2026 at 12pm|northvan:Last updated October 29, 2026 at 12pm|quebec:Last updated October 29, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated October 31, 2026 at 12pm|fraser:Last updated October 31, 2026 at 12pm|northvan:Last updated October 31, 2026 at 12pm|quebec:Last updated October 31, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,15 +15,18 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-10-29",
-    "observedAt": "2026-10-30T02:44:01.999Z",
+    "baselineDay": "2026-10-30",
+    "observedAt": "2026-10-31T02:33:12.587Z",
     "flavorNamesByFlavorId": {
       "apple-pie": "Apple Pie",
+      "butter-pecan": "Butter Pecan",
       "cardamom": "Cardamom",
       "haskap-berry-streusel": "Haskap Berry Streusel",
+      "oatmeal-brown-sugar": "Oatmeal Brown Sugar",
       "vegan-apple-crisp": "Vegan Apple Crisp",
       "vegan-peach-oat-crisp": "Vegan Peach Oat Crisp",
       "vegan-peanut-butter-pie": "Vegan Peanut Butter Pie",
+      "vegan-turtles": "Vegan Turtles",
       "chocolate": "Chocolate",
       "cookies-cream": "Cookies + Cream",
       "london-fog": "London Fog",
@@ -36,7 +39,6 @@
       "vegan-cookies-cream": "Vegan Cookies + Cream",
       "vegan-raspberry": "Vegan Raspberry",
       "whiskey-hazelnut": "Whiskey Hazelnut",
-      "cherry-amaretto-sammie": "Cherry Amaretto Sammie",
       "chocolate-amaretto-sammie": "Chocolate Amaretto Sammie",
       "classic-sammie": "Classic Sammie",
       "vegan-coconut-dulce-latte-sammie": "Vegan Coconut Dulce Latte Sammie",
@@ -46,6 +48,9 @@
       "scoop": {
         "apple-pie": [
           "frances"
+        ],
+        "butter-pecan": [
+          "fraser"
         ],
         "cardamom": [
           "fraser",
@@ -57,6 +62,9 @@
           "frances",
           "northvan"
         ],
+        "oatmeal-brown-sugar": [
+          "fraser"
+        ],
         "vegan-apple-crisp": [
           "quebec"
         ],
@@ -66,6 +74,9 @@
         ],
         "vegan-peanut-butter-pie": [
           "frances"
+        ],
+        "vegan-turtles": [
+          "fraser"
         ],
         "chocolate": [
           "fraser",
@@ -164,6 +175,9 @@
           "frances",
           "northvan"
         ],
+        "vegan-turtles": [
+          "fraser"
+        ],
         "chocolate": [
           "fraser",
           "quebec",
@@ -236,10 +250,8 @@
         ]
       },
       "sandwich": {
-        "cherry-amaretto-sammie": [
-          "fraser"
-        ],
         "chocolate-amaretto-sammie": [
+          "fraser",
           "frances",
           "northvan"
         ],
@@ -261,42 +273,102 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-10-30",
-    "previousDay": "2026-10-29",
+    "currentDay": "2026-10-31",
+    "previousDay": "2026-10-30",
     "servingTypes": {
       "scoop": {
         "added": {
-          "butter-pecan": [
-            "fraser"
+          "almond-croissant": [
+            "fraser",
+            "quebec"
+          ],
+          "chocolate-orange-stracciatella": [
+            "fraser",
+            "quebec"
           ],
           "oatmeal-brown-sugar": [
-            "fraser"
+            "northvan"
           ],
-          "vegan-turtles": [
-            "fraser"
-          ]
-        },
-        "removed": {}
-      },
-      "pint": {
-        "added": {
-          "vegan-turtles": [
-            "fraser"
-          ]
-        },
-        "removed": {}
-      },
-      "sandwich": {
-        "added": {
-          "chocolate-amaretto-sammie": [
-            "fraser"
+          "vegan-cookie-butter": [
+            "fraser",
+            "quebec",
+            "frances"
+          ],
+          "cardamom": [
+            "frances"
           ]
         },
         "removed": {
-          "cherry-amaretto-sammie": {
-            "name": "Cherry Amaretto Sammie",
+          "oatmeal-brown-sugar": {
+            "name": "Oatmeal Brown Sugar",
             "storeIds": [
               "fraser"
+            ]
+          },
+          "butter-pecan": {
+            "name": "Butter Pecan",
+            "storeIds": [
+              "fraser"
+            ]
+          },
+          "haskap-berry-streusel": {
+            "name": "Haskap Berry Streusel",
+            "storeIds": [
+              "quebec",
+              "frances",
+              "northvan"
+            ]
+          },
+          "vegan-peach-oat-crisp": {
+            "name": "Vegan Peach Oat Crisp",
+            "storeIds": [
+              "frances",
+              "northvan"
+            ]
+          },
+          "vegan-peanut-butter-pie": {
+            "name": "Vegan Peanut Butter Pie",
+            "storeIds": [
+              "frances"
+            ]
+          }
+        }
+      },
+      "pint": {
+        "added": {
+          "almond-croissant": [
+            "fraser",
+            "quebec"
+          ],
+          "chocolate-orange-stracciatella": [
+            "fraser",
+            "quebec"
+          ],
+          "vegan-cookie-butter": [
+            "fraser",
+            "quebec"
+          ]
+        },
+        "removed": {
+          "apple-pie": {
+            "name": "Apple Pie",
+            "storeIds": [
+              "fraser"
+            ]
+          }
+        }
+      },
+      "sandwich": {
+        "added": {
+          "baklava-sammie": [
+            "frances"
+          ]
+        },
+        "removed": {
+          "chocolate-amaretto-sammie": {
+            "name": "Chocolate Amaretto Sammie",
+            "storeIds": [
+              "frances"
             ]
           }
         }
@@ -304,11 +376,11 @@
     }
   },
   "counts": {
-    "totalItems": 25,
+    "totalItems": 26,
     "iceCreamFlavors": 21,
-    "scoopItems": 21,
-    "pintItems": 17,
-    "sandwichItems": 4,
-    "sandwichOnlyItems": 4
+    "scoopItems": 20,
+    "pintItems": 20,
+    "sandwichItems": 5,
+    "sandwichOnlyItems": 5
   }
 }
