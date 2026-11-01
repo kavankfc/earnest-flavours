@@ -1,26 +1,9 @@
 [
   {
-    "id": "almond-croissant",
-    "name": "Almond Croissant",
-    "isVegan": false,
-    "scoopStores": [
-      "fraser",
-      "quebec"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec"
-    ],
-    "sandwichStores": [],
-    "description": "Double baked buttery croissant pieces with toasted almonds are folded into a light almond ice cream base. The result is a flakey, nutty, buttery, sweet toasted treat!"
-  },
-  {
     "id": "apple-pie",
     "name": "Apple Pie",
     "isVegan": false,
-    "scoopStores": [
-      "frances"
-    ],
+    "scoopStores": [],
     "pintStores": [
       "quebec",
       "frances",
@@ -30,37 +13,11 @@
     "description": "Caramelized, oven roasted BC Honeycrisp apples in a warm spiced ice cream base, speckled with house-made buttery pie crust pieces. Your favourite fall desert in ice cream form."
   },
   {
-    "id": "chocolate-orange-stracciatella",
-    "name": "Chocolate Orange Stracciatella",
-    "isVegan": false,
-    "scoopStores": [
-      "fraser",
-      "quebec"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec"
-    ],
-    "sandwichStores": [],
-    "description": "Inspired by Terry’s classic holiday treat. Fine flakes of dark chocolate (stracciatella) in a chocolate orange ice cream create a sensational mouth feel with a classic holiday pairing."
-  },
-  {
-    "id": "oatmeal-brown-sugar",
-    "name": "Oatmeal Brown Sugar",
-    "isVegan": false,
-    "scoopStores": [
-      "northvan"
-    ],
-    "pintStores": [],
-    "sandwichStores": [],
-    "description": "Ice cream for breakfast – we think so! Simple comforting flavour made with lots of oats and brown sugar, which are cold-steeped in our ice cream base so they soften. Halfway between a bowl of cereal and a cookie, but in the form of ice cream. Friendly and comforting!"
-  },
-  {
     "id": "vegan-apple-crisp",
     "name": "Vegan Apple Crisp",
     "isVegan": true,
     "scoopStores": [
-      "quebec"
+      "northvan"
     ],
     "pintStores": [
       "fraser",
@@ -71,26 +28,26 @@
     "description": "BC Honeycrisp apples roasted with brown sugar and whiskey for a lovely caramelized flavour. Swirled into a lightly spiced oat-coconut base, along with generous handfuls of oat crisp crumble. Like a warm apple crisp a la mode!"
   },
   {
-    "id": "vegan-cookie-butter",
-    "name": "Vegan Cookie Butter",
-    "isVegan": true,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "frances"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec"
-    ],
-    "sandwichStores": [],
-    "description": "House-made speculoos cookies are combined in a variety of ways into this delectable ice cream! Rich cookie butter sauce is swirled throughout a light cookie base, alongside a sprinkle of crisp cookie crumble."
-  },
-  {
     "id": "vegan-peanut-butter-pie",
     "name": "Vegan Peanut Butter Pie",
     "isVegan": true,
     "scoopStores": [],
+    "pintStores": [
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Beautifully light, yet rich and creamy, our whipped peanut butter base is generously sprinkled with chocolate crumble and dark chocolate flakes. Lending a delightful crunch like the cookie crust and chocolate topping of a peanut butter pie, these inclusions blend perfectly with the base to create a delicious and balanced flavour profile. A must-try for chocolate-peanut butter lovers!"
+  },
+  {
+    "id": "almond-croissant",
+    "name": "Almond Croissant",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
     "pintStores": [
       "fraser",
       "quebec",
@@ -98,20 +55,7 @@
       "northvan"
     ],
     "sandwichStores": [],
-    "description": "Beautifully light, yet rich and creamy, our whipped peanut butter base is generously sprinkled with chocolate crumble and dark chocolate flakes. Lending a delightful crunch like the cookie crust and chocolate topping of a peanut butter pie, these inclusions blend perfectly with the base to create a delicious and balanced flavour profile. A must-try for chocolate-peanut butter lovers!"
-  },
-  {
-    "id": "vegan-turtles",
-    "name": "Vegan Turtles",
-    "isVegan": true,
-    "scoopStores": [
-      "fraser"
-    ],
-    "pintStores": [
-      "fraser"
-    ],
-    "sandwichStores": [],
-    "description": "Our take on the classic confection, an array of textures and sweet-salty flavours result in a wonderfully complex yet nostalgic ice cream. A lightly nutty pecan praline ice cream is speckled with thin chocolate flakes, salty roasted pecans, and sweet pockets of oozy caramel."
+    "description": "Double baked buttery croissant pieces with toasted almonds are folded into a light almond ice cream base. The result is a flakey, nutty, buttery, sweet toasted treat!"
   },
   {
     "id": "cardamom",
@@ -150,6 +94,25 @@
     ],
     "sandwichStores": [],
     "description": "Smooth, creamy, and oh-so-chocolatey! This ice cream is a lovely balance between our Milk Chocolate and Serious Chocolate flavours, and is sure to satisfy any chocolate-lover."
+  },
+  {
+    "id": "chocolate-orange-stracciatella",
+    "name": "Chocolate Orange Stracciatella",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Inspired by Terry’s classic holiday treat. Fine flakes of dark chocolate (stracciatella) in a chocolate orange ice cream create a sensational mouth feel with a classic holiday pairing."
   },
   {
     "id": "cookies-cream",
@@ -219,6 +182,7 @@
       "northvan"
     ],
     "pintStores": [
+      "fraser",
       "quebec",
       "frances",
       "northvan"
@@ -239,8 +203,7 @@
     "pintStores": [
       "fraser",
       "quebec",
-      "frances",
-      "northvan"
+      "frances"
     ],
     "sandwichStores": [],
     "description": "Everything you love about pumpkin pie, frozen. Pumpkin is stewed low and slow with organic spices until deeply sweet and fragrant, then blended into our creamy dairy base. Flaky pie crust pieces add a satisfying crunch to each spoonful."
@@ -265,6 +228,25 @@
     "description": "A classic for good reason. We’ve been making this one since day one and it remains a favourite still. Deeply caramelized sugar mixed with cream and salt from Vancouver Island Sea Salt Co. Its rich, creamly and buttery and the perfect balance of salty and sweet."
   },
   {
+    "id": "sticky-toffee-pudding",
+    "name": "Sticky Toffee Pudding",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Just like the quintessential British dessert! Bites of moist date cake are swirled with ribbons of rich toffee sauce into a warmly spiced ice cream. The result is a decadent flavour full of lovely cake texture and a delectable balance of sweet and spice."
+  },
+  {
     "id": "strawberry",
     "name": "Strawberry",
     "isVegan": false,
@@ -275,6 +257,7 @@
       "northvan"
     ],
     "pintStores": [
+      "fraser",
       "quebec",
       "frances",
       "northvan"
@@ -300,6 +283,25 @@
     ],
     "sandwichStores": [],
     "description": "This flavour has been a core since day one. Our pure vanilla extract is sourced from premium slow-grown, sun-cured vanilla beans of the “Tahitian” variety. The flavour from the beans is cold-extracted to preserve its complex bouquet. These vanilla beans are brighter and more floral than the rounder, woodsier Madagascar variety."
+  },
+  {
+    "id": "vegan-cookie-butter",
+    "name": "Vegan Cookie Butter",
+    "isVegan": true,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "House-made speculoos cookies are combined in a variety of ways into this delectable ice cream! Rich cookie butter sauce is swirled throughout a light cookie base, alongside a sprinkle of crisp cookie crumble."
   },
   {
     "id": "vegan-cookies-cream",
@@ -340,6 +342,25 @@
     "description": "One of our original vegan flavours. Local raspberries from Mandair Farms pureed and blended into our signature vegan coconut base – it’s bright, tart, refreshing and looks as good as it tastes."
   },
   {
+    "id": "vegan-turtles",
+    "name": "Vegan Turtles",
+    "isVegan": true,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Our take on the classic confection, an array of textures and sweet-salty flavours result in a wonderfully complex yet nostalgic ice cream. A lightly nutty pecan praline ice cream is speckled with thin chocolate flakes, salty roasted pecans, and sweet pockets of oozy caramel."
+  },
+  {
     "id": "whiskey-hazelnut",
     "name": "Whiskey Hazelnut",
     "isVegan": false,
@@ -377,6 +398,7 @@
     "pintStores": [],
     "sandwichStores": [
       "fraser",
+      "quebec",
       "northvan"
     ],
     "description": "This flavour is perfect for amaretto lovers! Our amaretto ice cream paired with chocolate chips all sandwiched between chocolate cake and finished with a thin layer of amaretto-fudge sauce. A hint of almond extract adds extra depth, but worry not – it’s made with other natural flavours and does not contain almonds! Amaretto dregs are sourced through our friends at Sons of Vancouver Distillery."
