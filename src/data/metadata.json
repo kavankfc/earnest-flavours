@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-11-03T01:53:46.264Z",
+  "lastUpdatedAt": "2026-11-04T03:04:03.630Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated November 2, 2026 at 12pm",
     "quebec": "Last updated November 2, 2026 at 12pm",
     "frances": "Last updated November 2, 2026 at 12pm",
-    "northvan": "Last updated November 1, 2026 at 12pm"
+    "northvan": "Last updated November 3, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated November 2, 2026 at 12pm|fraser:Last updated November 2, 2026 at 12pm|northvan:Last updated November 1, 2026 at 12pm|quebec:Last updated November 2, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated November 2, 2026 at 12pm|fraser:Last updated November 2, 2026 at 12pm|northvan:Last updated November 3, 2026 at 12pm|quebec:Last updated November 2, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,10 +15,12 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-11-01",
-    "observedAt": "2026-11-01T23:09:15.252Z",
+    "baselineDay": "2026-11-02",
+    "observedAt": "2026-11-03T01:53:46.264Z",
     "flavorNamesByFlavorId": {
       "apple-pie": "Apple Pie",
+      "oatmeal-brown-sugar": "Oatmeal Brown Sugar",
+      "sticky-toffee-pudding": "Sticky Toffee Pudding",
       "vegan-apple-crisp": "Vegan Apple Crisp",
       "vegan-peanut-butter-pie": "Vegan Peanut Butter Pie",
       "almond-croissant": "Almond Croissant",
@@ -31,7 +33,6 @@
       "mint-chip": "Mint Chip",
       "pumpkin-pie": "Pumpkin Pie",
       "salted-caramel": "Salted Caramel",
-      "sticky-toffee-pudding": "Sticky Toffee Pudding",
       "strawberry": "Strawberry",
       "tahitian-vanilla": "Tahitian Vanilla",
       "vegan-cookie-butter": "Vegan Cookie Butter",
@@ -47,6 +48,14 @@
     },
     "servingTypes": {
       "scoop": {
+        "oatmeal-brown-sugar": [
+          "quebec"
+        ],
+        "sticky-toffee-pudding": [
+          "fraser",
+          "frances",
+          "northvan"
+        ],
         "vegan-apple-crisp": [
           "northvan"
         ],
@@ -110,12 +119,6 @@
           "frances",
           "northvan"
         ],
-        "sticky-toffee-pudding": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
         "strawberry": [
           "fraser",
           "quebec",
@@ -161,6 +164,13 @@
       },
       "pint": {
         "apple-pie": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
+        "sticky-toffee-pudding": [
+          "fraser",
           "quebec",
           "frances",
           "northvan"
@@ -232,12 +242,6 @@
           "frances",
           "northvan"
         ],
-        "sticky-toffee-pudding": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
         "strawberry": [
           "fraser",
           "quebec",
@@ -252,7 +256,6 @@
         ],
         "vegan-cookie-butter": [
           "fraser",
-          "quebec",
           "frances",
           "northvan"
         ],
@@ -308,35 +311,26 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-11-02",
-    "previousDay": "2026-11-01",
+    "currentDay": "2026-11-03",
+    "previousDay": "2026-11-02",
     "servingTypes": {
       "scoop": {
-        "added": {
-          "oatmeal-brown-sugar": [
-            "quebec"
-          ]
-        },
-        "removed": {
-          "sticky-toffee-pudding": {
-            "name": "Sticky Toffee Pudding",
-            "storeIds": [
-              "quebec"
-            ]
-          }
-        }
+        "added": {},
+        "removed": {}
       },
       "pint": {
-        "added": {
-          "apple-pie": [
-            "fraser"
-          ]
-        },
+        "added": {},
         "removed": {
-          "vegan-cookie-butter": {
-            "name": "Vegan Cookie Butter",
+          "cardamom": {
+            "name": "Cardamom",
             "storeIds": [
-              "quebec"
+              "fraser"
+            ]
+          },
+          "vegan-peanut-butter-pie": {
+            "name": "Vegan Peanut Butter Pie",
+            "storeIds": [
+              "northvan"
             ]
           }
         }
@@ -348,10 +342,10 @@
     }
   },
   "counts": {
-    "totalItems": 27,
-    "iceCreamFlavors": 22,
+    "totalItems": 26,
+    "iceCreamFlavors": 21,
     "scoopItems": 20,
-    "pintItems": 21,
+    "pintItems": 20,
     "sandwichItems": 5,
     "sandwichOnlyItems": 5
   }

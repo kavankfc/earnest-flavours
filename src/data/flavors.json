@@ -58,17 +58,6 @@
     "description": "BC Honeycrisp apples roasted with brown sugar and whiskey for a lovely caramelized flavour. Swirled into a lightly spiced oat-coconut base, along with generous handfuls of oat crisp crumble. Like a warm apple crisp a la mode!"
   },
   {
-    "id": "vegan-peanut-butter-pie",
-    "name": "Vegan Peanut Butter Pie",
-    "isVegan": true,
-    "scoopStores": [],
-    "pintStores": [
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "Beautifully light, yet rich and creamy, our whipped peanut butter base is generously sprinkled with chocolate crumble and dark chocolate flakes. Lending a delightful crunch like the cookie crust and chocolate topping of a peanut butter pie, these inclusions blend perfectly with the base to create a delicious and balanced flavour profile. A must-try for chocolate-peanut butter lovers!"
-  },
-  {
     "id": "almond-croissant",
     "name": "Almond Croissant",
     "isVegan": false,
@@ -98,7 +87,6 @@
       "northvan"
     ],
     "pintStores": [
-      "fraser",
       "quebec",
       "frances",
       "northvan"
