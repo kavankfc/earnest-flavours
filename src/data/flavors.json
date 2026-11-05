@@ -14,15 +14,15 @@
     "description": "Caramelized, oven roasted BC Honeycrisp apples in a warm spiced ice cream base, speckled with house-made buttery pie crust pieces. Your favourite fall desert in ice cream form."
   },
   {
-    "id": "oatmeal-brown-sugar",
-    "name": "Oatmeal Brown Sugar",
+    "id": "butter-pecan",
+    "name": "Butter Pecan",
     "isVegan": false,
     "scoopStores": [
       "quebec"
     ],
     "pintStores": [],
     "sandwichStores": [],
-    "description": "Ice cream for breakfast – we think so! Simple comforting flavour made with lots of oats and brown sugar, which are cold-steeped in our ice cream base so they soften. Halfway between a bowl of cereal and a cookie, but in the form of ice cream. Friendly and comforting!"
+    "description": "Whiskey Hazelnut’s cousin! Pecan pieces are roasted with butter and salt, and added to our ice cream base with organic vanilla. Comfort in a scoop!"
   },
   {
     "id": "sticky-toffee-pudding",

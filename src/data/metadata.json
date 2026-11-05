@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-11-04T03:04:03.630Z",
+  "lastUpdatedAt": "2026-11-05T00:33:21.034Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated November 2, 2026 at 12pm",
-    "quebec": "Last updated November 2, 2026 at 12pm",
+    "quebec": "Last updated November 4, 2026 at 12pm",
     "frances": "Last updated November 2, 2026 at 12pm",
     "northvan": "Last updated November 3, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated November 2, 2026 at 12pm|fraser:Last updated November 2, 2026 at 12pm|northvan:Last updated November 3, 2026 at 12pm|quebec:Last updated November 2, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated November 2, 2026 at 12pm|fraser:Last updated November 2, 2026 at 12pm|northvan:Last updated November 3, 2026 at 12pm|quebec:Last updated November 4, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,14 +15,13 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-11-02",
-    "observedAt": "2026-11-03T01:53:46.264Z",
+    "baselineDay": "2026-11-03",
+    "observedAt": "2026-11-04T03:04:03.630Z",
     "flavorNamesByFlavorId": {
       "apple-pie": "Apple Pie",
       "oatmeal-brown-sugar": "Oatmeal Brown Sugar",
       "sticky-toffee-pudding": "Sticky Toffee Pudding",
       "vegan-apple-crisp": "Vegan Apple Crisp",
-      "vegan-peanut-butter-pie": "Vegan Peanut Butter Pie",
       "almond-croissant": "Almond Croissant",
       "cardamom": "Cardamom",
       "chocolate": "Chocolate",
@@ -180,9 +179,6 @@
           "quebec",
           "northvan"
         ],
-        "vegan-peanut-butter-pie": [
-          "northvan"
-        ],
         "almond-croissant": [
           "fraser",
           "quebec",
@@ -190,7 +186,6 @@
           "northvan"
         ],
         "cardamom": [
-          "fraser",
           "quebec",
           "frances",
           "northvan"
@@ -311,29 +306,27 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-11-03",
-    "previousDay": "2026-11-02",
+    "currentDay": "2026-11-04",
+    "previousDay": "2026-11-03",
     "servingTypes": {
       "scoop": {
-        "added": {},
-        "removed": {}
-      },
-      "pint": {
-        "added": {},
+        "added": {
+          "butter-pecan": [
+            "quebec"
+          ]
+        },
         "removed": {
-          "cardamom": {
-            "name": "Cardamom",
+          "oatmeal-brown-sugar": {
+            "name": "Oatmeal Brown Sugar",
             "storeIds": [
-              "fraser"
-            ]
-          },
-          "vegan-peanut-butter-pie": {
-            "name": "Vegan Peanut Butter Pie",
-            "storeIds": [
-              "northvan"
+              "quebec"
             ]
           }
         }
+      },
+      "pint": {
+        "added": {},
+        "removed": {}
       },
       "sandwich": {
         "added": {},
