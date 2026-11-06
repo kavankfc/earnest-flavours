@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-11-06T03:29:46.473Z",
+  "lastUpdatedAt": "2026-11-06T23:50:57.588Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated November 5, 2026 at 12pm",
-    "quebec": "Last updated November 5, 2026 at 12pm",
+    "fraser": "Last updated November 6, 2026 at 12pm",
+    "quebec": "Last updated November 6, 2026 at 12pm",
     "frances": "Last updated November 2, 2026 at 12pm",
-    "northvan": "Last updated November 3, 2026 at 12pm"
+    "northvan": "Last updated November 6, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated November 2, 2026 at 12pm|fraser:Last updated November 5, 2026 at 12pm|northvan:Last updated November 3, 2026 at 12pm|quebec:Last updated November 5, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated November 2, 2026 at 12pm|fraser:Last updated November 6, 2026 at 12pm|northvan:Last updated November 6, 2026 at 12pm|quebec:Last updated November 6, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,11 +15,10 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-11-04",
-    "observedAt": "2026-11-05T00:33:21.034Z",
+    "baselineDay": "2026-11-05",
+    "observedAt": "2026-11-06T03:29:46.473Z",
     "flavorNamesByFlavorId": {
       "apple-pie": "Apple Pie",
-      "butter-pecan": "Butter Pecan",
       "sticky-toffee-pudding": "Sticky Toffee Pudding",
       "vegan-apple-crisp": "Vegan Apple Crisp",
       "almond-croissant": "Almond Croissant",
@@ -47,9 +46,6 @@
     },
     "servingTypes": {
       "scoop": {
-        "butter-pecan": [
-          "quebec"
-        ],
         "sticky-toffee-pudding": [
           "fraser",
           "frances",
@@ -163,7 +159,6 @@
       },
       "pint": {
         "apple-pie": [
-          "fraser",
           "quebec",
           "frances",
           "northvan"
@@ -181,7 +176,6 @@
         ],
         "almond-croissant": [
           "fraser",
-          "quebec",
           "frances",
           "northvan"
         ],
@@ -306,33 +300,24 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-11-05",
-    "previousDay": "2026-11-04",
+    "currentDay": "2026-11-06",
+    "previousDay": "2026-11-05",
     "servingTypes": {
       "scoop": {
         "added": {},
-        "removed": {
-          "butter-pecan": {
-            "name": "Butter Pecan",
-            "storeIds": [
-              "quebec"
-            ]
-          }
-        }
+        "removed": {}
       },
       "pint": {
-        "added": {},
+        "added": {
+          "almond-croissant": [
+            "quebec"
+          ]
+        },
         "removed": {
           "apple-pie": {
             "name": "Apple Pie",
             "storeIds": [
-              "fraser"
-            ]
-          },
-          "almond-croissant": {
-            "name": "Almond Croissant",
-            "storeIds": [
-              "quebec"
+              "northvan"
             ]
           }
         }
