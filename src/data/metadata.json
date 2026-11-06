@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-11-05T00:33:21.034Z",
+  "lastUpdatedAt": "2026-11-06T00:34:52.611Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated November 2, 2026 at 12pm",
-    "quebec": "Last updated November 4, 2026 at 12pm",
+    "quebec": "Last updated November 5, 2026 at 12pm",
     "frances": "Last updated November 2, 2026 at 12pm",
     "northvan": "Last updated November 3, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated November 2, 2026 at 12pm|fraser:Last updated November 2, 2026 at 12pm|northvan:Last updated November 3, 2026 at 12pm|quebec:Last updated November 4, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated November 2, 2026 at 12pm|fraser:Last updated November 2, 2026 at 12pm|northvan:Last updated November 3, 2026 at 12pm|quebec:Last updated November 5, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,11 +15,11 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-11-03",
-    "observedAt": "2026-11-04T03:04:03.630Z",
+    "baselineDay": "2026-11-04",
+    "observedAt": "2026-11-05T00:33:21.034Z",
     "flavorNamesByFlavorId": {
       "apple-pie": "Apple Pie",
-      "oatmeal-brown-sugar": "Oatmeal Brown Sugar",
+      "butter-pecan": "Butter Pecan",
       "sticky-toffee-pudding": "Sticky Toffee Pudding",
       "vegan-apple-crisp": "Vegan Apple Crisp",
       "almond-croissant": "Almond Croissant",
@@ -47,7 +47,7 @@
     },
     "servingTypes": {
       "scoop": {
-        "oatmeal-brown-sugar": [
+        "butter-pecan": [
           "quebec"
         ],
         "sticky-toffee-pudding": [
@@ -306,23 +306,12 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-11-04",
-    "previousDay": "2026-11-03",
+    "currentDay": "2026-11-05",
+    "previousDay": "2026-11-04",
     "servingTypes": {
       "scoop": {
-        "added": {
-          "butter-pecan": [
-            "quebec"
-          ]
-        },
-        "removed": {
-          "oatmeal-brown-sugar": {
-            "name": "Oatmeal Brown Sugar",
-            "storeIds": [
-              "quebec"
-            ]
-          }
-        }
+        "added": {},
+        "removed": {}
       },
       "pint": {
         "added": {},
