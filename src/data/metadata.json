@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-11-06T00:34:52.611Z",
+  "lastUpdatedAt": "2026-11-06T03:29:46.473Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated November 2, 2026 at 12pm",
+    "fraser": "Last updated November 5, 2026 at 12pm",
     "quebec": "Last updated November 5, 2026 at 12pm",
     "frances": "Last updated November 2, 2026 at 12pm",
     "northvan": "Last updated November 3, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated November 2, 2026 at 12pm|fraser:Last updated November 2, 2026 at 12pm|northvan:Last updated November 3, 2026 at 12pm|quebec:Last updated November 5, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated November 2, 2026 at 12pm|fraser:Last updated November 5, 2026 at 12pm|northvan:Last updated November 3, 2026 at 12pm|quebec:Last updated November 5, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -311,11 +311,31 @@
     "servingTypes": {
       "scoop": {
         "added": {},
-        "removed": {}
+        "removed": {
+          "butter-pecan": {
+            "name": "Butter Pecan",
+            "storeIds": [
+              "quebec"
+            ]
+          }
+        }
       },
       "pint": {
         "added": {},
-        "removed": {}
+        "removed": {
+          "apple-pie": {
+            "name": "Apple Pie",
+            "storeIds": [
+              "fraser"
+            ]
+          },
+          "almond-croissant": {
+            "name": "Almond Croissant",
+            "storeIds": [
+              "quebec"
+            ]
+          }
+        }
       },
       "sandwich": {
         "added": {},
@@ -324,9 +344,9 @@
     }
   },
   "counts": {
-    "totalItems": 26,
-    "iceCreamFlavors": 21,
-    "scoopItems": 20,
+    "totalItems": 25,
+    "iceCreamFlavors": 20,
+    "scoopItems": 19,
     "pintItems": 20,
     "sandwichItems": 5,
     "sandwichOnlyItems": 5
