@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-11-07T23:08:01.203Z",
+  "lastUpdatedAt": "2026-11-09T02:48:03.052Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated November 7, 2026 at 12pm",
-    "quebec": "Last updated November 6, 2026 at 12pm",
+    "fraser": "Last updated November 8, 2026 at 12pm",
+    "quebec": "Last updated November 8, 2026 at 12pm",
     "frances": "Last updated November 2, 2026 at 12pm",
     "northvan": "Last updated November 6, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated November 2, 2026 at 12pm|fraser:Last updated November 7, 2026 at 12pm|northvan:Last updated November 6, 2026 at 12pm|quebec:Last updated November 6, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated November 2, 2026 at 12pm|fraser:Last updated November 8, 2026 at 12pm|northvan:Last updated November 6, 2026 at 12pm|quebec:Last updated November 8, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-11-06",
-    "observedAt": "2026-11-06T23:50:57.588Z",
+    "baselineDay": "2026-11-07",
+    "observedAt": "2026-11-07T23:08:01.203Z",
     "flavorNamesByFlavorId": {
       "apple-pie": "Apple Pie",
       "sticky-toffee-pudding": "Sticky Toffee Pudding",
@@ -300,8 +300,8 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-11-07",
-    "previousDay": "2026-11-06",
+    "currentDay": "2026-11-08",
+    "previousDay": "2026-11-07",
     "servingTypes": {
       "scoop": {
         "added": {},
@@ -309,7 +309,26 @@
       },
       "pint": {
         "added": {},
-        "removed": {}
+        "removed": {
+          "sticky-toffee-pudding": {
+            "name": "Sticky Toffee Pudding",
+            "storeIds": [
+              "quebec"
+            ]
+          },
+          "almond-croissant": {
+            "name": "Almond Croissant",
+            "storeIds": [
+              "quebec"
+            ]
+          },
+          "cardamom": {
+            "name": "Cardamom",
+            "storeIds": [
+              "quebec"
+            ]
+          }
+        }
       },
       "sandwich": {
         "added": {},
