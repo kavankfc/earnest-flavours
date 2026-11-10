@@ -22,6 +22,7 @@
     ],
     "pintStores": [
       "fraser",
+      "quebec",
       "frances",
       "northvan"
     ],
@@ -55,6 +56,7 @@
     ],
     "pintStores": [
       "fraser",
+      "quebec",
       "frances",
       "northvan"
     ],
@@ -72,8 +74,7 @@
       "northvan"
     ],
     "pintStores": [
-      "frances",
-      "northvan"
+      "frances"
     ],
     "sandwichStores": [],
     "description": "Our organic cardamom comes to us from our friends at the Gathering Place, a family run business on Cortes Island."
