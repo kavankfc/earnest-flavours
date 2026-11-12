@@ -5,11 +5,38 @@
     "isVegan": false,
     "scoopStores": [],
     "pintStores": [
-      "quebec",
-      "frances"
+      "quebec"
     ],
     "sandwichStores": [],
     "description": "Caramelized, oven roasted BC Honeycrisp apples in a warm spiced ice cream base, speckled with house-made buttery pie crust pieces. Your favourite fall desert in ice cream form."
+  },
+  {
+    "id": "cardamom",
+    "name": "Cardamom",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "northvan"
+    ],
+    "pintStores": [],
+    "sandwichStores": [],
+    "description": "Our organic cardamom comes to us from our friends at the Gathering Place, a family run business on Cortes Island."
+  },
+  {
+    "id": "pumpkin-pie",
+    "name": "Pumpkin Pie",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "quebec"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec"
+    ],
+    "sandwichStores": [],
+    "description": "Everything you love about pumpkin pie, frozen. Pumpkin is stewed low and slow with organic spices until deeply sweet and fragrant, then blended into our creamy dairy base. Flaky pie crust pieces add a satisfying crunch to each spoonful."
   },
   {
     "id": "sticky-toffee-pudding",
@@ -33,12 +60,9 @@
     "id": "vegan-apple-crisp",
     "name": "Vegan Apple Crisp",
     "isVegan": true,
-    "scoopStores": [
-      "northvan"
-    ],
+    "scoopStores": [],
     "pintStores": [
       "fraser",
-      "quebec",
       "northvan"
     ],
     "sandwichStores": [],
@@ -62,22 +86,6 @@
     ],
     "sandwichStores": [],
     "description": "Double baked buttery croissant pieces with toasted almonds are folded into a light almond ice cream base. The result is a flakey, nutty, buttery, sweet toasted treat!"
-  },
-  {
-    "id": "cardamom",
-    "name": "Cardamom",
-    "isVegan": false,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "frances"
-    ],
-    "sandwichStores": [],
-    "description": "Our organic cardamom comes to us from our friends at the Gathering Place, a family run business on Cortes Island."
   },
   {
     "id": "chocolate",
@@ -194,24 +202,6 @@
     "description": "The classic mint chocolate ice cream made with lots of house made dark chocolate chips! Like peppermint patty but better. No artificial food colouring is added so it’s white, not green. Fresh and minty, with the added crunch from the dark chocolate flakes."
   },
   {
-    "id": "pumpkin-pie",
-    "name": "Pumpkin Pie",
-    "isVegan": false,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "frances"
-    ],
-    "sandwichStores": [],
-    "description": "Everything you love about pumpkin pie, frozen. Pumpkin is stewed low and slow with organic spices until deeply sweet and fragrant, then blended into our creamy dairy base. Flaky pie crust pieces add a satisfying crunch to each spoonful."
-  },
-  {
     "id": "salted-caramel",
     "name": "Salted Caramel",
     "isVegan": false,
@@ -280,6 +270,7 @@
     ],
     "pintStores": [
       "fraser",
+      "quebec",
       "frances",
       "northvan"
     ],
