@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-11-12T01:42:03.422Z",
+  "lastUpdatedAt": "2026-11-13T00:44:46.361Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated November 11, 2026 at 12pm",
-    "quebec": "Last updated November 9, 2026 at 12pm",
+    "quebec": "Last updated November 12, 2026 at 12pm",
     "frances": "Last updated November 11, 2026 at 12pm",
     "northvan": "Last updated November 10, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated November 11, 2026 at 12pm|fraser:Last updated November 11, 2026 at 12pm|northvan:Last updated November 10, 2026 at 12pm|quebec:Last updated November 9, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated November 11, 2026 at 12pm|fraser:Last updated November 11, 2026 at 12pm|northvan:Last updated November 10, 2026 at 12pm|quebec:Last updated November 12, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,21 +15,21 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-11-10",
-    "observedAt": "2026-11-10T02:26:20.025Z",
+    "baselineDay": "2026-11-11",
+    "observedAt": "2026-11-12T01:42:03.422Z",
     "flavorNamesByFlavorId": {
       "apple-pie": "Apple Pie",
+      "cardamom": "Cardamom",
+      "pumpkin-pie": "Pumpkin Pie",
       "sticky-toffee-pudding": "Sticky Toffee Pudding",
       "vegan-apple-crisp": "Vegan Apple Crisp",
       "almond-croissant": "Almond Croissant",
-      "cardamom": "Cardamom",
       "chocolate": "Chocolate",
       "chocolate-orange-stracciatella": "Chocolate Orange Stracciatella",
       "cookies-cream": "Cookies + Cream",
       "london-fog": "London Fog",
       "matcha-green-tea": "Matcha Green Tea",
       "mint-chip": "Mint Chip",
-      "pumpkin-pie": "Pumpkin Pie",
       "salted-caramel": "Salted Caramel",
       "strawberry": "Strawberry",
       "tahitian-vanilla": "Tahitian Vanilla",
@@ -46,21 +46,21 @@
     },
     "servingTypes": {
       "scoop": {
+        "cardamom": [
+          "fraser",
+          "quebec",
+          "northvan"
+        ],
+        "pumpkin-pie": [
+          "fraser",
+          "quebec"
+        ],
         "sticky-toffee-pudding": [
           "fraser",
           "frances",
           "northvan"
         ],
-        "vegan-apple-crisp": [
-          "northvan"
-        ],
         "almond-croissant": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
-        "cardamom": [
           "fraser",
           "quebec",
           "frances",
@@ -97,12 +97,6 @@
           "northvan"
         ],
         "mint-chip": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
-        "pumpkin-pie": [
           "fraser",
           "quebec",
           "frances",
@@ -159,8 +153,11 @@
       },
       "pint": {
         "apple-pie": [
-          "quebec",
-          "frances"
+          "quebec"
+        ],
+        "pumpkin-pie": [
+          "fraser",
+          "quebec"
         ],
         "sticky-toffee-pudding": [
           "fraser",
@@ -170,7 +167,6 @@
         ],
         "vegan-apple-crisp": [
           "fraser",
-          "quebec",
           "northvan"
         ],
         "almond-croissant": [
@@ -178,9 +174,6 @@
           "quebec",
           "frances",
           "northvan"
-        ],
-        "cardamom": [
-          "frances"
         ],
         "chocolate": [
           "fraser",
@@ -218,11 +211,6 @@
           "frances",
           "northvan"
         ],
-        "pumpkin-pie": [
-          "fraser",
-          "quebec",
-          "frances"
-        ],
         "salted-caramel": [
           "fraser",
           "quebec",
@@ -243,6 +231,7 @@
         ],
         "vegan-cookie-butter": [
           "fraser",
+          "quebec",
           "frances",
           "northvan"
         ],
@@ -298,62 +287,20 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-11-11",
-    "previousDay": "2026-11-10",
+    "currentDay": "2026-11-12",
+    "previousDay": "2026-11-11",
     "servingTypes": {
       "scoop": {
         "added": {},
-        "removed": {
-          "cardamom": {
-            "name": "Cardamom",
-            "storeIds": [
-              "frances"
-            ]
-          },
-          "pumpkin-pie": {
-            "name": "Pumpkin Pie",
-            "storeIds": [
-              "frances",
-              "northvan"
-            ]
-          },
-          "vegan-apple-crisp": {
-            "name": "Vegan Apple Crisp",
-            "storeIds": [
-              "northvan"
-            ]
-          }
-        }
+        "removed": {}
       },
       "pint": {
-        "added": {
-          "vegan-cookie-butter": [
-            "quebec"
-          ]
-        },
+        "added": {},
         "removed": {
-          "apple-pie": {
-            "name": "Apple Pie",
-            "storeIds": [
-              "frances"
-            ]
-          },
-          "pumpkin-pie": {
-            "name": "Pumpkin Pie",
-            "storeIds": [
-              "frances"
-            ]
-          },
-          "vegan-apple-crisp": {
-            "name": "Vegan Apple Crisp",
+          "sticky-toffee-pudding": {
+            "name": "Sticky Toffee Pudding",
             "storeIds": [
               "quebec"
-            ]
-          },
-          "cardamom": {
-            "name": "Cardamom",
-            "storeIds": [
-              "frances"
             ]
           }
         }
