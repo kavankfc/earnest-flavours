@@ -39,23 +39,6 @@
     "description": "Everything you love about pumpkin pie, frozen. Pumpkin is stewed low and slow with organic spices until deeply sweet and fragrant, then blended into our creamy dairy base. Flaky pie crust pieces add a satisfying crunch to each spoonful."
   },
   {
-    "id": "sticky-toffee-pudding",
-    "name": "Sticky Toffee Pudding",
-    "isVegan": false,
-    "scoopStores": [
-      "fraser",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "Just like the quintessential British dessert! Bites of moist date cake are swirled with ribbons of rich toffee sauce into a warmly spiced ice cream. The result is a decadent flavour full of lovely cake texture and a delectable balance of sweet and spice."
-  },
-  {
     "id": "vegan-apple-crisp",
     "name": "Vegan Apple Crisp",
     "isVegan": true,
@@ -116,6 +99,7 @@
       "northvan"
     ],
     "pintStores": [
+      "fraser",
       "quebec",
       "frances",
       "northvan"
@@ -219,6 +203,24 @@
     "description": "A classic for good reason. We’ve been making this one since day one and it remains a favourite still. Deeply caramelized sugar mixed with cream and salt from Vancouver Island Sea Salt Co. Its rich, creamly and buttery and the perfect balance of salty and sweet."
   },
   {
+    "id": "sticky-toffee-pudding",
+    "name": "Sticky Toffee Pudding",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Just like the quintessential British dessert! Bites of moist date cake are swirled with ribbons of rich toffee sauce into a warmly spiced ice cream. The result is a decadent flavour full of lovely cake texture and a delectable balance of sweet and spice."
+  },
+  {
     "id": "strawberry",
     "name": "Strawberry",
     "isVegan": false,
@@ -267,6 +269,7 @@
       "northvan"
     ],
     "pintStores": [
+      "fraser",
       "quebec",
       "frances",
       "northvan"
@@ -323,6 +326,7 @@
       "northvan"
     ],
     "pintStores": [
+      "fraser",
       "quebec",
       "frances",
       "northvan"

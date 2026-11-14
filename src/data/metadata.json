@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-11-13T03:28:38.003Z",
+  "lastUpdatedAt": "2026-11-14T00:30:10.348Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated November 12, 2026 at 12pm",
-    "quebec": "Last updated November 12, 2026 at 12pm",
+    "fraser": "Last updated November 13, 2026 at 12pm",
+    "quebec": "Last updated November 13, 2026 at 12pm",
     "frances": "Last updated November 11, 2026 at 12pm",
     "northvan": "Last updated November 10, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated November 11, 2026 at 12pm|fraser:Last updated November 12, 2026 at 12pm|northvan:Last updated November 10, 2026 at 12pm|quebec:Last updated November 12, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated November 11, 2026 at 12pm|fraser:Last updated November 13, 2026 at 12pm|northvan:Last updated November 10, 2026 at 12pm|quebec:Last updated November 13, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-11-11",
-    "observedAt": "2026-11-12T01:42:03.422Z",
+    "baselineDay": "2026-11-12",
+    "observedAt": "2026-11-13T03:28:38.003Z",
     "flavorNamesByFlavorId": {
       "apple-pie": "Apple Pie",
       "cardamom": "Cardamom",
@@ -161,7 +161,6 @@
         ],
         "sticky-toffee-pudding": [
           "fraser",
-          "quebec",
           "frances",
           "northvan"
         ],
@@ -182,7 +181,6 @@
           "northvan"
         ],
         "chocolate-orange-stracciatella": [
-          "fraser",
           "quebec",
           "frances",
           "northvan"
@@ -230,7 +228,6 @@
           "northvan"
         ],
         "vegan-cookie-butter": [
-          "fraser",
           "quebec",
           "frances",
           "northvan"
@@ -248,7 +245,6 @@
           "northvan"
         ],
         "vegan-turtles": [
-          "fraser",
           "quebec",
           "frances",
           "northvan"
@@ -287,41 +283,30 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-11-12",
-    "previousDay": "2026-11-11",
+    "currentDay": "2026-11-13",
+    "previousDay": "2026-11-12",
     "servingTypes": {
       "scoop": {
-        "added": {},
+        "added": {
+          "sticky-toffee-pudding": [
+            "quebec"
+          ]
+        },
         "removed": {}
       },
       "pint": {
-        "added": {},
-        "removed": {
-          "sticky-toffee-pudding": {
-            "name": "Sticky Toffee Pudding",
-            "storeIds": [
-              "quebec"
-            ]
-          },
-          "chocolate-orange-stracciatella": {
-            "name": "Chocolate Orange Stracciatella",
-            "storeIds": [
-              "fraser"
-            ]
-          },
-          "vegan-cookie-butter": {
-            "name": "Vegan Cookie Butter",
-            "storeIds": [
-              "fraser"
-            ]
-          },
-          "vegan-turtles": {
-            "name": "Vegan Turtles",
-            "storeIds": [
-              "fraser"
-            ]
-          }
-        }
+        "added": {
+          "chocolate-orange-stracciatella": [
+            "fraser"
+          ],
+          "vegan-cookie-butter": [
+            "fraser"
+          ],
+          "vegan-turtles": [
+            "fraser"
+          ]
+        },
+        "removed": {}
       },
       "sandwich": {
         "added": {},
