@@ -38,17 +38,6 @@
     "description": "Just like the quintessential British dessert! Bites of moist date cake are swirled with ribbons of rich toffee sauce into a warmly spiced ice cream. The result is a decadent flavour full of lovely cake texture and a delectable balance of sweet and spice."
   },
   {
-    "id": "vegan-apple-crisp",
-    "name": "Vegan Apple Crisp",
-    "isVegan": true,
-    "scoopStores": [],
-    "pintStores": [
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "BC Honeycrisp apples roasted with brown sugar and whiskey for a lovely caramelized flavour. Swirled into a lightly spiced oat-coconut base, along with generous handfuls of oat crisp crumble. Like a warm apple crisp a la mode!"
-  },
-  {
     "id": "almond-croissant",
     "name": "Almond Croissant",
     "isVegan": false,
@@ -97,6 +86,7 @@
       "northvan"
     ],
     "pintStores": [
+      "fraser",
       "quebec",
       "frances",
       "northvan"

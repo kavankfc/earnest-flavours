@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-11-21T00:58:51.118Z",
+  "lastUpdatedAt": "2026-11-21T23:58:54.642Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated November 20, 2026 at 12pm",
+    "fraser": "Last updated November 21, 2026 at 12pm",
     "quebec": "Last updated November 20, 2026 at 12pm",
     "frances": "Last updated November 20, 2026 at 12pm",
-    "northvan": "Last updated November 20, 2026 at 12pm"
+    "northvan": "Last updated November 21, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated November 20, 2026 at 12pm|fraser:Last updated November 20, 2026 at 12pm|northvan:Last updated November 20, 2026 at 12pm|quebec:Last updated November 20, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated November 20, 2026 at 12pm|fraser:Last updated November 21, 2026 at 12pm|northvan:Last updated November 21, 2026 at 12pm|quebec:Last updated November 20, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,15 +15,13 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-11-19",
-    "observedAt": "2026-11-20T01:28:37.192Z",
+    "baselineDay": "2026-11-20",
+    "observedAt": "2026-11-21T00:58:51.118Z",
     "flavorNamesByFlavorId": {
       "cardamom": "Cardamom",
       "pumpkin-pie": "Pumpkin Pie",
+      "sticky-toffee-pudding": "Sticky Toffee Pudding",
       "vegan-apple-crisp": "Vegan Apple Crisp",
-      "vegan-cookie-butter": "Vegan Cookie Butter",
-      "vegan-cookies-cream": "Vegan Cookies + Cream",
-      "vegan-turtles": "Vegan Turtles",
       "almond-croissant": "Almond Croissant",
       "chocolate": "Chocolate",
       "chocolate-orange-stracciatella": "Chocolate Orange Stracciatella",
@@ -34,7 +32,10 @@
       "salted-caramel": "Salted Caramel",
       "strawberry": "Strawberry",
       "tahitian-vanilla": "Tahitian Vanilla",
+      "vegan-cookie-butter": "Vegan Cookie Butter",
+      "vegan-cookies-cream": "Vegan Cookies + Cream",
       "vegan-raspberry": "Vegan Raspberry",
+      "vegan-turtles": "Vegan Turtles",
       "whiskey-hazelnut": "Whiskey Hazelnut",
       "baklava-sammie": "Baklava Sammie",
       "chocolate-amaretto-sammie": "Chocolate Amaretto Sammie",
@@ -52,21 +53,6 @@
         "pumpkin-pie": [
           "fraser"
         ],
-        "vegan-cookie-butter": [
-          "fraser",
-          "frances",
-          "northvan"
-        ],
-        "vegan-cookies-cream": [
-          "fraser",
-          "frances",
-          "northvan"
-        ],
-        "vegan-turtles": [
-          "fraser",
-          "frances",
-          "northvan"
-        ],
         "almond-croissant": [
           "fraser",
           "quebec",
@@ -127,7 +113,25 @@
           "frances",
           "northvan"
         ],
+        "vegan-cookie-butter": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
+        "vegan-cookies-cream": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
         "vegan-raspberry": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
+        "vegan-turtles": [
           "fraser",
           "quebec",
           "frances",
@@ -141,27 +145,13 @@
         ]
       },
       "pint": {
-        "pumpkin-pie": [
-          "quebec"
+        "sticky-toffee-pudding": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
         ],
         "vegan-apple-crisp": [
-          "northvan"
-        ],
-        "vegan-cookie-butter": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
-        "vegan-cookies-cream": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
-        "vegan-turtles": [
-          "fraser",
-          "quebec",
           "northvan"
         ],
         "almond-croissant": [
@@ -177,7 +167,6 @@
           "northvan"
         ],
         "chocolate-orange-stracciatella": [
-          "fraser",
           "quebec",
           "frances",
           "northvan"
@@ -224,10 +213,27 @@
           "frances",
           "northvan"
         ],
+        "vegan-cookie-butter": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
+        "vegan-cookies-cream": [
+          "fraser",
+          "quebec",
+          "frances",
+          "northvan"
+        ],
         "vegan-raspberry": [
           "fraser",
           "quebec",
           "frances",
+          "northvan"
+        ],
+        "vegan-turtles": [
+          "fraser",
+          "quebec",
           "northvan"
         ],
         "whiskey-hazelnut": [
@@ -266,43 +272,24 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-11-20",
-    "previousDay": "2026-11-19",
+    "currentDay": "2026-11-21",
+    "previousDay": "2026-11-20",
     "servingTypes": {
       "scoop": {
-        "added": {
-          "vegan-cookie-butter": [
-            "quebec"
-          ],
-          "vegan-cookies-cream": [
-            "quebec"
-          ],
-          "vegan-turtles": [
-            "quebec"
-          ]
-        },
+        "added": {},
         "removed": {}
       },
       "pint": {
         "added": {
-          "sticky-toffee-pudding": [
-            "fraser",
-            "quebec",
-            "frances",
-            "northvan"
+          "chocolate-orange-stracciatella": [
+            "fraser"
           ]
         },
         "removed": {
-          "chocolate-orange-stracciatella": {
-            "name": "Chocolate Orange Stracciatella",
+          "vegan-apple-crisp": {
+            "name": "Vegan Apple Crisp",
             "storeIds": [
-              "fraser"
-            ]
-          },
-          "pumpkin-pie": {
-            "name": "Pumpkin Pie",
-            "storeIds": [
-              "quebec"
+              "northvan"
             ]
           }
         }
@@ -314,10 +301,10 @@
     }
   },
   "counts": {
-    "totalItems": 24,
-    "iceCreamFlavors": 19,
+    "totalItems": 23,
+    "iceCreamFlavors": 18,
     "scoopItems": 17,
-    "pintItems": 17,
+    "pintItems": 16,
     "sandwichItems": 5,
     "sandwichOnlyItems": 5
   }
