@@ -19,11 +19,23 @@
     "scoopStores": [
       "fraser"
     ],
-    "pintStores": [
-      "quebec"
-    ],
+    "pintStores": [],
     "sandwichStores": [],
     "description": "Everything you love about pumpkin pie, frozen. Pumpkin is stewed low and slow with organic spices until deeply sweet and fragrant, then blended into our creamy dairy base. Flaky pie crust pieces add a satisfying crunch to each spoonful."
+  },
+  {
+    "id": "sticky-toffee-pudding",
+    "name": "Sticky Toffee Pudding",
+    "isVegan": false,
+    "scoopStores": [],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Just like the quintessential British dessert! Bites of moist date cake are swirled with ribbons of rich toffee sauce into a warmly spiced ice cream. The result is a decadent flavour full of lovely cake texture and a delectable balance of sweet and spice."
   },
   {
     "id": "vegan-apple-crisp",
@@ -35,59 +47,6 @@
     ],
     "sandwichStores": [],
     "description": "BC Honeycrisp apples roasted with brown sugar and whiskey for a lovely caramelized flavour. Swirled into a lightly spiced oat-coconut base, along with generous handfuls of oat crisp crumble. Like a warm apple crisp a la mode!"
-  },
-  {
-    "id": "vegan-cookie-butter",
-    "name": "Vegan Cookie Butter",
-    "isVegan": true,
-    "scoopStores": [
-      "fraser",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "House-made speculoos cookies are combined in a variety of ways into this delectable ice cream! Rich cookie butter sauce is swirled throughout a light cookie base, alongside a sprinkle of crisp cookie crumble."
-  },
-  {
-    "id": "vegan-cookies-cream",
-    "name": "Vegan Cookies + Cream",
-    "isVegan": true,
-    "scoopStores": [
-      "fraser",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "A vegan twist on a childhood favourite that is brimming with chunks of cookies in a creamy vanilla base. Fun fact, we make this flavour with the exact same organic chocolate sandwich cookies we use in our dairy cookies and cream!"
-  },
-  {
-    "id": "vegan-turtles",
-    "name": "Vegan Turtles",
-    "isVegan": true,
-    "scoopStores": [
-      "fraser",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "Our take on the classic confection, an array of textures and sweet-salty flavours result in a wonderfully complex yet nostalgic ice cream. A lightly nutty pecan praline ice cream is speckled with thin chocolate flakes, salty roasted pecans, and sweet pockets of oozy caramel."
   },
   {
     "id": "almond-croissant",
@@ -138,7 +97,6 @@
       "northvan"
     ],
     "pintStores": [
-      "fraser",
       "quebec",
       "frances",
       "northvan"
@@ -280,6 +238,44 @@
     "description": "This flavour has been a core since day one. Our pure vanilla extract is sourced from premium slow-grown, sun-cured vanilla beans of the “Tahitian” variety. The flavour from the beans is cold-extracted to preserve its complex bouquet. These vanilla beans are brighter and more floral than the rounder, woodsier Madagascar variety."
   },
   {
+    "id": "vegan-cookie-butter",
+    "name": "Vegan Cookie Butter",
+    "isVegan": true,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "House-made speculoos cookies are combined in a variety of ways into this delectable ice cream! Rich cookie butter sauce is swirled throughout a light cookie base, alongside a sprinkle of crisp cookie crumble."
+  },
+  {
+    "id": "vegan-cookies-cream",
+    "name": "Vegan Cookies + Cream",
+    "isVegan": true,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "A vegan twist on a childhood favourite that is brimming with chunks of cookies in a creamy vanilla base. Fun fact, we make this flavour with the exact same organic chocolate sandwich cookies we use in our dairy cookies and cream!"
+  },
+  {
     "id": "vegan-raspberry",
     "name": "Vegan Raspberry",
     "isVegan": true,
@@ -297,6 +293,24 @@
     ],
     "sandwichStores": [],
     "description": "One of our original vegan flavours. Local raspberries from Mandair Farms pureed and blended into our signature vegan coconut base – it’s bright, tart, refreshing and looks as good as it tastes."
+  },
+  {
+    "id": "vegan-turtles",
+    "name": "Vegan Turtles",
+    "isVegan": true,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Our take on the classic confection, an array of textures and sweet-salty flavours result in a wonderfully complex yet nostalgic ice cream. A lightly nutty pecan praline ice cream is speckled with thin chocolate flakes, salty roasted pecans, and sweet pockets of oozy caramel."
   },
   {
     "id": "whiskey-hazelnut",
