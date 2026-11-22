@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-11-21T23:58:54.642Z",
+  "lastUpdatedAt": "2026-11-22T03:19:04.590Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated November 21, 2026 at 12pm",
-    "quebec": "Last updated November 20, 2026 at 12pm",
-    "frances": "Last updated November 20, 2026 at 12pm",
+    "quebec": "Last updated November 21, 2026 at 12pm",
+    "frances": "Last updated November 21, 2026 at 12pm",
     "northvan": "Last updated November 21, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated November 20, 2026 at 12pm|fraser:Last updated November 21, 2026 at 12pm|northvan:Last updated November 21, 2026 at 12pm|quebec:Last updated November 20, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated November 21, 2026 at 12pm|fraser:Last updated November 21, 2026 at 12pm|northvan:Last updated November 21, 2026 at 12pm|quebec:Last updated November 21, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -286,6 +286,18 @@
           ]
         },
         "removed": {
+          "sticky-toffee-pudding": {
+            "name": "Sticky Toffee Pudding",
+            "storeIds": [
+              "quebec"
+            ]
+          },
+          "almond-croissant": {
+            "name": "Almond Croissant",
+            "storeIds": [
+              "frances"
+            ]
+          },
           "vegan-apple-crisp": {
             "name": "Vegan Apple Crisp",
             "storeIds": [
