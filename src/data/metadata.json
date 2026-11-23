@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-11-22T03:19:04.590Z",
+  "lastUpdatedAt": "2026-11-23T00:30:52.703Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated November 21, 2026 at 12pm",
-    "quebec": "Last updated November 21, 2026 at 12pm",
+    "fraser": "Last updated November 22, 2026 at 12pm",
+    "quebec": "Last updated November 22, 2026 at 12pm",
     "frances": "Last updated November 21, 2026 at 12pm",
     "northvan": "Last updated November 21, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated November 21, 2026 at 12pm|fraser:Last updated November 21, 2026 at 12pm|northvan:Last updated November 21, 2026 at 12pm|quebec:Last updated November 21, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated November 21, 2026 at 12pm|fraser:Last updated November 22, 2026 at 12pm|northvan:Last updated November 21, 2026 at 12pm|quebec:Last updated November 22, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,13 +15,12 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-11-20",
-    "observedAt": "2026-11-21T00:58:51.118Z",
+    "baselineDay": "2026-11-21",
+    "observedAt": "2026-11-22T03:19:04.590Z",
     "flavorNamesByFlavorId": {
       "cardamom": "Cardamom",
       "pumpkin-pie": "Pumpkin Pie",
       "sticky-toffee-pudding": "Sticky Toffee Pudding",
-      "vegan-apple-crisp": "Vegan Apple Crisp",
       "almond-croissant": "Almond Croissant",
       "chocolate": "Chocolate",
       "chocolate-orange-stracciatella": "Chocolate Orange Stracciatella",
@@ -147,17 +146,12 @@
       "pint": {
         "sticky-toffee-pudding": [
           "fraser",
-          "quebec",
           "frances",
-          "northvan"
-        ],
-        "vegan-apple-crisp": [
           "northvan"
         ],
         "almond-croissant": [
           "fraser",
           "quebec",
-          "frances",
           "northvan"
         ],
         "chocolate": [
@@ -167,6 +161,7 @@
           "northvan"
         ],
         "chocolate-orange-stracciatella": [
+          "fraser",
           "quebec",
           "frances",
           "northvan"
@@ -272,36 +267,26 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-11-21",
-    "previousDay": "2026-11-20",
+    "currentDay": "2026-11-22",
+    "previousDay": "2026-11-21",
     "servingTypes": {
       "scoop": {
         "added": {},
         "removed": {}
       },
       "pint": {
-        "added": {
-          "chocolate-orange-stracciatella": [
-            "fraser"
-          ]
-        },
+        "added": {},
         "removed": {
           "sticky-toffee-pudding": {
             "name": "Sticky Toffee Pudding",
             "storeIds": [
-              "quebec"
+              "fraser"
             ]
           },
           "almond-croissant": {
             "name": "Almond Croissant",
             "storeIds": [
-              "frances"
-            ]
-          },
-          "vegan-apple-crisp": {
-            "name": "Vegan Apple Crisp",
-            "storeIds": [
-              "northvan"
+              "fraser"
             ]
           }
         }
