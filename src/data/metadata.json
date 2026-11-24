@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-11-23T00:30:52.703Z",
+  "lastUpdatedAt": "2026-11-24T04:27:50.524Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated November 22, 2026 at 12pm",
-    "quebec": "Last updated November 22, 2026 at 12pm",
-    "frances": "Last updated November 21, 2026 at 12pm",
-    "northvan": "Last updated November 21, 2026 at 12pm"
+    "fraser": "Last updated November 23, 2026 at 12pm",
+    "quebec": "Last updated November 23, 2026 at 12pm",
+    "frances": "Last updated November 23, 2026 at 12pm",
+    "northvan": "Last updated November 23, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated November 21, 2026 at 12pm|fraser:Last updated November 22, 2026 at 12pm|northvan:Last updated November 21, 2026 at 12pm|quebec:Last updated November 22, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated November 23, 2026 at 12pm|fraser:Last updated November 23, 2026 at 12pm|northvan:Last updated November 23, 2026 at 12pm|quebec:Last updated November 23, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,8 +15,8 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-11-21",
-    "observedAt": "2026-11-22T03:19:04.590Z",
+    "baselineDay": "2026-11-22",
+    "observedAt": "2026-11-23T00:30:52.703Z",
     "flavorNamesByFlavorId": {
       "cardamom": "Cardamom",
       "pumpkin-pie": "Pumpkin Pie",
@@ -145,12 +145,10 @@
       },
       "pint": {
         "sticky-toffee-pudding": [
-          "fraser",
           "frances",
           "northvan"
         ],
         "almond-croissant": [
-          "fraser",
           "quebec",
           "northvan"
         ],
@@ -267,26 +265,40 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-11-22",
-    "previousDay": "2026-11-21",
+    "currentDay": "2026-11-23",
+    "previousDay": "2026-11-22",
     "servingTypes": {
       "scoop": {
         "added": {},
         "removed": {}
       },
       "pint": {
-        "added": {},
+        "added": {
+          "butter-pecan": [
+            "frances"
+          ],
+          "cardamom": [
+            "frances"
+          ]
+        },
         "removed": {
-          "sticky-toffee-pudding": {
-            "name": "Sticky Toffee Pudding",
+          "almond-croissant": {
+            "name": "Almond Croissant",
+            "storeIds": [
+              "quebec"
+            ]
+          },
+          "cookies-cream": {
+            "name": "Cookies + Cream",
             "storeIds": [
               "fraser"
             ]
           },
-          "almond-croissant": {
-            "name": "Almond Croissant",
+          "sticky-toffee-pudding": {
+            "name": "Sticky Toffee Pudding",
             "storeIds": [
-              "fraser"
+              "frances",
+              "northvan"
             ]
           }
         }
@@ -301,7 +313,7 @@
     "totalItems": 23,
     "iceCreamFlavors": 18,
     "scoopItems": 17,
-    "pintItems": 16,
+    "pintItems": 17,
     "sandwichItems": 5,
     "sandwichOnlyItems": 5
   }

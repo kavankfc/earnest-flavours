@@ -1,5 +1,16 @@
 [
   {
+    "id": "butter-pecan",
+    "name": "Butter Pecan",
+    "isVegan": false,
+    "scoopStores": [],
+    "pintStores": [
+      "frances"
+    ],
+    "sandwichStores": [],
+    "description": "Whiskey Hazelnut’s cousin! Pecan pieces are roasted with butter and salt, and added to our ice cream base with organic vanilla. Comfort in a scoop!"
+  },
+  {
     "id": "cardamom",
     "name": "Cardamom",
     "isVegan": false,
@@ -8,7 +19,9 @@
       "quebec",
       "northvan"
     ],
-    "pintStores": [],
+    "pintStores": [
+      "frances"
+    ],
     "sandwichStores": [],
     "description": "Our organic cardamom comes to us from our friends at the Gathering Place, a family run business on Cortes Island."
   },
@@ -24,18 +37,6 @@
     "description": "Everything you love about pumpkin pie, frozen. Pumpkin is stewed low and slow with organic spices until deeply sweet and fragrant, then blended into our creamy dairy base. Flaky pie crust pieces add a satisfying crunch to each spoonful."
   },
   {
-    "id": "sticky-toffee-pudding",
-    "name": "Sticky Toffee Pudding",
-    "isVegan": false,
-    "scoopStores": [],
-    "pintStores": [
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "Just like the quintessential British dessert! Bites of moist date cake are swirled with ribbons of rich toffee sauce into a warmly spiced ice cream. The result is a decadent flavour full of lovely cake texture and a delectable balance of sweet and spice."
-  },
-  {
     "id": "almond-croissant",
     "name": "Almond Croissant",
     "isVegan": false,
@@ -46,7 +47,6 @@
       "northvan"
     ],
     "pintStores": [
-      "quebec",
       "northvan"
     ],
     "sandwichStores": [],
@@ -101,7 +101,6 @@
       "northvan"
     ],
     "pintStores": [
-      "fraser",
       "quebec",
       "frances",
       "northvan"
