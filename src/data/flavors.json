@@ -5,12 +5,28 @@
     "isVegan": false,
     "scoopStores": [
       "fraser",
-      "quebec",
       "northvan"
     ],
     "pintStores": [],
     "sandwichStores": [],
     "description": "Our organic cardamom comes to us from our friends at the Gathering Place, a family run business on Cortes Island."
+  },
+  {
+    "id": "chocolate-orange-stracciatella",
+    "name": "Chocolate Orange Stracciatella",
+    "isVegan": false,
+    "scoopStores": [
+      "quebec",
+      "frances"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Inspired by Terry’s classic holiday treat. Fine flakes of dark chocolate (stracciatella) in a chocolate orange ice cream create a sensational mouth feel with a classic holiday pairing."
   },
   {
     "id": "pumpkin-pie",
@@ -24,19 +40,17 @@
     "description": "Everything you love about pumpkin pie, frozen. Pumpkin is stewed low and slow with organic spices until deeply sweet and fragrant, then blended into our creamy dairy base. Flaky pie crust pieces add a satisfying crunch to each spoonful."
   },
   {
-    "id": "sticky-toffee-pudding",
-    "name": "Sticky Toffee Pudding",
+    "id": "rum-egg-nog",
+    "name": "Rum + Egg Nog",
     "isVegan": false,
     "scoopStores": [
-      "fraser"
+      "northvan"
     ],
     "pintStores": [
-      "fraser",
-      "quebec",
-      "frances"
+      "northvan"
     ],
     "sandwichStores": [],
-    "description": "Just like the quintessential British dessert! Bites of moist date cake are swirled with ribbons of rich toffee sauce into a warmly spiced ice cream. The result is a decadent flavour full of lovely cake texture and a delectable balance of sweet and spice."
+    "description": "We’ve transformed this comforting holiday drink into a luscious ice cream perfect for the winter months. Spiced with organic nutmeg and vanilla, and finished with a generous splash of dark rum."
   },
   {
     "id": "almond-croissant",
@@ -49,6 +63,8 @@
       "northvan"
     ],
     "pintStores": [
+      "fraser",
+      "quebec",
       "frances",
       "northvan"
     ],
@@ -73,25 +89,6 @@
     ],
     "sandwichStores": [],
     "description": "Smooth, creamy, and oh-so-chocolatey! This ice cream is a lovely balance between our Milk Chocolate and Serious Chocolate flavours, and is sure to satisfy any chocolate-lover."
-  },
-  {
-    "id": "chocolate-orange-stracciatella",
-    "name": "Chocolate Orange Stracciatella",
-    "isVegan": false,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "Inspired by Terry’s classic holiday treat. Fine flakes of dark chocolate (stracciatella) in a chocolate orange ice cream create a sensational mouth feel with a classic holiday pairing."
   },
   {
     "id": "cookies-cream",
@@ -186,6 +183,25 @@
     ],
     "sandwichStores": [],
     "description": "A classic for good reason. We’ve been making this one since day one and it remains a favourite still. Deeply caramelized sugar mixed with cream and salt from Vancouver Island Sea Salt Co. Its rich, creamly and buttery and the perfect balance of salty and sweet."
+  },
+  {
+    "id": "sticky-toffee-pudding",
+    "name": "Sticky Toffee Pudding",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "frances",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "Just like the quintessential British dessert! Bites of moist date cake are swirled with ribbons of rich toffee sauce into a warmly spiced ice cream. The result is a decadent flavour full of lovely cake texture and a delectable balance of sweet and spice."
   },
   {
     "id": "strawberry",

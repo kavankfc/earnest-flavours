@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-11-25T03:12:28.456Z",
+  "lastUpdatedAt": "2026-11-26T02:30:12.720Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated November 24, 2026 at 12pm",
-    "quebec": "Last updated November 24, 2026 at 12pm",
+    "fraser": "Last updated November 25, 2026 at 12pm",
+    "quebec": "Last updated November 25, 2026 at 12pm",
     "frances": "Last updated November 24, 2026 at 12pm",
-    "northvan": "Last updated November 23, 2026 at 12pm"
+    "northvan": "Last updated November 25, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated November 24, 2026 at 12pm|fraser:Last updated November 24, 2026 at 12pm|northvan:Last updated November 23, 2026 at 12pm|quebec:Last updated November 24, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated November 24, 2026 at 12pm|fraser:Last updated November 25, 2026 at 12pm|northvan:Last updated November 25, 2026 at 12pm|quebec:Last updated November 25, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,12 +15,12 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-11-23",
-    "observedAt": "2026-11-24T04:27:50.524Z",
+    "baselineDay": "2026-11-24",
+    "observedAt": "2026-11-25T03:12:28.456Z",
     "flavorNamesByFlavorId": {
-      "butter-pecan": "Butter Pecan",
       "cardamom": "Cardamom",
       "pumpkin-pie": "Pumpkin Pie",
+      "sticky-toffee-pudding": "Sticky Toffee Pudding",
       "almond-croissant": "Almond Croissant",
       "chocolate": "Chocolate",
       "chocolate-orange-stracciatella": "Chocolate Orange Stracciatella",
@@ -50,6 +50,9 @@
           "northvan"
         ],
         "pumpkin-pie": [
+          "fraser"
+        ],
+        "sticky-toffee-pudding": [
           "fraser"
         ],
         "almond-croissant": [
@@ -144,13 +147,13 @@
         ]
       },
       "pint": {
-        "butter-pecan": [
-          "frances"
-        ],
-        "cardamom": [
+        "sticky-toffee-pudding": [
+          "fraser",
+          "quebec",
           "frances"
         ],
         "almond-croissant": [
+          "frances",
           "northvan"
         ],
         "chocolate": [
@@ -265,42 +268,50 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-11-24",
-    "previousDay": "2026-11-23",
+    "currentDay": "2026-11-25",
+    "previousDay": "2026-11-24",
     "servingTypes": {
       "scoop": {
         "added": {
-          "sticky-toffee-pudding": [
-            "fraser"
-          ]
-        },
-        "removed": {}
-      },
-      "pint": {
-        "added": {
-          "sticky-toffee-pudding": [
-            "fraser",
-            "quebec",
-            "frances"
+          "rum-egg-nog": [
+            "northvan"
           ],
-          "almond-croissant": [
-            "frances"
+          "sticky-toffee-pudding": [
+            "quebec",
+            "frances",
+            "northvan"
           ]
         },
         "removed": {
-          "butter-pecan": {
-            "name": "Butter Pecan",
-            "storeIds": [
-              "frances"
-            ]
-          },
           "cardamom": {
             "name": "Cardamom",
             "storeIds": [
-              "frances"
+              "quebec"
+            ]
+          },
+          "chocolate-orange-stracciatella": {
+            "name": "Chocolate Orange Stracciatella",
+            "storeIds": [
+              "fraser",
+              "northvan"
             ]
           }
         }
+      },
+      "pint": {
+        "added": {
+          "rum-egg-nog": [
+            "northvan"
+          ],
+          "almond-croissant": [
+            "fraser",
+            "quebec"
+          ],
+          "sticky-toffee-pudding": [
+            "northvan"
+          ]
+        },
+        "removed": {}
       },
       "sandwich": {
         "added": {},
@@ -309,10 +320,10 @@
     }
   },
   "counts": {
-    "totalItems": 23,
-    "iceCreamFlavors": 18,
-    "scoopItems": 18,
-    "pintItems": 16,
+    "totalItems": 24,
+    "iceCreamFlavors": 19,
+    "scoopItems": 19,
+    "pintItems": 17,
     "sandwichItems": 5,
     "sandwichOnlyItems": 5
   }

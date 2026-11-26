@@ -230,6 +230,11 @@
     "description": "Locally sourced raspberries harvested in the peak of summer from our friends at family-run Mandair Farms bring this flavour to life. Its bright, tart and fresh – perfect for summer days."
   },
   {
+    "id": "rum-egg-nog",
+    "name": "Rum + Egg Nog",
+    "description": "We’ve transformed this comforting holiday drink into a luscious ice cream perfect for the winter months. Spiced with organic nutmeg and vanilla, and finished with a generous splash of dark rum."
+  },
+  {
     "id": "salted-caramel",
     "name": "Salted Caramel",
     "description": "A classic for good reason. We’ve been making this one since day one and it remains a favourite still. Deeply caramelized sugar mixed with cream and salt from Vancouver Island Sea Salt Co. Its rich, creamly and buttery and the perfect balance of salty and sweet."
