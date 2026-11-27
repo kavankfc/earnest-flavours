@@ -16,12 +16,10 @@
     "name": "Chocolate Orange Stracciatella",
     "isVegan": false,
     "scoopStores": [
-      "quebec",
       "frances"
     ],
     "pintStores": [
       "fraser",
-      "quebec",
       "frances",
       "northvan"
     ],
@@ -101,6 +99,7 @@
       "northvan"
     ],
     "pintStores": [
+      "fraser",
       "quebec",
       "frances",
       "northvan"
@@ -196,7 +195,6 @@
     ],
     "pintStores": [
       "fraser",
-      "quebec",
       "frances",
       "northvan"
     ],
