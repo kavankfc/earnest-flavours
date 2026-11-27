@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-11-27T02:28:18.138Z",
+  "lastUpdatedAt": "2026-11-27T05:12:02.367Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated November 25, 2026 at 12pm",
+    "fraser": "Last updated November 26, 2026 at 12pm",
     "quebec": "Last updated November 26, 2026 at 12pm",
     "frances": "Last updated November 26, 2026 at 12pm",
     "northvan": "Last updated November 25, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated November 26, 2026 at 12pm|fraser:Last updated November 25, 2026 at 12pm|northvan:Last updated November 25, 2026 at 12pm|quebec:Last updated November 26, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated November 26, 2026 at 12pm|fraser:Last updated November 26, 2026 at 12pm|northvan:Last updated November 25, 2026 at 12pm|quebec:Last updated November 26, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -289,6 +289,12 @@
             "storeIds": [
               "quebec"
             ]
+          },
+          "sticky-toffee-pudding": {
+            "name": "Sticky Toffee Pudding",
+            "storeIds": [
+              "quebec"
+            ]
           }
         }
       },
@@ -302,13 +308,15 @@
           "chocolate-orange-stracciatella": {
             "name": "Chocolate Orange Stracciatella",
             "storeIds": [
+              "fraser",
               "quebec"
             ]
           },
           "sticky-toffee-pudding": {
             "name": "Sticky Toffee Pudding",
             "storeIds": [
-              "quebec"
+              "quebec",
+              "frances"
             ]
           }
         }
