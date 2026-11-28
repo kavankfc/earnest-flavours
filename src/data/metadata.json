@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-11-27T05:12:02.367Z",
+  "lastUpdatedAt": "2026-11-28T02:16:31.078Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
-    "fraser": "Last updated November 26, 2026 at 12pm",
+    "fraser": "Last updated November 27, 2026 at 12pm",
     "quebec": "Last updated November 26, 2026 at 12pm",
-    "frances": "Last updated November 26, 2026 at 12pm",
-    "northvan": "Last updated November 25, 2026 at 12pm"
+    "frances": "Last updated November 27, 2026 at 12pm",
+    "northvan": "Last updated November 27, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated November 26, 2026 at 12pm|fraser:Last updated November 26, 2026 at 12pm|northvan:Last updated November 25, 2026 at 12pm|quebec:Last updated November 26, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated November 27, 2026 at 12pm|fraser:Last updated November 27, 2026 at 12pm|northvan:Last updated November 27, 2026 at 12pm|quebec:Last updated November 26, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -15,13 +15,14 @@
     "northvan": "https://earnesticecream.com/locations/north-van/"
   },
   "previousDayBaselineSnapshot": {
-    "baselineDay": "2026-11-25",
-    "observedAt": "2026-11-26T02:30:12.720Z",
+    "baselineDay": "2026-11-26",
+    "observedAt": "2026-11-27T05:12:02.367Z",
     "flavorNamesByFlavorId": {
       "cardamom": "Cardamom",
       "chocolate-orange-stracciatella": "Chocolate Orange Stracciatella",
       "pumpkin-pie": "Pumpkin Pie",
       "rum-egg-nog": "Rum + Egg Nog",
+      "sticky-toffee-pudding": "Sticky Toffee Pudding",
       "almond-croissant": "Almond Croissant",
       "chocolate": "Chocolate",
       "cookies-cream": "Cookies + Cream",
@@ -29,7 +30,6 @@
       "matcha-green-tea": "Matcha Green Tea",
       "mint-chip": "Mint Chip",
       "salted-caramel": "Salted Caramel",
-      "sticky-toffee-pudding": "Sticky Toffee Pudding",
       "strawberry": "Strawberry",
       "tahitian-vanilla": "Tahitian Vanilla",
       "vegan-cookie-butter": "Vegan Cookie Butter",
@@ -50,13 +50,17 @@
           "northvan"
         ],
         "chocolate-orange-stracciatella": [
-          "quebec",
           "frances"
         ],
         "pumpkin-pie": [
           "fraser"
         ],
         "rum-egg-nog": [
+          "northvan"
+        ],
+        "sticky-toffee-pudding": [
+          "fraser",
+          "frances",
           "northvan"
         ],
         "almond-croissant": [
@@ -96,12 +100,6 @@
           "northvan"
         ],
         "salted-caramel": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
-        "sticky-toffee-pudding": [
           "fraser",
           "quebec",
           "frances",
@@ -152,12 +150,14 @@
       },
       "pint": {
         "chocolate-orange-stracciatella": [
-          "fraser",
-          "quebec",
           "frances",
           "northvan"
         ],
         "rum-egg-nog": [
+          "northvan"
+        ],
+        "sticky-toffee-pudding": [
+          "fraser",
           "northvan"
         ],
         "almond-croissant": [
@@ -173,6 +173,7 @@
           "northvan"
         ],
         "cookies-cream": [
+          "fraser",
           "quebec",
           "frances",
           "northvan"
@@ -196,12 +197,6 @@
           "northvan"
         ],
         "salted-caramel": [
-          "fraser",
-          "quebec",
-          "frances",
-          "northvan"
-        ],
-        "sticky-toffee-pudding": [
           "fraser",
           "quebec",
           "frances",
@@ -278,45 +273,59 @@
     }
   },
   "previousDayAvailabilityDiff": {
-    "currentDay": "2026-11-26",
-    "previousDay": "2026-11-25",
+    "currentDay": "2026-11-27",
+    "previousDay": "2026-11-26",
     "servingTypes": {
       "scoop": {
-        "added": {},
+        "added": {
+          "ferrero-rocher": [
+            "fraser",
+            "frances",
+            "northvan"
+          ],
+          "rum-egg-nog": [
+            "frances"
+          ]
+        },
         "removed": {
-          "chocolate-orange-stracciatella": {
-            "name": "Chocolate Orange Stracciatella",
+          "cardamom": {
+            "name": "Cardamom",
             "storeIds": [
-              "quebec"
+              "northvan"
             ]
           },
           "sticky-toffee-pudding": {
             "name": "Sticky Toffee Pudding",
             "storeIds": [
-              "quebec"
+              "northvan"
+            ]
+          },
+          "chocolate-orange-stracciatella": {
+            "name": "Chocolate Orange Stracciatella",
+            "storeIds": [
+              "frances"
             ]
           }
         }
       },
       "pint": {
         "added": {
-          "cookies-cream": [
-            "fraser"
+          "ferrero-rocher": [
+            "fraser",
+            "northvan"
+          ],
+          "rum-egg-nog": [
+            "frances"
+          ],
+          "vegan-turtles": [
+            "frances"
           ]
         },
         "removed": {
-          "chocolate-orange-stracciatella": {
-            "name": "Chocolate Orange Stracciatella",
-            "storeIds": [
-              "fraser",
-              "quebec"
-            ]
-          },
           "sticky-toffee-pudding": {
             "name": "Sticky Toffee Pudding",
             "storeIds": [
-              "quebec",
-              "frances"
+              "fraser"
             ]
           }
         }
@@ -328,10 +337,10 @@
     }
   },
   "counts": {
-    "totalItems": 24,
-    "iceCreamFlavors": 19,
+    "totalItems": 25,
+    "iceCreamFlavors": 20,
     "scoopItems": 19,
-    "pintItems": 17,
+    "pintItems": 18,
     "sandwichItems": 5,
     "sandwichOnlyItems": 5
   }

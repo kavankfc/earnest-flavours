@@ -4,8 +4,7 @@
     "name": "Cardamom",
     "isVegan": false,
     "scoopStores": [
-      "fraser",
-      "northvan"
+      "fraser"
     ],
     "pintStores": [],
     "sandwichStores": [],
@@ -15,15 +14,29 @@
     "id": "chocolate-orange-stracciatella",
     "name": "Chocolate Orange Stracciatella",
     "isVegan": false,
-    "scoopStores": [
-      "frances"
-    ],
+    "scoopStores": [],
     "pintStores": [
       "frances",
       "northvan"
     ],
     "sandwichStores": [],
     "description": "Inspired by Terry’s classic holiday treat. Fine flakes of dark chocolate (stracciatella) in a chocolate orange ice cream create a sensational mouth feel with a classic holiday pairing."
+  },
+  {
+    "id": "ferrero-rocher",
+    "name": "Ferrero Rocher",
+    "isVegan": false,
+    "scoopStores": [
+      "fraser",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "The Earnest take on the popular confection! Roasted hazelnuts provide a lovely nutty crunch, while chocolate covered feuilletine (a french confection of thin crisp crepe) mimics the wafer shell. Creamy hazelnut-chocolate ice cream mirrors the filling in both flavour and texture. All together, these elements reach a perfect balance of nutty, chocolatey, crispy, and crunchy – a decadent ice cream for all chocolate-hazelnut lovers!"
   },
   {
     "id": "pumpkin-pie",
@@ -41,9 +54,11 @@
     "name": "Rum + Egg Nog",
     "isVegan": false,
     "scoopStores": [
+      "frances",
       "northvan"
     ],
     "pintStores": [
+      "frances",
       "northvan"
     ],
     "sandwichStores": [],
@@ -55,11 +70,9 @@
     "isVegan": false,
     "scoopStores": [
       "fraser",
-      "frances",
-      "northvan"
+      "frances"
     ],
     "pintStores": [
-      "fraser",
       "northvan"
     ],
     "sandwichStores": [],
@@ -306,6 +319,7 @@
     "pintStores": [
       "fraser",
       "quebec",
+      "frances",
       "northvan"
     ],
     "sandwichStores": [],

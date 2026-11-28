@@ -140,6 +140,11 @@
     "description": "This ice cream is like a New York style cheesecake – smooth, creamy, and just the right amount of tartness balanced in our sweet cream base."
   },
   {
+    "id": "ferrero-rocher",
+    "name": "Ferrero Rocher",
+    "description": "The Earnest take on the popular confection! Roasted hazelnuts provide a lovely nutty crunch, while chocolate covered feuilletine (a french confection of thin crisp crepe) mimics the wafer shell. Creamy hazelnut-chocolate ice cream mirrors the filling in both flavour and texture. All together, these elements reach a perfect balance of nutty, chocolatey, crispy, and crunchy – a decadent ice cream for all chocolate-hazelnut lovers!"
+  },
+  {
     "id": "field-berry-cheesecake",
     "name": "Field Berry Cheesecake",
     "description": "Why choose one berry when you can have many! A blend of local field berries (raspberry, strawberry, blackberry, blueberry & haskap) mixed into our ice cream base for a vibrant colour and flavour mixed with house-made cheesecake pieces. Combined they make the perfect mix of fruity and rich cheesy flavour awaits in every bite!"
