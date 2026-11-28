@@ -16,7 +16,6 @@
     "isVegan": false,
     "scoopStores": [],
     "pintStores": [
-      "frances",
       "northvan"
     ],
     "sandwichStores": [],
@@ -54,10 +53,11 @@
     "name": "Rum + Egg Nog",
     "isVegan": false,
     "scoopStores": [
-      "frances",
+      "fraser",
       "northvan"
     ],
     "pintStores": [
+      "fraser",
       "frances",
       "northvan"
     ],
@@ -69,7 +69,6 @@
     "name": "Sticky Toffee Pudding",
     "isVegan": false,
     "scoopStores": [
-      "fraser",
       "frances"
     ],
     "pintStores": [
@@ -77,6 +76,23 @@
     ],
     "sandwichStores": [],
     "description": "Just like the quintessential British dessert! Bites of moist date cake are swirled with ribbons of rich toffee sauce into a warmly spiced ice cream. The result is a decadent flavour full of lovely cake texture and a delectable balance of sweet and spice."
+  },
+  {
+    "id": "vegan-cookie-butter",
+    "name": "Vegan Cookie Butter",
+    "isVegan": true,
+    "scoopStores": [
+      "fraser",
+      "frances",
+      "northvan"
+    ],
+    "pintStores": [
+      "fraser",
+      "quebec",
+      "northvan"
+    ],
+    "sandwichStores": [],
+    "description": "House-made speculoos cookies are combined in a variety of ways into this delectable ice cream! Rich cookie butter sauce is swirled throughout a light cookie base, alongside a sprinkle of crisp cookie crumble."
   },
   {
     "id": "almond-croissant",
@@ -248,25 +264,6 @@
     ],
     "sandwichStores": [],
     "description": "This flavour has been a core since day one. Our pure vanilla extract is sourced from premium slow-grown, sun-cured vanilla beans of the “Tahitian” variety. The flavour from the beans is cold-extracted to preserve its complex bouquet. These vanilla beans are brighter and more floral than the rounder, woodsier Madagascar variety."
-  },
-  {
-    "id": "vegan-cookie-butter",
-    "name": "Vegan Cookie Butter",
-    "isVegan": true,
-    "scoopStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "pintStores": [
-      "fraser",
-      "quebec",
-      "frances",
-      "northvan"
-    ],
-    "sandwichStores": [],
-    "description": "House-made speculoos cookies are combined in a variety of ways into this delectable ice cream! Rich cookie butter sauce is swirled throughout a light cookie base, alongside a sprinkle of crisp cookie crumble."
   },
   {
     "id": "vegan-cookies-cream",

@@ -1,13 +1,13 @@
 {
-  "lastUpdatedAt": "2026-11-28T02:16:31.078Z",
+  "lastUpdatedAt": "2026-11-28T04:48:17.439Z",
   "source": "https://earnesticecream.com",
   "sourceLastUpdatedByStore": {
     "fraser": "Last updated November 27, 2026 at 12pm",
-    "quebec": "Last updated November 26, 2026 at 12pm",
+    "quebec": "Last updated November 27, 2026 at 12pm",
     "frances": "Last updated November 27, 2026 at 12pm",
     "northvan": "Last updated November 27, 2026 at 12pm"
   },
-  "sourceLastUpdatedSignature": "frances:Last updated November 27, 2026 at 12pm|fraser:Last updated November 27, 2026 at 12pm|northvan:Last updated November 27, 2026 at 12pm|quebec:Last updated November 26, 2026 at 12pm",
+  "sourceLastUpdatedSignature": "frances:Last updated November 27, 2026 at 12pm|fraser:Last updated November 27, 2026 at 12pm|northvan:Last updated November 27, 2026 at 12pm|quebec:Last updated November 27, 2026 at 12pm",
   "stores": {
     "fraser": "https://earnesticecream.com/locations/fraser-st/",
     "quebec": "https://earnesticecream.com/locations/quebec-st/",
@@ -284,7 +284,7 @@
             "northvan"
           ],
           "rum-egg-nog": [
-            "frances"
+            "fraser"
           ]
         },
         "removed": {
@@ -297,7 +297,14 @@
           "sticky-toffee-pudding": {
             "name": "Sticky Toffee Pudding",
             "storeIds": [
+              "fraser",
               "northvan"
+            ]
+          },
+          "vegan-cookie-butter": {
+            "name": "Vegan Cookie Butter",
+            "storeIds": [
+              "quebec"
             ]
           },
           "chocolate-orange-stracciatella": {
@@ -315,6 +322,7 @@
             "northvan"
           ],
           "rum-egg-nog": [
+            "fraser",
             "frances"
           ],
           "vegan-turtles": [
@@ -322,10 +330,22 @@
           ]
         },
         "removed": {
+          "chocolate-orange-stracciatella": {
+            "name": "Chocolate Orange Stracciatella",
+            "storeIds": [
+              "frances"
+            ]
+          },
           "sticky-toffee-pudding": {
             "name": "Sticky Toffee Pudding",
             "storeIds": [
               "fraser"
+            ]
+          },
+          "vegan-cookie-butter": {
+            "name": "Vegan Cookie Butter",
+            "storeIds": [
+              "frances"
             ]
           }
         }
